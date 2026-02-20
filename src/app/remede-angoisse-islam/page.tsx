@@ -9,9 +9,9 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
-    "Remede angoisse islam : douas, dhikr et soins prophetiques pour retrouver la serenite",
+    "Remède angoisse islam : douas, dhikr et soins prophétiques pour retrouver la sérénité",
   description:
-    "Decouvrez les remedes islamiques contre l'angoisse : douas prophetiques, dhikr apaisant, priere de nuit, talbina, nigelle et conseils pour allier spiritualite et sante mentale.",
+    "Découvrez les remèdes islamiques contre l'angoisse : douas prophétiques, dhikr apaisant, prière de nuit, talbina, nigelle et conseils pour allier spiritualité et santé mentale.",
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-angoisse-islam",
   },
@@ -24,68 +24,68 @@ const tocItems = [
   },
   {
     id: "douas-prophetiques",
-    label: "Douas prophetiques contre l'angoisse et le chagrin",
+    label: "Douas prophétiques contre l'angoisse et le chagrin",
   },
   {
     id: "dhikr-priere",
-    label: "Le dhikr et la priere de nuit : apaisement du coeur",
+    label: "Le dhikr et la prière de nuit : apaisement du cœur",
   },
   {
     id: "remedes-naturels",
-    label: "Remedes prophetiques naturels : talbina, miel et nigelle",
+    label: "Remèdes prophétiques naturels : talbina, miel et nigelle",
   },
   {
     id: "sante-mentale",
-    label: "Sante mentale et accompagnement professionnel",
+    label: "Santé mentale et accompagnement professionnel",
   },
-  { id: "faq", label: "Questions frequentes" },
+  { id: "faq", label: "Questions fréquentes" },
 ];
 
 const faqItems = [
   {
-    question: "Quelle doua reciter contre l'angoisse en islam ?",
+    question: "Quelle doua réciter contre l'angoisse en islam ?",
     answer:
-      "Parmi les douas les plus recommandees figure l'invocation prophetique : Allahumma inni a'udhu bika min al-hamm wal-hazan, wa a'udhu bika min al-'ajzi wal-kasal, wa a'udhu bika min al-jubni wal-bukhl, wa a'udhu bika min ghalabat id-dayni wa qahri ar-rijal. Cette invocation, rapportee par al-Bukhari, protege contre le souci, le chagrin, l'incapacite, la paresse, la lachete, l'avarice, le poids des dettes et la domination des hommes.",
+      "Parmi les douas les plus recommandées figure l'invocation prophétique : Allahumma inni a'udhu bika min al-hamm wal-hazan, wa a'udhu bika min al-'ajzi wal-kasal, wa a'udhu bika min al-jubni wal-bukhl, wa a'udhu bika min ghalabat id-dayni wa qahri ar-rijal. Cette invocation, rapportée par al-Bukhari, protège contre le souci, le chagrin, l'incapacité, la paresse, la lâcheté, l'avarice, le poids des dettes et la domination des hommes.",
   },
   {
     question:
-      "Le dhikr peut-il vraiment aider a reduire l'anxiete et le stress ?",
+      "Le dhikr peut-il vraiment aider à réduire l'anxiété et le stress ?",
     answer:
-      "Oui. Le Coran affirme dans la sourate Ar-Ra'd (13:28) que c'est par le rappel d'Allah que les coeurs s'apaisent. Le dhikr (rappel d'Allah) agit comme une forme de meditation spirituelle qui recentre l'esprit, apaise les pensees intrusives et renforce le sentiment de confiance en la protection divine. Plusieurs etudes en psychologie clinique confirment que les pratiques meditatives liees a la foi reduisent les symptomes anxieux.",
+      "Oui. Le Coran affirme dans la sourate Ar-Ra'd (13:28) que c'est par le rappel d'Allah que les cœurs s'apaisent. Le dhikr (rappel d'Allah) agit comme une forme de méditation spirituelle qui recentre l'esprit, apaise les pensées intrusives et renforce le sentiment de confiance en la protection divine. Plusieurs études en psychologie clinique confirment que les pratiques méditatives liées à la foi réduisent les symptômes anxieux.",
   },
   {
     question: "La talbina aide-t-elle contre l'angoisse ?",
     answer:
-      "La talbina (bouillie d'orge) est mentionnee dans un hadith rapporte par al-Bukhari ou Aisha (qu'Allah soit satisfait d'elle) rapporte que le Prophete (paix et salut sur lui) disait qu'elle reconforte le coeur du malade et emporte une partie de son chagrin. L'orge est riche en tryptophane, un precurseur de la serotonine, ce qui pourrait expliquer ses bienfaits sur l'humeur.",
+      "La talbina (bouillie d'orge) est mentionnée dans un hadith rapporté par al-Bukhari où Aisha (qu'Allah soit satisfait d'elle) rapporte que le Prophète (paix et salut sur lui) disait qu'elle réconforte le cœur du malade et emporte une partie de son chagrin. L'orge est riche en tryptophane, un précurseur de la sérotonine, ce qui pourrait expliquer ses bienfaits sur l'humeur.",
   },
   {
     question:
       "Est-il permis de consulter un psychologue ou un psychiatre en islam ?",
     answer:
-      "Oui, tout a fait. L'islam encourage le recours a la medecine et aux specialistes. Le Prophete (paix et salut sur lui) a dit : Soignez-vous, serviteurs de Dieu, car Dieu n'a pas cree de maladie sans avoir cree son remede (rapporte par Abu Dawud). La sante mentale fait partie de la sante globale que le musulman doit preserver. Consulter un psychologue ou un psychiatre est un acte de sagesse, pas de faiblesse.",
+      "Oui, tout à fait. L'islam encourage le recours à la médecine et aux spécialistes. Le Prophète (paix et salut sur lui) a dit : Soignez-vous, serviteurs de Dieu, car Dieu n'a pas créé de maladie sans avoir créé son remède (rapporté par Abu Dawud). La santé mentale fait partie de la santé globale que le musulman doit préserver. Consulter un psychologue ou un psychiatre est un acte de sagesse, pas de faiblesse.",
   },
   {
-    question: "La priere de nuit (tahajjud) aide-t-elle contre l'angoisse ?",
+    question: "La prière de nuit (tahajjud) aide-t-elle contre l'angoisse ?",
     answer:
-      "La priere de nuit est fortement recommandee pour apaiser le coeur et renforcer le lien avec Allah. Le dernier tiers de la nuit est un moment ou Allah descend au ciel le plus bas et repond aux invocations de Ses serviteurs (rapporte par al-Bukhari et Muslim). Se lever pour prier dans le calme de la nuit offre un espace de recueillement profond et de liberation emotionnelle.",
-  },
-  {
-    question:
-      "Quels versets coraniques reciter pour calmer une crise d'angoisse ?",
-    answer:
-      "Plusieurs versets sont particulierement recommandes : Ayat al-Kursi (al-Baqara, 255), les trois dernieres sourates (Al-Ikhlas, Al-Falaq, An-Nas), les derniers versets de la sourate al-Baqara, ainsi que le verset Hasbunallahu wa ni'mal-wakil (sourate Al Imran, 3:173). Le simple fait de reciter le Coran avec reflexion apaise le coeur et eloigne les pensees anxieuses.",
+      "La prière de nuit est fortement recommandée pour apaiser le cœur et renforcer le lien avec Allah. Le dernier tiers de la nuit est un moment où Allah descend au ciel le plus bas et répond aux invocations de Ses serviteurs (rapporté par al-Bukhari et Muslim). Se lever pour prier dans le calme de la nuit offre un espace de recueillement profond et de libération émotionnelle.",
   },
   {
     question:
-      "L'alimentation Sunna a-t-elle un effet sur l'anxiete et le stress ?",
+      "Quels versets coraniques réciter pour calmer une crise d'angoisse ?",
     answer:
-      "Oui. Les aliments recommandes dans la Sunna, comme le miel, les dattes, la nigelle, l'huile d'olive et la talbina, sont riches en nutriments benefiques pour le systeme nerveux. Le miel contient des antioxydants et des oligoelements qui soutiennent le fonctionnement cerebral. Les dattes apportent du magnesium et du potassium, deux mineraux impliques dans la regulation du stress.",
+      "Plusieurs versets sont particulièrement recommandés : Ayat al-Kursi (al-Baqara, 255), les trois dernières sourates (Al-Ikhlas, Al-Falaq, An-Nas), les derniers versets de la sourate al-Baqara, ainsi que le verset Hasbunallahu wa ni'mal-wakil (sourate Al Imran, 3:173). Le simple fait de réciter le Coran avec réflexion apaise le cœur et éloigne les pensées anxieuses.",
   },
   {
     question:
-      "Comment aider un proche musulman qui souffre d'angoisse ou de depression ?",
+      "L'alimentation Sunna a-t-elle un effet sur l'anxiété et le stress ?",
     answer:
-      "Ecoutez-le sans le juger, montrez-lui votre compassion et accompagnez-le vers une aide professionnelle si necessaire. Ne minimisez jamais sa souffrance et ne lui dites pas simplement de prier davantage. L'islam valorise le soutien fraternel : le Prophete (paix et salut sur lui) a dit que celui qui soulage un croyant d'une peine, Allah le soulagera d'une peine du Jour de la Resurrection (rapporte par Muslim). Proposez de l'accompagner chez un specialiste et priez pour lui.",
+      "Oui. Les aliments recommandés dans la Sunna, comme le miel, les dattes, la nigelle, l'huile d'olive et la talbina, sont riches en nutriments bénéfiques pour le système nerveux. Le miel contient des antioxydants et des oligoéléments qui soutiennent le fonctionnement cérébral. Les dattes apportent du magnésium et du potassium, deux minéraux impliqués dans la régulation du stress.",
+  },
+  {
+    question:
+      "Comment aider un proche musulman qui souffre d'angoisse ou de dépression ?",
+    answer:
+      "Écoutez-le sans le juger, montrez-lui votre compassion et accompagnez-le vers une aide professionnelle si nécessaire. Ne minimisez jamais sa souffrance et ne lui dites pas simplement de prier davantage. L'islam valorise le soutien fraternel : le Prophète (paix et salut sur lui) a dit que celui qui soulage un croyant d'une peine, Allah le soulagera d'une peine du Jour de la Résurrection (rapporté par Muslim). Proposez de l'accompagner chez un spécialiste et priez pour lui.",
   },
 ];
 
@@ -98,9 +98,9 @@ export default function RemedeAngoisseIslam() {
         "@id":
           "https://www.islamreligion.fr/remede-angoisse-islam/#article",
         headline:
-          "Remede angoisse islam : douas, dhikr et soins prophetiques pour retrouver la serenite",
+          "Remède angoisse islam : douas, dhikr et soins prophétiques pour retrouver la sérénité",
         description:
-          "Decouvrez les remedes islamiques contre l'angoisse : douas prophetiques, dhikr apaisant, priere de nuit, talbina, nigelle et conseils pour allier spiritualite et sante mentale.",
+          "Découvrez les remèdes islamiques contre l'angoisse : douas prophétiques, dhikr apaisant, prière de nuit, talbina, nigelle et conseils pour allier spiritualité et santé mentale.",
         image:
           "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Remede-contre-langoisse-en-islam-invocations-et-conseils-spirituels-apaisants-1.jpg",
         datePublished: "2025-08-31",
@@ -125,7 +125,7 @@ export default function RemedeAngoisseIslam() {
           {
             "@type": "ListItem",
             position: 2,
-            name: "Remedes arabes",
+            name: "Remèdes arabes",
             item: "https://www.islamreligion.fr/remede-arabe",
           },
           {
@@ -158,10 +158,10 @@ export default function RemedeAngoisseIslam() {
         {/* HERO COMPACT */}
         {/* ============================================ */}
         <Hero
-          title="Remede contre l&apos;angoisse en islam : douas, dhikr et soins prophetiques"
-          subtitle="Invocations authentiques, rappel d&apos;Allah, remedes naturels et conseils bienveillants pour apaiser le coeur et l&apos;esprit."
+          title="Rem&egrave;de contre l&apos;angoisse en islam : douas, dhikr et soins proph&eacute;tiques"
+          subtitle="Invocations authentiques, rappel d&apos;Allah, rem&egrave;des naturels et conseils bienveillants pour apaiser le c&oelig;ur et l&apos;esprit."
           imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Remede-contre-langoisse-en-islam-invocations-et-conseils-spirituels-apaisants-1.jpg"
-          imageAlt="Remede contre l'angoisse en islam, invocations et conseils spirituels apaisants"
+          imageAlt="Remède contre l'angoisse en islam, invocations et conseils spirituels apaisants"
           compact
         />
 
@@ -189,28 +189,28 @@ export default function RemedeAngoisseIslam() {
                 </Link>
                 <span className="mx-2">/</span>
                 <Link href="/remede-arabe" className="hover:text-primary">
-                  Remedes arabes
+                  Rem&egrave;des arabes
                 </Link>
                 <span className="mx-2">/</span>
                 <span className="text-foreground">Angoisse en islam</span>
               </nav>
 
-              {/* MedicalDisclaimer au debut */}
+              {/* MedicalDisclaimer au début */}
               <MedicalDisclaimer />
 
-              {/* Resume rapide */}
+              {/* Résumé rapide */}
               <div className="mb-10 rounded-xl border border-secondary/20 bg-accent p-6">
                 <p className="text-sm font-semibold uppercase tracking-wide text-secondary">
-                  En resume
+                  En r&eacute;sum&eacute;
                 </p>
                 <p className="mt-2 text-base leading-relaxed text-foreground">
-                  L&apos;angoisse et l&apos;anxiete ne sont pas des signes de
-                  faiblesse de foi. L&apos;islam reconnait la souffrance
-                  psychique, offre des invocations prophetiques apaisantes, des
-                  remedes naturels comme la talbina ou la nigelle, et encourage
-                  le recours aux professionnels de sante mentale. Ce contenu
-                  vous accompagne vers un apaisement qui allie spiritualite,
-                  hygiene de vie et soutien humain.
+                  L&apos;angoisse et l&apos;anxi&eacute;t&eacute; ne sont pas des signes de
+                  faiblesse de foi. L&apos;islam reconna&icirc;t la souffrance
+                  psychique, offre des invocations proph&eacute;tiques apaisantes, des
+                  rem&egrave;des naturels comme la talbina ou la nigelle, et encourage
+                  le recours aux professionnels de sant&eacute; mentale. Ce contenu
+                  vous accompagne vers un apaisement qui allie spiritualit&eacute;,
+                  hygi&egrave;ne de vie et soutien humain.
                 </p>
               </div>
 
@@ -219,33 +219,33 @@ export default function RemedeAngoisseIslam() {
               {/* ============================================ */}
               <section id="comprendre-angoisse" className="scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Comprendre l&apos;angoisse et l&apos;anxiete selon la vision
+                  Comprendre l&apos;angoisse et l&apos;anxi&eacute;t&eacute; selon la vision
                   islamique
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   L&apos;angoisse, le souci (<em>al-hamm</em>) et le chagrin (
-                  <em>al-hazan</em>) sont des realites humaines que l&apos;
+                  <em>al-hazan</em>) sont des r&eacute;alit&eacute;s humaines que l&apos;
                   <Link
                     href="/"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
                     islam
                   </Link>{" "}
-                  n&apos;a jamais niees ni stigmatisees. Bien au contraire, la
-                  tradition prophetique aborde ces emotions avec une profonde
-                  bienveillance, les reconnaissant comme des epreuves que
-                  traverse tout etre humain, y compris les prophetes eux-memes.
+                  n&apos;a jamais ni&eacute;es ni stigmatis&eacute;es. Bien au contraire, la
+                  tradition proph&eacute;tique aborde ces &eacute;motions avec une profonde
+                  bienveillance, les reconnaissant comme des &eacute;preuves que
+                  traverse tout &ecirc;tre humain, y compris les proph&egrave;tes eux-m&ecirc;mes.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le Prophete Yacoub (Jacob, paix sur lui) a pleure son fils
+                  Le Proph&egrave;te Yacoub (Jacob, paix sur lui) a pleur&eacute; son fils
                   Youssouf au point d&apos;en perdre la vue (sourate Yusuf,
-                  12:84). Le Prophete Muhammad (paix et salut sur lui)
-                  a connu ce que les savants appellent &laquo;&nbsp;l&apos;annee
-                  de la tristesse&nbsp;&raquo; (<em>am al-huzn</em>) apres la
-                  perte de son epouse Khadija et de son oncle Abu Talib. Ces
-                  recits montrent que l&apos;angoisse n&apos;est ni une honte ni
+                  12:84). Le Proph&egrave;te Muhammad (paix et salut sur lui)
+                  a connu ce que les savants appellent &laquo;&nbsp;l&apos;ann&eacute;e
+                  de la tristesse&nbsp;&raquo; (<em>am al-huzn</em>) apr&egrave;s la
+                  perte de son &eacute;pouse Khadija et de son oncle Abu Talib. Ces
+                  r&eacute;cits montrent que l&apos;angoisse n&apos;est ni une honte ni
                   un manque de foi, mais une part de la condition humaine.
                 </p>
 
@@ -257,53 +257,54 @@ export default function RemedeAngoisseIslam() {
                   >
                     Coran
                   </Link>{" "}
-                  : &laquo;&nbsp;Certes, avec la difficulte il y a une
-                  facilite. Certes, avec la difficulte il y a une
-                  facilite&nbsp;&raquo; (sourate Ash-Sharh, 94:5-6). La
-                  repetition de ce verset souligne avec insistance que toute
-                  epreuve porte en elle le germe de son soulagement.
+                  : &laquo;&nbsp;Certes, avec la difficult&eacute; il y a une
+                  facilit&eacute;. Certes, avec la difficult&eacute; il y a une
+                  facilit&eacute;&nbsp;&raquo; (sourate Ash-Sharh, 94:5-6). La
+                  r&eacute;p&eacute;tition de ce verset souligne avec insistance que toute
+                  &eacute;preuve porte en elle le germe de son soulagement.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  L&apos;epreuve comme purification et elevation
+                  L&apos;&eacute;preuve comme purification et &eacute;l&eacute;vation
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le Prophete (paix et salut sur lui) a dit :
+                  Le Proph&egrave;te (paix et salut sur lui) a dit :
                   &laquo;&nbsp;Rien de ce qui touche le musulman, fatigue,
-                  maladie, souci, tristesse, mal ou angoisse, meme une epine
+                  maladie, souci, tristesse, mal ou angoisse, m&ecirc;me une &eacute;pine
                   qui le pique, sans qu&apos;Allah ne lui efface par cela des
-                  peches&nbsp;&raquo; (rapporte par al-Bukhari et Muslim). Ce
+                  p&eacute;ch&eacute;s&nbsp;&raquo; (rapport&eacute; par al-Bukhari et Muslim). Ce
                   hadith offre une perspective transformatrice : la souffrance
-                  psychique, lorsqu&apos;elle est vecue avec patience
-                  (<em>sabr</em>), purifie l&apos;ame et rapproche du Createur.
+                  psychique, lorsqu&apos;elle est v&eacute;cue avec patience
+                  (<em>sabr</em>), purifie l&apos;&acirc;me et rapproche du Cr&eacute;ateur.
                   Dans cette perspective,{" "}
                   <Link
                     href="/repentir-sincere-islam-tawba"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
-                    le repentir comme source de paix interieure
+                    le repentir comme source de paix int&eacute;rieure
                   </Link>{" "}
-                  constitue egalement un moyen puissant de retrouver la
-                  serenite face aux epreuves.
+                  constitue &eacute;galement un moyen puissant de retrouver la
+                  s&eacute;r&eacute;nit&eacute; face aux &eacute;preuves.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Cela ne signifie aucunement qu&apos;il faille endurer
-                  l&apos;angoisse sans agir. Au contraire, l&apos;islam incite a
-                  prendre les moyens necessaires pour se soigner, qu&apos;ils
-                  soient spirituels, naturels ou medicaux. L&apos;attitude du
-                  croyant consiste a combiner la confiance en Allah (
-                  <em>tawakkul</em>) avec les demarches concretes : invoquer,
-                  se soigner, et consulter un specialiste si l&apos;etat
+                  l&apos;angoisse sans agir. Au contraire, l&apos;islam incite &agrave;
+                  prendre les moyens n&eacute;cessaires pour se soigner, qu&apos;ils
+                  soient spirituels, naturels ou m&eacute;dicaux. L&apos;attitude du
+                  croyant consiste &agrave; combiner la confiance en Allah (
+                  <em>tawakkul</em>) avec les d&eacute;marches concr&egrave;tes : invoquer,
+                  se soigner, et consulter un sp&eacute;cialiste si l&apos;&eacute;tat
                   persiste. Il est aussi essentiel de comprendre{" "}
+
                   <Link
                     href="/conditions-maghfira-pardon"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
                     les conditions du pardon divin
                   </Link>
-                  , car la quete du pardon apaise profondement le coeur du
+                  , car la qu&ecirc;te du pardon apaise profond&eacute;ment le c&oelig;ur du
                   croyant.
                 </p>
 
@@ -311,27 +312,27 @@ export default function RemedeAngoisseIslam() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>L&apos;angoisse n&apos;est pas un chatiment</strong>{" "}
-                      : c&apos;est une epreuve, parfois une purification, et
+                      <strong>L&apos;angoisse n&apos;est pas un ch&acirc;timent</strong>{" "}
+                      : c&apos;est une &eacute;preuve, parfois une purification, et
                       toujours une occasion de se rapprocher d&apos;Allah.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Les prophetes ont souffert</strong> : la tristesse
+                      <strong>Les proph&egrave;tes ont souffert</strong> : la tristesse
                       de Yacoub, l&apos;angoisse de Younes dans le ventre de la
                       baleine, le chagrin de Muhammad (paix et salut sur lui)
-                      prouvent que la souffrance n&apos;exclut pas la proximite
+                      prouvent que la souffrance n&apos;exclut pas la proximit&eacute;
                       divine.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>L&apos;action est encouragee</strong> : prier,
-                      invoquer, se soigner, consulter un medecin, chercher le
-                      soutien de la communaute.
+                      <strong>L&apos;action est encourag&eacute;e</strong> : prier,
+                      invoquer, se soigner, consulter un m&eacute;decin, chercher le
+                      soutien de la communaut&eacute;.
                     </span>
                   </li>
                 </ul>
@@ -348,7 +349,7 @@ export default function RemedeAngoisseIslam() {
                           Perspective islamique
                         </th>
                         <th className="py-3 font-semibold text-primary">
-                          Remede recommande
+                          Rem&egrave;de recommand&eacute;
                         </th>
                       </tr>
                     </thead>
@@ -358,10 +359,10 @@ export default function RemedeAngoisseIslam() {
                           Souci du quotidien (<em>al-hamm</em>)
                         </td>
                         <td className="py-3 pr-4">
-                          Preoccupation liee a l&apos;avenir, naturelle et humaine
+                          Pr&eacute;occupation li&eacute;e &agrave; l&apos;avenir, naturelle et humaine
                         </td>
                         <td className="py-3">
-                          Doua prophetique + tawakkul
+                          Doua proph&eacute;tique + tawakkul
                         </td>
                       </tr>
                       <tr className="border-b border-border">
@@ -369,7 +370,7 @@ export default function RemedeAngoisseIslam() {
                           Chagrin profond (<em>al-hazan</em>)
                         </td>
                         <td className="py-3 pr-4">
-                          Tristesse liee a une perte, reconnue et respectee
+                          Tristesse li&eacute;e &agrave; une perte, reconnue et respect&eacute;e
                         </td>
                         <td className="py-3">
                           Talbina + soutien communautaire
@@ -380,10 +381,10 @@ export default function RemedeAngoisseIslam() {
                           Angoisse existentielle
                         </td>
                         <td className="py-3 pr-4">
-                          Questionnement sur le sens de la vie, oriente vers la foi
+                          Questionnement sur le sens de la vie, orient&eacute; vers la foi
                         </td>
                         <td className="py-3">
-                          Lecture du Coran + reflexion spirituelle
+                          Lecture du Coran + r&eacute;flexion spirituelle
                         </td>
                       </tr>
                       <tr className="border-b border-border">
@@ -391,21 +392,21 @@ export default function RemedeAngoisseIslam() {
                           Crise de panique
                         </td>
                         <td className="py-3 pr-4">
-                          Etat physique et psychique a prendre au serieux
+                          &Eacute;tat physique et psychique &agrave; prendre au s&eacute;rieux
                         </td>
                         <td className="py-3">
-                          Consultation medicale + doua + dhikr
+                          Consultation m&eacute;dicale + doua + dhikr
                         </td>
                       </tr>
                       <tr>
                         <td className="py-3 pr-4 font-medium text-foreground">
-                          Depression prolongee
+                          D&eacute;pression prolong&eacute;e
                         </td>
                         <td className="py-3 pr-4">
-                          Maladie a traiter, pas une faiblesse de foi
+                          Maladie &agrave; traiter, pas une faiblesse de foi
                         </td>
                         <td className="py-3">
-                          Psychiatre + remedes prophetiques + priere
+                          Psychiatre + rem&egrave;des proph&eacute;tiques + pri&egrave;re
                         </td>
                       </tr>
                     </tbody>
@@ -424,21 +425,21 @@ export default function RemedeAngoisseIslam() {
               </section>
 
               {/* ============================================ */}
-              {/* SECTION 2 : Douas prophetiques */}
+              {/* SECTION 2 : Douas prophétiques */}
               {/* ============================================ */}
               <section id="douas-prophetiques" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Douas prophetiques contre l&apos;angoisse, le souci et le
+                  Douas proph&eacute;tiques contre l&apos;angoisse, le souci et le
                   chagrin
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Le Prophete Muhammad (paix et salut sur lui) a
-                  enseigne a sa communaute des invocations specifiques pour faire
-                  face au souci, a la tristesse et a l&apos;oppression. Ces douas
-                  sont un veritable refuge pour le coeur en detresse. Elles
+                  Le Proph&egrave;te Muhammad (paix et salut sur lui) a
+                  enseign&eacute; &agrave; sa communaut&eacute; des invocations sp&eacute;cifiques pour faire
+                  face au souci, &agrave; la tristesse et &agrave; l&apos;oppression. Ces douas
+                  sont un v&eacute;ritable refuge pour le c&oelig;ur en d&eacute;tresse. Elles
                   combinent la demande de protection, l&apos;affirmation de la
-                  confiance en Allah et la soumission a Sa sagesse.
+                  confiance en Allah et la soumission &agrave; Sa sagesse.
                 </p>
 
                 {/* Doua 1 : hamm wal-hazan */}
@@ -456,14 +457,14 @@ export default function RemedeAngoisseIslam() {
                     الدَّيْنِ وَقَهْرِ الرِّجَالِ
                   </p>
                   <p className="mt-3 text-foreground italic">
-                    &laquo;&nbsp;O Allah, je cherche refuge aupres de Toi contre
-                    le souci et le chagrin, contre l&apos;incapacite et la
-                    paresse, contre la lachete et l&apos;avarice, et contre le
+                    &laquo;&nbsp;&Ocirc; Allah, je cherche refuge aupr&egrave;s de Toi contre
+                    le souci et le chagrin, contre l&apos;incapacit&eacute; et la
+                    paresse, contre la l&acirc;chet&eacute; et l&apos;avarice, et contre le
                     poids des dettes et la domination des hommes.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Rapporte par al-Bukhari (hadith n&deg; 6369). Le Prophete
-                    (paix et salut sur lui) recitait cette invocation
+                    Rapport&eacute; par al-Bukhari (hadith n&deg; 6369). Le Proph&egrave;te
+                    (paix et salut sur lui) r&eacute;citait cette invocation
                     quotidiennement.
                   </p>
                 </div>
@@ -471,7 +472,7 @@ export default function RemedeAngoisseIslam() {
                 {/* Doua 2 : invocation de Younes */}
                 <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-5">
                   <p className="text-sm font-semibold text-secondary">
-                    Invocation de Younes (Jonas) dans les tenebres
+                    Invocation de Younes (Jonas) dans les t&eacute;n&egrave;bres
                   </p>
                   <p
                     className="mt-3 text-right font-arabic text-xl leading-loose text-primary"
@@ -481,17 +482,17 @@ export default function RemedeAngoisseIslam() {
                     الظَّالِمِينَ
                   </p>
                   <p className="mt-3 text-foreground italic">
-                    &laquo;&nbsp;Il n&apos;y a pas de divinite a part Toi,
-                    gloire a Toi, j&apos;etais certes parmi les
+                    &laquo;&nbsp;Il n&apos;y a pas de divinit&eacute; &agrave; part Toi,
+                    gloire &agrave; Toi, j&apos;&eacute;tais certes parmi les
                     injustes.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Sourate Al-Anbiya (21:87). Le Prophete (paix et salut sur
+                    Sourate Al-Anbiya (21:87). Le Proph&egrave;te (paix et salut sur
                     lui) a dit : &laquo;&nbsp;L&apos;invocation de Dhoun-Noun
-                    (Younes), qu&apos;il prononca dans le ventre de la
+                    (Younes), qu&apos;il pronon&ccedil;a dans le ventre de la
                     baleine : tout musulman qui invoque Allah par cette formule
                     pour une chose quelconque, Allah lui
-                    repondra&nbsp;&raquo; (rapporte par at-Tirmidhi, qualifie de
+                    r&eacute;pondra&nbsp;&raquo; (rapport&eacute; par at-Tirmidhi, qualifi&eacute; de
                     sahih).
                   </p>
                 </div>
@@ -499,7 +500,7 @@ export default function RemedeAngoisseIslam() {
                 {/* Doua 3 : la grande invocation */}
                 <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-5">
                   <p className="text-sm font-semibold text-secondary">
-                    La grande invocation contre la detresse
+                    La grande invocation contre la d&eacute;tresse
                   </p>
                   <p
                     className="mt-3 text-right font-arabic text-xl leading-loose text-primary"
@@ -514,21 +515,21 @@ export default function RemedeAngoisseIslam() {
                     وَنُورَ صَدْرِي وَجَلَاءَ حُزْنِي وَذَهَابَ هَمِّي
                   </p>
                   <p className="mt-3 text-foreground italic">
-                    &laquo;&nbsp;O Allah, je suis Ton serviteur, fils de Ton
+                    &laquo;&nbsp;&Ocirc; Allah, je suis Ton serviteur, fils de Ton
                     serviteur, fils de Ta servante. Mon toupet est dans Ta main.
-                    Ton jugement s&apos;accomplit sur moi. Ton decret a mon
-                    egard est juste. Je Te demande par chaque nom qui
-                    T&apos;appartient, par lequel Tu T&apos;es nomme
-                    Toi-meme, que Tu l&apos;as revele dans Ton Livre, que Tu
-                    l&apos;as enseigne a l&apos;une de Tes creatures, ou que Tu
-                    l&apos;as garde dans la science de l&apos;invisible aupres
-                    de Toi, de faire du Coran le printemps de mon coeur, la
-                    lumiere de ma poitrine, la dissipation de ma tristesse et la
+                    Ton jugement s&apos;accomplit sur moi. Ton d&eacute;cret &agrave; mon
+                    &eacute;gard est juste. Je Te demande par chaque nom qui
+                    T&apos;appartient, par lequel Tu T&apos;es nomm&eacute;
+                    Toi-m&ecirc;me, que Tu l&apos;as r&eacute;v&eacute;l&eacute; dans Ton Livre, que Tu
+                    l&apos;as enseign&eacute; &agrave; l&apos;une de Tes cr&eacute;atures, ou que Tu
+                    l&apos;as gard&eacute; dans la science de l&apos;invisible aupr&egrave;s
+                    de Toi, de faire du Coran le printemps de mon c&oelig;ur, la
+                    lumi&egrave;re de ma poitrine, la dissipation de ma tristesse et la
                     fin de mon angoisse.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Rapporte par Ahmad (hadith n&deg; 3712), qualifie de sahih
-                    par al-Albani. Le Prophete (paix et salut sur lui) a dit que
+                    Rapport&eacute; par Ahmad (hadith n&deg; 3712), qualifi&eacute; de sahih
+                    par al-Albani. Le Proph&egrave;te (paix et salut sur lui) a dit que
                     quiconque prononce cette invocation, Allah remplacera sa
                     tristesse par la joie.
                   </p>
@@ -536,24 +537,24 @@ export default function RemedeAngoisseIslam() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Ces trois invocations forment un arsenal spirituel complet
-                  contre les differentes formes d&apos;angoisse. La premiere
-                  protege contre les soucis quotidiens, la deuxieme est un appel
-                  au secours dans les moments de detresse aigus, et la troisieme
-                  est une supplication profonde qui fait du Coran le remede du
-                  coeur. Les savants recommandent de les apprendre par coeur et
-                  de les reciter regulierement, en arabe si possible, avec
-                  comprehension et conviction.
+                  contre les diff&eacute;rentes formes d&apos;angoisse. La premi&egrave;re
+                  prot&egrave;ge contre les soucis quotidiens, la deuxi&egrave;me est un appel
+                  au secours dans les moments de d&eacute;tresse aigus, et la troisi&egrave;me
+                  est une supplication profonde qui fait du Coran le rem&egrave;de du
+                  c&oelig;ur. Les savants recommandent de les apprendre par c&oelig;ur et
+                  de les r&eacute;citer r&eacute;guli&egrave;rement, en arabe si possible, avec
+                  compr&eacute;hension et conviction.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Conseils pratiques pour la recitation des douas
+                  Conseils pratiques pour la r&eacute;citation des douas
                 </h3>
 
                 <ul className="mt-4 space-y-3 text-foreground">
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Choisir un moment calme</strong> : apres la priere
+                      <strong>Choisir un moment calme</strong> : apr&egrave;s la pri&egrave;re
                       du Fajr, avant de dormir, ou dans le dernier tiers de la
                       nuit.
                     </span>
@@ -561,54 +562,54 @@ export default function RemedeAngoisseIslam() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Comprendre le sens</strong> : la doua recitee avec
-                      comprehension a un impact bien plus profond sur le coeur
-                      que la simple repetition mecanique.
+                      <strong>Comprendre le sens</strong> : la doua r&eacute;cit&eacute;e avec
+                      compr&eacute;hension a un impact bien plus profond sur le c&oelig;ur
+                      que la simple r&eacute;p&eacute;tition m&eacute;canique.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Etre en etat d&apos;ablution</strong> : bien que
-                      la doua soit valide sans ablution, etre purifie renforce
+                      <strong>&Ecirc;tre en &eacute;tat d&apos;ablution</strong> : bien que
+                      la doua soit valide sans ablution, &ecirc;tre purifi&eacute; renforce
                       le recueillement et la concentration.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Perseverer</strong> : la reponse d&apos;Allah peut
-                      prendre differentes formes. Le Prophete (paix et salut sur
-                      lui) a enseigne que toute invocation est exaucee, soit par
-                      l&apos;obtention de ce qui est demande, soit par
-                      l&apos;eloignement d&apos;un mal, soit par une recompense
-                      dans l&apos;au-dela (rapporte par Ahmad).
+                      <strong>Pers&eacute;v&eacute;rer</strong> : la r&eacute;ponse d&apos;Allah peut
+                      prendre diff&eacute;rentes formes. Le Proph&egrave;te (paix et salut sur
+                      lui) a enseign&eacute; que toute invocation est exauc&eacute;e, soit par
+                      l&apos;obtention de ce qui est demand&eacute;, soit par
+                      l&apos;&eacute;loignement d&apos;un mal, soit par une r&eacute;compense
+                      dans l&apos;au-del&agrave; (rapport&eacute; par Ahmad).
                     </span>
                   </li>
                 </ul>
 
                 <ArticleCTA
                   variant="lire-aussi"
-                  title="Invocations authentiques pour la reussite et la facilite en islam"
-                  description="Decouvrez les douas prophetiques pour demander la facilite, la reussite et la benediction d'Allah dans vos projets."
+                  title="Invocations authentiques pour la r&eacute;ussite et la facilit&eacute; en islam"
+                  description="D&eacute;couvrez les douas proph&eacute;tiques pour demander la facilit&eacute;, la r&eacute;ussite et la b&eacute;n&eacute;diction d'Allah dans vos projets."
                   href="/invocations-reussite-facilite"
                 />
               </section>
 
               {/* ============================================ */}
-              {/* SECTION 3 : Dhikr et priere de nuit */}
+              {/* SECTION 3 : Dhikr et prière de nuit */}
               {/* ============================================ */}
               <section id="dhikr-priere" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Le dhikr et la priere de nuit (tahajjud) : apaisement du coeur
+                  Le dhikr et la pri&egrave;re de nuit (tahajjud) : apaisement du c&oelig;ur
                   et de l&apos;esprit
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Si les douas sont des appels ponctuels vers Allah, le dhikr
                   (rappel d&apos;Allah) est une pratique continue qui immerge le
-                  coeur dans la conscience du divin. Le Coran en fait la source
-                  meme de la serenite :
+                  c&oelig;ur dans la conscience du divin. Le Coran en fait la source
+                  m&ecirc;me de la s&eacute;r&eacute;nit&eacute; :
                 </p>
 
                 <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-5">
@@ -620,19 +621,19 @@ export default function RemedeAngoisseIslam() {
                   </p>
                   <p className="mt-3 text-foreground italic">
                     &laquo;&nbsp;C&apos;est par le rappel d&apos;Allah que les
-                    coeurs s&apos;apaisent.&nbsp;&raquo;
+                    c&oelig;urs s&apos;apaisent.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Sourate Ar-Ra&apos;d (13:28). Ce verset est souvent cite
+                    Sourate Ar-Ra&apos;d (13:28). Ce verset est souvent cit&eacute;
                     comme la base coranique de l&apos;apaisement par le dhikr.
                   </p>
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Le dhikr ne se limite pas a la repetition de formules : il
-                  s&apos;agit d&apos;un etat du coeur, d&apos;une presence
-                  constante a Allah dans chaque instant. Neanmoins, certaines
-                  formules sont particulierement recommandees pour apaiser
+                  Le dhikr ne se limite pas &agrave; la r&eacute;p&eacute;tition de formules : il
+                  s&apos;agit d&apos;un &eacute;tat du c&oelig;ur, d&apos;une pr&eacute;sence
+                  constante &agrave; Allah dans chaque instant. N&eacute;anmoins, certaines
+                  formules sont particuli&egrave;rement recommand&eacute;es pour apaiser
                   l&apos;angoisse :
                 </p>
 
@@ -648,7 +649,7 @@ export default function RemedeAngoisseIslam() {
                           Signification
                         </th>
                         <th className="py-3 pr-4 font-semibold text-primary">
-                          Moment recommande
+                          Moment recommand&eacute;
                         </th>
                         <th className="py-3 font-semibold text-primary">
                           Source
@@ -664,7 +665,7 @@ export default function RemedeAngoisseIslam() {
                           Glorification, louange et grandeur d&apos;Allah
                         </td>
                         <td className="py-3 pr-4">
-                          Apres chaque priere (33 fois chacun)
+                          Apr&egrave;s chaque pri&egrave;re (33 fois chacun)
                         </td>
                         <td className="py-3">
                           Muslim
@@ -679,7 +680,7 @@ export default function RemedeAngoisseIslam() {
                           Allah
                         </td>
                         <td className="py-3 pr-4">
-                          A tout moment de detresse
+                          &Agrave; tout moment de d&eacute;tresse
                         </td>
                         <td className="py-3">
                           Al-Bukhari, Muslim
@@ -693,7 +694,7 @@ export default function RemedeAngoisseIslam() {
                           Allah nous suffit, quel excellent protecteur
                         </td>
                         <td className="py-3 pr-4">
-                          Face a la peur et l&apos;incertitude
+                          Face &agrave; la peur et l&apos;incertitude
                         </td>
                         <td className="py-3">
                           Al-Bukhari
@@ -704,10 +705,10 @@ export default function RemedeAngoisseIslam() {
                           Astaghfirullah (demande de pardon)
                         </td>
                         <td className="py-3 pr-4">
-                          Purification du coeur et renouveau spirituel
+                          Purification du c&oelig;ur et renouveau spirituel
                         </td>
                         <td className="py-3 pr-4">
-                          Matin et soir, apres les prieres
+                          Matin et soir, apr&egrave;s les pri&egrave;res
                         </td>
                         <td className="py-3">
                           Abu Dawud
@@ -715,13 +716,13 @@ export default function RemedeAngoisseIslam() {
                       </tr>
                       <tr>
                         <td className="py-3 pr-4 font-medium text-foreground">
-                          Salat ala an-Nabi (priere sur le Prophete)
+                          Salat ala an-Nabi (pri&egrave;re sur le Proph&egrave;te)
                         </td>
                         <td className="py-3 pr-4">
-                          Benediction et apaisement de l&apos;ame
+                          B&eacute;n&eacute;diction et apaisement de l&apos;&acirc;me
                         </td>
                         <td className="py-3 pr-4">
-                          Tout au long de la journee
+                          Tout au long de la journ&eacute;e
                         </td>
                         <td className="py-3">
                           At-Tirmidhi
@@ -732,42 +733,42 @@ export default function RemedeAngoisseIslam() {
                 </div>
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">
-                  La priere de nuit (tahajjud) : un refuge dans le silence
+                  La pri&egrave;re de nuit (tahajjud) : un refuge dans le silence
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Parmi les actes les plus puissants contre l&apos;angoisse, la
-                  priere de nuit occupe une place particuliere. Elle se pratique
-                  dans le dernier tiers de la nuit, un moment ou le calme
-                  exterieur rejoint le calme interieur, et ou Allah repond a Ses
-                  serviteurs avec une proximite incomparable.
+                  pri&egrave;re de nuit occupe une place particuli&egrave;re. Elle se pratique
+                  dans le dernier tiers de la nuit, un moment o&ugrave; le calme
+                  ext&eacute;rieur rejoint le calme int&eacute;rieur, et o&ugrave; Allah r&eacute;pond &agrave; Ses
+                  serviteurs avec une proximit&eacute; incomparable.
                 </p>
 
                 <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-5">
                   <p className="text-foreground italic">
                     &laquo;&nbsp;Notre Seigneur descend chaque nuit au ciel le
                     plus bas lorsqu&apos;il reste le dernier tiers de la nuit
-                    et dit : Qui M&apos;invoque pour que Je lui reponde ? Qui Me
+                    et dit : Qui M&apos;invoque pour que Je lui r&eacute;ponde ? Qui Me
                     demande pour que Je lui donne ? Qui implore Mon pardon pour
                     que Je lui pardonne ?&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Rapporte par al-Bukhari et Muslim.
+                      Rapport&eacute; par al-Bukhari et Muslim.
                   </p>
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Allah Lui-meme decrit les effets de la priere de nuit :
-                  &laquo;&nbsp;Leve-toi la nuit pour prier, sauf une petite
-                  partie, la moitie ou un peu moins, ou un peu plus. Et recite
+                  Allah Lui-m&ecirc;me d&eacute;crit les effets de la pri&egrave;re de nuit :
+                  &laquo;&nbsp;L&egrave;ve-toi la nuit pour prier, sauf une petite
+                  partie, la moiti&eacute; ou un peu moins, ou un peu plus. Et r&eacute;cite
                   le Coran avec soin&nbsp;&raquo; (sourate Al-Muzzammil,
-                  73:2-4). La priere de nuit n&apos;est pas obligatoire, mais
-                  elle est fortement encouragee, surtout en periode de detresse
-                  emotionnelle.
+                  73:2-4). La pri&egrave;re de nuit n&apos;est pas obligatoire, mais
+                  elle est fortement encourag&eacute;e, surtout en p&eacute;riode de d&eacute;tresse
+                  &eacute;motionnelle.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Integrer le dhikr et le tahajjud dans son quotidien
+                  Int&eacute;grer le dhikr et le tahajjud dans son quotidien
                 </h3>
 
                 <ul className="mt-4 space-y-3 text-foreground">
@@ -775,25 +776,25 @@ export default function RemedeAngoisseIslam() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Les adhkar du matin et du soir</strong> : ces
-                      invocations, compilees dans des recueils comme{" "}
+                      invocations, compil&eacute;es dans des recueils comme{" "}
                       <em>Hisn al-Muslim</em> (la Citadelle du musulman),
-                      constituent un bouclier quotidien qui renforce la serenite
-                      et eloigne les waswas (murmures negatifs).
+                      constituent un bouclier quotidien qui renforce la s&eacute;r&eacute;nit&eacute;
+                      et &eacute;loigne les waswas (murmures n&eacute;gatifs).
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Commencer par deux rak&apos;at</strong> : si le
-                      tahajjud semble difficile au debut, commencer par deux
-                      unites de priere courtes suffit. L&apos;important est la
-                      regularite, meme si la quantite est modeste.
+                      tahajjud semble difficile au d&eacute;but, commencer par deux
+                      unit&eacute;s de pri&egrave;re courtes suffit. L&apos;important est la
+                      r&eacute;gularit&eacute;, m&ecirc;me si la quantit&eacute; est modeste.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Ecouter le Coran</strong> : pour ceux qui ne
+                      <strong>&Eacute;couter le Coran</strong> : pour ceux qui ne
                       savent pas encore lire l&apos;
                       <Link
                         href="/apprendre-larabe"
@@ -801,18 +802,18 @@ export default function RemedeAngoisseIslam() {
                       >
                         arabe
                       </Link>
-                      , ecouter une recitation apaisante (sourates Ar-Rahman,
+                      , &eacute;couter une r&eacute;citation apaisante (sourates Ar-Rahman,
                       Ya-Sin, Al-Mulk) peut produire un effet calmant comparable
-                      a la recitation personnelle.
+                      &agrave; la r&eacute;citation personnelle.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Tenir un journal de gratitude</strong> : noter
-                      chaque soir trois bienfaits recus renforce la conscience
+                      chaque soir trois bienfaits re&ccedil;us renforce la conscience
                       du <em>ni&apos;ma</em> (bienfait divin) et attenue les
-                      pensees anxieuses.
+                      pens&eacute;es anxieuses.
                     </span>
                   </li>
                 </ul>
@@ -820,7 +821,7 @@ export default function RemedeAngoisseIslam() {
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
                     src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Remede-contre-langoisse-en-islam-invocations-et-conseils-spirituels-apaisants-1.jpg"
-                    alt="Le dhikr et la priere de nuit comme remede contre l'angoisse en islam"
+                    alt="Le dhikr et la prière de nuit comme remède contre l'angoisse en islam"
                     width={1200}
                     height={720}
                     className="w-full object-cover"
@@ -829,34 +830,34 @@ export default function RemedeAngoisseIslam() {
 
                 <ArticleCTA
                   variant="page-mere"
-                  title="Retrouvez tous les remedes prophetiques et la medecine arabe"
+                  title="Retrouvez tous les rem&egrave;des proph&eacute;tiques et la m&eacute;decine arabe"
                   href="/remede-arabe"
-                  linkText="Decouvrir les remedes arabes"
+                  linkText="D&eacute;couvrir les rem&egrave;des arabes"
                 />
               </section>
 
               {/* ============================================ */}
-              {/* SECTION 4 : Remedes naturels prophetiques */}
+              {/* SECTION 4 : Remèdes naturels prophétiques */}
               {/* ============================================ */}
               <section id="remedes-naturels" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Remedes prophetiques naturels contre l&apos;angoisse :
-                  talbina, miel, nigelle et hygiene de vie Sunna
+                  Rem&egrave;des proph&eacute;tiques naturels contre l&apos;angoisse :
+                  talbina, miel, nigelle et hygi&egrave;ne de vie Sunna
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Au-dela de la dimension spirituelle, la tradition prophetique
-                  propose des remedes naturels qui nourrissent le corps et
-                  soutiennent l&apos;equilibre emotionnel. Ces remedes ne
-                  remplacent pas un traitement medical, mais ils completent
-                  l&apos;approche holistique de la sante en islam, ou le corps
-                  et l&apos;ame sont indissociables.
+                  Au-del&agrave; de la dimension spirituelle, la tradition proph&eacute;tique
+                  propose des rem&egrave;des naturels qui nourrissent le corps et
+                  soutiennent l&apos;&eacute;quilibre &eacute;motionnel. Ces rem&egrave;des ne
+                  remplacent pas un traitement m&eacute;dical, mais ils compl&egrave;tent
+                  l&apos;approche holistique de la sant&eacute; en islam, o&ugrave; le corps
+                  et l&apos;&acirc;me sont indissociables.
                 </p>
 
                 {/* Talbina */}
                 <div className="mt-8 rounded-xl border border-border bg-white p-6">
                   <h3 className="text-xl font-semibold text-primary">
-                    La talbina : reconfort du coeur en deuil et en detresse
+                    La talbina : r&eacute;confort du c&oelig;ur en deuil et en d&eacute;tresse
                   </h3>
 
                   <div className="mt-4 rounded-xl border border-secondary/20 bg-accent p-5">
@@ -868,55 +869,55 @@ export default function RemedeAngoisseIslam() {
                       بِبَعْضِ الْحُزْنِ
                     </p>
                     <p className="mt-3 text-foreground italic">
-                      &laquo;&nbsp;La talbina reconforte le coeur du malade et
+                      &laquo;&nbsp;La talbina r&eacute;conforte le c&oelig;ur du malade et
                       emporte une partie de son chagrin.&nbsp;&raquo;
                     </p>
                     <p className="mt-2 text-sm text-foreground-secondary">
-                      Rapporte par al-Bukhari (hadith n&deg; 5689).
+                      Rapport&eacute; par al-Bukhari (hadith n&deg; 5689).
                     </p>
                   </div>
 
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
-                    La talbina est une bouillie preparee a base de farine
-                    d&apos;orge, melangee a du lait et sucree au miel. Le
-                    Prophete (paix et salut sur lui) la recommandait
-                    specifiquement pour les personnes en deuil ou malades.
-                    L&apos;orge est riche en tryptophane, un acide amine
-                    precurseur de la serotonine (hormone du bien-etre), ainsi
-                    qu&apos;en magnesium et en vitamines du groupe B, tous
-                    impliques dans la regulation de l&apos;humeur et du systeme
+                    La talbina est une bouillie pr&eacute;par&eacute;e &agrave; base de farine
+                    d&apos;orge, m&eacute;lang&eacute;e &agrave; du lait et sucr&eacute;e au miel. Le
+                    Proph&egrave;te (paix et salut sur lui) la recommandait
+                    sp&eacute;cifiquement pour les personnes en deuil ou malades.
+                    L&apos;orge est riche en tryptophane, un acide amin&eacute;
+                    pr&eacute;curseur de la s&eacute;rotonine (hormone du bien-&ecirc;tre), ainsi
+                    qu&apos;en magn&eacute;sium et en vitamines du groupe B, tous
+                    impliqu&eacute;s dans la r&eacute;gulation de l&apos;humeur et du syst&egrave;me
                     nerveux.
                   </p>
 
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Preparation :</strong> melanger 2 cuilleres a soupe
-                    de farine d&apos;orge dans un verre de lait, chauffer a feu
-                    doux en remuant jusqu&apos;a obtenir une consistance
-                    onctueuse, puis sucrer avec du miel pur. A consommer de
-                    preference le matin ou le soir.
+                    <strong>Pr&eacute;paration :</strong> m&eacute;langer 2 cuill&egrave;res &agrave; soupe
+                    de farine d&apos;orge dans un verre de lait, chauffer &agrave; feu
+                    doux en remuant jusqu&apos;&agrave; obtenir une consistance
+                    onctueuse, puis sucrer avec du miel pur. &Agrave; consommer de
+                    pr&eacute;f&eacute;rence le matin ou le soir.
                   </p>
                 </div>
 
                 {/* Miel */}
                 <div className="mt-6 rounded-xl border border-border bg-white p-6">
                   <h3 className="text-xl font-semibold text-primary">
-                    Le miel : guerison et douceur pour le corps et l&apos;ame
+                    Le miel : gu&eacute;rison et douceur pour le corps et l&apos;&acirc;me
                   </h3>
 
                   <p className="mt-3 leading-relaxed text-foreground-secondary">
-                    Le Coran mentionne le miel comme porteur de guerison :
+                    Le Coran mentionne le miel comme porteur de gu&eacute;rison :
                     &laquo;&nbsp;De leur ventre sort une boisson aux couleurs
-                    variees, dans laquelle il y a une guerison pour les
+                    vari&eacute;es, dans laquelle il y a une gu&eacute;rison pour les
                     gens&nbsp;&raquo; (sourate An-Nahl, verset 69). Le miel
-                    contient des antioxydants, des oligoelements et des enzymes
-                    qui soutiennent les fonctions cerebrales et nerveuses. Sa
-                    consommation reguliere, associee a la nigelle ou a la
+                    contient des antioxydants, des oligo&eacute;l&eacute;ments et des enzymes
+                    qui soutiennent les fonctions c&eacute;r&eacute;brales et nerveuses. Sa
+                    consommation r&eacute;guli&egrave;re, associ&eacute;e &agrave; la nigelle ou &agrave; la
                     talbina, renforce l&apos;effet apaisant.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Usage recommande :</strong> une cuillere a soupe de
-                    miel pur a jeun, diluee dans de l&apos;eau tiede.
-                    Privilegier un miel non chauffe, de preference du miel de
+                    <strong>Usage recommand&eacute; :</strong> une cuill&egrave;re &agrave; soupe de
+                    miel pur &agrave; jeun, dilu&eacute;e dans de l&apos;eau ti&egrave;de.
+                    Privil&eacute;gier un miel non chauff&eacute;, de pr&eacute;f&eacute;rence du miel de
                     jujubier (<em>sidr</em>) ou de thym.
                   </p>
                 </div>
@@ -925,62 +926,62 @@ export default function RemedeAngoisseIslam() {
                 <div className="mt-6 rounded-xl border border-border bg-white p-6">
                   <h3 className="text-xl font-semibold text-primary">
                     La graine de nigelle (<em>habba sawda</em>) : un soutien
-                    pour le systeme nerveux
+                    pour le syst&egrave;me nerveux
                   </h3>
 
                   <p className="mt-3 leading-relaxed text-foreground-secondary">
-                    Le Prophete (paix et salut sur lui) a dit :
+                    Le Proph&egrave;te (paix et salut sur lui) a dit :
                     &laquo;&nbsp;Utilisez cette graine noire, car elle contient
-                    un remede contre toute maladie, sauf la mort&nbsp;&raquo;
-                    (rapporte par al-Bukhari et Muslim). La thymoquinone, son
-                    principal compose actif, possede des proprietes
+                    un rem&egrave;de contre toute maladie, sauf la mort&nbsp;&raquo;
+                    (rapport&eacute; par al-Bukhari et Muslim). La thymoquinone, son
+                    principal compos&eacute; actif, poss&egrave;de des propri&eacute;t&eacute;s
                     anti-inflammatoires, antioxydantes et neuroprotectrices. Des
-                    etudes recentes suggerent un effet benefique sur l&apos;anxiete
-                    et la depression en agissant sur les recepteurs
-                    GABAergiques et serotoninergiques.
+                    &eacute;tudes r&eacute;centes sugg&egrave;rent un effet b&eacute;n&eacute;fique sur l&apos;anxi&eacute;t&eacute;
+                    et la d&eacute;pression en agissant sur les r&eacute;cepteurs
+                    GABAergiques et s&eacute;rotoninergiques.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Usage recommande :</strong> une cuillere a cafe
-                    d&apos;huile de nigelle pressee a froid, melangee a du miel,
-                    a prendre a jeun chaque matin.
+                    <strong>Usage recommand&eacute; :</strong> une cuill&egrave;re &agrave; caf&eacute;
+                    d&apos;huile de nigelle press&eacute;e &agrave; froid, m&eacute;lang&eacute;e &agrave; du miel,
+                    &agrave; prendre &agrave; jeun chaque matin.
                   </p>
                 </div>
 
                 {/* Hygiene de vie Sunna */}
                 <h3 className="mt-10 text-xl font-semibold text-primary">
-                  Alimentation et hygiene de vie selon la Sunna
+                  Alimentation et hygi&egrave;ne de vie selon la Sunna
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  La tradition prophetique propose un mode de vie equilibre qui
-                  favorise la sante mentale. Voici les habitudes recommandees
-                  qui contribuent a reduire l&apos;angoisse :
+                  La tradition proph&eacute;tique propose un mode de vie &eacute;quilibr&eacute; qui
+                  favorise la sant&eacute; mentale. Voici les habitudes recommand&eacute;es
+                  qui contribuent &agrave; r&eacute;duire l&apos;angoisse :
                 </p>
 
                 <div className="mt-6 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h4 className="font-semibold text-primary">
-                      Moderation alimentaire
+                      Mod&eacute;ration alimentaire
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Le Prophete (paix et salut sur lui) a enseigne :
+                      Le Proph&egrave;te (paix et salut sur lui) a enseign&eacute; :
                       &laquo;&nbsp;Le fils d&apos;Adam n&apos;a jamais rempli de
-                      recipient pire que son estomac. Il lui suffit de quelques
+                      r&eacute;cipient pire que son estomac. Il lui suffit de quelques
                       bouchees pour se maintenir. S&apos;il doit absolument
                       manger plus, qu&apos;il reserve un tiers pour la
                       nourriture, un tiers pour la boisson et un tiers pour le
-                      souffle&nbsp;&raquo; (rapporte par at-Tirmidhi).
+                      souffle&nbsp;&raquo; (rapport&eacute; par at-Tirmidhi).
                     </p>
                   </div>
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h4 className="font-semibold text-primary">
-                      Les dattes : energie et apaisement
+                      Les dattes : &eacute;nergie et apaisement
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Riches en magnesium, potassium et sucres naturels, les
-                      dattes apportent une energie rapide et saine. Le
-                      magnesium, en particulier, joue un role dans la relaxation
-                      musculaire et nerveuse. Le Prophete (paix et salut sur
+                      Riches en magn&eacute;sium, potassium et sucres naturels, les
+                      dattes apportent une &eacute;nergie rapide et saine. Le
+                      magn&eacute;sium, en particulier, joue un r&ocirc;le dans la relaxation
+                      musculaire et nerveuse. Le Proph&egrave;te (paix et salut sur
                       lui) consommait sept dattes ajwa chaque matin.
                     </p>
                   </div>
@@ -989,96 +990,96 @@ export default function RemedeAngoisseIslam() {
                       L&apos;huile d&apos;olive : nourriture du cerveau
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Mentionnee comme &laquo;&nbsp;arbre beni&nbsp;&raquo; dans
+                      Mentionn&eacute;e comme &laquo;&nbsp;arbre b&eacute;ni&nbsp;&raquo; dans
                       le Coran (sourate An-Nur, 24:35), l&apos;huile
-                      d&apos;olive extra-vierge est riche en polyphenols et en
-                      acides gras mono-insatures qui protegent le cerveau et
+                      d&apos;olive extra-vierge est riche en polyph&eacute;nols et en
+                      acides gras mono-insatur&eacute;s qui prot&egrave;gent le cerveau et
                       favorisent la production de neurotransmetteurs apaisants.
                     </p>
                   </div>
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h4 className="font-semibold text-primary">
-                      L&apos;activite physique et la nature
+                      L&apos;activit&eacute; physique et la nature
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      La marche est la forme d&apos;exercice la plus pratiquee
-                      par le Prophete (paix et salut sur lui). Le contact avec
-                      la nature et l&apos;activite physique reguliere liberent
-                      des endorphines, reduisent le cortisol (hormone du stress)
-                      et ameliorent la qualite du sommeil.
+                      La marche est la forme d&apos;exercice la plus pratiqu&eacute;e
+                      par le Proph&egrave;te (paix et salut sur lui). Le contact avec
+                      la nature et l&apos;activit&eacute; physique r&eacute;guli&egrave;re lib&egrave;rent
+                      des endorphines, r&eacute;duisent le cortisol (hormone du stress)
+                      et am&eacute;liorent la qualit&eacute; du sommeil.
                     </p>
                   </div>
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  L&apos;approche prophetique de l&apos;alimentation repose sur
-                  la moderation, la diversite et la gratitude. Manger en pleine
+                  L&apos;approche proph&eacute;tique de l&apos;alimentation repose sur
+                  la mod&eacute;ration, la diversit&eacute; et la gratitude. Manger en pleine
                   conscience, commencer par le nom d&apos;Allah
                   (&laquo;&nbsp;Bismillah&nbsp;&raquo;) et terminer par la
                   louange (&laquo;&nbsp;Al-hamdulillah&nbsp;&raquo;) transforme
-                  chaque repas en un acte de devotion qui recentre l&apos;esprit
-                  et apaise le coeur. Pour aller plus loin, decouvrez comment{" "}
+                  chaque repas en un acte de d&eacute;votion qui recentre l&apos;esprit
+                  et apaise le c&oelig;ur. Pour aller plus loin, d&eacute;couvrez comment{" "}
                   <Link
                     href="/remede-arabe-maigrir-islam"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
-                    retrouver un equilibre alimentaire
+                    retrouver un &eacute;quilibre alimentaire
                   </Link>{" "}
-                  grace aux principes de la medecine prophetique.
+                  gr&acirc;ce aux principes de la m&eacute;decine proph&eacute;tique.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;angoisse prolongee peut egalement se manifester par
-                  des symptomes physiques. Le stress chronique est un facteur
+                  L&apos;angoisse prolong&eacute;e peut &eacute;galement se manifester par
+                  des sympt&ocirc;mes physiques. Le stress chronique est un facteur
                   reconnu dans l&apos;aggravation de{" "}
                   <Link
                     href="/psoriasis-remede-arabe"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
-                    les maladies de peau liees au stress
+                    les maladies de peau li&eacute;es au stress
                   </Link>{" "}
-                  et peut contribuer a{" "}
+                  et peut contribuer &agrave;{" "}
                   <Link
                     href="/alopecie-remede-islam"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
                     la chute de cheveux d&apos;origine nerveuse
                   </Link>
-                  . Prendre en charge l&apos;angoisse, c&apos;est aussi proteger
-                  le corps contre ces consequences physiques.
+                  . Prendre en charge l&apos;angoisse, c&apos;est aussi prot&eacute;ger
+                  le corps contre ces cons&eacute;quences physiques.
                 </p>
               </section>
 
               {/* ============================================ */}
-              {/* SECTION 5 : Sante mentale et accompagnement */}
+              {/* SECTION 5 : Santé mentale et accompagnement */}
               {/* ============================================ */}
               <section id="sante-mentale" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Sante mentale, soutien communautaire et accompagnement
+                  Sant&eacute; mentale, soutien communautaire et accompagnement
                   professionnel en islam
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;un des aspects les plus importants de l&apos;approche
                   islamique de l&apos;angoisse est le refus de toute
-                  stigmatisation de la souffrance psychique. Le Prophete (paix et
-                  salut sur lui) a enseigne le respect et la compassion envers
+                  stigmatisation de la souffrance psychique. Le Proph&egrave;te (paix et
+                  salut sur lui) a enseign&eacute; le respect et la compassion envers
                   les malades, sans distinction entre maux physiques et
-                  psychiques. La sante mentale fait partie de la sante globale
-                  que le musulman est appele a preserver.
+                  psychiques. La sant&eacute; mentale fait partie de la sant&eacute; globale
+                  que le musulman est appel&eacute; &agrave; pr&eacute;server.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Quand consulter un professionnel de sante mentale
+                  Quand consulter un professionnel de sant&eacute; mentale
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Les remedes spirituels et naturels sont precieux, mais ils ne
+                  Les rem&egrave;des spirituels et naturels sont pr&eacute;cieux, mais ils ne
                   suffisent pas toujours. Si l&apos;angoisse persiste, si elle
-                  empeche de mener une vie normale (travail, relations,
-                  sommeil), ou si elle s&apos;accompagne de pensees sombres, la
+                  emp&ecirc;che de mener une vie normale (travail, relations,
+                  sommeil), ou si elle s&apos;accompagne de pens&eacute;es sombres, la
                   consultation d&apos;un psychologue ou d&apos;un psychiatre
-                  est non seulement permise mais vivement encouragee.
+                  est non seulement permise mais vivement encourag&eacute;e.
                 </p>
 
                 <ul className="mt-4 space-y-3 text-foreground">
@@ -1086,32 +1087,32 @@ export default function RemedeAngoisseIslam() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>
-                        Anxiete persistante depuis plus de deux semaines
+                        Anxi&eacute;t&eacute; persistante depuis plus de deux semaines
                       </strong>{" "}
-                      : un professionnel peut aider a identifier les causes
-                      profondes et proposer des strategies adaptees.
+                      : un professionnel peut aider &agrave; identifier les causes
+                      profondes et proposer des strat&eacute;gies adapt&eacute;es.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Crises de panique repetees</strong> : ces episodes
-                      necessitent souvent un accompagnement specialise pour
-                      apprendre a les gerer.
+                      <strong>Crises de panique r&eacute;p&eacute;t&eacute;es</strong> : ces &eacute;pisodes
+                      n&eacute;cessitent souvent un accompagnement sp&eacute;cialis&eacute; pour
+                      apprendre &agrave; les g&eacute;rer.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Troubles du sommeil lies a l&apos;anxiete</strong>{" "}
+                      <strong>Troubles du sommeil li&eacute;s &agrave; l&apos;anxi&eacute;t&eacute;</strong>{" "}
                       : l&apos;insomnie chronique aggrave l&apos;angoisse dans
-                      un cercle vicieux qu&apos;un specialiste peut aider a
+                      un cercle vicieux qu&apos;un sp&eacute;cialiste peut aider &agrave;
                       briser. Le stress chronique peut aussi provoquer{" "}
                       <Link
                         href="/remede-arabe-acouphene"
                         className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                       >
-                        les acouphenes, souvent aggraves par le stress
+                        les acouph&egrave;nes, souvent aggrav&eacute;s par le stress
                       </Link>.
                     </span>
                   </li>
@@ -1119,9 +1120,9 @@ export default function RemedeAngoisseIslam() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Impact sur la vie quotidienne</strong> : quand
-                      l&apos;angoisse empeche de travailler, d&apos;etudier ou
+                      l&apos;angoisse emp&ecirc;che de travailler, d&apos;&eacute;tudier ou
                       d&apos;entretenir des relations, l&apos;aide
-                      professionnelle devient une priorite.
+                      professionnelle devient une priorit&eacute;.
                     </span>
                   </li>
                 </ul>
@@ -1147,13 +1148,13 @@ export default function RemedeAngoisseIslam() {
                       </p>
                       <p className="mt-1 text-sm leading-relaxed text-green-700">
                         Consulter un psychologue ou un psychiatre n&apos;est
-                        pas un signe de faiblesse de foi. Le Prophete (paix et
+                        pas un signe de faiblesse de foi. Le Proph&egrave;te (paix et
                         salut sur lui) a dit :
                         &laquo;&nbsp;Soignez-vous, serviteurs de Dieu, car Dieu
-                        n&apos;a pas cree de maladie sans avoir cree son
-                        remede&nbsp;&raquo; (rapporte par Abu Dawud). Se soigner
+                        n&apos;a pas cr&eacute;&eacute; de maladie sans avoir cr&eacute;&eacute; son
+                        rem&egrave;de&nbsp;&raquo; (rapport&eacute; par Abu Dawud). Se soigner
                         fait partie de la confiance en Allah, car on utilise les
-                        moyens qu&apos;Il a mis a notre disposition.
+                        moyens qu&apos;Il a mis &agrave; notre disposition.
                       </p>
                     </div>
                   </div>
@@ -1164,12 +1165,12 @@ export default function RemedeAngoisseIslam() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;islam met l&apos;accent sur la solidarite et le
-                  soutien mutuel au sein de la communaute. Le Prophete (paix et
+                  L&apos;islam met l&apos;accent sur la solidarit&eacute; et le
+                  soutien mutuel au sein de la communaut&eacute;. Le Proph&egrave;te (paix et
                   salut sur lui) a dit : &laquo;&nbsp;Les croyants sont les uns
-                  pour les autres comme un edifice dont les parties se
-                  soutiennent mutuellement&nbsp;&raquo; (rapporte par al-Bukhari
-                  et Muslim). Face a l&apos;angoisse, cet enseignement prend une
+                  pour les autres comme un &eacute;difice dont les parties se
+                  soutiennent mutuellement&nbsp;&raquo; (rapport&eacute; par al-Bukhari
+                  et Muslim). Face &agrave; l&apos;angoisse, cet enseignement prend une
                   dimension concrète :
                 </p>
 
@@ -1181,11 +1182,11 @@ export default function RemedeAngoisseIslam() {
                     <ul className="mt-3 space-y-2 text-sm text-foreground-secondary">
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
-                        Parler de sa souffrance a un proche de confiance
+                        Parler de sa souffrance &agrave; un proche de confiance
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
-                        Participer aux prieres en congregation pour briser
+                        Participer aux pri&egrave;res en congr&eacute;gation pour briser
                         l&apos;isolement
                       </li>
                       <li className="flex items-start gap-2">
@@ -1194,7 +1195,7 @@ export default function RemedeAngoisseIslam() {
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
-                        Accepter l&apos;aide proposee sans culpabilite
+                        Accepter l&apos;aide propos&eacute;e sans culpabilit&eacute;
                       </li>
                     </ul>
                   </div>
@@ -1206,12 +1207,12 @@ export default function RemedeAngoisseIslam() {
                     <ul className="mt-3 space-y-2 text-sm text-foreground-secondary">
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
-                        Ecouter sans juger, sans minimiser la souffrance
+                        &Eacute;couter sans juger, sans minimiser la souffrance
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
                         Ne pas dire &laquo;&nbsp;tu n&apos;as qu&apos;a prier
-                        plus&nbsp;&raquo; comme unique reponse
+                        plus&nbsp;&raquo; comme unique r&eacute;ponse
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary/50" />
@@ -1226,22 +1227,22 @@ export default function RemedeAngoisseIslam() {
                 </div>
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">
-                  Allier approche spirituelle et approche medicale : le
-                  modele prophetique
+                  Allier approche spirituelle et approche m&eacute;dicale : le
+                  mod&egrave;le proph&eacute;tique
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;islam ne pose aucune opposition entre la spiritualite
+                  L&apos;islam ne pose aucune opposition entre la spiritualit&eacute;
                   et la{" "}
                   <Link
                     href="/remede-arabe"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
-                    medecine
+                    m&eacute;decine
                   </Link>
-                  . Le Prophete (paix et salut sur lui) lui-meme consultait des
-                  medecins et recommandait de se soigner. L&apos;approche la
-                  plus sage consiste a combiner :
+                  . Le Proph&egrave;te (paix et salut sur lui) lui-m&ecirc;me consultait des
+                  m&eacute;decins et recommandait de se soigner. L&apos;approche la
+                  plus sage consiste &agrave; combiner :
                 </p>
 
                 <div className="mt-6 space-y-4">
@@ -1254,8 +1255,8 @@ export default function RemedeAngoisseIslam() {
                         Le pilier spirituel
                       </h4>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Douas, dhikr, priere de nuit, lecture du Coran, adhkar
-                        du matin et du soir. Ces pratiques recentrent le coeur,
+                        Douas, dhikr, pri&egrave;re de nuit, lecture du Coran, adhkar
+                        du matin et du soir. Ces pratiques recentrent le c&oelig;ur,
                         renforcent la confiance en Allah et apportent un
                         apaisement profond.
                       </p>
@@ -1271,9 +1272,9 @@ export default function RemedeAngoisseIslam() {
                       </h4>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Talbina, miel, nigelle, dattes, huile d&apos;olive,
-                        moderation alimentaire, activite physique et sommeil de
-                        qualite. Ces habitudes soutiennent le systeme nerveux et
-                        favorisent l&apos;equilibre emotionnel.
+                        mod&eacute;ration alimentaire, activit&eacute; physique et sommeil de
+                        qualit&eacute;. Ces habitudes soutiennent le syst&egrave;me nerveux et
+                        favorisent l&apos;&eacute;quilibre &eacute;motionnel.
                       </p>
                     </div>
                   </div>
@@ -1283,14 +1284,14 @@ export default function RemedeAngoisseIslam() {
                     </span>
                     <div>
                       <h4 className="font-semibold text-primary">
-                        Le pilier medical
+                        Le pilier m&eacute;dical
                       </h4>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Consultation psychologique, psychiatrique si
-                        necessaire, therapies cognitivo-comportementales (TCC),
-                        traitement medicamenteux prescrit par un specialiste.
+                        n&eacute;cessaire, th&eacute;rapies cognitivo-comportementales (TCC),
+                        traitement m&eacute;dicamenteux prescrit par un sp&eacute;cialiste.
                         L&apos;aide professionnelle est un moyen que Dieu a mis
-                        a notre disposition.
+                        &agrave; notre disposition.
                       </p>
                     </div>
                   </div>
@@ -1303,21 +1304,21 @@ export default function RemedeAngoisseIslam() {
                         Le pilier social
                       </h4>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Soutien de la famille, des amis, de la communaute.
-                        Participer aux activites collectives, briser
+                        Soutien de la famille, des amis, de la communaut&eacute;.
+                        Participer aux activit&eacute;s collectives, briser
                         l&apos;isolement, entretenir des liens fraternels
-                        sinceres et constructifs.
+                        sinc&egrave;res et constructifs.
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Cette approche en quatre piliers reflete la vision holistique
-                  de l&apos;islam, ou le corps, l&apos;ame, l&apos;esprit et
-                  les relations sociales forment un tout indissociable. Negliger
+                  Cette approche en quatre piliers refl&egrave;te la vision holistique
+                  de l&apos;islam, o&ugrave; le corps, l&apos;&acirc;me, l&apos;esprit et
+                  les relations sociales forment un tout indissociable. N&eacute;gliger
                   l&apos;un de ces piliers fragilise l&apos;ensemble. Prendre
-                  soin de sa sante mentale est un acte de foi autant que de
+                  soin de sa sant&eacute; mentale est un acte de foi autant que de
                   sagesse.
                 </p>
 
@@ -1327,23 +1328,23 @@ export default function RemedeAngoisseIslam() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;angoisse se manifeste differemment selon les
-                  circonstances de chacun. Voici des conseils adaptes a
-                  differentes situations.
+                  L&apos;angoisse se manifeste diff&eacute;remment selon les
+                  circonstances de chacun. Voici des conseils adapt&eacute;s &agrave;
+                  diff&eacute;rentes situations.
                 </p>
 
                 <div className="mt-6 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-xl border border-border bg-white p-6">
                     <h4 className="text-lg font-semibold text-primary">
-                      Pour un etudiant en periode d&apos;examens
+                      Pour un &eacute;tudiant en p&eacute;riode d&apos;examens
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      L&apos;anxiete liee aux examens est tres repandue. En plus
-                      de la revision, reciter la doua de Moussa (&laquo;&nbsp;
+                      L&apos;anxi&eacute;t&eacute; li&eacute;e aux examens est tr&egrave;s r&eacute;pandue. En plus
+                      de la r&eacute;vision, r&eacute;citer la doua de Moussa (&laquo;&nbsp;
                       Rabbi ishrah li sadri&nbsp;&raquo;, Coran 20:25) avant
-                      chaque session d&apos;etude, dormir suffisamment, et
-                      consommer des dattes et du miel pour l&apos;energie
-                      peuvent transformer l&apos;experience.
+                      chaque session d&apos;&eacute;tude, dormir suffisamment, et
+                      consommer des dattes et du miel pour l&apos;&eacute;nergie
+                      peuvent transformer l&apos;exp&eacute;rience.
                     </p>
                   </div>
 
@@ -1352,11 +1353,11 @@ export default function RemedeAngoisseIslam() {
                       Pour une femme enceinte ou en post-partum
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Les changements hormonaux peuvent amplifier l&apos;anxiete.
-                      Le soutien familial, la talbina pour le reconfort, les
-                      adhkar quotidiens et, si necessaire, un suivi
-                      psychologique specialise en perinatalite sont autant de
-                      moyens bienveillants pour traverser cette periode.
+                      Les changements hormonaux peuvent amplifier l&apos;anxi&eacute;t&eacute;.
+                      Le soutien familial, la talbina pour le r&eacute;confort, les
+                      adhkar quotidiens et, si n&eacute;cessaire, un suivi
+                      psychologique sp&eacute;cialis&eacute; en p&eacute;rinatalit&eacute; sont autant de
+                      moyens bienveillants pour traverser cette p&eacute;riode.
                     </p>
                   </div>
 
@@ -1365,25 +1366,25 @@ export default function RemedeAngoisseIslam() {
                       Pour une personne en deuil
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      L&apos;islam reconnait la legitimite du chagrin. Le
-                      Prophete (paix et salut sur lui) a pleure a la mort de son
-                      fils Ibrahim. La talbina est specifiquement recommandee
-                      pour les endeuilles. La patience, le rappel de la
-                      recompense divine et le soutien des proches aident a
-                      traverser cette epreuve.
+                      L&apos;islam reconna&icirc;t la l&eacute;gitimit&eacute; du chagrin. Le
+                      Proph&egrave;te (paix et salut sur lui) a pleur&eacute; &agrave; la mort de son
+                      fils Ibrahim. La talbina est sp&eacute;cifiquement recommand&eacute;e
+                      pour les endeuill&eacute;s. La patience, le rappel de la
+                      r&eacute;compense divine et le soutien des proches aident &agrave;
+                      traverser cette &eacute;preuve.
                     </p>
                   </div>
 
                   <div className="rounded-xl border border-border bg-white p-6">
                     <h4 className="text-lg font-semibold text-primary">
-                      Pour une personne agee ou malade chronique
+                      Pour une personne &acirc;g&eacute;e ou malade chronique
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      L&apos;angoisse liee a la maladie ou au vieillissement
-                      est une epreuve que l&apos;islam accueille avec
+                      L&apos;angoisse li&eacute;e &agrave; la maladie ou au vieillissement
+                      est une &eacute;preuve que l&apos;islam accueille avec
                       compassion. Le dhikr constant, la compagnie bienveillante,
                       les visites fraternelles et le rappel que chaque
-                      souffrance est une purification apportent du reconfort
+                      souffrance est une purification apportent du r&eacute;confort
                       spirituel et humain.
                     </p>
                   </div>
@@ -1401,20 +1402,20 @@ export default function RemedeAngoisseIslam() {
               {/* Navigation interne silo remede-arabe */}
               <section className="mt-12 rounded-xl bg-background-alt p-6">
                 <h2 className="text-lg font-bold text-primary">
-                  Remedes et medecine prophetique
+                  Rem&egrave;des et m&eacute;decine proph&eacute;tique
                 </h2>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link
                     href="/remede-arabe"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
-                    Tous les remedes arabes
+                    Tous les rem&egrave;des arabes
                   </Link>
                   <Link
                     href="/invocations-reussite-facilite"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
-                    Invocations pour la reussite
+                    Invocations pour la r&eacute;ussite
                   </Link>
                   <Link
                     href="/sorcellerie-islam-protection"
@@ -1425,10 +1426,10 @@ export default function RemedeAngoisseIslam() {
                 </div>
               </section>
 
-              {/* Navigation vers pages meres */}
+              {/* Navigation vers pages mères */}
               <section className="mt-6 rounded-xl bg-background-alt p-6">
                 <h2 className="text-lg font-bold text-primary">
-                  Sur le meme sujet
+                  Sur le m&ecirc;me sujet
                 </h2>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link
@@ -1441,7 +1442,7 @@ export default function RemedeAngoisseIslam() {
                     href="/remede-arabe"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
-                    Remedes et medecine prophetique
+                    Rem&egrave;des et m&eacute;decine proph&eacute;tique
                   </Link>
                   <Link
                     href="/apprendre-le-coran"

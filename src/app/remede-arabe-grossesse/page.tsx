@@ -853,7 +853,7 @@ export default function RemedeArabeGrossesse() {
                   >
                     gérer l&apos;anxiété de la future maman
                   </Link>{" "}
-                  propose des invocations et des conseils adaptes. La
+                  propose des invocations et des conseils adaptés. La
                   tradition prophétique valorise le repos et
                   l&apos;équilibre entre activité et récupération.
                 </p>

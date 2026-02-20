@@ -9,9 +9,9 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
-    "Remede arabe pour arreter de fumer : sevrage naturel, invocations et soutien spirituel",
+    "Remède arabe pour arrêter de fumer : sevrage naturel, invocations et soutien spirituel",
   description:
-    "Decouvrez les remedes arabes pour arreter de fumer : nigelle, miel, siwak, hijama, invocations prophetiques et soutien spirituel pour un sevrage doux et durable en islam.",
+    "Découvrez les remèdes arabes pour arrêter de fumer : nigelle, miel, siwak, hijama, invocations prophétiques et soutien spirituel pour un sevrage doux et durable en islam.",
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-arreter-fumer",
   },
@@ -19,53 +19,53 @@ export const metadata: Metadata = {
 
 const tocItems = [
   { id: "tabac-islam", label: "Le tabac en islam : statut juridique" },
-  { id: "remedes-prophetiques", label: "Remedes prophetiques d'aide au sevrage" },
+  { id: "remedes-prophetiques", label: "Remèdes prophétiques d'aide au sevrage" },
   { id: "hijama-sevrage", label: "Hijama et sevrage tabagique" },
-  { id: "invocations-douas", label: "Invocations et douas pour la perseverance" },
-  { id: "jeune-discipline", label: "Le jeune comme outil de discipline" },
-  { id: "faq", label: "Questions frequentes" },
+  { id: "invocations-douas", label: "Invocations et douas pour la persévérance" },
+  { id: "jeune-discipline", label: "Le jeûne comme outil de discipline" },
+  { id: "faq", label: "Questions fréquentes" },
 ];
 
 const faqItems = [
   {
     question: "Le tabac est-il haram ou makruh en islam ?",
     answer:
-      "Les savants contemporains sont majoritairement d'accord pour dire que le tabac est haram (interdit) en raison des preuves scientifiques irrefutables de sa nocivite. La regle islamique \"ne vous tuez pas vous-memes\" (sourate An-Nisa, verset 29) et \"ne vous jetez pas dans la perdition\" (sourate Al-Baqara, verset 195) s'appliquent directement. Certains savants plus anciens le classaient comme makruh (detestable), car la nocivite n'etait pas encore prouvee a leur epoque.",
+      "Les savants contemporains sont majoritairement d'accord pour dire que le tabac est haram (interdit) en raison des preuves scientifiques irréfutables de sa nocivité. La règle islamique \"ne vous tuez pas vous-mêmes\" (sourate An-Nisa, verset 29) et \"ne vous jetez pas dans la perdition\" (sourate Al-Baqara, verset 195) s'appliquent directement. Certains savants plus anciens le classaient comme makruh (détestable), car la nocivité n'était pas encore prouvée à leur époque.",
   },
   {
-    question: "La graine de nigelle aide-t-elle vraiment a arreter de fumer ?",
+    question: "La graine de nigelle aide-t-elle vraiment à arrêter de fumer ?",
     answer:
-      "La graine de nigelle (habba sawda) ne constitue pas un substitut direct a la nicotine, mais elle soutient le corps durant le sevrage. La thymoquinone, son principe actif, possede des proprietes anti-inflammatoires et antioxydantes qui aident a reparer les voies respiratoires irritees par le tabac. Associee au miel, elle favorise aussi la reduction du stress et de l'anxiete, deux facteurs majeurs de rechute.",
+      "La graine de nigelle (habba sawda) ne constitue pas un substitut direct à la nicotine, mais elle soutient le corps durant le sevrage. La thymoquinone, son principe actif, possède des propriétés anti-inflammatoires et antioxydantes qui aident à réparer les voies respiratoires irritées par le tabac. Associée au miel, elle favorise aussi la réduction du stress et de l'anxiété, deux facteurs majeurs de rechute.",
   },
   {
     question: "Le siwak peut-il remplacer le geste de fumer ?",
     answer:
-      "Le siwak (miswak) est un excellent substitut au geste oral de la cigarette. Son utilisation permet de satisfaire le besoin de porter quelque chose a la bouche, tout en purifiant l'haleine et en renforrant la sante des gencives. Le Prophete Muhammad (paix sur lui) en recommandait l'usage regulier. Il ne contient aucune substance addictive et peut etre utilise a tout moment de la journee.",
+      "Le siwak (miswak) est un excellent substitut au geste oral de la cigarette. Son utilisation permet de satisfaire le besoin de porter quelque chose à la bouche, tout en purifiant l'haleine et en renforçant la santé des gencives. Le Prophète Muhammad (paix sur lui) en recommandait l'usage régulier. Il ne contient aucune substance addictive et peut être utilisé à tout moment de la journée.",
   },
   {
     question: "La hijama peut-elle faciliter le sevrage tabagique ?",
     answer:
-      "La hijama (ventouses) est une technique de medecine prophetique qui peut accompagner le sevrage. En stimulant la circulation sanguine et en favorisant l'elimination des toxines accumulees par le tabac, elle aide a reduire certains symptomes de manque comme les maux de tete et la fatigue. Elle doit etre pratiquee par un professionnel forme, dans des conditions d'hygiene strictes, et ne remplace pas un suivi medical.",
+      "La hijama (ventouses) est une technique de médecine prophétique qui peut accompagner le sevrage. En stimulant la circulation sanguine et en favorisant l'élimination des toxines accumulées par le tabac, elle aide à réduire certains symptômes de manque comme les maux de tête et la fatigue. Elle doit être pratiquée par un professionnel formé, dans des conditions d'hygiène strictes, et ne remplace pas un suivi médical.",
   },
   {
-    question: "Quelles invocations reciter pour avoir la force d'arreter de fumer ?",
+    question: "Quelles invocations réciter pour avoir la force d'arrêter de fumer ?",
     answer:
-      "Plusieurs invocations sont recommandees : \"Allahoumma inni as'aluka al-'afiya\" (O Allah, je Te demande la sante et le bien-etre), \"HasbounAllah wa ni'mal wakeel\" (Allah nous suffit, Il est le meilleur garant) et les formules de dhikr comme SubhanAllah, Alhamdulillah, Allahu Akbar. Le Prophete (paix sur lui) invoquait aussi Allah pour la fermete du coeur. Ces prieres apportent serenite et force interieure face aux moments de tentation.",
+      "Plusieurs invocations sont recommandées : \"Allahoumma inni as'aluka al-'afiya\" (Ô Allah, je Te demande la santé et le bien-être), \"HasbounAllah wa ni'mal wakeel\" (Allah nous suffit, Il est le meilleur garant) et les formules de dhikr comme SubhanAllah, Alhamdulillah, Allahu Akbar. Le Prophète (paix sur lui) invoquait aussi Allah pour la fermeté du cœur. Ces prières apportent sérénité et force intérieure face aux moments de tentation.",
   },
   {
-    question: "Le jeune du Ramadan aide-t-il a arreter de fumer ?",
+    question: "Le jeûne du Ramadan aide-t-il à arrêter de fumer ?",
     answer:
-      "Le Ramadan est une periode privilegiee pour entamer un sevrage tabagique. Pendant les heures de jeune, le corps s'habitue a fonctionner sans nicotine, et la dimension spirituelle du mois sacre renforce la motivation. De nombreux fumeurs constatent que l'abstinence diurne prolongee facilite la transition vers un arret complet. Le jeune volontaire les lundis et jeudis peut prolonger cet elan apres le Ramadan.",
+      "Le Ramadan est une période privilégiée pour entamer un sevrage tabagique. Pendant les heures de jeûne, le corps s'habitue à fonctionner sans nicotine, et la dimension spirituelle du mois sacré renforce la motivation. De nombreux fumeurs constatent que l'abstinence diurne prolongée facilite la transition vers un arrêt complet. Le jeûne volontaire les lundis et jeudis peut prolonger cet élan après le Ramadan.",
   },
   {
-    question: "Peut-on combiner remedes prophetiques et substituts nicotiniques ?",
+    question: "Peut-on combiner remèdes prophétiques et substituts nicotiniques ?",
     answer:
-      "Oui, les remedes prophetiques (nigelle, miel, siwak, hijama) sont complementaires des traitements medicaux. Ils ne remplacent pas les substituts nicotiniques (patchs, gommes) ni les consultations de tabacologie, mais les accompagnent en apportant un soutien naturel et spirituel. Informez toujours votre medecin des complements que vous prenez pour eviter les interactions.",
+      "Oui, les remèdes prophétiques (nigelle, miel, siwak, hijama) sont complémentaires des traitements médicaux. Ils ne remplacent pas les substituts nicotiniques (patchs, gommes) ni les consultations de tabacologie, mais les accompagnent en apportant un soutien naturel et spirituel. Informez toujours votre médecin des compléments que vous prenez pour éviter les interactions.",
   },
   {
-    question: "Comment le soutien communautaire aide-t-il a arreter de fumer ?",
+    question: "Comment le soutien communautaire aide-t-il à arrêter de fumer ?",
     answer:
-      "La oumma (communaute musulmane) joue un role majeur dans le sevrage. Le partage des efforts avec des proches ou au sein de la mosquee cree un environnement de soutien bienveillant. Les cercles de dhikr, les rencontres fraternelles apres la salat et les groupes d'entraide permettent de briser l'isolement, premiere cause de rechute. Le Prophete (paix sur lui) a dit : \"Le croyant pour le croyant est comme une construction dont les parties se soutiennent mutuellement.\"",
+      "La oumma (communauté musulmane) joue un rôle majeur dans le sevrage. Le partage des efforts avec des proches ou au sein de la mosquée crée un environnement de soutien bienveillant. Les cercles de dhikr, les rencontres fraternelles après la salat et les groupes d'entraide permettent de briser l'isolement, première cause de rechute. Le Prophète (paix sur lui) a dit : \"Le croyant pour le croyant est comme une construction dont les parties se soutiennent mutuellement.\"",
   },
 ];
 
@@ -78,9 +78,9 @@ export default function RemedeArabeArreterFumer() {
         "@id":
           "https://www.islamreligion.fr/remede-arabe-arreter-fumer/#article",
         headline:
-          "Remede arabe pour arreter de fumer : sevrage naturel, invocations et soutien spirituel",
+          "Remède arabe pour arrêter de fumer : sevrage naturel, invocations et soutien spirituel",
         description:
-          "Decouvrez les remedes arabes pour arreter de fumer : nigelle, miel, siwak, hijama, invocations prophetiques et soutien spirituel pour un sevrage doux et durable en islam.",
+          "Découvrez les remèdes arabes pour arrêter de fumer : nigelle, miel, siwak, hijama, invocations prophétiques et soutien spirituel pour un sevrage doux et durable en islam.",
         image:
           "https://www.islamreligion.fr/images/remede-arabe-arreter-fumer-methodes-douces-invocations.jpg",
         datePublished: "2025-08-21",
@@ -105,13 +105,13 @@ export default function RemedeArabeArreterFumer() {
           {
             "@type": "ListItem",
             position: 2,
-            name: "Remedes arabes",
+            name: "Remèdes arabes",
             item: "https://www.islamreligion.fr/remede-arabe",
           },
           {
             "@type": "ListItem",
             position: 3,
-            name: "Arreter de fumer",
+            name: "Arrêter de fumer",
             item: "https://www.islamreligion.fr/remede-arabe-arreter-fumer",
           },
         ],
@@ -135,10 +135,10 @@ export default function RemedeArabeArreterFumer() {
       />
       <main>
         <Hero
-          title="Remede arabe pour arreter de fumer : sevrage naturel et invocations"
-          subtitle="Nigelle, miel, siwak, hijama, douas et soutien communautaire pour accompagner le sevrage tabagique avec douceur et spiritualite."
+          title="Remède arabe pour arrêter de fumer : sevrage naturel et invocations"
+          subtitle="Nigelle, miel, siwak, hijama, douas et soutien communautaire pour accompagner le sevrage tabagique avec douceur et spiritualité."
           imageSrc="/images/remede-arabe-arreter-fumer-methodes-douces-invocations.jpg"
-          imageAlt="Remedes arabes naturels pour arreter de fumer, plantes medicinales et invocations islamiques"
+          imageAlt="Remèdes arabes naturels pour arrêter de fumer, plantes médicinales et invocations islamiques"
           compact
         />
 
@@ -162,10 +162,10 @@ export default function RemedeArabeArreterFumer() {
                 </Link>
                 <span className="mx-2">/</span>
                 <Link href="/remede-arabe" className="hover:text-primary">
-                  Remedes arabes
+                  Rem&egrave;des arabes
                 </Link>
                 <span className="mx-2">/</span>
-                <span className="text-foreground">Arreter de fumer</span>
+                <span className="text-foreground">Arr&ecirc;ter de fumer</span>
               </nav>
 
               <MedicalDisclaimer />
@@ -173,16 +173,16 @@ export default function RemedeArabeArreterFumer() {
               {/* Resume rapide */}
               <div className="mb-10 rounded-xl border border-secondary/20 bg-accent p-6">
                 <p className="text-sm font-semibold uppercase tracking-wide text-secondary">
-                  En resume
+                  En r&eacute;sum&eacute;
                 </p>
                 <p className="mt-2 text-base leading-relaxed text-foreground">
-                  Arreter de fumer est un acte de preservation de la sante, un
-                  devoir religieux en islam. Le corps est un depot confie par
-                  Allah (<em>amana</em>) qu&apos;il convient de proteger. La
-                  tradition prophetique offre des remedes naturels (nigelle,
+                  Arr&ecirc;ter de fumer est un acte de pr&eacute;servation de la sant&eacute;, un
+                  devoir religieux en islam. Le corps est un d&eacute;p&ocirc;t confi&eacute; par
+                  Allah (<em>amana</em>) qu&apos;il convient de prot&eacute;ger. La
+                  tradition proph&eacute;tique offre des rem&egrave;des naturels (nigelle,
                   miel, siwak, talbina) et des outils spirituels (invocations,
-                  jeune, soutien communautaire) pour accompagner ce cheminement
-                  avec bienveillance et perseverance.
+                  je&ucirc;ne, soutien communautaire) pour accompagner ce cheminement
+                  avec bienveillance et pers&eacute;v&eacute;rance.
                 </p>
               </div>
 
@@ -202,12 +202,12 @@ export default function RemedeArabeArreterFumer() {
                   >
                     islam
                   </Link>{" "}
-                  a suscite de nombreux debats parmi les savants musulmans. Si
+                  a suscit&eacute; de nombreux d&eacute;bats parmi les savants musulmans. Si
                   les anciens juristes le classaient comme <em>makruh</em>{" "}
-                  (detestable), la majorite des savants contemporains considere
-                  desormais le tabac comme <em>haram</em> (interdit), en raison
-                  des preuves scientifiques etablissant de maniere certaine sa
-                  nocivite mortelle.
+                  (d&eacute;testable), la majorit&eacute; des savants contemporains consid&egrave;re
+                  d&eacute;sormais le tabac comme <em>haram</em> (interdit), en raison
+                  des preuves scientifiques &eacute;tablissant de mani&egrave;re certaine sa
+                  nocivit&eacute; mortelle.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -215,36 +215,36 @@ export default function RemedeArabeArreterFumer() {
                   dit dans le Coran : &laquo;&nbsp;Ne vous jetez pas de vos
                   propres mains dans la perdition&nbsp;&raquo; (sourate
                   Al-Baqara, verset 195) et &laquo;&nbsp;Ne vous tuez pas
-                  vous-memes, certes Allah est misericordieux envers
+                  vous-m&ecirc;mes, certes Allah est mis&eacute;ricordieux envers
                   vous&nbsp;&raquo; (sourate An-Nisa, verset 29). Le tabac,
-                  cause premiere de cancers, de maladies cardiovasculaires et
+                  cause premi&egrave;re de cancers, de maladies cardiovasculaires et
                   respiratoires, entre directement dans le cadre de cette
                   interdiction.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le Prophete Muhammad (paix sur lui) a dit :
-                  &laquo;&nbsp;Pas de prejudice ni de tort reciproque&nbsp;&raquo;
-                  (<em>la darar wa la dirar</em>, rapporte par Ahmad et Ibn
-                  Majah). Le tabagisme passif nuit aussi a l&apos;entourage,
-                  ajoutant une dimension supplementaire a son interdiction.
-                  Le fumeur ne se nuit pas seulement a lui-meme, mais aussi a
-                  sa famille, a ses voisins et a la communaute.
+                  Le Proph&egrave;te Muhammad (paix sur lui) a dit :
+                  &laquo;&nbsp;Pas de pr&eacute;judice ni de tort r&eacute;ciproque&nbsp;&raquo;
+                  (<em>la darar wa la dirar</em>, rapport&eacute; par Ahmad et Ibn
+                  Majah). Le tabagisme passif nuit aussi &agrave; l&apos;entourage,
+                  ajoutant une dimension suppl&eacute;mentaire &agrave; son interdiction.
+                  Le fumeur ne se nuit pas seulement &agrave; lui-m&ecirc;me, mais aussi &agrave;
+                  sa famille, &agrave; ses voisins et &agrave; la communaut&eacute;.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Le corps comme depot sacre (<em>amana</em>)
+                  Le corps comme d&eacute;p&ocirc;t sacr&eacute; (<em>amana</em>)
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  En islam, le corps est un pret divin dont le croyant devra
-                  rendre compte au Jour du Jugement. Le Prophete (paix sur lui)
-                  a dit : &laquo;&nbsp;Il sera demande a chaque gardien au sujet
-                  de ce qui lui a ete confie : l&apos;a-t-il preserve ou
-                  l&apos;a-t-il perdu ?&nbsp;&raquo; (rapporte par an-Nasa&apos;i).
-                  Fumer revient donc a deteriorer volontairement un depot sacre,
-                  ce qui constitue un manquement a la responsabilite du croyant
-                  envers son Createur.
+                  En islam, le corps est un pr&ecirc;t divin dont le croyant devra
+                  rendre compte au Jour du Jugement. Le Proph&egrave;te (paix sur lui)
+                  a dit : &laquo;&nbsp;Il sera demand&eacute; &agrave; chaque gardien au sujet
+                  de ce qui lui a &eacute;t&eacute; confi&eacute; : l&apos;a-t-il pr&eacute;serv&eacute; ou
+                  l&apos;a-t-il perdu ?&nbsp;&raquo; (rapport&eacute; par an-Nasa&apos;i).
+                  Fumer revient donc &agrave; d&eacute;t&eacute;riorer volontairement un d&eacute;p&ocirc;t sacr&eacute;,
+                  ce qui constitue un manquement &agrave; la responsabilit&eacute; du croyant
+                  envers son Cr&eacute;ateur.
                 </p>
 
                 {/* Tableau statuts juridiques */}
@@ -269,24 +269,24 @@ export default function RemedeArabeArreterFumer() {
                           Haram (interdit)
                         </td>
                         <td className="py-3 pr-4">
-                          Al-Azhar, Comite permanent d&apos;Arabie Saoudite,
-                          majorite des savants contemporains
+                          Al-Azhar, Comit&eacute; permanent d&apos;Arabie Saoudite,
+                          majorit&eacute; des savants contemporains
                         </td>
                         <td className="py-3">
-                          Nocivite prouvee, gaspillage d&apos;argent, nuisance a
+                          Nocivit&eacute; prouv&eacute;e, gaspillage d&apos;argent, nuisance &agrave;
                           autrui
                         </td>
                       </tr>
                       <tr className="border-b border-border">
                         <td className="py-3 pr-4 font-medium text-foreground">
-                          Makruh (detestable)
+                          Makruh (d&eacute;testable)
                         </td>
                         <td className="py-3 pr-4">
                           Certains savants anciens (avant les preuves
-                          medicales)
+                          m&eacute;dicales)
                         </td>
                         <td className="py-3">
-                          Mauvaise odeur, impurete, caractere reprehensible
+                          Mauvaise odeur, impuret&eacute;, caract&egrave;re r&eacute;pr&eacute;hensible
                         </td>
                       </tr>
                       <tr>
@@ -294,11 +294,11 @@ export default function RemedeArabeArreterFumer() {
                           Mubah (permis)
                         </td>
                         <td className="py-3 pr-4">
-                          Position tres minoritaire, abandonnee
+                          Position tr&egrave;s minoritaire, abandonn&eacute;e
                         </td>
                         <td className="py-3">
-                          Absence de texte explicite (argument rejete par la
-                          majorite)
+                          Absence de texte explicite (argument rejet&eacute; par la
+                          majorit&eacute;)
                         </td>
                       </tr>
                     </tbody>
@@ -306,8 +306,8 @@ export default function RemedeArabeArreterFumer() {
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  La depense financiere liee au tabac est egalement
-                  problematique en islam. Pour approfondir{" "}
+                  La d&eacute;pense financi&egrave;re li&eacute;e au tabac est &eacute;galement
+                  probl&eacute;matique en islam. Pour approfondir{" "}
                   <Link
                     href="/halal-haram-criteres"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
@@ -315,18 +315,18 @@ export default function RemedeArabeArreterFumer() {
                     les critères du halal et du haram
                   </Link>
                   , il faut comprendre que gaspiller son argent dans ce qui nuit
-                  a la sante releve du <em>tabdhir</em> (gaspillage), condamne
-                  dans le Coran : &laquo;&nbsp;Les gaspilleurs sont les freres
+                  &agrave; la sant&eacute; rel&egrave;ve du <em>tabdhir</em> (gaspillage), condamn&eacute;
+                  dans le Coran : &laquo;&nbsp;Les gaspilleurs sont les fr&egrave;res
                   des diables&nbsp;&raquo; (sourate Al-Isra, verset 27).
-                  L&apos;argent depense en cigarettes pourrait etre oriente vers
-                  la sadaqa (charite), le soutien familial ou des projets
-                  benefiques.
+                  L&apos;argent d&eacute;pens&eacute; en cigarettes pourrait &ecirc;tre orient&eacute; vers
+                  la sadaqa (charit&eacute;), le soutien familial ou des projets
+                  b&eacute;n&eacute;fiques.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
                     src="/images/remede-arabe-arreter-fumer-plantes-naturelles.jpg"
-                    alt="Plantes medicinales arabes et remedes naturels pour accompagner le sevrage tabagique"
+                    alt="Plantes médicinales arabes et remèdes naturels pour accompagner le sevrage tabagique"
                     width={1200}
                     height={720}
                     className="w-full object-cover"
@@ -335,9 +335,9 @@ export default function RemedeArabeArreterFumer() {
 
                 <ArticleCTA
                   variant="page-mere"
-                  title="Decouvrez tous les remedes de la medecine prophetique"
+                  title="Découvrez tous les remèdes de la médecine prophétique"
                   href="/remede-arabe"
-                  linkText="Voir la page remedes arabes"
+                  linkText="Voir la page remèdes arabes"
                 />
               </section>
 
@@ -346,7 +346,7 @@ export default function RemedeArabeArreterFumer() {
               {/* ============================================ */}
               <section id="remedes-prophetiques" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Remedes prophetiques d&apos;aide au sevrage tabagique
+                  Rem&egrave;des proph&eacute;tiques d&apos;aide au sevrage tabagique
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
@@ -355,12 +355,12 @@ export default function RemedeArabeArreterFumer() {
                     href="/remede-arabe"
                     className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                   >
-                    medecine prophetique
+                    m&eacute;decine proph&eacute;tique
                   </Link>{" "}
-                  offre des remedes naturels qui, sans pretendre guerir
-                  l&apos;addiction a eux seuls, soutiennent le corps et
+                  offre des rem&egrave;des naturels qui, sans pr&eacute;tendre gu&eacute;rir
+                  l&apos;addiction &agrave; eux seuls, soutiennent le corps et
                   l&apos;esprit durant le sevrage. Voici les principaux, avec
-                  leurs bienfaits specifiques dans le contexte de l&apos;arret
+                  leurs bienfaits sp&eacute;cifiques dans le contexte de l&apos;arr&ecirc;t
                   du tabac.
                 </p>
 
@@ -379,24 +379,24 @@ export default function RemedeArabeArreterFumer() {
                     </p>
                     <p className="mt-3 text-foreground italic">
                       &laquo;&nbsp;Utilisez cette graine noire, car elle
-                      contient un remede contre toute maladie, sauf la
+                      contient un rem&egrave;de contre toute maladie, sauf la
                       mort.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Rapporte par al-Bukhari et Muslim.
+                      Rapport&eacute; par al-Bukhari et Muslim.
                     </p>
                   </div>
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
                     La thymoquinone, principal composant actif de la nigelle
-                    (<em>Nigella sativa</em>), possede des proprietes
-                    anti-inflammatoires et antioxydantes qui aident a reparer
-                    les voies respiratoires endommagees par le tabac. Elle
-                    soutient egalement le systeme immunitaire, souvent
+                    (<em>Nigella sativa</em>), poss&egrave;de des propri&eacute;t&eacute;s
+                    anti-inflammatoires et antioxydantes qui aident &agrave; r&eacute;parer
+                    les voies respiratoires endommag&eacute;es par le tabac. Elle
+                    soutient &eacute;galement le syst&egrave;me immunitaire, souvent
                     affaibli chez les fumeurs.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Usage recommande :</strong> une cuillere a cafe de
-                    graines broyees dans du miel, a jeun chaque matin. L&apos;huile
+                    <strong>Usage recommand&eacute; :</strong> une cuill&egrave;re &agrave; caf&eacute; de
+                    graines broy&eacute;es dans du miel, &agrave; jeun chaque matin. L&apos;huile
                     de nigelle (quelques gouttes sous la langue) est une
                     alternative pratique. La cure peut durer plusieurs semaines
                     pour un effet optimal.
@@ -406,26 +406,26 @@ export default function RemedeArabeArreterFumer() {
                 {/* Miel */}
                 <div className="mt-6 rounded-xl border border-border bg-white p-6">
                   <h3 className="text-xl font-semibold text-primary">
-                    Le miel : allie du sevrage
+                    Le miel : alli&eacute; du sevrage
                   </h3>
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
-                    Le Coran presente le miel comme porteur de guerison :
+                    Le Coran pr&eacute;sente le miel comme porteur de gu&eacute;rison :
                     &laquo;&nbsp;De leur ventre sort une boisson aux couleurs
-                    variees, dans laquelle il y a une guerison pour les
+                    vari&eacute;es, dans laquelle il y a une gu&eacute;rison pour les
                     gens&nbsp;&raquo; (sourate An-Nahl, verset 69). Dans le
-                    contexte du sevrage, le miel apporte une energie naturelle
-                    qui compense la fatigue liee au manque de nicotine. Ses
-                    proprietes antibacteriennes et apaisantes soulagent
-                    l&apos;irritation de la gorge frequente chez les anciens
+                    contexte du sevrage, le miel apporte une &eacute;nergie naturelle
+                    qui compense la fatigue li&eacute;e au manque de nicotine. Ses
+                    propri&eacute;t&eacute;s antibact&eacute;riennes et apaisantes soulagent
+                    l&apos;irritation de la gorge fr&eacute;quente chez les anciens
                     fumeurs.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Usage recommande :</strong> une cuillere a soupe de
-                    miel pur diluee dans de l&apos;eau tiede le matin, ou
-                    melangee a la nigelle. Les varietes les plus prisees sont
+                    <strong>Usage recommand&eacute; :</strong> une cuill&egrave;re &agrave; soupe de
+                    miel pur dilu&eacute;e dans de l&apos;eau ti&egrave;de le matin, ou
+                    m&eacute;lang&eacute;e &agrave; la nigelle. Les vari&eacute;t&eacute;s les plus pris&eacute;es sont
                     le miel de jujubier (<em>sidr</em>), le miel de thym et le
                     miel de manuka. Lors d&apos;une envie de cigarette,
-                    prendre une gorgee d&apos;eau miellee peut aider a
+                    prendre une gorg&eacute;e d&apos;eau miell&eacute;e peut aider &agrave;
                     calmer la pulsion.
                   </p>
                 </div>
@@ -441,54 +441,54 @@ export default function RemedeArabeArreterFumer() {
                       et une satisfaction pour le Seigneur.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Rapporte par an-Nasa&apos;i et valide par Ibn Khuzayma.
+                      Rapport&eacute; par an-Nasa&apos;i et valid&eacute; par Ibn Khuzayma.
                     </p>
                   </div>
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
-                    Le siwak repond au besoin oral que ressent le fumeur en
-                    sevrage : le reflexe de porter quelque chose a la bouche.
-                    Fabrique a partir de l&apos;arbre <em>Salvadora persica</em>,
-                    il possede des proprietes antibacteriennes naturelles et
-                    aide a nettoyer les dents jaunies par le tabac. Son usage
-                    est recommande par le Prophete (paix sur lui) avant chaque
-                    priere et au reveil.
+                    Le siwak r&eacute;pond au besoin oral que ressent le fumeur en
+                    sevrage : le r&eacute;flexe de porter quelque chose &agrave; la bouche.
+                    Fabriqu&eacute; &agrave; partir de l&apos;arbre <em>Salvadora persica</em>,
+                    il poss&egrave;de des propri&eacute;t&eacute;s antibact&eacute;riennes naturelles et
+                    aide &agrave; nettoyer les dents jaunies par le tabac. Son usage
+                    est recommand&eacute; par le Proph&egrave;te (paix sur lui) avant chaque
+                    pri&egrave;re et au r&eacute;veil.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
                     <strong>Astuce sevrage :</strong> garder un siwak dans sa
-                    poche et le macher des qu&apos;une envie de cigarette
-                    survient. Ce geste simple detourne l&apos;attention et
-                    satisfait le reflexe oral, tout en purifiant l&apos;haleine.
+                    poche et le m&acirc;cher d&egrave;s qu&apos;une envie de cigarette
+                    survient. Ce geste simple d&eacute;tourne l&apos;attention et
+                    satisfait le r&eacute;flexe oral, tout en purifiant l&apos;haleine.
                   </p>
                 </div>
 
                 {/* Talbina */}
                 <div className="mt-6 rounded-xl border border-border bg-white p-6">
                   <h3 className="text-xl font-semibold text-primary">
-                    La talbina : reconfort et apaisement
+                    La talbina : r&eacute;confort et apaisement
                   </h3>
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
-                    La talbina est une bouillie d&apos;orge que le Prophete
-                    (paix sur lui) recommandait pour reconforter le malade et
-                    la personne en deuil. L&apos;orge contribue aussi a{" "}
+                    La talbina est une bouillie d&apos;orge que le Proph&egrave;te
+                    (paix sur lui) recommandait pour r&eacute;conforter le malade et
+                    la personne en deuil. L&apos;orge contribue aussi &agrave;{" "}
                     <Link
                       href="/remede-arabe-constipation"
                       className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
                     >
                       réguler son transit digestif
                     </Link>
-                    , souvent perturbe lors d&apos;un changement d&apos;habitudes alimentaires. Selon le hadith rapporte par
-                    al-Bukhari, elle &laquo;&nbsp;reconforte le coeur du malade
+                    , souvent perturb&eacute; lors d&apos;un changement d&apos;habitudes alimentaires. Selon le hadith rapport&eacute; par
+                    al-Bukhari, elle &laquo;&nbsp;r&eacute;conforte le c&oelig;ur du malade
                     et emporte une partie de son chagrin&nbsp;&raquo;. Riche
-                    en tryptophane, un precurseur de la serotonine, elle aide
-                    a reguler l&apos;humeur et a lutter contre l&apos;irritabilite
-                    et le stress liees au sevrage.
+                    en tryptophane, un pr&eacute;curseur de la s&eacute;rotonine, elle aide
+                    &agrave; r&eacute;guler l&apos;humeur et &agrave; lutter contre l&apos;irritabilit&eacute;
+                    et le stress li&eacute;s au sevrage.
                   </p>
                   <p className="mt-3 text-sm text-foreground-secondary">
-                    <strong>Preparation :</strong> melanger deux cuilleres a
+                    <strong>Pr&eacute;paration :</strong> m&eacute;langer deux cuill&egrave;res &agrave;
                     soupe de farine d&apos;orge dans de l&apos;eau ou du lait,
-                    faire chauffer a feu doux, puis ajouter du miel selon le
-                    gout. Consommer le soir pour favoriser un sommeil apaise,
-                    souvent perturbe en periode de sevrage.
+                    faire chauffer &agrave; feu doux, puis ajouter du miel selon le
+                    go&ucirc;t. Consommer le soir pour favoriser un sommeil apais&eacute;,
+                    souvent perturb&eacute; en p&eacute;riode de sevrage.
                   </p>
                 </div>
 
@@ -498,16 +498,16 @@ export default function RemedeArabeArreterFumer() {
                     <thead>
                       <tr className="border-b-2 border-primary/10">
                         <th className="py-3 pr-4 font-semibold text-primary">
-                          Remede prophetique
+                          Rem&egrave;de proph&eacute;tique
                         </th>
                         <th className="py-3 pr-4 font-semibold text-primary">
                           Action sur le sevrage
                         </th>
                         <th className="py-3 pr-4 font-semibold text-primary">
-                          Forme conseillee
+                          Forme conseill&eacute;e
                         </th>
                         <th className="py-3 font-semibold text-primary">
-                          Moment ideal
+                          Moment id&eacute;al
                         </th>
                       </tr>
                     </thead>
@@ -517,22 +517,22 @@ export default function RemedeArabeArreterFumer() {
                           Graine de nigelle
                         </td>
                         <td className="py-3 pr-4">
-                          Reparation respiratoire, anti-inflammatoire
+                          R&eacute;paration respiratoire, anti-inflammatoire
                         </td>
                         <td className="py-3 pr-4">
-                          Graines broyees dans du miel ou huile
+                          Graines broy&eacute;es dans du miel ou huile
                         </td>
-                        <td className="py-3">Le matin a jeun</td>
+                        <td className="py-3">Le matin &agrave; jeun</td>
                       </tr>
                       <tr className="border-b border-border">
                         <td className="py-3 pr-4 font-medium text-foreground">
                           Miel pur
                         </td>
                         <td className="py-3 pr-4">
-                          Energie naturelle, apaisement de la gorge
+                          &Eacute;nergie naturelle, apaisement de la gorge
                         </td>
                         <td className="py-3 pr-4">
-                          Dilue dans de l&apos;eau tiede
+                          Dilu&eacute; dans de l&apos;eau ti&egrave;de
                         </td>
                         <td className="py-3">Matin et lors des envies</td>
                       </tr>
@@ -541,19 +541,19 @@ export default function RemedeArabeArreterFumer() {
                           Siwak (miswak)
                         </td>
                         <td className="py-3 pr-4">
-                          Substitut oral, hygiene buccale
+                          Substitut oral, hygi&egrave;ne buccale
                         </td>
                         <td className="py-3 pr-4">
-                          Baton a macher
+                          B&acirc;ton &agrave; m&acirc;cher
                         </td>
-                        <td className="py-3">A chaque envie de cigarette</td>
+                        <td className="py-3">&Agrave; chaque envie de cigarette</td>
                       </tr>
                       <tr className="border-b border-border">
                         <td className="py-3 pr-4 font-medium text-foreground">
                           Talbina (orge)
                         </td>
                         <td className="py-3 pr-4">
-                          Regulation de l&apos;humeur, sommeil
+                          R&eacute;gulation de l&apos;humeur, sommeil
                         </td>
                         <td className="py-3 pr-4">
                           Bouillie avec miel
@@ -568,7 +568,7 @@ export default function RemedeArabeArreterFumer() {
                           Antioxydant, protection cardiovasculaire
                         </td>
                         <td className="py-3 pr-4">
-                          A froid dans l&apos;alimentation
+                          &Agrave; froid dans l&apos;alimentation
                         </td>
                         <td className="py-3">Quotidiennement aux repas</td>
                       </tr>
@@ -581,10 +581,10 @@ export default function RemedeArabeArreterFumer() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  En complement des remedes prophetiques, certaines tisanes
+                  En compl&eacute;ment des rem&egrave;des proph&eacute;tiques, certaines tisanes
                   issues de la tradition herboriste arabe peuvent accompagner
-                  le sevrage. La menthe poivree aide a clarifier les voies
-                  respiratoires, et les anciens fumeurs gagneront a decouvrir
+                  le sevrage. La menthe poivr&eacute;e aide &agrave; clarifier les voies
+                  respiratoires, et les anciens fumeurs gagneront &agrave; d&eacute;couvrir
                   comment{" "}
                   <Link
                     href="/remede-arabe-toux-soins-naturels"
@@ -592,12 +592,12 @@ export default function RemedeArabeArreterFumer() {
                   >
                     soulager la toux naturellement
                   </Link>{" "}
-                  grace aux soins prophetiques. La camomille apaise la nervosite. La reglisse
-                  attenuer les irritations de la gorge (a eviter en cas
+                  gr&acirc;ce aux soins proph&eacute;tiques. La camomille apaise la nervosit&eacute;. La r&eacute;glisse
+                  att&eacute;nue les irritations de la gorge (&agrave; &eacute;viter en cas
                   d&apos;hypertension). L&apos;infusion de thym, connue dans
-                  la pharmacopee traditionnelle arabe, possede des vertus
-                  expectorantes qui facilitent l&apos;elimination du mucus
-                  accumule chez les fumeurs.
+                  la pharmacop&eacute;e traditionnelle arabe, poss&egrave;de des vertus
+                  expectorantes qui facilitent l&apos;&eacute;limination du mucus
+                  accumul&eacute; chez les fumeurs.
                 </p>
 
                 <ul className="mt-4 space-y-2 text-foreground">
@@ -605,14 +605,14 @@ export default function RemedeArabeArreterFumer() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Infusion menthe-miel :</strong> boire une tasse
-                      apres chaque repas, moment ou l&apos;envie de fumer est
+                      apr&egrave;s chaque repas, moment o&ugrave; l&apos;envie de fumer est
                       souvent la plus forte.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Decoction de thym :</strong> une tasse le matin
+                      <strong>D&eacute;coction de thym :</strong> une tasse le matin
                       pour favoriser le nettoyage pulmonaire progressif.
                     </span>
                   </li>
@@ -620,7 +620,7 @@ export default function RemedeArabeArreterFumer() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Camomille du soir :</strong> une tasse avant le
-                      coucher pour calmer l&apos;agitation liee au manque.
+                      coucher pour calmer l&apos;agitation li&eacute;e au manque.
                     </span>
                   </li>
                 </ul>
@@ -628,7 +628,7 @@ export default function RemedeArabeArreterFumer() {
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
                     src="/images/remede-arabe-arreter-fumer-invocations-spiritualite.jpg"
-                    alt="Invocations et spiritualite islamique pour accompagner le sevrage tabagique"
+                    alt="Invocations et spiritualité islamique pour accompagner le sevrage tabagique"
                     width={1200}
                     height={720}
                     className="w-full object-cover"
@@ -645,12 +645,12 @@ export default function RemedeArabeArreterFumer() {
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  La hijama (ventouses humides) est l&apos;un des remedes les
-                  plus recommandes par le Prophete Muhammad (paix sur lui) :
-                  &laquo;&nbsp;Le meilleur de vos remedes est la
-                  hijama&nbsp;&raquo; (rapporte par al-Bukhari). Dans le
+                  La hijama (ventouses humides) est l&apos;un des rem&egrave;des les
+                  plus recommand&eacute;s par le Proph&egrave;te Muhammad (paix sur lui) :
+                  &laquo;&nbsp;Le meilleur de vos rem&egrave;des est la
+                  hijama&nbsp;&raquo; (rapport&eacute; par al-Bukhari). Dans le
                   contexte du sevrage tabagique, cette pratique ancestrale
-                  offre plusieurs benefices complementaires.
+                  offre plusieurs b&eacute;n&eacute;fices compl&eacute;mentaires.
                 </p>
 
                 <div className="mt-6 space-y-4">
@@ -660,13 +660,13 @@ export default function RemedeArabeArreterFumer() {
                     </span>
                     <div>
                       <h3 className="font-semibold text-primary">
-                        Elimination des toxines
+                        &Eacute;limination des toxines
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Le tabac accumule dans le sang des substances nocives
-                        (goudrons, metaux lourds, monoxyde de carbone). La
-                        hijama favorise l&apos;elimination de certains de ces
-                        residus en stimulant la circulation sanguine et le
+                        (goudrons, m&eacute;taux lourds, monoxyde de carbone). La
+                        hijama favorise l&apos;&eacute;limination de certains de ces
+                        r&eacute;sidus en stimulant la circulation sanguine et le
                         renouvellement cellulaire.
                       </p>
                     </div>
@@ -678,13 +678,13 @@ export default function RemedeArabeArreterFumer() {
                     </span>
                     <div>
                       <h3 className="font-semibold text-primary">
-                        Reduction des symptomes de manque
+                        R&eacute;duction des sympt&ocirc;mes de manque
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Les maux de tete, la fatigue et les tensions
-                        musculaires sont des symptomes frequents du sevrage.
-                        La hijama peut soulager ces desagrements en favorisant
-                        la detente corporelle et en ameliorant la micro-circulation.
+                        Les maux de t&ecirc;te, la fatigue et les tensions
+                        musculaires sont des sympt&ocirc;mes fr&eacute;quents du sevrage.
+                        La hijama peut soulager ces d&eacute;sagr&eacute;ments en favorisant
+                        la d&eacute;tente corporelle et en am&eacute;liorant la micro-circulation.
                       </p>
                     </div>
                   </div>
@@ -695,15 +695,15 @@ export default function RemedeArabeArreterFumer() {
                     </span>
                     <div>
                       <h3 className="font-semibold text-primary">
-                        Soutien a la resilience physique
+                        Soutien &agrave; la r&eacute;silience physique
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        En stimulant le systeme immunitaire et la production
-                        de globules blancs, la hijama aide le corps a
-                        retrouver progressivement son equilibre naturel apres
-                        des annees de tabagisme. Les praticiens recommandent
-                        des seances regulieres, espacees de deux a quatre
-                        semaines, durant la periode de sevrage.
+                        En stimulant le syst&egrave;me immunitaire et la production
+                        de globules blancs, la hijama aide le corps &agrave;
+                        retrouver progressivement son &eacute;quilibre naturel apr&egrave;s
+                        des ann&eacute;es de tabagisme. Les praticiens recommandent
+                        des s&eacute;ances r&eacute;guli&egrave;res, espac&eacute;es de deux &agrave; quatre
+                        semaines, durant la p&eacute;riode de sevrage.
                       </p>
                     </div>
                   </div>
@@ -726,15 +726,15 @@ export default function RemedeArabeArreterFumer() {
                     </svg>
                     <div>
                       <p className="text-sm font-semibold text-amber-800">
-                        Precaution
+                        Pr&eacute;caution
                       </p>
                       <p className="mt-1 text-sm leading-relaxed text-amber-700">
-                        La hijama doit etre pratiquee par un professionnel
-                        forme, avec du materiel sterile a usage unique. Elle
-                        est deconseillee pour les personnes sous
+                        La hijama doit &ecirc;tre pratiqu&eacute;e par un professionnel
+                        form&eacute;, avec du mat&eacute;riel st&eacute;rile &agrave; usage unique. Elle
+                        est d&eacute;conseill&eacute;e pour les personnes sous
                         anticoagulants, les femmes enceintes et les personnes
                         souffrant de troubles de la coagulation. Consultez
-                        votre medecin avant toute seance, surtout en periode
+                        votre m&eacute;decin avant toute s&eacute;ance, surtout en p&eacute;riode
                         de sevrage tabagique.
                       </p>
                     </div>
@@ -743,8 +743,8 @@ export default function RemedeArabeArreterFumer() {
 
                 <ArticleCTA
                   variant="lire-aussi"
-                  title="Remedes arabes et medecine prophetique : soins naturels en islam"
-                  description="Nigelle, miel, hijama, huile d'olive et les pratiques de guerison naturelle mentionnees dans le Coran et la Sunna."
+                  title="Remèdes arabes et médecine prophétique : soins naturels en islam"
+                  description="Nigelle, miel, hijama, huile d'olive et les pratiques de guérison naturelle mentionnées dans le Coran et la Sunna."
                   href="/remede-arabe"
                 />
               </section>
@@ -754,22 +754,22 @@ export default function RemedeArabeArreterFumer() {
               {/* ============================================ */}
               <section id="invocations-douas" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Invocations et douas pour la force et la perseverance
+                  Invocations et douas pour la force et la pers&eacute;v&eacute;rance
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le sevrage tabagique n&apos;est pas seulement un combat
                   physique : c&apos;est aussi un cheminement spirituel.
                   L&apos;invocation (doua) est l&apos;arme du croyant. Le
-                  Prophete (paix sur lui) a dit : &laquo;&nbsp;L&apos;invocation
-                  est l&apos;essence de l&apos;adoration&nbsp;&raquo; (rapporte
+                  Proph&egrave;te (paix sur lui) a dit : &laquo;&nbsp;L&apos;invocation
+                  est l&apos;essence de l&apos;adoration&nbsp;&raquo; (rapport&eacute;
                   par at-Tirmidhi). Recourir aux douas dans les moments de
-                  faiblesse renforce la determination et rappelle que la
-                  guerison vient d&apos;Allah seul.
+                  faiblesse renforce la d&eacute;termination et rappelle que la
+                  gu&eacute;rison vient d&apos;Allah seul.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Douas recommandees pour le sevrage
+                  Douas recommand&eacute;es pour le sevrage
                 </h3>
 
                 <div className="mt-4 space-y-4">
@@ -782,11 +782,11 @@ export default function RemedeArabeArreterFumer() {
                       الدُّنْيَا وَالْآخِرَةِ
                     </p>
                     <p className="mt-3 text-foreground italic">
-                      &laquo;&nbsp;O Allah, je Te demande le bien-etre en ce
-                      monde et dans l&apos;au-dela.&nbsp;&raquo;
+                      &laquo;&nbsp;&Ocirc; Allah, je Te demande le bien-&ecirc;tre en ce
+                      monde et dans l&apos;au-del&agrave;.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Rapporte par Abu Dawud et at-Tirmidhi. A reciter le matin
+                      Rapport&eacute; par Abu Dawud et at-Tirmidhi. &Agrave; r&eacute;citer le matin
                       et le soir.
                     </p>
                   </div>
@@ -800,12 +800,12 @@ export default function RemedeArabeArreterFumer() {
                       عَلَى دِينِكَ
                     </p>
                     <p className="mt-3 text-foreground italic">
-                      &laquo;&nbsp;O Allah, Toi qui retournes les coeurs,
-                      affermis mon coeur sur Ta religion.&nbsp;&raquo;
+                      &laquo;&nbsp;&Ocirc; Allah, Toi qui retournes les c&oelig;urs,
+                      affermis mon c&oelig;ur sur Ta religion.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Rapporte par at-Tirmidhi. Particulierement adaptee pour
-                      demander la fermete face a la tentation.
+                      Rapport&eacute; par at-Tirmidhi. Particuli&egrave;rement adapt&eacute;e pour
+                      demander la fermet&eacute; face &agrave; la tentation.
                     </p>
                   </div>
 
@@ -821,7 +821,7 @@ export default function RemedeArabeArreterFumer() {
                       garant.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Sourate Al-Imran, verset 173. A repeter lors des moments
+                      Sourate Al-Imran, verset 173. &Agrave; r&eacute;p&eacute;ter lors des moments
                       de tentation et de faiblesse.
                     </p>
                   </div>
@@ -839,14 +839,14 @@ export default function RemedeArabeArreterFumer() {
                   >
                     gérer le stress du sevrage
                   </Link>
-                  , deux declencheurs
+                  , deux d&eacute;clencheurs
                   majeurs de la rechute. Le Coran affirme : &laquo;&nbsp;N&apos;est-ce
-                  pas par le rappel d&apos;Allah que les coeurs
+                  pas par le rappel d&apos;Allah que les c&oelig;urs
                   s&apos;apaisent ?&nbsp;&raquo; (sourate Ar-Ra&apos;d, verset
-                  28). Repeter <em>SubhanAllah</em>,{" "}
+                  28). R&eacute;p&eacute;ter <em>SubhanAllah</em>,{" "}
                   <em>Alhamdulillah</em>, <em>Allahu Akbar</em> permet de
                   recentrer l&apos;attention, de calmer le mental et de
-                  remplacer le reflexe de la cigarette par un acte
+                  remplacer le r&eacute;flexe de la cigarette par un acte
                   d&apos;adoration.
                 </p>
 
@@ -858,7 +858,7 @@ export default function RemedeArabeArreterFumer() {
                           Invocation
                         </th>
                         <th className="py-3 pr-4 font-semibold text-primary">
-                          Moment conseille
+                          Moment conseill&eacute;
                         </th>
                         <th className="py-3 font-semibold text-primary">
                           Bienfait pour le sevrage
@@ -868,25 +868,25 @@ export default function RemedeArabeArreterFumer() {
                     <tbody className="text-foreground-secondary">
                       <tr className="border-b border-border">
                         <td className="py-3 pr-4 font-medium text-foreground">
-                          Doua pour la sante (<em>al-&apos;afiya</em>)
+                          Doua pour la sant&eacute; (<em>al-&apos;afiya</em>)
                         </td>
                         <td className="py-3 pr-4">
                           Matin et soir (adhkar)
                         </td>
                         <td className="py-3">
-                          Intention de guerison, renouvellement de la
-                          determination
+                          Intention de gu&eacute;rison, renouvellement de la
+                          d&eacute;termination
                         </td>
                       </tr>
                       <tr className="border-b border-border">
                         <td className="py-3 pr-4 font-medium text-foreground">
-                          Doua pour la fermete du coeur
+                          Doua pour la fermet&eacute; du c&oelig;ur
                         </td>
                         <td className="py-3 pr-4">
-                          Avant les moments a risque (pauses, apres les repas)
+                          Avant les moments &agrave; risque (pauses, apr&egrave;s les repas)
                         </td>
                         <td className="py-3">
-                          Resistance a la tentation, ancrage spirituel
+                          R&eacute;sistance &agrave; la tentation, ancrage spirituel
                         </td>
                       </tr>
                       <tr className="border-b border-border">
@@ -894,10 +894,10 @@ export default function RemedeArabeArreterFumer() {
                           HasbounAllah wa ni&apos;mal wakeel
                         </td>
                         <td className="py-3 pr-4">
-                          A chaque envie de cigarette
+                          &Agrave; chaque envie de cigarette
                         </td>
                         <td className="py-3">
-                          Lacher-prise, confiance en la protection divine
+                          L&acirc;cher-prise, confiance en la protection divine
                         </td>
                       </tr>
                       <tr className="border-b border-border">
@@ -908,7 +908,7 @@ export default function RemedeArabeArreterFumer() {
                           En marchant, dans les transports
                         </td>
                         <td className="py-3">
-                          Apaisement de l&apos;anxiete, redirection de
+                          Apaisement de l&apos;anxi&eacute;t&eacute;, redirection de
                           l&apos;attention
                         </td>
                       </tr>
@@ -923,10 +923,10 @@ export default function RemedeArabeArreterFumer() {
                           </Link>
                         </td>
                         <td className="py-3 pr-4">
-                          Apres chaque priere obligatoire
+                          Apr&egrave;s chaque pri&egrave;re obligatoire
                         </td>
                         <td className="py-3">
-                          Paix interieure, renforcement de la foi
+                          Paix int&eacute;rieure, renforcement de la foi
                         </td>
                       </tr>
                     </tbody>
@@ -934,12 +934,12 @@ export default function RemedeArabeArreterFumer() {
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Concretement, chaque fois que l&apos;envie de fumer survient,
+                  Concr&egrave;tement, chaque fois que l&apos;envie de fumer survient,
                   le croyant peut effectuer ses ablutions, prier deux
-                  raka&apos;at de priere surrerogatoire et invoquer Allah pour
+                  raka&apos;at de pri&egrave;re sur&eacute;rogatoire et invoquer Allah pour
                   la force et la patience. Ce rituel spirituel prend la place
                   du geste machinal de la cigarette et transforme un moment de
-                  faiblesse en un moment de rapprochement avec le Createur.
+                  faiblesse en un moment de rapprochement avec le Cr&eacute;ateur.
                 </p>
               </section>
 
@@ -948,56 +948,56 @@ export default function RemedeArabeArreterFumer() {
               {/* ============================================ */}
               <section id="jeune-discipline" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
-                  Le jeune comme outil de discipline et de sevrage
+                  Le je&ucirc;ne comme outil de discipline et de sevrage
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Le jeune (<em>siyam</em>) est l&apos;un des cinq piliers de
+                  Le je&ucirc;ne (<em>siyam</em>) est l&apos;un des cinq piliers de
                   l&apos;islam et l&apos;un des meilleurs outils pour
-                  developper la maitrise de soi. Le Coran explique sa finalite
-                  profonde : &laquo;&nbsp;O vous qui avez cru, le jeune vous a
-                  ete prescrit comme il a ete prescrit a ceux qui vous ont
-                  precedes, afin que vous atteigniez la piete&nbsp;&raquo;
+                  d&eacute;velopper la ma&icirc;trise de soi. Le Coran explique sa finalit&eacute;
+                  profonde : &laquo;&nbsp;&Ocirc; vous qui avez cru, le je&ucirc;ne vous a
+                  &eacute;t&eacute; prescrit comme il a &eacute;t&eacute; prescrit &agrave; ceux qui vous ont
+                  pr&eacute;c&eacute;d&eacute;s, afin que vous atteigniez la pi&eacute;t&eacute;&nbsp;&raquo;
                   (sourate Al-Baqara, verset 183).
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Le Ramadan : une opportunite de sevrage
+                  Le Ramadan : une opportunit&eacute; de sevrage
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le mois de Ramadan offre un cadre ideal pour entamer ou
-                  consolider l&apos;arret du tabac. Pendant les heures de
-                  jeune (de l&apos;aube au coucher du soleil), le fumeur
+                  Le mois de Ramadan offre un cadre id&eacute;al pour entamer ou
+                  consolider l&apos;arr&ecirc;t du tabac. Pendant les heures de
+                  je&ucirc;ne (de l&apos;aube au coucher du soleil), le fumeur
                   s&apos;abstient naturellement de fumer. Cette abstinence
-                  prolongee, repetee sur trente jours, habitue le corps et
-                  l&apos;esprit a vivre sans nicotine. L&apos;atmosphere
-                  spirituelle du Ramadan, la priere de tarawih, la lecture du
-                  Coran et la solidarite communautaire renforcent la motivation.
+                  prolong&eacute;e, r&eacute;p&eacute;t&eacute;e sur trente jours, habitue le corps et
+                  l&apos;esprit &agrave; vivre sans nicotine. L&apos;atmosph&egrave;re
+                  spirituelle du Ramadan, la pri&egrave;re de tarawih, la lecture du
+                  Coran et la solidarit&eacute; communautaire renforcent la motivation.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  De nombreux anciens fumeurs temoignent que le Ramadan a ete
-                  le point de depart de leur arret definitif. La cle consiste
-                  a ne pas reprendre la cigarette apres l&apos;iftar (rupture
-                  du jeune), ce qui constitue souvent le moment le plus
+                  De nombreux anciens fumeurs t&eacute;moignent que le Ramadan a &eacute;t&eacute;
+                  le point de d&eacute;part de leur arr&ecirc;t d&eacute;finitif. La cl&eacute; consiste
+                  &agrave; ne pas reprendre la cigarette apr&egrave;s l&apos;iftar (rupture
+                  du je&ucirc;ne), ce qui constitue souvent le moment le plus
                   difficile. Remplacer cette habitude par un siwak, une
                   infusion de menthe ou une doua de gratitude facilite la
                   transition.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
-                  Le jeune volontaire : prolonger l&apos;effort
+                  Le je&ucirc;ne volontaire : prolonger l&apos;effort
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  En dehors du Ramadan, le jeune surrerogatoire (les lundis et
-                  jeudis, les jours blancs du mois, le jeune de Dawud un jour
+                  En dehors du Ramadan, le je&ucirc;ne sur&eacute;rogatoire (les lundis et
+                  jeudis, les jours blancs du mois, le je&ucirc;ne de Dawud un jour
                   sur deux) permet de maintenir la discipline acquise. Ces
-                  jours de jeune offrent des pauses regulieres ou le corps se
-                  purifie et ou la volonte se renforce. Le Prophete (paix sur
-                  lui) a dit : &laquo;&nbsp;Le jeune est un bouclier&nbsp;&raquo;
-                  (rapporte par al-Bukhari et Muslim), et ce bouclier protege
+                  jours de je&ucirc;ne offrent des pauses r&eacute;guli&egrave;res o&ugrave; le corps se
+                  purifie et o&ugrave; la volont&eacute; se renforce. Le Proph&egrave;te (paix sur
+                  lui) a dit : &laquo;&nbsp;Le je&ucirc;ne est un bouclier&nbsp;&raquo;
+                  (rapport&eacute; par al-Bukhari et Muslim), et ce bouclier prot&egrave;ge
                   aussi contre les addictions.
                 </p>
 
@@ -1008,11 +1008,11 @@ export default function RemedeArabeArreterFumer() {
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Celui qui fume quelques cigarettes par jour peut
-                      profiter du jeune du Ramadan pour arreter
-                      completement. La dependance physique etant moderee,
-                      le soutien spirituel et les remedes prophetiques
-                      (nigelle, miel, siwak) suffisent souvent a
-                      accompagner le sevrage avec succes.
+                      profiter du je&ucirc;ne du Ramadan pour arr&ecirc;ter
+                      compl&egrave;tement. La d&eacute;pendance physique &eacute;tant mod&eacute;r&eacute;e,
+                      le soutien spirituel et les rem&egrave;des proph&eacute;tiques
+                      (nigelle, miel, siwak) suffisent souvent &agrave;
+                      accompagner le sevrage avec succ&egrave;s.
                     </p>
                   </div>
 
@@ -1022,10 +1022,10 @@ export default function RemedeArabeArreterFumer() {
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Pour celui qui consomme un paquet ou plus par jour, la
-                      dependance physique est forte. Le jeune constitue un
-                      tremplin, mais un accompagnement medical (substituts
+                      d&eacute;pendance physique est forte. Le je&ucirc;ne constitue un
+                      tremplin, mais un accompagnement m&eacute;dical (substituts
                       nicotiniques, consultation de tabacologie) est fortement
-                      recommande en parallele des remedes naturels et du
+                      recommand&eacute; en parall&egrave;le des rem&egrave;des naturels et du
                       soutien spirituel.
                     </p>
                   </div>
@@ -1038,7 +1038,7 @@ export default function RemedeArabeArreterFumer() {
                       Les rechutes font partie du processus de sevrage. En
                       islam, la repentance (tawba) est toujours ouverte.
                       Chaque nouvelle tentative est une occasion de se
-                      rapprocher d&apos;Allah. Le jeune volontaire aide a
+                      rapprocher d&apos;Allah. Le je&ucirc;ne volontaire aide &agrave;
                       retrouver la discipline, et le soutien communautaire
                       et familial redonne espoir et force.
                     </p>
@@ -1049,12 +1049,12 @@ export default function RemedeArabeArreterFumer() {
                       Profil : le jeune adulte fumeur
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Les jeunes musulmans qui commencent a fumer peuvent
+                      Les jeunes musulmans qui commencent &agrave; fumer peuvent
                       s&apos;appuyer sur la pression positive des pairs
                       pieux et sur les cercles de science islamique pour
-                      trouver la motivation. Le jeune surrerogatoire et le
-                      sport (recommande par la Sunna) sont des allies
-                      precieux pour canaliser l&apos;energie et remplacer
+                      trouver la motivation. Le je&ucirc;ne sur&eacute;rogatoire et le
+                      sport (recommand&eacute; par la Sunna) sont des alli&eacute;s
+                      pr&eacute;cieux pour canaliser l&apos;&eacute;nergie et remplacer
                       l&apos;habitude du tabac.
                     </p>
                   </div>
@@ -1063,7 +1063,7 @@ export default function RemedeArabeArreterFumer() {
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
                     src="/images/remede-arabe-arreter-fumer-techniques-sevrage.jpg"
-                    alt="Techniques douces de sevrage tabagique inspirees de la tradition arabe et islamique"
+                    alt="Techniques douces de sevrage tabagique inspirées de la tradition arabe et islamique"
                     width={1200}
                     height={720}
                     className="w-full object-cover"
@@ -1075,15 +1075,15 @@ export default function RemedeArabeArreterFumer() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le Prophete (paix sur lui) a dit :
+                  Le Proph&egrave;te (paix sur lui) a dit :
                   &laquo;&nbsp;Le croyant pour le croyant est comme une
                   construction dont les parties se soutiennent
-                  mutuellement&nbsp;&raquo; (rapporte par al-Bukhari et
-                  Muslim). L&apos;arret du tabac n&apos;est pas un combat
+                  mutuellement&nbsp;&raquo; (rapport&eacute; par al-Bukhari et
+                  Muslim). L&apos;arr&ecirc;t du tabac n&apos;est pas un combat
                   solitaire. S&apos;entourer de proches bienveillants, partager
-                  son intention d&apos;arreter a la mosquee, rejoindre un
-                  groupe de soutien ou simplement demander a un ami pieux de
-                  faire des douas sont autant de moyens de beneficier de la
+                  son intention d&apos;arr&ecirc;ter &agrave; la mosqu&eacute;e, rejoindre un
+                  groupe de soutien ou simplement demander &agrave; un ami pieux de
+                  faire des douas sont autant de moyens de b&eacute;n&eacute;ficier de la
                   force collective.
                 </p>
 
@@ -1091,48 +1091,48 @@ export default function RemedeArabeArreterFumer() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>A la mosquee :</strong> annoncer son intention
-                      d&apos;arreter apres la salat et demander aux freres ou
-                      aux soeurs de faire des invocations en sa faveur.
+                      <strong>&Agrave; la mosqu&eacute;e :</strong> annoncer son intention
+                      d&apos;arr&ecirc;ter apr&egrave;s la salat et demander aux fr&egrave;res ou
+                      aux s&oelig;urs de faire des invocations en sa faveur.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>En famille :</strong> instaurer des rituels
-                      de soutien comme la preparation d&apos;une infusion
-                      partagee apres chaque repas, ou une seance de lecture
+                      de soutien comme la pr&eacute;paration d&apos;une infusion
+                      partag&eacute;e apr&egrave;s chaque repas, ou une s&eacute;ance de lecture
                       coranique commune le soir.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Cercles de dhikr :</strong> participer a des
+                      <strong>Cercles de dhikr :</strong> participer &agrave; des
                       halaqat (cercles de science et de rappel) offre un
-                      environnement sain et motivant, eloigne des contextes
-                      ou l&apos;on est tente de fumer.
+                      environnement sain et motivant, &eacute;loign&eacute; des contextes
+                      o&ugrave; l&apos;on est tent&eacute; de fumer.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Celebration des etapes :</strong> feter chaque
+                      <strong>C&eacute;l&eacute;bration des &eacute;tapes :</strong> f&ecirc;ter chaque
                       semaine sans cigarette par un repas en famille, une
-                      sadaqa (charite) ou un cadeau symbolique renforce la
-                      motivation et ancre les progres.
+                      sadaqa (charit&eacute;) ou un cadeau symbolique renforce la
+                      motivation et ancre les progr&egrave;s.
                     </span>
                   </li>
                 </ul>
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">
-                  Quand consulter un medecin
+                  Quand consulter un m&eacute;decin
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Les remedes prophetiques et le soutien spirituel sont de
-                  precieux allies, mais ils ne remplacent pas un suivi medical
-                  professionnel. Il est recommande de consulter un medecin ou
+                  Les rem&egrave;des proph&eacute;tiques et le soutien spirituel sont de
+                  pr&eacute;cieux alli&eacute;s, mais ils ne remplacent pas un suivi m&eacute;dical
+                  professionnel. Il est recommand&eacute; de consulter un m&eacute;decin ou
                   un tabacologue dans les cas suivants :
                 </p>
 
@@ -1140,22 +1140,22 @@ export default function RemedeArabeArreterFumer() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Dependance severe (plus de 20 cigarettes par jour depuis
-                      plusieurs annees).
+                      D&eacute;pendance s&eacute;v&egrave;re (plus de 20 cigarettes par jour depuis
+                      plusieurs ann&eacute;es).
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Echecs repetes malgre les efforts (plusieurs tentatives
-                      sans succes).
+                      &Eacute;checs r&eacute;p&eacute;t&eacute;s malgr&eacute; les efforts (plusieurs tentatives
+                      sans succ&egrave;s).
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Symptomes de sevrage intenses (insomnie severe,
-                      depression, prise de poids importante). Consultez nos
+                      Sympt&ocirc;mes de sevrage intenses (insomnie s&eacute;v&egrave;re,
+                      d&eacute;pression, prise de poids importante). Consultez nos
                       conseils pour{" "}
                       <Link
                         href="/remede-arabe-maigrir-islam"
@@ -1163,29 +1163,29 @@ export default function RemedeArabeArreterFumer() {
                       >
                         maintenir un poids sain
                       </Link>{" "}
-                      apres l&apos;arret du tabac.
+                      apr&egrave;s l&apos;arr&ecirc;t du tabac.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Presence de maladies associees (maladies respiratoires,
-                      cardiovasculaires, diabete).
+                      Pr&eacute;sence de maladies associ&eacute;es (maladies respiratoires,
+                      cardiovasculaires, diab&egrave;te).
                     </span>
                   </li>
                 </ul>
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Les substituts nicotiniques (patchs, gommes, pastilles),
-                  les medicaments de sevrage (sur prescription) et les
-                  therapies comportementales et cognitives (TCC) sont des
-                  outils medicaux efficaces qui se combinent parfaitement
-                  avec les remedes prophetiques. Le Prophete (paix sur lui) a
+                  les m&eacute;dicaments de sevrage (sur prescription) et les
+                  th&eacute;rapies comportementales et cognitives (TCC) sont des
+                  outils m&eacute;dicaux efficaces qui se combinent parfaitement
+                  avec les rem&egrave;des proph&eacute;tiques. Le Proph&egrave;te (paix sur lui) a
                   dit : &laquo;&nbsp;Soignez-vous, serviteurs de Dieu, car Dieu
-                  n&apos;a pas cree de maladie sans avoir cree son
-                  remede&nbsp;&raquo; (rapporte par Abu Dawud et at-Tirmidhi).
+                  n&apos;a pas cr&eacute;&eacute; de maladie sans avoir cr&eacute;&eacute; son
+                  rem&egrave;de&nbsp;&raquo; (rapport&eacute; par Abu Dawud et at-Tirmidhi).
                   Se soigner par tous les moyens licites est une recommandation
-                  prophetique.
+                  proph&eacute;tique.
                 </p>
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">
@@ -1193,30 +1193,30 @@ export default function RemedeArabeArreterFumer() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Au coeur du remede arabe pour arreter de fumer se trouve une
-                  conviction profonde : chaque effort sincere, aussi petit
-                  soit-il, est vu et recompense par Allah. La repentance
-                  (<em>tawba</em>) est toujours ouverte, et la misericorde
-                  divine accueille celui qui revient avec sincerite. Le Prophete
+                  Au c&oelig;ur du rem&egrave;de arabe pour arr&ecirc;ter de fumer se trouve une
+                  conviction profonde : chaque effort sinc&egrave;re, aussi petit
+                  soit-il, est vu et r&eacute;compens&eacute; par Allah. La repentance
+                  (<em>tawba</em>) est toujours ouverte, et la mis&eacute;ricorde
+                  divine accueille celui qui revient avec sinc&eacute;rit&eacute;. Le Proph&egrave;te
                   (paix sur lui) a dit : &laquo;&nbsp;La douceur n&apos;est dans
                   aucune chose sans qu&apos;elle ne l&apos;embellisse&nbsp;&raquo;
-                  (rapporte par Muslim).
+                  (rapport&eacute; par Muslim).
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Cette sagesse invite a avancer sans brutalite ni
-                  culpabilite excessive. Une rechute n&apos;est pas un echec
-                  definitif : c&apos;est une etape du cheminement. Se relever,
+                  Cette sagesse invite &agrave; avancer sans brutalit&eacute; ni
+                  culpabilit&eacute; excessive. Une rechute n&apos;est pas un &eacute;chec
+                  d&eacute;finitif : c&apos;est une &eacute;tape du cheminement. Se relever,
                   renouveler son intention, multiplier les invocations et
-                  reprendre les remedes prophetiques avec confiance constituent
-                  la voie de la perseverance. Chaque journee sans cigarette est
-                  une victoire qui merite d&apos;etre reconnue et celebree.
+                  reprendre les rem&egrave;des proph&eacute;tiques avec confiance constituent
+                  la voie de la pers&eacute;v&eacute;rance. Chaque journ&eacute;e sans cigarette est
+                  une victoire qui m&eacute;rite d&apos;&ecirc;tre reconnue et c&eacute;l&eacute;br&eacute;e.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
                     src="/images/mains-priere-doua-islam-invocation.jpg"
-                    alt="Mains levees en priere et invocation, symbole de la confiance en Allah pour arreter de fumer"
+                    alt="Mains levées en prière et invocation, symbole de la confiance en Allah pour arrêter de fumer"
                     width={800}
                     height={500}
                     className="w-full object-cover"
@@ -1234,14 +1234,14 @@ export default function RemedeArabeArreterFumer() {
               {/* Navigation silo remede-arabe */}
               <section className="mt-12 rounded-xl bg-background-alt p-6">
                 <h2 className="text-lg font-bold text-primary">
-                  Remedes arabes et medecine prophetique
+                  Rem&egrave;des arabes et m&eacute;decine proph&eacute;tique
                 </h2>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link
                     href="/remede-arabe"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
-                    Tous les remedes arabes
+                    Tous les rem&egrave;des arabes
                   </Link>
                   <Link
                     href="/sorcellerie-islam-protection"
@@ -1253,7 +1253,7 @@ export default function RemedeArabeArreterFumer() {
                     href="/reves-islam"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
-                    Reves en islam
+                    R&ecirc;ves en islam
                   </Link>
                 </div>
               </section>
@@ -1261,7 +1261,7 @@ export default function RemedeArabeArreterFumer() {
               {/* Navigation vers pages meres */}
               <section className="mt-6 rounded-xl bg-background-alt p-6">
                 <h2 className="text-lg font-bold text-primary">
-                  Sur le meme sujet
+                  Sur le m&ecirc;me sujet
                 </h2>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link

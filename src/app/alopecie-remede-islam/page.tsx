@@ -974,7 +974,7 @@ export default function AlopecieRemedeIslam() {
                     &laquo;&nbsp;Allahoumma Rabb an-nas, adh-hib al-ba&apos;s, ishfi Anta ash-Shafi, la shifa&apos;a illa shifa&apos;ouka, shifa&apos;an la youghadirou saqaman&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-base leading-relaxed text-foreground">
-                    (O Allah, Seigneur des hommes, dissipe le mal, guéris car
+                    (Ô Allah, Seigneur des hommes, dissipe le mal, guéris car
                     Tu es le Guérisseur. Il n&apos;y a de guérison que la
                     Tienne, une guérison qui ne laisse aucune maladie.)
                   </p>

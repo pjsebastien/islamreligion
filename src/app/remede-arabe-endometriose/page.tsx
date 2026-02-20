@@ -797,7 +797,7 @@ export default function RemedeArabeEndometriose() {
                     </p>
                     <p className="mt-3 text-foreground italic">
                       &laquo;&nbsp;Au nom de Dieu, je te fais la roqya contre
-                      tout ce qui te nuit, contre le mal de toute âme ou oeil
+                      tout ce qui te nuit, contre le mal de toute âme ou &oelig;il
                       envieux. Que Dieu te guérisse.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
@@ -876,7 +876,7 @@ export default function RemedeArabeEndometriose() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Sourate Ash-Sharh</strong> (94) : apaisement du
-                      coeur et soulagement de la difficulté
+                      c&oelig;ur et soulagement de la difficulté
                     </span>
                   </li>
                 </ul>
@@ -939,7 +939,7 @@ export default function RemedeArabeEndometriose() {
                     </p>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Le Prophète (paix et salut sur lui) la recommandait
-                      pour le malade : elle &laquo;&nbsp;réconforte le coeur du
+                      pour le malade : elle &laquo;&nbsp;réconforte le c&oelig;ur du
                       malade et emporte une partie de son chagrin&nbsp;&raquo;
                       (al-Bukhari). L&apos;orge est riche en bêta-glucanes
                       qui modulent la réponse immunitaire et réduisent
@@ -978,7 +978,7 @@ export default function RemedeArabeEndometriose() {
                 <div className="mt-4 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-xl border border-green-200 bg-green-50 p-5">
                     <p className="font-semibold text-green-800">
-                      A privilégier
+                      À privilégier
                     </p>
                     <ul className="mt-3 space-y-2 text-sm text-green-700">
                       <li className="flex items-start gap-2">
@@ -1012,7 +1012,7 @@ export default function RemedeArabeEndometriose() {
                     </ul>
                   </div>
                   <div className="rounded-xl border border-red-200 bg-red-50 p-5">
-                    <p className="font-semibold text-red-800">A limiter</p>
+                    <p className="font-semibold text-red-800">À limiter</p>
                     <ul className="mt-3 space-y-2 text-sm text-red-700">
                       <li className="flex items-start gap-2">
                         <span className="mt-0.5 text-red-500">&#10007;</span>

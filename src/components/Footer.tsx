@@ -80,9 +80,31 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Séparateur + copyright */}
+        {/* Séparateur + liens légaux + copyright */}
         <div className="mt-12 border-t border-white/10 pt-8">
-          <p className="text-center text-sm text-white/50">
+          <div className="flex flex-wrap justify-center gap-4 text-sm text-white/50">
+            <Link
+              href="/a-propos"
+              className="transition-colors hover:text-secondary"
+            >
+              À propos
+            </Link>
+            <span>·</span>
+            <Link
+              href="/mentions-legales"
+              className="transition-colors hover:text-secondary"
+            >
+              Mentions légales
+            </Link>
+            <span>·</span>
+            <Link
+              href="/mentions-legales"
+              className="transition-colors hover:text-secondary"
+            >
+              Politique de confidentialité
+            </Link>
+          </div>
+          <p className="mt-4 text-center text-sm text-white/50">
             &copy; {new Date().getFullYear()} IslamReligion.fr — Tous droits réservés
           </p>
         </div>

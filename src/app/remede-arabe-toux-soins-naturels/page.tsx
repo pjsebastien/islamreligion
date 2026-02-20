@@ -89,7 +89,7 @@ const faqItems = [
     question:
       "Quelles invocations réciter quand on souffre de toux ou de maladie ?",
     answer:
-      "Le Prophète (paix et salut sur lui) a enseigné plusieurs invocations pour le malade. La plus connue est : Ote le mal, Seigneur des hommes, et guéris. Tu es Celui qui guérit, il n'y a de guérison que Ta guérison, une guérison qui ne laisse aucune maladie (al-Bukhari et Muslim). On peut aussi réciter la sourate Al-Fatiha, Ayat al-Kursi et les trois dernières sourates du Coran en soufflant dans ses mains et en les passant sur le corps.",
+      "Le Prophète (paix et salut sur lui) a enseigné plusieurs invocations pour le malade. La plus connue est : Ôte le mal, Seigneur des hommes, et guéris. Tu es Celui qui guérit, il n'y a de guérison que Ta guérison, une guérison qui ne laisse aucune maladie (al-Bukhari et Muslim). On peut aussi réciter la sourate Al-Fatiha, Ayat al-Kursi et les trois dernières sourates du Coran en soufflant dans ses mains et en les passant sur le corps.",
   },
 ];
 
@@ -238,7 +238,7 @@ export default function RemedeArabeToux() {
                   La toux est un réflexe de défense de l&apos;organisme destiné
                   à dégager les voies respiratoires. Elle peut être provoquée
                   par une infection virale, une allergie, une irritation
-                  chimique, un reflux gastro-oesophagien ou encore par des
+                  chimique, un reflux gastro-&oelig;sophagien ou encore par des
                   conditions climatiques (air sec, froid). Selon sa durée et sa
                   nature, on distingue plusieurs formes.
                 </p>
@@ -340,7 +340,7 @@ export default function RemedeArabeToux() {
                   remèdes naturels, les invocations et la combinaison des deux.
                   Cette vision holistique s&apos;applique particulièrement bien
                   aux affections respiratoires, où le repos, les soins locaux et
-                  la sérénité du coeur contribuent ensemble au rétablissement.
+                  la sérénité du c&oelig;ur contribuent ensemble au rétablissement.
                   Pour la toux du fumeur, le premier pas reste de{" "}
                   <Link
                     href="/remede-arabe-arreter-fumer"
@@ -894,7 +894,7 @@ export default function RemedeArabeToux() {
                       تَذْهَبُ بِبَعْضِ الْحُزْنِ
                     </p>
                     <p className="text-base leading-relaxed text-foreground italic lg:text-lg">
-                      &laquo;&nbsp;La talbina réconforte le coeur du malade et
+                      &laquo;&nbsp;La talbina réconforte le c&oelig;ur du malade et
                       emporte une partie de son chagrin.&nbsp;&raquo;
                     </p>
                     <cite className="mt-3 block text-sm font-medium text-foreground-secondary not-italic">
@@ -905,7 +905,7 @@ export default function RemedeArabeToux() {
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
                     La talbina est une bouillie préparée à base de farine
                     d&apos;orge, d&apos;eau (ou de lait) et de miel.
-                    &Apos;Aisha (qu&apos;Allah soit satisfait d&apos;elle)
+                    &apos;Aisha (qu&apos;Allah soit satisfait d&apos;elle)
                     recommandait de la préparer pour le malade. Sa texture
                     onctueuse et tiède apaise la gorge irritée, tandis que les
                     bêta-glucanes de l&apos;orge soutiennent les défenses
@@ -1052,7 +1052,7 @@ export default function RemedeArabeToux() {
                           Coran (An-Nahl, 69)
                         </td>
                         <td className="py-3 pr-4">
-                          Emollient, antibactérien
+                          &Eacute;mollient, antibactérien
                         </td>
                         <td className="py-3 pr-4">Sèche et grasse</td>
                         <td className="py-3">
@@ -1101,7 +1101,7 @@ export default function RemedeArabeToux() {
                           Hadith (at-Tirmidhi)
                         </td>
                         <td className="py-3 pr-4">
-                          Emollient, anti-inflammatoire
+                          &Eacute;mollient, anti-inflammatoire
                         </td>
                         <td className="py-3 pr-4">Sèche (irritation)</td>
                         <td className="py-3">Gargarisme ou ingestion</td>
@@ -1203,7 +1203,7 @@ export default function RemedeArabeToux() {
                       يُغَادِرُ سَقَمًا
                     </p>
                     <p className="mt-3 text-foreground italic">
-                      &laquo;&nbsp;Ote le mal, Seigneur des hommes, et guéris.
+                      &laquo;&nbsp;&Ocirc;te le mal, Seigneur des hommes, et guéris.
                       Tu es Celui qui guérit, il n&apos;y a de guérison que Ta
                       guérison, une guérison qui ne laisse aucune
                       maladie.&nbsp;&raquo;
@@ -1226,7 +1226,7 @@ export default function RemedeArabeToux() {
                     </p>
                     <p className="mt-3 text-foreground italic">
                       &laquo;&nbsp;Au nom de Dieu, je te fais la roqya contre
-                      tout ce qui te nuit, contre le mal de toute âme ou oeil
+                      tout ce qui te nuit, contre le mal de toute âme ou &oelig;il
                       envieux. Que Dieu te guérisse.&nbsp;&raquo;
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
@@ -1325,7 +1325,7 @@ export default function RemedeArabeToux() {
                   physique adapté, l&apos;invocation sincère et la confiance
                   totale en Dieu (<em>tawakkul</em>). Préparer une talbina
                   sucrée au miel tout en récitant les versets de guérison,
-                  ou prendre du miel et de la nigelle en commencant par
+                  ou prendre du miel et de la nigelle en commençant par
                   &laquo;&nbsp;Bismillah&nbsp;&raquo;, fait partie de cette
                   démarche intégrée. On peut aussi{" "}
                   <Link
@@ -1440,7 +1440,7 @@ export default function RemedeArabeToux() {
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Privilégier le miel pur (une demi-cuillère avant le
                       coucher), la talbina et les infusions douces de camomille.
-                      Eviter le costus marin et la nigelle en grande quantité.
+                      &Eacute;viter le costus marin et la nigelle en grande quantité.
                       Toujours consulter un pédiatre si la toux s&apos;aggrave
                       ou s&apos;accompagne de fièvre.
                     </p>
@@ -1460,7 +1460,7 @@ export default function RemedeArabeToux() {
                       </Link>
                       . Le miel et la talbina sont sûrs et recommandés. Le thym
                       en infusion légère et l&apos;huile d&apos;olive sont
-                      également adaptés. Eviter la nigelle en forte dose et le
+                      également adaptés. &Eacute;viter la nigelle en forte dose et le
                       costus marin sans avis médical. Les invocations de
                       guérison sont à multiplier pour la protection du bébé.
                     </p>

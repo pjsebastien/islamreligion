@@ -86,7 +86,7 @@ const faqItems = [
     question:
       "Quand faut-il consulter un ORL pour des acouphènes ?",
     answer:
-      "Consultez un ORL si les bourdonnements apparaissent brutalement, s'ils touchent une seule oreille, s'ils s'accompagnent de vertiges, de perte d'audition, de douleur ou de fièvre. Un acouphène pulsatile (qui bat au rythme du coeur) nécessite également un bilan médical rapide. De manière générale, tout acouphène persistant depuis plus de deux semaines mérite un examen. Les remèdes prophétiques sont un complément, jamais un substitut au diagnostic médical.",
+      "Consultez un ORL si les bourdonnements apparaissent brutalement, s'ils touchent une seule oreille, s'ils s'accompagnent de vertiges, de perte d'audition, de douleur ou de fièvre. Un acouphène pulsatile (qui bat au rythme du cœur) nécessite également un bilan médical rapide. De manière générale, tout acouphène persistant depuis plus de deux semaines mérite un examen. Les remèdes prophétiques sont un complément, jamais un substitut au diagnostic médical.",
   },
   {
     question:
@@ -332,7 +332,7 @@ export default function RemedeArabeAcouphene() {
                   , la maladie n&apos;est jamais considérée comme un châtiment.
                   Elle est une épreuve qui purifie le croyant de ses péchés et
                   l&apos;invite à renforcer sa confiance en Dieu. Le Prophète
-                  Muhammad &#xFE0E;&#xFE0E; a encouragé les musulmans à se
+                  Muhammad &#xFDFA; a encouragé les musulmans à se
                   soigner tout en s&apos;en remettant à Allah pour la guérison.
                 </p>
 
@@ -535,7 +535,7 @@ export default function RemedeArabeAcouphene() {
 
                   <p className="mt-3 leading-relaxed text-foreground-secondary">
                     Le costus marin (<em>Saussurea costus</em>) est
-                    spécifiquement recommandé par le Prophète &#xFE0E;&#xFE0E; pour les
+                    spécifiquement recommandé par le Prophète &#xFDFA; pour les
                     inflammations de la gorge et les affections des voies
                     respiratoires supérieures. Sa proximité avec la sphère ORL
                     en fait un remède pertinent pour les troubles auriculaires
@@ -706,7 +706,7 @@ export default function RemedeArabeAcouphene() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   La hijama (ventouses humides) est l&apos;un des traitements
-                  les plus recommandés par le Prophète &#xFE0E;&#xFE0E; pour les maux de
+                  les plus recommandés par le Prophète &#xFDFA; pour les maux de
                   tête et les troubles de la région crânienne. Pour les
                   acouphènes, certains points de la tête sont particulièrement
                   ciblés.
@@ -741,7 +741,7 @@ export default function RemedeArabeAcouphene() {
                     </div>
                     <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
                       Points situés dans la dépression osseuse derrière chaque
-                      oreille (mastoïde). Le Prophète &#xFE0E;&#xFE0E; s&apos;est fait
+                      oreille (mastoïde). Le Prophète &#xFDFA; s&apos;est fait
                       pratiquer la hijama à ces points. Ils favorisent la
                       circulation sanguine vers l&apos;oreille interne et
                       peuvent soulager les bourdonnements.
@@ -986,7 +986,7 @@ export default function RemedeArabeAcouphene() {
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   La dimension spirituelle de la guérison occupe une place
                   fondamentale en islam. Le Coran est présenté comme une source
-                  de guérison, et le Prophète &#xFE0E;&#xFE0E; a enseigné des
+                  de guérison, et le Prophète &#xFDFA; a enseigné des
                   invocations spécifiques pour les personnes malades.
                 </p>
 
@@ -1014,7 +1014,7 @@ export default function RemedeArabeAcouphene() {
                     maladie.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
-                    Rapporté par al-Bukhari et Muslim. Le Prophète &#xFE0E;&#xFE0E;
+                    Rapporté par al-Bukhari et Muslim. Le Prophète &#xFDFA;
                     récitait cette invocation en posant sa main sur la partie
                     douloureuse du corps.
                   </p>
@@ -1046,7 +1046,7 @@ export default function RemedeArabeAcouphene() {
                   <p className="mt-4 text-foreground italic">
                     &laquo;&nbsp;Au nom de Dieu, je te fais la roqya contre
                     tout ce qui te nuit, contre le mal de toute âme ou
-                    oeil envieux. Que Dieu te guérisse.&nbsp;&raquo;
+                    &oelig;il envieux. Que Dieu te guérisse.&nbsp;&raquo;
                   </p>
                   <p className="mt-2 text-sm text-foreground-secondary">
                     Rapporté par Muslim. Cette invocation peut être récitée
@@ -1076,7 +1076,7 @@ export default function RemedeArabeAcouphene() {
                     <span>
                       <strong>Sourate Al-Fatiha</strong> (l&apos;Ouverture) :
                       considérée comme la plus grande sourate du Coran pour la
-                      guérison. Le Prophète &#xFE0E;&#xFE0E; l&apos;a appelée
+                      guérison. Le Prophète &#xFDFA; l&apos;a appelée
                       &laquo;&nbsp;ar-Ruqya&nbsp;&raquo; (l&apos;incantation)
                     </span>
                   </li>
@@ -1092,7 +1092,7 @@ export default function RemedeArabeAcouphene() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Les trois dernières sourates</strong> (Al-Ikhlas,
-                      Al-Falaq, An-Nas) : le Prophète &#xFE0E;&#xFE0E; les récitait
+                      Al-Falaq, An-Nas) : le Prophète &#xFDFA; les récitait
                       3 fois chaque soir en soufflant dans ses mains, puis les
                       passait sur son corps
                     </span>
@@ -1115,7 +1115,7 @@ export default function RemedeArabeAcouphene() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   Le dhikr (évocation de Dieu) a un effet profond sur le
                   système nerveux. Le Coran affirme : &laquo;&nbsp;N&apos;est-ce
-                  pas par l&apos;évocation de Dieu que les coeurs
+                  pas par l&apos;évocation de Dieu que les c&oelig;urs
                   s&apos;apaisent ?&nbsp;&raquo; (sourate Ar-Ra&apos;d,
                   verset 28). Cette tranquillité intérieure est précieuse
                   pour les personnes souffrant d&apos;acouphènes, car le
@@ -1426,7 +1426,7 @@ export default function RemedeArabeAcouphene() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Le jeûne des lundis et jeudis, pratique recommandée par le
-                  Prophète &#xFE0E;&#xFE0E;, correspond au concept moderne de jeûne
+                  Prophète &#xFDFA;, correspond au concept moderne de jeûne
                   intermittent. Les études montrent que le jeûne réduit
                   les marqueurs inflammatoires (CRP, IL-6), améliore la
                   sensibilité à l&apos;insuline et favorise la réparation
@@ -1507,7 +1507,7 @@ export default function RemedeArabeAcouphene() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-red-500" />
                     <span>
-                      Acouphène pulsatile (battant au rythme du coeur)
+                      Acouphène pulsatile (battant au rythme du c&oelig;ur)
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
