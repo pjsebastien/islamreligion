@@ -211,7 +211,9 @@ export default function ReverAccoucher() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   Dans la tradition onirique islamique, rêver
                   d&apos;accoucher dépasse la simple représentation
-                  biologique. Les savants comme Ibn Sirin et An-Nabulsi y
+                  biologique. Étroitement lié au symbolisme de{" "}
+                  <Link href="/rever-enceinte-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;être enceinte en islam</Link>,
+                  les savants comme Ibn Sirin et An-Nabulsi y
                   voient un symbole de passage, de délivrance et de
                   changement de condition. Le rêveur qui accouche traverse
                   symboliquement une épreuve pour accéder à un état nouveau,
@@ -220,7 +222,9 @@ export default function ReverAccoucher() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Le hadith rapporté par Al-Bukhari et Muslim rappelle que
-                  les rêves se divisent en trois catégories : le rêve
+                  les{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves se divisent en trois catégories</Link>{" "}
+                  : le rêve
                   véridique (ru&apos;ya), le rêve provenant de l&apos;âme
                   (hadith an-nafs) et le rêve troublant provenant de Shaytan.
                   Un rêve d&apos;accouchement vécu avec sérénité et joie
@@ -279,7 +283,9 @@ export default function ReverAccoucher() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   An-Nabulsi précise que l&apos;interprétation du rêve
                   d&apos;accouchement varie considérablement selon le
-                  contexte personnel du rêveur. Une femme stérile qui rêve
+                  contexte personnel du rêveur. La{" "}
+                  <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">maternité en islam</Link>{" "}
+                  éclaire aussi ce symbole. Une femme stérile qui rêve
                   d&apos;accoucher peut y voir un signe d&apos;espoir, tandis
                   qu&apos;un homme qui assiste à un accouchement en rêve peut
                   recevoir l&apos;annonce d&apos;un succès professionnel ou
@@ -573,7 +579,8 @@ export default function ReverAccoucher() {
                       d&apos;indépendance. Si le rêve est vécu avec joie,
                       c&apos;est un signe encourageant pour l&apos;avenir.
                       Certains interprètes y voient aussi l&apos;annonce
-                      d&apos;un mariage prochain.
+                      d&apos;un{" "}
+                      <Link href="/mariage-islam-presages-significations" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">mariage prochain</Link>.
                     </p>
                   </div>
 
@@ -874,7 +881,9 @@ export default function ReverAccoucher() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   La réaction du croyant après un rêve fait partie intégrante
-                  de l&apos;interprétation. Le Prophète Muhammad (paix et
+                  de l&apos;interprétation. La{" "}
+                  <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière accomplie avec excellence</Link>{" "}
+                  est le premier recours. Le Prophète Muhammad (paix et
                   salut sur lui) a enseigné des comportements spécifiques
                   à adopter selon la nature du rêve. Voici les recommandations
                   tirées de la Sunna et des enseignements des savants pour

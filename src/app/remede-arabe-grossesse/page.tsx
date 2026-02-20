@@ -308,7 +308,16 @@ export default function RemedeArabeGrossesse() {
                   a également dit que le Paradis se trouve sous les pieds
                   des mères (hadith rapporté par an-Nasai), une image
                   forte qui élève la maternité au rang des actes les plus
-                  méritoires.
+                  méritoires. Pour approfondir cette question, notre article
+                  sur{" "}
+                  <Link
+                    href="/maternite-islam-responsabilite"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    le statut sacré de la mère en islam
+                  </Link>{" "}
+                  détaille les responsabilités et les bénédictions liées à
+                  la maternité.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -398,7 +407,13 @@ export default function RemedeArabeGrossesse() {
                     (prévention de l&apos;anémie, fréquente chez la femme
                     enceinte), en potassium (régulation de la pression
                     artérielle), en magnésium (réduction des crampes) et
-                    en fibres (transit intestinal).
+                    en fibres, ce qui aide à{" "}
+                    <Link
+                      href="/remede-arabe-constipation"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      soulager la constipation fréquente en fin de grossesse
+                    </Link>.
                   </p>
 
                   <p className="mt-3 leading-relaxed text-foreground-secondary">
@@ -570,7 +585,15 @@ export default function RemedeArabeGrossesse() {
                     l&apos;apparition des vergetures. Elle peut aussi être
                     utilisée sur les cheveux et le cuir chevelu, souvent
                     fragilisés par les changements hormonaux de la
-                    grossesse.
+                    grossesse. Les femmes sujettes à{" "}
+                    <Link
+                      href="/alopecie-remede-islam"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      la perte de cheveux post-partum
+                    </Link>{" "}
+                    trouveront dans l&apos;huile d&apos;olive un soin
+                    nourrissant précieux.
                   </p>
 
                   <p className="mt-3 text-sm text-foreground-secondary">
@@ -658,7 +681,16 @@ export default function RemedeArabeGrossesse() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Les nausées du premier trimestre, la fatigue, les
                   douleurs dorsales et les troubles du sommeil sont des
-                  compagnons fréquents de la grossesse. La tradition arabe
+                  compagnons fréquents de la grossesse. À ces maux
+                  s&apos;ajoutent souvent des troubles digestifs : il est
+                  important de savoir comment{" "}
+                  <Link
+                    href="/remede-arabe-hemorroides"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    prévenir les hémorroïdes liées à la grossesse
+                  </Link>
+                  , fréquentes au troisième trimestre. La tradition arabe
                   et la médecine prophétique proposent des approches
                   douces pour accompagner ces désagréments, toujours en
                   complément du suivi médical.
@@ -812,8 +844,18 @@ export default function RemedeArabeGrossesse() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   La fatigue est l&apos;un des symptômes les plus courants
                   de la grossesse, surtout aux premier et troisième
-                  trimestres. La tradition prophétique valorise le repos
-                  et l&apos;équilibre entre activité et récupération.
+                  trimestres. L&apos;anxiété qui accompagne souvent cette
+                  période est tout aussi importante à prendre en charge :
+                  notre guide pour{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    gérer l&apos;anxiété de la future maman
+                  </Link>{" "}
+                  propose des invocations et des conseils adaptes. La
+                  tradition prophétique valorise le repos et
+                  l&apos;équilibre entre activité et récupération.
                 </p>
 
                 <ul className="mt-4 space-y-2 text-foreground">

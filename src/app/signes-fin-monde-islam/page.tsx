@@ -212,7 +212,9 @@ export default function SignesFinMonde() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Quant aux signes mineurs, ils sont plus nombreux et
+                  Quant aux{" "}
+                  <Link href="/signes-mineurs-actuels" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes mineurs</Link>,
+                  ils sont plus nombreux et
                   s&apos;étalent sur des siècles. Parmi eux, on retrouve la
                   construction de bâtiments en hauteur par ceux qui étaient
                   autrefois des bergers pieds nus, la propagation de
@@ -433,7 +435,8 @@ export default function SignesFinMonde() {
                         La descente de Issa près de Damas
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Issa (Jésus) descendra près du minaret blanc à
+                        <Link href="/retour-jesus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">Issa (Jésus) descendra</Link>{" "}
+                        près du minaret blanc à
                         l&apos;est de Damas, posant ses mains sur les ailes de
                         deux anges. Lorsqu&apos;il baissera la tête, des
                         gouttes tomberont comme des perles, et lorsqu&apos;il
@@ -530,7 +533,8 @@ export default function SignesFinMonde() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Gog et Magog sont deux peuples mentionnés dans le Coran à
+                  <Link href="/gog-magog-liberation-fin-des-temps" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">Gog et Magog</Link>{" "}
+                  sont deux peuples mentionnés dans le Coran à
                   deux reprises. Dans sourate Al-Kahf (verset 94), les
                   habitants de la terre se plaignent auprès de Dhul-Qarnayn
                   des ravages de Gog et Magog, et celui-ci érige une barrière
@@ -872,11 +876,14 @@ export default function SignesFinMonde() {
                   et que l&apos;un de vous tient un plant dans sa main, qu&apos;il
                   le plante s&apos;il le peut&quot; (Ahmad). Ce hadith illustre
                   parfaitement l&apos;attitude du musulman : agir positivement
-                  jusqu&apos;au dernier souffle.
+                  jusqu&apos;au dernier souffle. Découvrez aussi{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les conditions du repentir sincère en islam</Link>{" "}
+                  pour concrétiser cette démarche.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  La prière régulière, maintenue avec constance et
+                  <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">La prière régulière</Link>,
+                  maintenue avec constance et
                   concentration (khushu&apos;), constitue le premier pilier de
                   cette préparation. Les cinq prières quotidiennes ne sont pas
                   seulement une obligation, elles représentent un ancrage

@@ -187,7 +187,8 @@ export default function DroitsFemmeDivorce() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   Le divorce en islam n&apos;est jamais encouragé, mais il est
-                  reconnu comme une issue légitime lorsque la vie conjugale
+                  reconnu comme une issue légitime lorsque{" "}
+                  <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le lien conjugal</Link>{" "}
                   devient insoutenable. Le Prophète (paix et bénédictions sur
                   lui) a rappelé que parmi les choses licites, le divorce est
                   celle qu&apos;Allah déteste le plus. Toutefois, lorsque la
@@ -258,8 +259,9 @@ export default function DroitsFemmeDivorce() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Trois formes principales de divorce coexistent en droit
-                  islamique. Le <strong>talaq</strong> est le divorce prononcé
-                  par le mari, qui peut être révocable ou irrévocable selon les
+                  islamique. Le <strong>talaq</strong> est{" "}
+                  <Link href="/divorce-islam-talaq-khula" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le divorce prononcé
+                  par le mari</Link>, qui peut être révocable ou irrévocable selon les
                   circonstances. Le <strong>khula</strong> permet a la femme de
                   demander la séparation en restituant une compensation au mari.
                   Le <strong>faskh</strong> est la dissolution judiciaire
@@ -571,7 +573,9 @@ export default function DroitsFemmeDivorce() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le Coran encourage la réconciliation avant toute rupture
-                  définitive. Allah dit : « Si vous désirez la réconciliation,
+                  définitive, dans un esprit proche de celui qui préside aux{" "}
+                  <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">conditions du pardon divin</Link>.
+                  Allah dit : « Si vous désirez la réconciliation,
                   Allah rétablira l&apos;entente entre eux » (Coran 4:35).
                   Pendant le divorce révocable, le mari peut reprendre la vie
                   commune avec son épouse sans nouveau contrat, ce qui permet a
@@ -605,7 +609,8 @@ export default function DroitsFemmeDivorce() {
                   passe avant toute autre considération. La mère bénéficie
                   d&apos;une priorité naturelle pour la garde des jeunes
                   enfants, en raison de la tendresse, de la patience et des
-                  soins qu&apos;elle leur prodigue.
+                  soins qu&apos;elle leur prodigue. Ce privilège reflète{" "}
+                  <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le statut éminent de la maternité en islam</Link>.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -853,7 +858,9 @@ export default function DroitsFemmeDivorce() {
                     <span>
                       <strong>Consulter un imam ou un savant :</strong> obtenir
                       un avis religieux éclairé avant d&apos;entamer une
-                      procédure judiciaire.
+                      procédure judiciaire. Les{" "}
+                      <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations de facilitation</Link>{" "}
+                      peuvent accompagner cette démarche.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

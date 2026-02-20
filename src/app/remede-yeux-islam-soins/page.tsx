@@ -360,7 +360,9 @@ export default function RemedeYeuxIslamSoins() {
                   médicale, en fait un symbole vivant de la sunna. Les femmes
                   l&apos;adoptent pour sublimer leur regard, tandis que les
                   hommes y trouvent un soin protecteur contre la sécheresse, les
-                  poussières et la lumière intense. Chez certains savants, le
+                  poussières et la lumière intense. La nigelle, souvent associée
+                  au kohl, est également utilisée pour traiter d&apos;autres{" "}
+                  <Link href="/psoriasis-remede-arabe" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">problèmes dermatologiques comme le psoriasis</Link>. Chez certains savants, le
                   simple geste d&apos;appliquer le kohl avec l&apos;intention de
                   suivre la sunna transforme ce rituel en acte d&apos;adoration.
                 </p>
@@ -448,7 +450,10 @@ export default function RemedeYeuxIslamSoins() {
                   L&apos;huile de nigelle peut être massée délicatement autour
                   du contour des yeux (sans jamais la mettre directement dans
                   l&apos;œil) pour favoriser une hydratation douce et protéger
-                  la peau fine de cette zone. En consommation interne, les
+                  la peau fine de cette zone. Elle est d&apos;ailleurs reconnue
+                  pour ses bienfaits contre{" "}
+                  <Link href="/alopecie-remede-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la chute de cheveux</Link>{" "}
+                  grâce à ses propriétés anti-inflammatoires. En consommation interne, les
                   graines de nigelle ou l&apos;huile pressée à froid contribuent
                   à la vitalité générale de l&apos;organisme, ce qui bénéficie
                   indirectement à la santé visuelle. De nombreuses personnes
@@ -758,7 +763,9 @@ export default function RemedeYeuxIslamSoins() {
                   Cette amélioration de la circulation peut contribuer à
                   soulager les migraines ophtalmiques, réduire la fatigue
                   oculaire chronique et atténuer les tensions accumulées dans la
-                  zone péri-oculaire. Les praticiens formés à cette technique
+                  zone péri-oculaire. Le stress prolongé et{" "}
+                  <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;angoisse</Link>{" "}
+                  sont d&apos;ailleurs des facteurs aggravants de la fatigue oculaire. Les praticiens formés à cette technique
                   ciblent les points méridiens liés à la vision pour un effet
                   optimal. Il reste indispensable de consulter un praticien
                   qualifié et de toujours maintenir un suivi ophtalmologique
@@ -918,7 +925,10 @@ export default function RemedeYeuxIslamSoins() {
                   prescrit par un ophtalmologue. Le Prophète ﷺ lui-même a
                   encouragé le recours à la médecine en disant : « Serviteurs
                   d&apos;Allah, soignez-vous, car Allah n&apos;a créé aucune
-                  maladie sans créer son remède » (rapporté par Abu Dawud). La
+                  maladie sans créer son remède » (rapporté par Abu Dawud). Ces
+                  mêmes principes s&apos;appliquent à{" "}
+                  <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la protection spirituelle</Link>{" "}
+                  comme aux soins du corps. La
                   démarche islamique de soin repose sur un équilibre entre la
                   confiance en Allah (tawakkul), les moyens naturels (asbab) et
                   le recours aux compétences médicales modernes.
@@ -987,7 +997,9 @@ export default function RemedeYeuxIslamSoins() {
                       en douceur, enseignez-leur les invocations de protection
                       de la vue et limitez leur exposition aux écrans.
                       L&apos;alimentation riche en miel et nigelle contribue à
-                      leur croissance en bonne santé visuelle. Chaque geste
+                      leur croissance en bonne santé visuelle. Adopter{" "}
+                      <Link href="/remede-arabe-maigrir-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">une alimentation saine selon la Sunna</Link>{" "}
+                      dès le plus jeune âge est un investissement précieux. Chaque geste
                       devient une occasion d&apos;apprentissage de la sunna.
                     </p>
                   </div>
@@ -1100,7 +1112,10 @@ export default function RemedeYeuxIslamSoins() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Cette routine n&apos;a pas vocation à être rigide. Chacun
                   l&apos;adapte selon ses besoins, ses possibilités et les
-                  conseils de son médecin. L&apos;objectif est d&apos;ancrer
+                  conseils de son médecin. Les femmes enceintes veilleront
+                  à consulter les{" "}
+                  <Link href="/remede-arabe-grossesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes adaptés à la grossesse</Link>{" "}
+                  avant d&apos;adopter tout nouveau soin. L&apos;objectif est d&apos;ancrer
                   les soins oculaires prophétiques dans le quotidien avec
                   constance et intention sincère, en faisant de chaque geste
                   un rappel de la miséricorde d&apos;Allah et de la sagesse du

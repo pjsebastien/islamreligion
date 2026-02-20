@@ -193,8 +193,9 @@ export default function SignesMineurs() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le Prophète Muhammad (paix et salut sur lui) a décrit les
-                  signes majeurs comme des perles dont le fil se rompt : une
+                  Le Prophète Muhammad (paix et salut sur lui) a décrit{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les signes majeurs de la fin du monde</Link>{" "}
+                  comme des perles dont le fil se rompt : une
                   fois que le premier se manifeste, les autres se succèdent
                   rapidement. Les signes mineurs, au contraire, se manifestent
                   de manière progressive, parfois subtile, et touchent
@@ -224,8 +225,10 @@ export default function SignesMineurs() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Signes majeurs :</strong> phénomènes surnaturels
-                      et extraordinaires, tels que l&apos;apparition du Dajjal,
-                      la descente de &apos;Issa (Jésus) ou le lever du soleil
+                      et extraordinaires, tels que{" "}
+                      <Link href="/dajjal-signes-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;apparition du Dajjal</Link>,{" "}
+                      <Link href="/retour-jesus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la descente de &apos;Issa (Jésus)</Link>{" "}
+                      ou le lever du soleil
                       depuis l&apos;ouest.
                     </span>
                   </li>
@@ -781,7 +784,8 @@ export default function SignesMineurs() {
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  La préparation spirituelle ne se résume pas à un exercice
+                  <Link href="/fin-monde-islam-preparation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">La préparation spirituelle</Link>{" "}
+                  ne se résume pas à un exercice
                   intellectuel sur les signes de la fin des temps. Elle se vit
                   au quotidien, dans les gestes simples et les habitudes
                   régulières qui ancrent le croyant dans sa foi. Chaque prière
@@ -880,8 +884,9 @@ export default function SignesMineurs() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le Prophète (paix et salut sur lui) a rappelé que la mort
                   de chacun constitue sa propre Heure. Ce rappel personnel
-                  invite le croyant à ne pas reporter sa repentance ni ses
-                  bonnes actions. Chaque jour vécu dans la conscience
+                  invite le croyant à ne pas reporter{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">sa repentance</Link>{" "}
+                  ni ses bonnes actions. Chaque jour vécu dans la conscience
                   d&apos;Allah est un jour de préparation. L&apos;observation
                   des signes mineurs ne fait que renforcer cette urgence
                   bienveillante de vivre pleinement sa foi.

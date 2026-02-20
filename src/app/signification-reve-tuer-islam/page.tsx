@@ -247,7 +247,10 @@ export default function ReveTuerIslam() {
                       <strong>Une victoire symbolique :</strong> parfois,
                       &quot;tuer&quot; en rêve un ennemi ou une figure négative,
                       c&apos;est s&apos;affranchir d&apos;un poids ou gagner en
-                      autonomie.
+                      autonomie, un thème que l&apos;on retrouve aussi dans le{" "}
+                      <Link href="/rever-tirer-dessus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêve de tirer sur quelqu&apos;un en islam
+                      </Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -255,7 +258,10 @@ export default function ReveTuerIslam() {
                     <span>
                       <strong>Une peur du déséquilibre :</strong> certains songes
                       expriment l&apos;angoisse de perdre le contrôle, d&apos;être
-                      submergé par des émotions ou des situations.
+                      submergé par des émotions ou des situations, comme dans les{" "}
+                      <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêves de pleurs en islam
+                      </Link>.
                     </span>
                   </li>
                 </ul>
@@ -415,7 +421,10 @@ export default function ReveTuerIslam() {
                     <h4 className="font-semibold text-primary">Tuer un animal</h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Rejet de modèles inadéquats ou conquête de sa propre voie.
-                      Maîtrise de ses pulsions.
+                      Maîtrise de ses pulsions. Pour la symbolique animale, voir aussi{" "}
+                      <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêver d&apos;araignée en islam
+                      </Link>.
                     </p>
                   </div>
                 </div>
@@ -548,7 +557,11 @@ export default function ReveTuerIslam() {
                     <span>
                       Se rappeler la miséricorde infinie d&apos;Allah : un
                       mauvais rêve n&apos;entame jamais l&apos;amour divin
-                      envers Son serviteur.
+                      envers Son serviteur. La tradition du{" "}
+                      <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        pardon divin en islam
+                      </Link>{" "}
+                      en est le plus bel exemple.
                     </span>
                   </li>
                 </ul>
@@ -684,7 +697,11 @@ export default function ReveTuerIslam() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Au-delà des scénarios anxiogènes, chaque image nocturne porte
                   une leçon à recueillir et à traduire dans le vécu quotidien.
-                  Rêver de tuer, comme rêver de mort ou de conflits, symbolise
+                  Rêver de tuer, comme{" "}
+                  <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêver de mort en islam
+                  </Link>{" "}
+                  ou de conflits, symbolise
                   avant tout le besoin de transformation.
                 </p>
 

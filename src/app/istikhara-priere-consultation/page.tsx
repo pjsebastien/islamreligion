@@ -207,7 +207,10 @@ export default function IstikharaPriere() {
                   La sagesse derrière l&apos;istikhara est multiple. Elle
                   enseigne l&apos;humilité face aux choix de la vie, elle
                   renforce le lien entre le serviteur et son Créateur, et elle
-                  apporte une paix intérieure face aux décisions difficiles. Le
+                  apporte une paix intérieure face aux décisions difficiles.
+                  Elle s&apos;inscrit dans la continuité des{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations pour la réussite et la facilité</Link>{" "}
+                  que le croyant est encouragé à pratiquer au quotidien. Le
                   croyant qui prie l&apos;istikhara ne demande pas à Allah de
                   choisir à sa place, il Lui demande de faciliter ce qui est bon
                   et d&apos;éloigner ce qui est nuisible.
@@ -286,7 +289,11 @@ export default function IstikharaPriere() {
                   La prière d&apos;istikhara suit un déroulement simple et
                   accessible. Nul besoin d&apos;être un savant pour
                   l&apos;accomplir : le Prophète (paix et salut sur lui)
-                  l&apos;enseignait à tous ses compagnons sans distinction. Voici
+                  l&apos;enseignait à tous ses compagnons sans distinction.
+                  Tout comme{" "}
+                  <Link href="/abandon-priere-islam-consequences" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la régularité dans les prières obligatoires</Link>,
+                  cette pratique surérogatoire témoigne de la confiance du croyant
+                  envers son Seigneur. Voici
                   les six étapes détaillées pour la réaliser correctement.
                 </p>
 
@@ -541,7 +548,10 @@ export default function IstikharaPriere() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;istikhara s&apos;adresse à toute situation licite dans
-                  laquelle le croyant hésite. Elle ne concerne ni les
+                  laquelle le croyant hésite. Pour savoir distinguer les
+                  actes permis des interdits, il est utile de se référer aux{" "}
+                  <Link href="/halal-haram-criteres" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">critères du halal et du haram en islam</Link>.
+                  L&apos;istikhara ne concerne ni les
                   obligations religieuses (prier, jeûner) ni les interdits
                   (consommer de l&apos;alcool, mentir). Son champ
                   d&apos;application couvre les décisions de la vie courante où
@@ -736,7 +746,11 @@ export default function IstikharaPriere() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Aucun texte authentique ne conditionne la réponse de
                         l&apos;istikhara à un rêve. Attendre un rêve pour agir
-                        peut conduire à la paralysie. La réponse passe le plus
+                        peut conduire à la paralysie. Pour mieux comprendre
+                        les{" "}
+                        <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">trois types de rêves en islam</Link>,
+                        il est utile de consulter les fondements de
+                        l&apos;interprétation onirique. La réponse passe le plus
                         souvent par d&apos;autres voies.
                       </p>
                     </div>
@@ -1017,7 +1031,7 @@ export default function IstikharaPriere() {
                       Pour un couple en réflexion
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Mariage, achat immobilier, arrivée d&apos;un enfant :
+                      <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">Mariage</Link>, achat immobilier, arrivée d&apos;un enfant :
                       les décisions de couple méritent une consultation divine.
                       Chacun des deux conjoints peut prier l&apos;istikhara
                       individuellement, puis échanger sur les sentiments

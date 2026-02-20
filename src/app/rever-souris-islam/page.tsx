@@ -340,8 +340,11 @@ export default function ReverSourisIslam() {
                     <p className="mt-2 leading-relaxed text-foreground-secondary">
                       La souris noire est le signe le plus préoccupant. Elle peut refléter
                       une profonde tristesse, un danger moral, une trahison ou un ennemi
-                      dissimulé. Ce rêve invite à la vigilance accrue et à la protection
-                      spirituelle par les invocations et les sourates protectrices.
+                      dissimulé. Ce rêve invite à la vigilance accrue et à la{" "}
+                      <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        protection spirituelle en islam
+                      </Link>{" "}
+                      par les invocations et les sourates protectrices.
                     </p>
                   </div>
                 </div>
@@ -430,7 +433,11 @@ export default function ReverSourisIslam() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         C&apos;est l&apos;un des scénarios les plus positifs. Attraper
                         la souris symbolise la victoire sur une faiblesse, un rival ou
-                        une mauvaise habitude. Tuer la souris renforce cette lecture :
+                        une mauvaise habitude.{" "}
+                        <Link href="/signification-reve-tuer-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                          Tuer la souris
+                        </Link>{" "}
+                        renforce cette lecture :
                         le rêveur surmonte un obstacle et reprend le contrôle.
                       </p>
                     </div>
@@ -524,7 +531,11 @@ export default function ReverSourisIslam() {
                         Voir un chat chasser une souris dans un rêve est généralement
                         positif : cela symbolise la protection, la résolution d&apos;un
                         conflit ou l&apos;intervention d&apos;un allié dans votre vie.
-                        Si la souris échappe au chat, le problème persiste.
+                        Si la souris échappe au chat, le problème persiste. Pour approfondir
+                        ce symbole, consultez notre article sur{" "}
+                        <Link href="/rever-chat-islam-symbolisme" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                          le rêve de chat en islam
+                        </Link>.
                       </p>
                     </div>
                   </div>
@@ -656,7 +667,11 @@ export default function ReverSourisIslam() {
                 <p className="mt-4 text-sm leading-relaxed text-foreground-secondary">
                   La taille de l&apos;animal dans le rêve peut aussi modifier la lecture :
                   une très grosse souris se rapproche du symbolisme du rat, tandis qu&apos;un
-                  petit rat peut être lu comme une souris.
+                  petit rat peut être lu comme une souris. Pour une analyse plus détaillée,
+                  consultez notre guide sur{" "}
+                  <Link href="/rever-rat-islam-purification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêver de rat en islam
+                  </Link>.
                 </p>
               </section>
 
@@ -690,7 +705,10 @@ export default function ReverSourisIslam() {
                   Un autre hadith rapporté par Muslim mentionne la souris parmi les cinq
                   animaux nuisibles (<em>fawasiq</em>) qu&apos;il est permis de tuer
                   même en état de sacralisation (<em>ihram</em>) : le corbeau, le milan,
-                  le scorpion, la souris et le chien enragé. Cette classification renforce
+                  le scorpion, la souris et le{" "}
+                  <Link href="/rever-chien-islam-signification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    chien enragé
+                  </Link>. Cette classification renforce
                   l&apos;association de la souris avec la nuisance dans la tradition islamique.
                 </p>
               </section>
@@ -742,7 +760,11 @@ export default function ReverSourisIslam() {
                       <h3 className="font-semibold text-primary">Faire ses ablutions et prier</h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Si l&apos;inquiétude persiste, se lever pour accomplir les
-                        ablutions et prier deux unités de prière (raka&apos;at) aide à
+                        ablutions et{" "}
+                        <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                          prier deux unités de prière
+                        </Link>{" "}
+                        (raka&apos;at) aide à
                         apaiser le cœur. La prière est le refuge du croyant face à
                         toute forme d&apos;anxiété.
                       </p>

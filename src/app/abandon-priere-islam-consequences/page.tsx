@@ -213,7 +213,10 @@ export default function AbandonPriere() {
                   la turpitude et du blâmable &raquo; (sourate Al-Ankabut, 29:45).
                   Cette fonction protectrice souligne que la prière n&apos;est pas
                   un simple rituel, mais un véritable bouclier spirituel qui
-                  préserve le croyant des déviations.
+                  préserve le croyant des déviations. Même en déplacement, le croyant
+                  est tenu de maintenir{" "}
+                  <Link href="/priere-voyageur-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les règles de la prière du voyageur</Link>{" "}
+                  pour ne pas rompre ce lien essentiel.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -263,7 +266,10 @@ export default function AbandonPriere() {
                   passions. Ils se trouveront bientôt confrontés à leur
                   égarement &raquo; (sourate Maryam, 19:59). Ce verset lie
                   directement l&apos;abandon de la prière à la chute dans les
-                  passions et l&apos;égarement.
+                  passions et l&apos;égarement. Les{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes de la fin des temps en islam</Link>{" "}
+                  comptent d&apos;ailleurs parmi eux la généralisation de
+                  l&apos;abandon de la prière.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -307,7 +313,9 @@ export default function AbandonPriere() {
                   sur ce second cas que les avis divergent entre les écoles. Chaque
                   école apporte une lecture nuancée, reflétant la richesse de la
                   jurisprudence islamique et la volonté de concilier fermeté
-                  doctrinale et miséricorde envers le pécheur.
+                  doctrinale et miséricorde envers le pécheur. Pour{" "}
+                  <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">obtenir le pardon divin (maghfira)</Link>,
+                  la sincérité du retour vers Allah demeure la condition première.
                 </p>
 
                 {/* Tableau des positions des écoles */}
@@ -463,7 +471,9 @@ export default function AbandonPriere() {
                   éloignement grandissant vis-à-vis de son Créateur. Le cœur
                   s&apos;assombrit, la poitrine se resserre, et les actes
                   d&apos;adoration deviennent de plus en plus difficiles à
-                  accomplir. Le Coran décrit cet état dans la sourate
+                  accomplir. Des{" "}
+                  <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes contre l&apos;angoisse en islam</Link>{" "}
+                  existent, mais la prière en reste le fondement indispensable. Le Coran décrit cet état dans la sourate
                   Al-Muddaththir : &laquo; Qu&apos;est-ce qui vous a conduits en
                   Enfer ? Ils dirent : Nous n&apos;étions pas de ceux qui
                   priaient &raquo; (sourate Al-Muddaththir, 74:42-43).
@@ -789,7 +799,8 @@ export default function AbandonPriere() {
                         Le repentir sincère (tawbah)
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Le retour à la prière commence par un repentir sincère
+                        Le retour à la prière commence par un{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère (tawbah)</Link>{" "}
                         comprenant trois conditions : le regret d&apos;avoir
                         abandonné la prière, l&apos;arrêt immédiat de cette
                         négligence et la ferme intention de ne plus y retomber.
@@ -867,8 +878,8 @@ export default function AbandonPriere() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Le rappel d&apos;Allah (dhikr) tout au long de la
                         journée adoucit le cœur et prépare l&apos;âme à la
-                        prière. Les formules de glorification (subhan Allah), de
-                        louange (al-hamdulillah) et de grandeur (Allahu akbar)
+                        prière. Les{" "}
+                        <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations pour la réussite et la facilité</Link>{" "}
                         renforcent le lien avec le Créateur et facilitent la
                         reprise de la salat.
                       </p>

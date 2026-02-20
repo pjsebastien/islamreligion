@@ -240,8 +240,10 @@ export default function ReverExIslam() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;islam enseigne que les rêves peuvent venir de trois
-                  sources : d&apos;Allah (rêves véridiques), de soi-même
+                  L&apos;islam enseigne que les{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves peuvent venir de trois
+                  sources</Link>
+                  {" "}: d&apos;Allah (rêves véridiques), de soi-même
                   (reflets de l&apos;âme) ou du shaytan. Les rêves
                   concernant un ex relèvent le plus souvent de la deuxième
                   catégorie : ils reflètent les préoccupations du coeur et
@@ -287,8 +289,9 @@ export default function ReverExIslam() {
                       <strong>
                         La mort ou la disparition de l&apos;ex
                       </strong>{" "}
-                      : interprétée comme un signal positif, elle symbolise
-                      que la page est tournée et que la libération
+                      : interprétée comme un signal positif, comme dans les{" "}
+                      <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves de mort en islam</Link>,
+                      elle symbolise que la page est tournée et que la libération
                       émotionnelle est en cours.
                     </span>
                   </li>
@@ -297,7 +300,9 @@ export default function ReverExIslam() {
                     <span>
                       <strong>Voir son ex se marier</strong> : symbole
                       d&apos;un changement, d&apos;une transition à
-                      accepter dans sa propre vie.
+                      accepter dans sa propre vie. La{" "}
+                      <Link href="/mariage-islam-presages-significations" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">symbolique du mariage en rêve</Link>
+                      {" "}enrichit cette lecture.
                     </span>
                   </li>
                 </ul>
@@ -452,7 +457,9 @@ export default function ReverExIslam() {
                       <strong>Intimité avec son ex en rêve</strong> : deux
                       pistes d&apos;analyse possibles, la persistance de
                       désirs non comblés ou le passage vers une nouvelle
-                      phase de maturité affective.
+                      phase de maturité affective. L&apos;article sur les{" "}
+                      <Link href="/reve-erotique-islam-purification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves érotiques en islam</Link>
+                      {" "}aborde cette question en détail.
                     </span>
                   </li>
                 </ul>
@@ -571,7 +578,10 @@ export default function ReverExIslam() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La sagesse islamique invite à ne pas rester prisonnier de
                   ces interprétations, mais à les utiliser comme des outils
-                  de croissance personnelle. Le but n&apos;est pas de
+                  de croissance personnelle. Lorsque la séparation a pris la
+                  forme d&apos;un{" "}
+                  <Link href="/divorce-islam-talaq-khula" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">divorce en islam</Link>,
+                  le travail de deuil peut être plus intense. Le but n&apos;est pas de
                   revivre le passé, mais de tirer les leçons nécessaires
                   pour avancer avec sérénité et confiance en Allah.
                 </p>
@@ -665,8 +675,9 @@ export default function ReverExIslam() {
                       5. Consulter les recommandations coraniques
                     </p>
                     <p className="mt-1 text-sm text-foreground-secondary">
-                      Dhikr, prière de consultation (istikhara) ou patience
-                      (sabr). Ces pratiques renforcent la sérénité et la
+                      Dhikr,{" "}
+                      <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière de consultation (istikhara)</Link>
+                      {" "}ou patience (sabr). Ces pratiques renforcent la sérénité et la
                       confiance en la volonté d&apos;Allah.
                     </p>
                   </div>

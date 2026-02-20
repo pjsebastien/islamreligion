@@ -196,8 +196,10 @@ export default function ReverPerdreDents() {
                   Dans l&apos;islam, chaque détail d&apos;un rêve, y compris
                   la chute de dents, porte une signification spécifique liée au
                   vécu du rêveur et à l&apos;empreinte de la tradition
-                  prophétique. Depuis des siècles, l&apos;interprétation des
-                  rêves s&apos;appuie sur une grille où les dents incarnent la
+                  prophétique. Depuis des siècles, l&apos;
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">interprétation des
+                  rêves en islam</Link>
+                  {" "}s&apos;appuie sur une grille où les dents incarnent la
                   sphère familiale et l&apos;équilibre spirituel du croyant.
                   Ainsi, perdre une dent n&apos;est jamais anodin : ce geste
                   évoque souvent le rapport à ses proches, à la santé ou à la
@@ -291,7 +293,9 @@ export default function ReverPerdreDents() {
                   la fortune et à la réussite sociale. La perte peut alors
                   correspondre à l&apos;annonce d&apos;une transition
                   personnelle importante ou d&apos;une invitation à
-                  l&apos;évolution spirituelle.
+                  l&apos;évolution spirituelle, un peu comme{" "}
+                  <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;un mort en islam</Link>
+                  {" "}peut signaler un passage vers une nouvelle étape de vie.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -385,7 +389,8 @@ export default function ReverPerdreDents() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Cette image rare annonce le début d&apos;une nouvelle
                         étape dans la vie, un message spirituel positif tourné
-                        vers la transformation et la purification.
+                        vers la transformation et{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la purification par le repentir sincère</Link>.
                       </p>
                     </div>
                   </div>
@@ -548,7 +553,10 @@ export default function ReverPerdreDents() {
                   Ce brassage de lectures est aussi un atout pour le croyant
                   moderne : il peut ainsi mieux comprendre le rôle de ses
                   racines, tout en adaptant la symbolique des dents à ses
-                  propres questionnements. Les enseignants compétents
+                  propres questionnements. Si le rêve s&apos;accompagne de
+                  larmes, il peut être utile de consulter l&apos;article sur{" "}
+                  <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les pleurs en rêve et leur dimension de compassion</Link>.
+                  Les enseignants compétents
                   encouragent à s&apos;ouvrir à cette richesse, à condition
                   d&apos;enraciner chaque interprétation dans la sagesse
                   coranique et la Sunna prophétique.
@@ -583,8 +591,9 @@ export default function ReverPerdreDents() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Renforcer le lien avec Allah par la prière et les
-                      invocations, notamment après le Fajr ou lors de moments
+                      Renforcer le lien avec Allah par{" "}
+                      <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière et les
+                      invocations</Link>, notamment après le Fajr ou lors de moments
                       de doute.
                     </span>
                   </li>
@@ -684,7 +693,10 @@ export default function ReverPerdreDents() {
                   Un même rêve de perte de dents ne porte pas la même
                   signification selon la personne qui le fait. Les grands
                   interprètes tiennent compte de la situation personnelle du
-                  rêveur pour affiner leur lecture.
+                  rêveur pour affiner leur lecture. Si ce rêve génère de
+                  l&apos;angoisse persistante, des{" "}
+                  <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes islamiques contre l&apos;angoisse</Link>
+                  {" "}peuvent accompagner la démarche spirituelle.
                 </p>
 
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">

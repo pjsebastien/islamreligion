@@ -190,7 +190,7 @@ export default function HalalHaram() {
                   al-ahk&acirc;m al-khamsa. Ce syst&egrave;me, &eacute;labor&eacute;
                   par les grands juristes des quatre &eacute;coles sunnites
                   (hanafite, malikite, shafi&apos;ite, hanbalite), repose sur
-                  le Coran, la Sunna du Proph&egrave;te (&#7779;alla All&#257;hu
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les sources fondamentales de la jurisprudence islamique</Link> : le Coran, la Sunna du Proph&egrave;te (&#7779;alla All&#257;hu
                   &#699;alayhi wa sallam), le consensus des savants (ijma&#699;)
                   et le raisonnement par analogie (qiy&acirc;s).
                 </p>
@@ -347,7 +347,7 @@ export default function HalalHaram() {
                       <strong>Le principe de pr&eacute;caution :</strong> en cas
                       de doute, le Proph&egrave;te (&#7779;alla All&#257;hu
                       &#699;alayhi wa sallam) conseille de s&apos;abstenir pour
-                      prot&eacute;ger sa religion et son honneur.
+                      prot&eacute;ger sa religion et son honneur. Si le croyant transgresse, <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le repentir sincère (tawba)</Link> reste toujours accessible.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -841,7 +841,7 @@ export default function HalalHaram() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         L&apos;islam accorde une importance capitale aux
-                        relations familiales et communautaires. Le respect des
+                        relations familiales et communautaires, &agrave; commencer par <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le contrat de mariage islamique</Link>. Le respect des
                         parents, le bon voisinage, l&apos;honn&ecirc;tet&eacute;
                         dans les &eacute;changes et le maintien des liens de
                         parent&eacute; (silat ar-rahim) sont des obligations.
@@ -954,7 +954,7 @@ export default function HalalHaram() {
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Face aux d&eacute;fis du monde moderne, le musulman ne peut
+                  Face aux d&eacute;fis du monde moderne -- dont les questionnements li&eacute;s aux <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes de la fin des temps</Link> --, le musulman ne peut
                   pas toujours d&eacute;terminer seul le statut d&apos;un acte.
                   Les questions li&eacute;es aux nouvelles technologies, &agrave;
                   la bio&eacute;thique, &agrave; la finance
@@ -1074,7 +1074,7 @@ export default function HalalHaram() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Rechercher la science :</strong> le croyant a le
-                      devoir de s&apos;instruire en mati&egrave;re de religion.
+                      devoir de <Link href="/apprendre-science-religieuse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">s&apos;instruire en mati&egrave;re de religion</Link>.
                       Conna&icirc;tre les bases du halal et du haram fait
                       partie des obligations de chaque musulman.
                     </span>

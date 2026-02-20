@@ -506,7 +506,8 @@ export default function AlopecieRemedeIslam() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      Assainit le cuir chevelu et combat les pellicules.
+                      Assainit le cuir chevelu et combat les pellicules et{" "}
+                      <Link href="/psoriasis-remede-arabe" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les affections cutanées comme le psoriasis</Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -612,7 +613,8 @@ export default function AlopecieRemedeIslam() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   La hijama (ventouses humides) complète cette approche en
                   améliorant la circulation sanguine vers les follicules
-                  pileux. Le Prophète &#xFDFA; a dit : « La guérison réside
+                  pileux, tout comme elle bénéficie à la{" "}
+                  <Link href="/remede-yeux-islam-soins" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">santé des yeux</Link>. Le Prophète &#xFDFA; a dit : « La guérison réside
                   dans trois choses : la gorgée de miel, l&apos;incision de la
                   hijama et la cautérisation par le feu, mais j&apos;interdis à
                   ma communauté la cautérisation » (Sahih al-Bukhari,
@@ -834,7 +836,10 @@ export default function AlopecieRemedeIslam() {
                   l&apos;alimentation : « L&apos;être humain n&apos;a jamais
                   rempli de récipient pire que son estomac. Il suffit au fils
                   d&apos;Adam de quelques bouchées pour se maintenir »
-                  (Sunan at-Tirmidhi, n&deg; 2380). Un équilibre alimentaire
+                  (Sunan at-Tirmidhi, n&deg; 2380). Pour ceux qui cherchent à{" "}
+                  <Link href="/remede-arabe-maigrir-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">perdre du poids sainement</Link>{" "}
+                  tout en prenant soin de leurs cheveux, cette sagesse est
+                  un guide précieux. Un équilibre alimentaire
                   respectueux de cette sagesse favorise une meilleure
                   assimilation des nutriments et une santé capillaire durable.
                 </p>
@@ -1014,7 +1019,9 @@ export default function AlopecieRemedeIslam() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   L&apos;alopécie, comme toute épreuve, peut devenir une
-                  occasion de rapprochement avec Allah. Le Prophète &#xFDFA;
+                  occasion de rapprochement avec Allah et de{" "}
+                  <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">chercher le pardon et la miséricorde divine</Link>.{" "}
+                  Le Prophète &#xFDFA;
                   a dit : « Qu&apos;il est étonnant le cas du croyant ! Tout
                   ce qui lui arrive est un bien. Si un bonheur le touche, il
                   remercie et c&apos;est un bien pour lui. Si un malheur
@@ -1238,7 +1245,10 @@ export default function AlopecieRemedeIslam() {
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       La chute de cheveux après l&apos;accouchement
                       (effluvium télogène du post-partum) est très fréquente
-                      et généralement réversible en 6 à 12 mois. Consommez
+                      et généralement réversible en 6 à 12 mois. Consultez
+                      notre guide dédié aux{" "}
+                      <Link href="/remede-arabe-grossesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes prophétiques pendant la période post-partum</Link>{" "}
+                      pour en savoir plus. Consommez
                       des dattes, du miel et de la talbina, qui sont des
                       aliments recommandés par la Sunna pour les femmes après
                       l&apos;accouchement. Patientez et invoquez Allah.
@@ -1251,7 +1261,9 @@ export default function AlopecieRemedeIslam() {
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Le stress est un déclencheur majeur de chute de
-                      cheveux. Renforcez vos adhkar quotidiens, pratiquez la
+                      cheveux. Découvrez nos conseils pour apaiser{" "}
+                      <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le stress et l&apos;anxiété</Link>{" "}
+                      grâce à la tradition prophétique. Renforcez vos adhkar quotidiens, pratiquez la
                       prière de la nuit (qiyam al-layl), et cherchez du
                       soutien auprès de vos proches et de votre communauté.
                       La confiance en le qadar (décret divin) est le meilleur

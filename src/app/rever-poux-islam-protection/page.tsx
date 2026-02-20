@@ -325,7 +325,10 @@ export default function ReverPouxIslamProtection() {
                   uniformément négative du rêve de poux. Tuer des poux dans
                   un rêve, par exemple, symbolise la capacité du rêveur à
                   surmonter les obstacles et à se libérer de ce qui le
-                  parasite. L&apos;analyse demande de la nuance, du
+                  parasite, un symbolisme que l&apos;on retrouve également
+                  dans{" "}
+                  <Link href="/rever-rat-islam-purification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le rêve de rat et sa dimension de purification</Link>.
+                  L&apos;analyse demande de la nuance, du
                   discernement et une prise en compte du contexte personnel
                   du rêveur.
                 </p>
@@ -387,7 +390,9 @@ export default function ReverPouxIslamProtection() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Reconnaître ses manquements et demander le pardon
-                        divin. Le repentir allège le coeur et dissipe les
+                        divin. Le{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère</Link>
+                        {" "}allège le coeur et dissipe les
                         énergies négatives qui peuvent se manifester dans les
                         rêves.
                       </p>
@@ -421,9 +426,11 @@ export default function ReverPouxIslamProtection() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         S&apos;éloigner des personnes ou des contextes qui
-                        provoquent du malaise. Le rêve de poux peut être un
-                        appel à réévaluer ses relations et à poser des
-                        limites saines.
+                        provoquent du malaise, en particulier ceux liés à
+                        la{" "}
+                        <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">sorcellerie ou au mauvais oeil</Link>.
+                        Le rêve de poux peut être un appel à réévaluer ses
+                        relations et à poser des limites saines.
                       </p>
                     </div>
                   </div>
@@ -536,7 +543,10 @@ export default function ReverPouxIslamProtection() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Ce témoignage illustre un point essentiel : le rêve de poux
                   n&apos;est pas une punition divine, mais une opportunité de
-                  prise de conscience et d&apos;avancement spirituel. Les
+                  prise de conscience et d&apos;avancement spirituel. D&apos;autres
+                  rêves d&apos;insectes, comme{" "}
+                  <Link href="/symbolisme-fourmis-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les fourmis en islam</Link>,
+                  portent d&apos;ailleurs un message très différent. Les
                   savants encouragent à considérer ces rêves comme des
                   invitations à la réflexion plutôt que comme des motifs de
                   peur.

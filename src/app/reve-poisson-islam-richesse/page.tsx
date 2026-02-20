@@ -195,7 +195,11 @@ export default function RevePoisson() {
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  Dans la tradition musulmane, le rêve de poisson n&apos;est
+                  Dans la tradition musulmane, le{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêve de poisson
+                  </Link>{" "}
+                  n&apos;est
                   jamais anodin. Il traduit la relation intime entre le croyant
                   et son Créateur, tout en reflétant son cheminement personnel à
                   travers la vie. Chaque variété de poisson, chaque contexte de
@@ -245,7 +249,10 @@ export default function RevePoisson() {
                     <span>
                       <strong>Poisson noir :</strong> période d&apos;épreuve et
                       invitation à persévérer avant de recueillir les fruits
-                      espérés.
+                      espérés. Ce symbolisme rejoint celui des{" "}
+                      <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêves de mort en islam
+                      </Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -461,7 +468,12 @@ export default function RevePoisson() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   À l&apos;opposé, un poisson mort, blessé ou pourri fait figure
                   d&apos;avertissement. Il peut annoncer des soucis, des retards
-                  ou, dans certains cas, une invitation à la remise en question.
+                  ou, dans certains cas, une invitation à la remise en question,
+                  à l&apos;image des{" "}
+                  <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêves de pleurs en islam
+                  </Link>{" "}
+                  qui appellent à l&apos;introspection.
                   Rêver de poisson séché ou congelé met en lumière des obstacles
                   dans les affaires en cours ou révèle une stagnation, sur le
                   plan professionnel comme sur le plan intime.
@@ -657,7 +669,10 @@ export default function RevePoisson() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Purification de ses erreurs passées, volonté
                         d&apos;avancer sur une voie authentique. C&apos;est un
-                        signe de renouveau spirituel.
+                        signe de renouveau spirituel, proche de la notion de{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                          repentir sincère en islam
+                        </Link>.
                       </p>
                     </div>
                   </div>
@@ -869,8 +884,11 @@ export default function RevePoisson() {
                       Pour une femme célibataire
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Rêver de poisson frais peut annoncer un mariage proche ou
-                      une rencontre favorable. Un gros poisson symbolise un
+                      Rêver de poisson frais peut annoncer un{" "}
+                      <Link href="/mariage-islam-presages-significations" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        mariage proche
+                      </Link>{" "}
+                      ou une rencontre favorable. Un gros poisson symbolise un
                       prétendant de qualité. Si le poisson s&apos;échappe, cela
                       peut indiquer une hésitation face à un engagement ou une
                       opportunité ratée.
@@ -896,7 +914,10 @@ export default function RevePoisson() {
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Le rêve de poisson est souvent interprété comme un signe
-                      positif pour la grossesse. Un poisson frais et vivant peut
+                      positif pour la grossesse, tout comme{" "}
+                      <Link href="/rever-enceinte-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêver d&apos;être enceinte en islam
+                      </Link>. Un poisson frais et vivant peut
                       annoncer un enfant en bonne santé. Un gros poisson peut
                       indiquer un accouchement facile. Les savants recommandent
                       de multiplier les invocations de protection.

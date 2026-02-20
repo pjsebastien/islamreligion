@@ -235,9 +235,11 @@ export default function ApprendreScience() {
                     <span>
                       <strong>Fard ayn (obligation individuelle) :</strong>{" "}
                       chaque musulman doit connaître les fondements de la
-                      foi (tawhid), les règles de la prière, du jeûne, de
-                      la zakat, ainsi que le licite et l&apos;illicite dans
-                      sa vie courante. Nul n&apos;est excusé de cette
+                      foi (tawhid), les règles de{" "}
+                      <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière</Link>,
+                      du jeûne, de la zakat, ainsi que{" "}
+                      <Link href="/halal-haram-criteres" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le licite et l&apos;illicite</Link>{" "}
+                      dans sa vie courante. Nul n&apos;est excusé de cette
                       ignorance.
                     </span>
                   </li>
@@ -405,7 +407,9 @@ export default function ApprendreScience() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Ces disciplines ne fonctionnent pas de manière isolée.
-                  L&apos;étude du fiqh nécessite une connaissance du Coran
+                  L&apos;étude du fiqh, dont les fondements sont détaillés dans{" "}
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les sources de la jurisprudence islamique</Link>,
+                  nécessite une connaissance du Coran
                   et du hadith. L&apos;exégèse coranique s&apos;appuie sur
                   la sira et les circonstances de la révélation. La
                   purification du cœur (tasawwuf) accompagne toutes les
@@ -530,7 +534,10 @@ export default function ApprendreScience() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Un parent qui maîtrise les fondements de sa
                         religion transmet naturellement ce savoir à ses
-                        enfants. La famille devient un lieu
+                        enfants. L&apos;application concrète de ce savoir se
+                        manifeste dans les actes de la vie familiale, du{" "}
+                        <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">contrat de mariage</Link>{" "}
+                        à l&apos;éducation des enfants. La famille devient un lieu
                         d&apos;apprentissage continu où la pratique
                         religieuse se vit de manière consciente et
                         cohérente.
@@ -562,8 +569,10 @@ export default function ApprendreScience() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Résilience face aux épreuves :</strong> la
-                      connaissance du destin (qadar) et de la sagesse
-                      divine aide le croyant à traverser les difficultés
+                      connaissance du destin (qadar), de la sagesse
+                      divine et des{" "}
+                      <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes eschatologiques</Link>{" "}
+                      aide le croyant à traverser les difficultés
                       avec patience et confiance.
                     </span>
                   </li>

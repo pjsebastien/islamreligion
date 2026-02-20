@@ -474,8 +474,9 @@ export default function FinMondeIslamPreparation() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Les hadiths authentiques rapportent plusieurs signes
-                  majeurs qui précéderont la fin du monde. Ces signes ne
+                  Les hadiths authentiques rapportent plusieurs{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes majeurs de la fin du monde en islam</Link>{" "}
+                  qui précéderont la fin du monde. Ces signes ne
                   sont pas un sujet de terreur, mais d&apos;enseignement :
                   ils rappellent au croyant la nécessité de se préparer
                   spirituellement et d&apos;agir avec droiture.
@@ -592,8 +593,9 @@ export default function FinMondeIslamPreparation() {
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Parmi les signes majeurs de l&apos;Heure, le Dajjal
-                  (l&apos;Antéchrist) occupe une place centrale dans les
+                  Parmi les signes majeurs de l&apos;Heure,{" "}
+                  <Link href="/dajjal-signes-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le Dajjal (l&apos;Antéchrist)</Link>{" "}
+                  occupe une place centrale dans les
                   enseignements du Prophète (paix et bénédictions sur lui).
                   Si un rêve de fin du monde met en scène une figure
                   trompeuse ou un faux sauveur, comprendre la pédagogie
@@ -682,8 +684,9 @@ export default function FinMondeIslamPreparation() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  L&apos;enseignement prophétique sur les signes de
-                  l&apos;Heure n&apos;a jamais pour but de terroriser le
+                  L&apos;enseignement prophétique sur{" "}
+                  <Link href="/signes-mineurs-actuels" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les signes annonciateurs de l&apos;Heure</Link>{" "}
+                  n&apos;a jamais pour but de terroriser le
                   croyant, mais de le préparer. Le Prophète (paix et
                   bénédictions sur lui) a dit :{" "}
                   <em>
@@ -777,8 +780,9 @@ export default function FinMondeIslamPreparation() {
                   Sirin, il symbolise un bouleversement imminent dans la
                   vie du rêveur : changement de situation, remise en
                   question profonde ou perte de repères habituels. Ce
-                  rêve appelle à ancrer sa vie dans la prière et la
-                  recherche de stabilité auprès d&apos;Allah.
+                  rêve appelle à ancrer sa vie dans{" "}
+                  <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière</Link>{" "}
+                  et la recherche de stabilité auprès d&apos;Allah.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">
@@ -1224,7 +1228,9 @@ export default function FinMondeIslamPreparation() {
                           pardonne tous les péchés. Oui, c&apos;est Lui le
                           Pardonneur, le Très Miséricordieux.&quot;
                         </em>{" "}
-                        (39:53). Le repentir est toujours accessible et
+                        (39:53).{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">Le repentir sincère</Link>{" "}
+                        est toujours accessible et
                         constitue la meilleure réponse face à la peur de
                         la fin.
                       </p>

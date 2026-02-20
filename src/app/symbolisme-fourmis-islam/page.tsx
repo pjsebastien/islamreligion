@@ -138,7 +138,9 @@ export default function SymbolismeFourmis() {
               <section id="tradition" className="scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">Le rêve de fourmis entre tradition coranique et leçon de persévérance</h2>
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  Rêver de fourmis, selon la spiritualité musulmane, va bien au-delà d&apos;une simple scène nocturne. Le Coran consacre à ces petites créatures une attention singulière dans la sourate An-Naml, soulignant leur capacité à communiquer, à s&apos;organiser et à travailler pour l&apos;intérêt collectif. Cette mention n&apos;est pas anodine : elle place les fourmis au rang de modèles à observer.
+                  Rêver de fourmis, selon la spiritualité musulmane, va bien au-delà d&apos;une simple scène nocturne. Dans la{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">tradition de l&apos;interprétation des rêves en islam</Link>,
+                  le Coran consacre à ces petites créatures une attention singulière dans la sourate An-Naml, soulignant leur capacité à communiquer, à s&apos;organiser et à travailler pour l&apos;intérêt collectif. Cette mention n&apos;est pas anodine : elle place les fourmis au rang de modèles à observer.
                 </p>
                 <p className="mt-4 leading-relaxed text-foreground">
                   Lorsque le croyant voit des fourmis en rêve, cela traduit souvent une période marquée par l&apos;effort et l&apos;ardeur au travail. La tradition rapporte aussi que la présence abondante de fourmis dans un rêve indique la multitude de moyens de subsistance et de bénédictions offertes au foyer ou à la communauté. Les savants, tels qu&apos;Ibn Sirin, relient la vision des fourmis transportant de la nourriture à l&apos;annonce d&apos;un accroissement des richesses dans la maison.
@@ -168,7 +170,9 @@ export default function SymbolismeFourmis() {
               <section id="benedictions" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">Le message de bénédictions divines dans les rêves de fourmis</h2>
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Dans la vision islamique du monde, la fourmi est le repère d&apos;une société harmonieuse et ordonnée, reflet de la bénédiction divine lorsque le rêveur se montre reconnaissant. Voir une fourmi entrer chez soi en rêve est généralement interprété comme une invitation à l&apos;action collective, à la solidarité et à la reconnaissance envers Allah pour les biens offerts.
+                  Dans la vision islamique du monde, la fourmi est le repère d&apos;une société harmonieuse et ordonnée, reflet de la bénédiction divine lorsque le rêveur se montre reconnaissant. Cette gratitude s&apos;accompagne idéalement des{" "}
+                  <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">conditions du pardon divin</Link>.
+                  Voir une fourmi entrer chez soi en rêve est généralement interprété comme une invitation à l&apos;action collective, à la solidarité et à la reconnaissance envers Allah pour les biens offerts.
                 </p>
                 <ul className="mt-6 space-y-3 text-foreground">
                   <li className="flex items-start gap-3"><span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" /><span><strong>Fourmis entrant avec de la nourriture :</strong> accroissement de bienfaits et succès.</span></li>
@@ -195,7 +199,9 @@ export default function SymbolismeFourmis() {
               <section id="communaute" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">Organisation, communauté et modèle de solidarité chez les fourmis</h2>
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Un autre enseignement central issu de la symbolique des fourmis dans l&apos;islam concerne leur rare capacité d&apos;organisation communautaire. Ces insectes ne vivent pas isolés, mais incarnent l&apos;union, la coopération et la force du collectif. Chez les fourmis, chaque individu occupe une place précise, œuvre pour la collectivité et contribue à la prospérité du groupe.
+                  Un autre enseignement central issu de la symbolique des fourmis dans l&apos;islam concerne leur rare capacité d&apos;organisation communautaire. D&apos;autres insectes en rêve, comme{" "}
+                  <Link href="/cafard-islam-signification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le cafard en islam</Link>,
+                  portent une charge symbolique bien différente. Les fourmis, elles, ne vivent pas isolées : elles incarnent l&apos;union, la coopération et la force du collectif. Chez les fourmis, chaque individu occupe une place précise, oeuvre pour la collectivité et contribue à la prospérité du groupe.
                 </p>
                 <ul className="mt-6 space-y-3 text-foreground">
                   <li className="flex items-start gap-3"><span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" /><span>Répartition des tâches pour maximiser l&apos;efficacité collective.</span></li>
@@ -219,7 +225,9 @@ export default function SymbolismeFourmis() {
               <section id="couleurs" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">Couleurs, comportements et contextes : interprétations variées</h2>
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Les significations oniriques changent sensiblement selon la couleur, le lieu ou l&apos;attitude des fourmis aperçues en rêve. Selon Ibn Sirin, voir des fourmis noires marcher sur le corps renvoie à la purification des péchés et à la discrétion dans ses actions. Les fourmis rouges symbolisent parfois la jalousie, des ennemis faibles mais persistants.
+                  Les significations oniriques changent sensiblement selon la couleur, le lieu ou l&apos;attitude des fourmis aperçues en rêve. Selon Ibn Sirin, voir des fourmis noires marcher sur le corps renvoie à la purification des péchés et à la discrétion dans ses actions, un thème que l&apos;on retrouve aussi dans{" "}
+                  <Link href="/rever-perdre-dents-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le rêve de perte de dents</Link>.
+                  Les fourmis rouges symbolisent parfois la jalousie, des ennemis faibles mais persistants.
                 </p>
                 <ul className="mt-6 space-y-3 text-foreground">
                   <li className="flex items-start gap-3"><span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" /><span><strong>Fourmis sur le lit :</strong> annonce d&apos;une descendance abondante ou d&apos;un prochain mariage pour les célibataires.</span></li>
@@ -244,7 +252,9 @@ export default function SymbolismeFourmis() {
               {/* SECTION 5 : Profils */}
               <section id="profils" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">Signification selon la situation du rêveur</h2>
-                <p className="mt-6 leading-relaxed text-foreground">Un même rêve de fourmis ne porte pas la même signification selon la personne qui le fait.</p>
+                <p className="mt-6 leading-relaxed text-foreground">Un même rêve de fourmis ne porte pas la même signification selon la personne qui le fait. Pour{" "}
+                  <Link href="/apprendre-science-religieuse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">approfondir la science religieuse</Link>,
+                  il est recommandé de consulter un savant qualifié.</p>
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-xl border border-border bg-white p-6">
                     <h3 className="text-lg font-semibold text-primary">Pour une femme célibataire</h3>

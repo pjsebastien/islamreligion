@@ -194,8 +194,9 @@ export default function ReveCheval() {
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  L&apos;image du cheval, au sein des songes et plus
-                  particulièrement dans l&apos;imaginaire islamique, occupe une
+                  L&apos;image du cheval, au sein des{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">songes en islam</Link>{" "}
+                  et plus particulièrement dans l&apos;imaginaire islamique, occupe une
                   place privilégiée. À la croisée entre animal terrestre et
                   messager spirituel, il porte en lui les marques d&apos;une
                   noblesse intemporelle et d&apos;une force intérieure
@@ -322,7 +323,9 @@ export default function ReveCheval() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La compréhension symbolique des chevaux en islam n&apos;a
                   rien de figé : chaque rêve est unique, reflet d&apos;un
-                  cheminement particulier. Approcher ces messages avec sérieux
+                  cheminement particulier, tout comme le{" "}
+                  <Link href="/rever-chien-islam-signification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve de chien</Link>{" "}
+                  dont la signification varie selon le contexte. Approcher ces messages avec sérieux
                   et douceur permet de se reconnecter à son cœur et à la
                   miséricorde divine qui éclaire toute quête de sens.
                 </p>
@@ -470,7 +473,9 @@ export default function ReveCheval() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   À travers ces variations, chaque rêve de cheval devient une
                   invitation à sonder son âme, revisiter ses priorités et
-                  réaligner ses actions sur le chemin du bien.
+                  réaligner ses actions sur le chemin du bien. Le croyant peut aussi s&apos;aider de la{" "}
+                  <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière de consultation (istikhara)</Link>{" "}
+                  pour éclairer ses décisions.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -662,8 +667,9 @@ export default function ReveCheval() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   De nombreux récits rapportent que rêver de monter
                   victorieusement un cheval, traverser une épreuve ou remporter
-                  une course fait écho à la quête du succès, du respect et de
-                  la position sociale. Mais les sages rappellent que derrière
+                  une course fait écho à la quête du succès, à l&apos;image du{" "}
+                  <Link href="/reve-poisson-islam-richesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve de poisson annonciateur de richesse</Link>,
+                  du respect et de la position sociale. Mais les sages rappellent que derrière
                   chaque victoire, il y a une mise à l&apos;épreuve du cœur :
                   saura-t-on rester juste, reconnaissant, généreux avec ses
                   proches ? Une vision classique du rêveur tombant de cheval
@@ -758,7 +764,8 @@ export default function ReveCheval() {
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Rêver d&apos;un cheval docile peut annoncer la
-                      rencontre d&apos;un partenaire noble et fiable. Un
+                      rencontre d&apos;un partenaire noble et fiable, ouvrant la voie vers un{" "}
+                      <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">mariage béni</Link>. Un
                       cheval sauvage peut indiquer un désir
                       d&apos;émancipation ou des défis relationnels à
                       surmonter avant de trouver la stabilité.

@@ -218,8 +218,7 @@ export default function JurisprudenceIslamique() {
                   universalité et leur capacité à s&apos;appliquer à
                   travers les époques. Les règles relatives à
                   l&apos;héritage (sourate An-Nisa), l&apos;interdiction
-                  de l&apos;usure (sourate Al-Baqarah) ou les conditions
-                  du mariage (sourate An-Nur) témoignent de cette
+                  de l&apos;usure (sourate Al-Baqarah) ou <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les conditions du mariage en islam</Link> (sourate An-Nur) témoignent de cette
                   dimension intemporelle. Certains versets énoncent des
                   règles précises et détaillées, tandis que d&apos;autres
                   posent des principes généraux que la Sunna et les savants
@@ -392,8 +391,7 @@ export default function JurisprudenceIslamique() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         La Sunna précise les modalités pratiques des
-                        obligations coraniques. Le Coran ordonne la
-                        prière, mais c&apos;est le Prophète qui en a
+                        obligations coraniques. Le Coran ordonne <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière avec excellence</Link>, mais c&apos;est le Prophète qui en a
                         enseigné les horaires, les mouvements et les
                         conditions de validité.
                       </p>
@@ -410,7 +408,7 @@ export default function JurisprudenceIslamique() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         La Sunna établit des règles dans des domaines où
-                        le Coran reste silencieux. Par exemple,
+                        le Coran reste silencieux, contribuant ainsi à définir <Link href="/halal-haram-criteres" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les critères du halal et du haram</Link>. Par exemple,
                         l&apos;interdiction de porter simultanément l&apos;or
                         et la soie pour les hommes provient exclusivement de
                         la tradition prophétique.
@@ -654,7 +652,7 @@ export default function JurisprudenceIslamique() {
                         questions inédites que les savants abordent par
                         l&apos;Ijtihad, en s&apos;appuyant sur les
                         finalités de la charia (maqasid ash-shari&apos;a) :
-                        préservation de la religion, de la vie, de la
+                        préservation de la religion -- notamment par <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le pardon divin et ses conditions</Link> --, de la vie, de la
                         raison, de la descendance et des biens.
                       </p>
                     </div>
@@ -888,7 +886,7 @@ export default function JurisprudenceIslamique() {
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Connaître les sources du fiqh aide à comprendre
                       pourquoi les savants peuvent parfois donner des avis
-                      différents sur une même question. Cette connaissance
+                      différents sur une même question, que ce soit en matière de droit familial ou sur des sujets comme <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;interprétation des rêves en islam</Link>. Cette connaissance
                       renforce la confiance dans la méthodologie islamique
                       et protège contre les interprétations hasardeuses ou
                       les discours sans fondement textuel.

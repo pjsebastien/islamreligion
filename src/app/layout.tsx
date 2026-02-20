@@ -46,6 +46,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.islamreligion.fr",
   },
+  verification: {
+    google: "tZCd7nFapnTDivf9Ty6v8OpgKY3Wwfpu0nL4wyBgnXE",
+  },
 };
 
 export default function RootLayout({

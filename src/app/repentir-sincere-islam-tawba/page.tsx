@@ -197,7 +197,7 @@ export default function RepentirTawba() {
                   repentir sincère &raquo; (sourate At-Tahrim, 66:8). Ce
                   verset souligne que le repentir n&apos;est pas réservé aux
                   pécheurs endurcis, mais s&apos;adresse à l&apos;ensemble de
-                  la communauté des croyants. Ailleurs, Allah promet une
+                  la communauté des croyants, ouvrant ainsi la voie vers <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les conditions du pardon divin (maghfira)</Link>. Ailleurs, Allah promet une
                   transformation remarquable : &laquo; Sauf celui qui se
                   repent, croit et accomplit une bonne oeuvre ; ceux-là, Allah
                   changera leurs mauvaises actions en bonnes actions &raquo;
@@ -473,7 +473,7 @@ export default function RepentirTawba() {
                   présente à l&apos;un d&apos;eux, et qui s&apos;écrie : oui,
                   maintenant je me repens. &raquo; Ce verset rappelle
                   l&apos;urgence du repentir et le danger de le reporter sans
-                  cesse.
+                  cesse, d&apos;autant plus que les <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes de la fin des temps en islam</Link> rappellent l&apos;imminence du terme fixé par Allah.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -509,7 +509,7 @@ export default function RepentirTawba() {
                   l&apos;importance qu&apos;Allah accorde à la justice entre
                   Ses serviteurs. Voler un bien, porter atteinte à la
                   réputation de quelqu&apos;un par la médisance ou la
-                  calomnie, ou causer un préjudice physique ou moral ne peut
+                  calomnie, ou causer un préjudice physique ou moral -- y compris dans le domaine des <Link href="/peches-sexualite-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">péchés liés à la sexualité</Link> -- ne peut
                   être effacé par une simple demande de pardon adressée à
                   Allah seul. Il faut aussi réparer le tort causé.
                 </p>
@@ -643,7 +643,7 @@ export default function RepentirTawba() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         La procrastination spirituelle est l&apos;une des
-                        ruses les plus redoutables de Shaytan. Se dire
+                        ruses les plus redoutables de Shaytan. Cette négligence peut mener jusqu&apos;à <Link href="/abandon-priere-islam-consequences" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;abandon de la prière et ses graves conséquences</Link>. Se dire
                         &laquo; je me repentirai quand je serai plus
                         âgé &raquo; ou &laquo; après le Ramadan &raquo;
                         revient à parier sur un avenir incertain. La mort
@@ -915,7 +915,7 @@ export default function RepentirTawba() {
                   voit souvent ses relations s&apos;améliorer, sa situation
                   matérielle se stabiliser et ses difficultés s&apos;alléger.
                   Allah a promis que l&apos;istighfar attire les
-                  bénédictions : &laquo; Demandez pardon à votre Seigneur,
+                  bénédictions, comme le détaillent les <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations pour la réussite et la facilité</Link> : &laquo; Demandez pardon à votre Seigneur,
                   car Il est grand Pardonneur, pour qu&apos;Il vous envoie du
                   ciel des pluies abondantes, qu&apos;Il vous accorde
                   davantage de biens et d&apos;enfants, et qu&apos;Il vous

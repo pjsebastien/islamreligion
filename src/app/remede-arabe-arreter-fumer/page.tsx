@@ -307,7 +307,14 @@ export default function RemedeArabeArreterFumer() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   La depense financiere liee au tabac est egalement
-                  problematique en islam. Gaspiller son argent dans ce qui nuit
+                  problematique en islam. Pour approfondir{" "}
+                  <Link
+                    href="/halal-haram-criteres"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les critères du halal et du haram
+                  </Link>
+                  , il faut comprendre que gaspiller son argent dans ce qui nuit
                   a la sante releve du <em>tabdhir</em> (gaspillage), condamne
                   dans le Coran : &laquo;&nbsp;Les gaspilleurs sont les freres
                   des diables&nbsp;&raquo; (sourate Al-Isra, verset 27).
@@ -462,7 +469,14 @@ export default function RemedeArabeArreterFumer() {
                   <p className="mt-4 leading-relaxed text-foreground-secondary">
                     La talbina est une bouillie d&apos;orge que le Prophete
                     (paix sur lui) recommandait pour reconforter le malade et
-                    la personne en deuil. Selon le hadith rapporte par
+                    la personne en deuil. L&apos;orge contribue aussi a{" "}
+                    <Link
+                      href="/remede-arabe-constipation"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      réguler son transit digestif
+                    </Link>
+                    , souvent perturbe lors d&apos;un changement d&apos;habitudes alimentaires. Selon le hadith rapporte par
                     al-Bukhari, elle &laquo;&nbsp;reconforte le coeur du malade
                     et emporte une partie de son chagrin&nbsp;&raquo;. Riche
                     en tryptophane, un precurseur de la serotonine, elle aide
@@ -570,7 +584,15 @@ export default function RemedeArabeArreterFumer() {
                   En complement des remedes prophetiques, certaines tisanes
                   issues de la tradition herboriste arabe peuvent accompagner
                   le sevrage. La menthe poivree aide a clarifier les voies
-                  respiratoires. La camomille apaise la nervosite. La reglisse
+                  respiratoires, et les anciens fumeurs gagneront a decouvrir
+                  comment{" "}
+                  <Link
+                    href="/remede-arabe-toux-soins-naturels"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    soulager la toux naturellement
+                  </Link>{" "}
+                  grace aux soins prophetiques. La camomille apaise la nervosite. La reglisse
                   attenuer les irritations de la gorge (a eviter en cas
                   d&apos;hypertension). L&apos;infusion de thym, connue dans
                   la pharmacopee traditionnelle arabe, possede des vertus
@@ -810,8 +832,14 @@ export default function RemedeArabeArreterFumer() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Le dhikr (rappel d&apos;Allah) est un outil puissant de
-                  gestion de l&apos;anxiete et du stress, deux declencheurs
+                  Le dhikr (rappel d&apos;Allah) est un outil puissant pour{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    gérer le stress du sevrage
+                  </Link>
+                  , deux declencheurs
                   majeurs de la rechute. Le Coran affirme : &laquo;&nbsp;N&apos;est-ce
                   pas par le rappel d&apos;Allah que les coeurs
                   s&apos;apaisent ?&nbsp;&raquo; (sourate Ar-Ra&apos;d, verset
@@ -1127,7 +1155,15 @@ export default function RemedeArabeArreterFumer() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Symptomes de sevrage intenses (insomnie severe,
-                      depression, prise de poids importante).
+                      depression, prise de poids importante). Consultez nos
+                      conseils pour{" "}
+                      <Link
+                        href="/remede-arabe-maigrir-islam"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        maintenir un poids sain
+                      </Link>{" "}
+                      apres l&apos;arret du tabac.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

@@ -240,7 +240,10 @@ export default function PleurerReveIslam() {
                     <h3 className="font-semibold text-primary">Pleurs de chagrin, de douleur ou d&apos;amour</h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Sont fréquemment liés à l&apos;acceptation d&apos;un
-                      deuil ou à la résolution de conflits intérieurs, offrant
+                      deuil ou à la résolution de conflits intérieurs, comme dans les{" "}
+                      <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêves liés à la mort en islam
+                      </Link>, offrant
                       une ouverture vers la guidance divine.
                     </p>
                   </div>
@@ -304,7 +307,11 @@ export default function PleurerReveIslam() {
                     <span>
                       Être témoin des larmes d&apos;un proche en rêve peut
                       signifier son besoin d&apos;être épaulé dans la réalité,
-                      appelant à poser un geste concret de compassion.
+                      appelant à poser un geste concret de compassion, comme le rappelle
+                      la notion de{" "}
+                      <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        responsabilité familiale en islam
+                      </Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -372,7 +379,11 @@ export default function PleurerReveIslam() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Les pleurs rêvés occupent une place centrale dans le
                   symbolisme islamique : loin d&apos;être de simples échos
-                  émotionnels, ils sont porteurs de protection divine et
+                  émotionnels, ils sont porteurs de protection divine,
+                  à l&apos;instar du{" "}
+                  <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêve d&apos;araignée en islam
+                  </Link>, et
                   annoncent parfois une résolution, voire une réconciliation
                   dans la vie réelle.
                 </p>
@@ -420,7 +431,11 @@ export default function PleurerReveIslam() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Rêver d&apos;un proche pleurant sur une tombe ou à
                   l&apos;occasion d&apos;un enterrement évoque la nécessité,
-                  pour le rêveur, de renforcer ses liens spirituels et de
+                  pour le rêveur, de renforcer ses liens spirituels, à travers
+                  notamment les{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    invocations et les du&apos;as
+                  </Link>, et de
                   multiplier les prières. Il est conseillé dans ces
                   circonstances de donner une aumône en son nom, soulignant la
                   dimension collective de la miséricorde en islam.
@@ -450,8 +465,12 @@ export default function PleurerReveIslam() {
                     <span>
                       <strong>Entendre pleurer sans voir la personne :</strong>{" "}
                       symbole d&apos;un message caché qu&apos;il convient
-                      d&apos;explorer à travers la prière ou la consultation
-                      avec un guide spirituel.
+                      d&apos;explorer à travers la{" "}
+                      <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        prière de consultation
+                      </Link>{" "}
+                      ou l&apos;accompagnement
+                      d&apos;un guide spirituel.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

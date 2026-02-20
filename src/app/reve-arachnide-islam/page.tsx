@@ -145,7 +145,11 @@ export default function ReveArachnideIslam() {
                   Les songes mettant en scène des araignées, souvent enveloppés
                   de mystère, suscitent une profonde interrogation chez nombre de
                   croyants musulmans. Derrière la peur ou l&apos;étonnement, le
-                  rêve d&apos;araignée en islam véhicule un symbolisme riche,
+                  rêve d&apos;araignée dans le cadre de{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    l&apos;interprétation des rêves en islam
+                  </Link>{" "}
+                  véhicule un symbolisme riche,
                   émaillé de significations subtiles selon les savants.
                 </p>
 
@@ -235,7 +239,10 @@ export default function ReveArachnideIslam() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La pluralité des significations incite toujours à la prudence :
                   chaque rêve doit être interprété à la lumière du vécu et du
-                  contexte individuel. Les grands interprètes ne sont pas
+                  contexte individuel, y compris pour les{" "}
+                  <Link href="/signification-reve-tuer-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                    rêves les plus troublants
+                  </Link>. Les grands interprètes ne sont pas
                   toujours d&apos;accord, ce qui enrichit la compréhension.
                 </p>
 
@@ -363,7 +370,11 @@ export default function ReveArachnideIslam() {
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-secondary/10 text-sm font-bold text-secondary">3</span>
                     <div>
                       <h4 className="font-semibold text-primary">Nettoyer la toile</h4>
-                      <p className="mt-1 leading-relaxed text-foreground-secondary">Purification, rupture avec le passé ou avec des influences négatives.</p>
+                      <p className="mt-1 leading-relaxed text-foreground-secondary">Purification, rupture avec le passé ou avec des influences négatives. Cela rejoint les pratiques de{" "}
+                        <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                          protection contre la sorcellerie en islam
+                        </Link>.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -418,7 +429,11 @@ export default function ReveArachnideIslam() {
                   </div>
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h3 className="font-semibold text-primary">Dans le lit</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">Menace sur la paix intérieure, possible trahison d&apos;un cercle proche.</p>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">Menace sur la paix intérieure, possible trahison d&apos;un cercle proche, un symbolisme que l&apos;on retrouve aussi dans le{" "}
+                      <Link href="/rever-crocodile-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        rêve de crocodile en islam
+                      </Link>.
+                    </p>
                   </div>
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h3 className="font-semibold text-primary">Plusieurs araignées</h3>
@@ -497,7 +512,11 @@ export default function ReveArachnideIslam() {
                   <div className="rounded-xl border border-border bg-white p-5">
                     <h3 className="font-semibold text-primary">Destruction collective</h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Besoin urgent de purification ou rupture d&apos;un cycle familial/social devenu toxique.
+                      Besoin urgent de purification ou rupture d&apos;un cycle familial/social devenu toxique. Le{" "}
+                      <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+                        repentir sincère (tawba)
+                      </Link>{" "}
+                      peut accompagner cette démarche.
                     </p>
                   </div>
                 </div>

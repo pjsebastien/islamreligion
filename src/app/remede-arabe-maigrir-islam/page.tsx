@@ -260,8 +260,15 @@ export default function RemedArabeMaigrirIslam() {
                   nourriture jetee, mais aussi la surconsommation. Le musulman
                   est invite a manger ce dont il a reellement besoin, a
                   remercier Allah pour chaque repas et a partager le surplus avec
-                  ceux qui en ont besoin. Cette discipline alimentaire naturelle
-                  contribue directement au maintien d&apos;un poids sain.
+                  ceux qui en ont besoin. Pour aller plus loin, decouvrez{" "}
+                  <Link
+                    href="/halal-haram-criteres"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les principes du halal et du haram en matiere alimentaire
+                  </Link>
+                  , qui encadrent cette discipline. Cette approche contribue
+                  directement au maintien d&apos;un poids sain.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -389,7 +396,15 @@ export default function RemedArabeMaigrirIslam() {
                   et un reveil matinal. Les etudes montrent qu&apos;un manque de
                   sommeil augmente la production de ghreline (hormone de la
                   faim) et diminue la leptine (hormone de la satiete), ce qui
-                  favorise la prise de poids.
+                  favorise la prise de poids. De meme,{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    le stress, facteur de prise de poids
+                  </Link>
+                  , doit etre pris en charge pour eviter les comportements
+                  alimentaires compulsifs.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -678,8 +693,14 @@ export default function RemedArabeMaigrirIslam() {
                   d&apos;orge cuite dans de l&apos;eau ou du lait, sucree avec
                   du miel. L&apos;orge est riche en beta-glucanes, des fibres
                   solubles qui procurent une sensation de satiete durable,
-                  ralentissent l&apos;absorption des glucides et aident a
-                  reguler le cholesterol. Integree au petit-dejeuner ou en
+                  ralentissent l&apos;absorption des glucides, aident a{" "}
+                  <Link
+                    href="/remede-arabe-constipation"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    ameliorer son transit intestinal
+                  </Link>{" "}
+                  et contribuent a reguler le cholesterol. Integree au petit-dejeuner ou en
                   collation, la talbina permet de reduire les quantites
                   consommees au repas suivant et constitue un veritable allie
                   minceur dans la tradition prophetique.
@@ -1101,7 +1122,16 @@ export default function RemedArabeMaigrirIslam() {
                   Pour les personnes en surpoids, la marche represente un point
                   de depart ideal. Elle peut etre pratiquee apres les prieres,
                   lors des courses quotidiennes ou sous forme de promenade
-                  familiale le week-end. L&apos;intention (niyya) de prendre
+                  familiale le week-end. Les fumeurs qui souhaitent perdre
+                  du poids gagneront aussi a{" "}
+                  <Link
+                    href="/remede-arabe-arreter-fumer"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    arreter de fumer pour retrouver la forme
+                  </Link>
+                  , car le tabac freine le metabolisme et reduit la capacite
+                  a l&apos;effort. L&apos;intention (niyya) de prendre
                   soin du corps offert par Allah transforme cet exercice en acte
                   d&apos;adoration.
                 </p>
@@ -1114,7 +1144,14 @@ export default function RemedArabeMaigrirIslam() {
                   Les cinq prieres quotidiennes impliquent des mouvements
                   repetes de flexion, de prosternation et de redressement qui
                   sollicitent les articulations, les muscles du dos, des jambes
-                  et du tronc. Un musulman qui accomplit ses cinq prieres
+                  et du tronc. Veritable discipline corporelle et spirituelle,{" "}
+                  <Link
+                    href="/prier-islam-excellence-spirituelle"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    la priere, activite physique quotidienne
+                  </Link>
+                  , engage le corps entier dans un effort regulier et mesure. Un musulman qui accomplit ses cinq prieres
                   quotidiennes effectue au minimum 34 prosternations par jour.
                   Des chercheurs ont estime que cette activite contribue a
                   maintenir la souplesse articulaire, a stimuler la circulation
@@ -1254,6 +1291,14 @@ export default function RemedArabeMaigrirIslam() {
                       <strong>Grossesse et allaitement</strong> : les besoins
                       nutritionnels specifiques de cette periode requierent un
                       avis medical avant toute modification alimentaire.
+                      Consultez notre guide sur{" "}
+                      <Link
+                        href="/remede-arabe-grossesse"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        l&apos;alimentation pendant la grossesse
+                      </Link>{" "}
+                      pour des conseils adaptes.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

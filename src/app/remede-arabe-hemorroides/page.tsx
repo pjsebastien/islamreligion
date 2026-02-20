@@ -379,7 +379,14 @@ export default function RemedeArabeHemorroides() {
                     La graine de nigelle (<em>Nigella sativa</em>) est le remède prophétique
                     le plus largement cité. Son composé actif principal, la thymoquinone, possède
                     des propriétés anti-inflammatoires, antioxydantes et analgésiques confirmées
-                    par la recherche scientifique moderne. Pour les hémorroïdes, l&apos;huile de
+                    par la recherche scientifique moderne. Découvrez également{" "}
+                    <Link
+                      href="/alopecie-remede-islam"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      les vertus anti-inflammatoires de la nigelle
+                    </Link>{" "}
+                    dans d&apos;autres domaines. Pour les hémorroïdes, l&apos;huile de
                     nigelle s&apos;utilise principalement en application locale.
                   </p>
 
@@ -768,7 +775,14 @@ export default function RemedeArabeHemorroides() {
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  La constipation est le premier facteur aggravant des hémorroïdes. La tradition
+                  La constipation est le premier facteur aggravant des hémorroïdes. Il est essentiel de{" "}
+                  <Link
+                    href="/remede-arabe-constipation"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    traiter la constipation, cause principale
+                  </Link>{" "}
+                  de cette affection. La tradition
                   prophétique accorde une grande importance à l&apos;alimentation et au bon
                   fonctionnement du transit intestinal. Plusieurs aliments et remèdes issus de
                   la Sunna contribuent directement à prévenir et à soulager les crises.
@@ -877,7 +891,14 @@ export default function RemedeArabeHemorroides() {
                   Prophète ﷺ ne remplissait jamais son estomac entièrement et recommandait de
                   le diviser en trois parts : un tiers pour la nourriture, un tiers pour la
                   boisson et un tiers pour l&apos;air. Cette règle de modération contribue
-                  directement à la santé digestive.
+                  directement à la santé digestive.{" "}
+                  <Link
+                    href="/remede-arabe-maigrir-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    L&apos;alimentation riche en fibres recommandée par la Sunna
+                  </Link>{" "}
+                  est la clé pour prévenir les crises.
                 </p>
 
                 <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -1085,6 +1106,14 @@ export default function RemedeArabeHemorroides() {
                   , renforce la confiance du croyant en la miséricorde divine et apporte une
                   sérénité qui contribue au processus de guérison. Le Prophète ﷺ enseignait
                   que la sérénité du cœur a un effet direct sur la santé du corps.
+                  Consultez aussi{" "}
+                  <Link
+                    href="/invocations-reussite-facilite"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les invocations pour demander la guérison
+                  </Link>{" "}
+                  et la facilité dans l&apos;épreuve.
                 </p>
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">
@@ -1156,7 +1185,14 @@ export default function RemedeArabeHemorroides() {
                       Pour une femme enceinte
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Les hémorroïdes sont fréquentes pendant la grossesse. L&apos;huile
+                      {" "}
+                      <Link
+                        href="/remede-arabe-grossesse"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        Les femmes enceintes, particulièrement concernées
+                      </Link>
+                      , souffrent souvent d&apos;hémorroïdes pendant la grossesse. L&apos;huile
                       d&apos;olive en application locale et les bains de siège sont les
                       remèdes les plus sûrs. Le séné est déconseillé durant la grossesse.
                       Les dattes sont particulièrement recommandées, le Coran les

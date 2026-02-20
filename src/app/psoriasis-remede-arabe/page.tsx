@@ -269,6 +269,14 @@ export default function PsoriasisRemedeArabe() {
                       <strong>Stress et émotions</strong> : le stress est l&apos;un
                       des premiers déclencheurs de poussées, confirmé par la
                       médecine moderne et observé dans la tradition islamique.
+                      Découvrez des pistes pour{" "}
+                      <Link
+                        href="/remede-angoisse-islam"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        apaiser l&apos;angoisse et le stress
+                      </Link>{" "}
+                      grâce aux enseignements prophétiques.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -361,7 +369,14 @@ export default function PsoriasisRemedeArabe() {
                           Psoriasis du cuir chevelu
                         </td>
                         <td className="py-3 pr-4">
-                          Plaques épaisses avec pellicules abondantes
+                          Plaques épaisses avec pellicules abondantes.
+                          Voir aussi les soins pour{" "}
+                          <Link
+                            href="/alopecie-remede-islam"
+                            className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                          >
+                            la chute de cheveux et les soins capillaires
+                          </Link>
                         </td>
                         <td className="py-3 pr-4">
                           Cuir chevelu, lisière du front
@@ -461,7 +476,14 @@ export default function PsoriasisRemedeArabe() {
                     cutanées. Sa substance active principale, la thymoquinone,
                     possède des propriétés anti-inflammatoires,
                     immunomodulatrices et antioxydantes confirmées par de
-                    nombreuses études. Dans le cadre du psoriasis, elle agit
+                    nombreuses études. On retrouve d&apos;ailleurs{" "}
+                    <Link
+                      href="/remede-yeux-islam-soins"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      les bienfaits de la nigelle pour d&apos;autres maux
+                    </Link>
+                    , notamment les affections oculaires. Dans le cadre du psoriasis, elle agit
                     sur plusieurs fronts.
                   </p>
 
@@ -824,7 +846,15 @@ export default function PsoriasisRemedeArabe() {
                   L&apos;alimentation joue un rôle reconnu dans la gestion du
                   psoriasis. La recherche scientifique montre qu&apos;un
                   régime anti-inflammatoire peut réduire la fréquence et
-                  l&apos;intensité des poussées. La Sunna du Prophète ﷺ
+                  l&apos;intensité des poussées. Pour aller plus loin,
+                  découvrez comment{" "}
+                  <Link
+                    href="/remede-arabe-maigrir-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    adapter son alimentation selon la Sunna
+                  </Link>
+                  . Le Prophète ﷺ
                   promouvait déjà, il y a quatorze siècles, les principes
                   d&apos;une alimentation saine, modérée et naturelle.
                 </p>
@@ -1066,7 +1096,15 @@ export default function PsoriasisRemedeArabe() {
                   invocations ne sont pas de simples mots : elles expriment la
                   confiance totale en Dieu comme seul guérisseur (Ash-Shafi)
                   et ancrent le malade dans une relation apaisante avec son
-                  Créateur.
+                  Créateur. La roqya légitime constitue un pan essentiel de
+                  cette démarche ; consultez notre guide sur{" "}
+                  <Link
+                    href="/sorcellerie-islam-protection"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    la guérison spirituelle par la roqya
+                  </Link>{" "}
+                  pour approfondir le sujet.
                 </p>
 
                 <div className="mt-6 space-y-4">

@@ -192,7 +192,11 @@ export default function ReverChatIslamSymbolisme() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   A la frontiere du sommeil, les chats apparaissent comme des
-                  visiteurs charges de sens dans la culture islamique. Comprendre
+                  visiteurs charges de sens dans la culture islamique. Tout comme pour d&apos;autres animaux oniriques tels que{" "}
+                  <Link href="/rever-souris-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la souris</Link>{" "}
+                  ou{" "}
+                  <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;araignee</Link>,
+                  comprendre
                   leur presence dans les songes demande d&apos;analyser plusieurs
                   dimensions : la nature de l&apos;animal, sa couleur, son
                   comportement et le vecu personnel du reveur.
@@ -379,7 +383,8 @@ export default function ReverChatIslamSymbolisme() {
                     personne bienveillante dans l&apos;entourage. A l&apos;inverse,
                     un chat agressif qui griffe ou attaque invite a la vigilance :
                     il peut signaler un conflit latent, une trahison possible ou
-                    un besoin de protection spirituelle renforcee.
+                    un besoin de{" "}
+                    <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">protection spirituelle renforcee</Link>.
                   </p>
                 </div>
 
@@ -582,7 +587,9 @@ export default function ReverChatIslamSymbolisme() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Signal de vulnerabilite spirituelle. Peut indiquer
                         un besoin de prendre soin de sa foi, de son corps ou
-                        de ses relations les plus proches.
+                        de ses relations les plus proches. Les{" "}
+                        <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remedes contre l&apos;angoisse en islam</Link>{" "}
+                        peuvent accompagner cette demarche.
                       </p>
                     </div>
                   </div>
@@ -713,7 +720,9 @@ export default function ReverChatIslamSymbolisme() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Dans la tradition islamique, les reves sont considered comme
                   l&apos;un des canaux par lesquels Allah communique avec Ses
-                  serviteurs. Le chat, en tant que symbole de douceur et de
+                  serviteurs. A la difference d&apos;animaux menaçants comme{" "}
+                  <Link href="/rever-crocodile-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le crocodile dans les songes</Link>,
+                  le chat, en tant que symbole de douceur et de
                   vigilance, peut porter des messages d&apos;une grande richesse
                   spirituelle.
                 </p>
@@ -896,7 +905,9 @@ export default function ReverChatIslamSymbolisme() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le reve de chat en islam peut etre lu comme une etape dans
-                  le parcours spirituel du croyant. Chaque apparition de cet
+                  le parcours spirituel du croyant. Pour ceux qui souhaitent demander guidance a Allah,{" "}
+                  <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la priere d&apos;istikhara</Link>{" "}
+                  est un complement precieux. Chaque apparition de cet
                   animal dans les songes est une invitation a la reflexion,
                   a l&apos;introspection et au rapprochement avec Allah.
                 </p>

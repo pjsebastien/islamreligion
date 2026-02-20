@@ -190,7 +190,8 @@ export default function GogMagog() {
                   Le nom arabe de Gog et Magog, Yajouj et Majouj, dérive de
                   racines évoquant le feu ardent ou l&apos;agitation violente.
                   Ces deux peuples occupent une place singulière dans
-                  l&apos;eschatologie islamique. Descendant de Yaafith (Japhet),
+                  l&apos;eschatologie islamique et comptent parmi{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les grands signes de la fin du monde</Link>. Descendant de Yaafith (Japhet),
                   fils du prophète Nouh (Noé), ils sont mentionnés dans le Coran
                   comme des créatures dont la puissance et le nombre dépassent
                   toute mesure humaine.
@@ -429,9 +430,11 @@ export default function GogMagog() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La libération de Gog et Magog s&apos;inscrit dans une
                   séquence précise d&apos;évènements eschatologiques rapportés
-                  par les hadiths authentiques. Elle intervient après le retour
-                  de &apos;Issa (Jésus) sur terre et sa victoire contre le
-                  Dajjal (l&apos;Antéchrist), à un moment où les croyants
+                  par les hadiths authentiques. Elle intervient après{" "}
+                  <Link href="/retour-jesus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le retour de &apos;Issa (Jésus) sur terre</Link>{" "}
+                  et sa victoire contre{" "}
+                  <Link href="/dajjal-signes-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le Dajjal (l&apos;Antéchrist)</Link>,
+                  à un moment où les croyants
                   pensent avoir trouvé la paix.
                 </p>
 
@@ -825,7 +828,9 @@ export default function GogMagog() {
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       L&apos;approche des signes de la fin des temps rappelle
-                      l&apos;importance du repentir sincère (tawbah) et de la
+                      l&apos;importance du{" "}
+                      <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère (tawbah)</Link>{" "}
+                      et de la
                       préparation spirituelle. Le croyant est invité à purifier
                       son coeur, à multiplier les bonnes actions et à
                       renforcer ses liens avec Allah avant que les épreuves ne
@@ -856,7 +861,9 @@ export default function GogMagog() {
                     <span>
                       <strong>Vigilance spirituelle :</strong> l&apos;étude des
                       signes de l&apos;Heure ne doit pas susciter la peur, mais
-                      plutôt une prise de conscience qui pousse à
+                      plutôt{" "}
+                      <Link href="/fin-monde-islam-preparation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">une préparation spirituelle</Link>{" "}
+                      qui pousse à
                       l&apos;amélioration personnelle.
                     </span>
                   </li>

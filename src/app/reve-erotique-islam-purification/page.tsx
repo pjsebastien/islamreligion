@@ -215,8 +215,9 @@ export default function ReveErotique() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  Les savants distinguent trois catégories de rêves dans la
-                  tradition islamique, une classification qui aide à mieux
+                  Les savants distinguent{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">trois catégories de rêves dans la tradition islamique</Link>,
+                  une classification qui aide à mieux
                   comprendre la nature des rêves érotiques et à les aborder
                   sans culpabilité :
                 </p>
@@ -496,7 +497,9 @@ export default function ReveErotique() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Au-delà du cas général, plusieurs situations spécifiques
                   suscitent des interrogations légitimes. Les quatre grandes
-                  écoles de jurisprudence islamique (hanafite, malikite,
+                  écoles de{" "}
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">jurisprudence islamique</Link>{" "}
+                  (hanafite, malikite,
                   shafiite et hanbalite) s&apos;accordent sur les principes
                   fondamentaux, tout en apportant des nuances sur certains cas
                   de figure.
@@ -752,7 +755,8 @@ export default function ReveErotique() {
                     <span>
                       Baisser le regard et préserver sa chasteté pendant la
                       journée contribue à apaiser l&apos;esprit et à réduire
-                      la fréquence de ce type de rêves.
+                      la fréquence de ce type de rêves. Pour approfondir ce sujet, voir aussi{" "}
+                      <Link href="/peches-sexualite-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;approche islamique de la sexualité</Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -798,7 +802,10 @@ export default function ReveErotique() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;un des obstacles majeurs à la bonne compréhension des
-                  rêves érotiques en islam reste la gêne. Beaucoup de croyants,
+                  rêves érotiques en islam reste la gêne. À l&apos;image des questionnements
+                  que suscitent les{" "}
+                  <Link href="/reves-ex-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves impliquant un ex en islam</Link>,
+                  beaucoup de croyants,
                   hommes et femmes, hésitent à poser des questions sur ce sujet,
                   par peur du jugement ou par un sentiment de pudeur mal placé.
                   Pourtant, la tradition prophétique offre un modèle
@@ -913,7 +920,9 @@ export default function ReveErotique() {
                   (Sahih al-Bukhari). Mais la pudeur ne signifie pas
                   l&apos;ignorance. Au contraire, c&apos;est en comprenant les
                   règles avec précision que le croyant peut vivre sa foi avec
-                  sérénité, sans confusion ni tourment inutile.
+                  sérénité, sans confusion ni tourment inutile. Les{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations pour la réussite et la facilité</Link>{" "}
+                  aident à maintenir cette sérénité quotidienne.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">

@@ -312,7 +312,14 @@ export default function RemedeArabeConstipation() {
 
                 <p className="mt-3 leading-relaxed text-foreground">
                   Le stress chronique perturbe le fonctionnement du syst\u00e8me nerveux
-                  ent\u00e9rique, souvent appel\u00e9 &laquo;&nbsp;deuxi\u00e8me cerveau&nbsp;&raquo;.
+                  ent\u00e9rique, souvent appel\u00e9 &laquo;&nbsp;deuxi\u00e8me cerveau&nbsp;&raquo;. Comprendre{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    le stress qui perturbe la digestion
+                  </Link>{" "}
+                  est essentiel pour y rem\u00e9dier.
                   L&apos;islam accorde une place importante \u00e0 la s\u00e9r\u00e9nit\u00e9 int\u00e9rieure :
                   les pri\u00e8res quotidiennes, le dhikr (rappel de Dieu), la r\u00e9citation
                   du Coran et la confiance en Dieu (<em>tawakkul</em>) sont autant
@@ -588,7 +595,14 @@ export default function RemedeArabeConstipation() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La sagesse proph\u00e9tique rejoint ici le principe m\u00e9dical de
                   mod\u00e9ration. Le s\u00e9n\u00e9 est un rem\u00e8de puissant qui doit rester
-                  ponctuel. Pour une constipation l\u00e9g\u00e8re ou r\u00e9currente, les rem\u00e8des
+                  ponctuel. Une constipation n\u00e9glig\u00e9e peut favoriser{" "}
+                  <Link
+                    href="/remede-arabe-hemorroides"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les h\u00e9morro\u00efdes, souvent li\u00e9es \u00e0 la constipation
+                  </Link>
+                  . Pour une constipation l\u00e9g\u00e8re ou r\u00e9currente, les rem\u00e8des
                   plus doux (miel, huile d&apos;olive, dattes) sont \u00e0 privil\u00e9gier au
                   quotidien.
                 </p>
@@ -1093,7 +1107,14 @@ export default function RemedeArabeConstipation() {
                   b\u00e9n\u00e9ficie directement au transit intestinal. Manger l\u00e9g\u00e8rement
                   permet \u00e0 l&apos;estomac et aux intestins de fonctionner sans surcharge,
                   \u00e9vitant ainsi la lourdeur et la stagnation qui contribuent \u00e0 la
-                  constipation.
+                  constipation. Cette mod\u00e9ration permet \u00e9galement de{" "}
+                  <Link
+                    href="/remede-arabe-maigrir-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    perdre du poids tout en am\u00e9liorant son transit
+                  </Link>
+                  .
                 </p>
 
                 {/* Profils adapt\u00e9s */}
@@ -1128,7 +1149,14 @@ export default function RemedeArabeConstipation() {
                     Profil 2 : Femme enceinte
                   </h4>
                   <p className="mt-2 leading-relaxed text-foreground-secondary">
-                    La grossesse favorise la constipation en raison des changements
+                    Pour en savoir plus sur{" "}
+                    <Link
+                      href="/remede-arabe-grossesse"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      la constipation fr\u00e9quente durant la grossesse
+                    </Link>
+                    , il faut savoir que la grossesse favorise ce trouble en raison des changements
                     hormonaux et de la pression de l&apos;ut\u00e9rus sur le c\u00f4lon.
                     Privil\u00e9giez les rem\u00e8des doux : figues cuites, pruneaux, dattes,
                     miel et hydratation renforc\u00e9e. Les massages circulaires du ventre
@@ -1287,6 +1315,14 @@ export default function RemedeArabeConstipation() {
                   dormir compl\u00e8te cette routine spirituelle. L&apos;islam enseigne que les
                   moyens mat\u00e9riels (rem\u00e8des) et spirituels (invocations) se
                   compl\u00e8tent sans s&apos;opposer, car la gu\u00e9rison vient de Dieu seul.
+                  Pour{" "}
+                  <Link
+                    href="/prier-islam-excellence-spirituelle"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    trouver la s\u00e9r\u00e9nit\u00e9 dans la pri\u00e8re
+                  </Link>
+                  , le croyant associe les moyens physiques \u00e0 l&apos;adoration.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">

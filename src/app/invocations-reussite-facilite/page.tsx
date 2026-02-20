@@ -207,7 +207,7 @@ export default function InvocationsReussite() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   La sourate Ash-Sharh (94:5-6) apporte une promesse
-                  réconfortante : &laquo; Certes, avec la difficulté il y a une
+                  réconfortante, qui trouve un écho dans <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les conditions du pardon divin</Link> : &laquo; Certes, avec la difficulté il y a une
                   facilité. Certes, avec la difficulté il y a une facilité &raquo;.
                   La répétition de cette affirmation souligne sa certitude. Quelle
                   que soit l&apos;épreuve traversée, la facilité l&apos;accompagne
@@ -231,7 +231,7 @@ export default function InvocationsReussite() {
                       <strong>Le tawakkul (confiance en Allah) :</strong> socle
                       de toute invocation sincère, il consiste à fournir
                       l&apos;effort puis à s&apos;en remettre pleinement à
-                      Allah pour le résultat.
+                      Allah pour le résultat. Cette confiance se renforce par <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">un repentir sincère (tawba)</Link> qui purifie le coeur.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -432,7 +432,7 @@ export default function InvocationsReussite() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   La sincérité du c&oelig;ur est la condition première de toute
-                  invocation. Cependant, la tradition prophétique nous enseigne
+                  invocation. Pour les décisions importantes, la <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière de consultation (istikhara)</Link> constitue un complément essentiel. Par ailleurs, la tradition prophétique nous enseigne
                   que certains moments et certaines dispositions favorisent
                   l&apos;exaucement des du&apos;as. Connaître ces instants
                   privilégiés permet au croyant de maximiser l&apos;impact de
@@ -675,7 +675,7 @@ export default function InvocationsReussite() {
                     <span>
                       Les invocations aident à traverser les phases de doute
                       en rattachant le croyant à une source de force
-                      inépuisable.
+                      inépuisable, tout comme les <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">moyens de protection spirituelle en islam</Link> renforcent la défense du croyant.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -818,7 +818,7 @@ export default function InvocationsReussite() {
                     <span>
                       La réussite en islam n&apos;est pas mesurée uniquement par
                       les résultats matériels, mais aussi par la satisfaction
-                      d&apos;Allah et la paix intérieure que procure le tawakkul.
+                      d&apos;Allah et la paix intérieure que procure le tawakkul. Même les <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves en islam</Link> peuvent être le reflet de cette sérénité retrouvée.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

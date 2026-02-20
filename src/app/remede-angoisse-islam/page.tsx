@@ -277,6 +277,15 @@ export default function RemedeAngoisseIslam() {
                   hadith offre une perspective transformatrice : la souffrance
                   psychique, lorsqu&apos;elle est vecue avec patience
                   (<em>sabr</em>), purifie l&apos;ame et rapproche du Createur.
+                  Dans cette perspective,{" "}
+                  <Link
+                    href="/repentir-sincere-islam-tawba"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    le repentir comme source de paix interieure
+                  </Link>{" "}
+                  constitue egalement un moyen puissant de retrouver la
+                  serenite face aux epreuves.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -287,7 +296,15 @@ export default function RemedeAngoisseIslam() {
                   croyant consiste a combiner la confiance en Allah (
                   <em>tawakkul</em>) avec les demarches concretes : invoquer,
                   se soigner, et consulter un specialiste si l&apos;etat
-                  persiste.
+                  persiste. Il est aussi essentiel de comprendre{" "}
+                  <Link
+                    href="/conditions-maghfira-pardon"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les conditions du pardon divin
+                  </Link>
+                  , car la quete du pardon apaise profondement le coeur du
+                  croyant.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -1000,7 +1017,35 @@ export default function RemedeAngoisseIslam() {
                   (&laquo;&nbsp;Bismillah&nbsp;&raquo;) et terminer par la
                   louange (&laquo;&nbsp;Al-hamdulillah&nbsp;&raquo;) transforme
                   chaque repas en un acte de devotion qui recentre l&apos;esprit
-                  et apaise le coeur.
+                  et apaise le coeur. Pour aller plus loin, decouvrez comment{" "}
+                  <Link
+                    href="/remede-arabe-maigrir-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    retrouver un equilibre alimentaire
+                  </Link>{" "}
+                  grace aux principes de la medecine prophetique.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  L&apos;angoisse prolongee peut egalement se manifester par
+                  des symptomes physiques. Le stress chronique est un facteur
+                  reconnu dans l&apos;aggravation de{" "}
+                  <Link
+                    href="/psoriasis-remede-arabe"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    les maladies de peau liees au stress
+                  </Link>{" "}
+                  et peut contribuer a{" "}
+                  <Link
+                    href="/alopecie-remede-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    la chute de cheveux d&apos;origine nerveuse
+                  </Link>
+                  . Prendre en charge l&apos;angoisse, c&apos;est aussi proteger
+                  le corps contre ces consequences physiques.
                 </p>
               </section>
 
@@ -1061,7 +1106,13 @@ export default function RemedeAngoisseIslam() {
                       <strong>Troubles du sommeil lies a l&apos;anxiete</strong>{" "}
                       : l&apos;insomnie chronique aggrave l&apos;angoisse dans
                       un cercle vicieux qu&apos;un specialiste peut aider a
-                      briser.
+                      briser. Le stress chronique peut aussi provoquer{" "}
+                      <Link
+                        href="/remede-arabe-acouphene"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        les acouphenes, souvent aggraves par le stress
+                      </Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

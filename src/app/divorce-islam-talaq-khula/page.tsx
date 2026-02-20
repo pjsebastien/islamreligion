@@ -184,7 +184,9 @@ export default function DivorceIslam() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   Contrairement à une idée reçue, l&apos;islam n&apos;encourage
-                  pas la rupture du lien conjugal. Le Prophète (paix et
+                  pas la rupture du lien conjugal. Si{" "}
+                  <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le contrat de mariage islamique</Link>{" "}
+                  établit un pacte sacré entre les époux, le Prophète (paix et
                   bénédictions sur lui) a rappelé que le divorce est « l&apos;acte
                   licite le plus détesté par Allah » (rapporté par Abu Dawud).
                   Cette parole prophétique situe d&apos;emblée le divorce dans
@@ -223,7 +225,10 @@ export default function DivorceIslam() {
                   l&apos;harmonie entre eux. » Ce recours à des médiateurs
                   issus des deux familles traduit la volonté de l&apos;islam
                   d&apos;épuiser toutes les voies de réconciliation avant
-                  d&apos;accepter la séparation.
+                  d&apos;accepter la séparation. Cette démarche s&apos;inscrit
+                  dans la logique plus large du{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère et du pardon</Link>{" "}
+                  encouragés par l&apos;islam.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -308,7 +313,9 @@ export default function DivorceIslam() {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  La jurisprudence islamique distingue trois types de talaq,
+                  La{" "}
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">jurisprudence islamique</Link>{" "}
+                  distingue trois types de talaq,
                   chacun ayant des conséquences différentes sur la possibilité
                   de retour entre les époux.
                 </p>
@@ -510,7 +517,9 @@ export default function DivorceIslam() {
                   Le khula représente le droit de la femme à demander la
                   dissolution de son mariage. Ce mécanisme, fondé sur le Coran
                   et la Sunna, témoigne de l&apos;attention portée par
-                  l&apos;islam aux droits de l&apos;épouse et à sa dignité.
+                  l&apos;islam aux{" "}
+                  <Link href="/droits-femme-divorce-islamique" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">droits de la femme dans le divorce</Link>{" "}
+                  et à sa dignité.
                   La femme n&apos;est pas prisonnière d&apos;un mariage qui
                   lui cause du tort : elle dispose d&apos;une voie légale pour
                   s&apos;en libérer.
@@ -880,8 +889,10 @@ export default function DivorceIslam() {
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         La majorité des savants accordent la priorité à la
                         mère pour la garde des jeunes enfants, tant
-                        qu&apos;elle remplit les conditions requises. Le
-                        Prophète (paix et bénédictions sur lui) a dit : « Tu
+                        qu&apos;elle remplit les conditions requises, en raison
+                        du{" "}
+                        <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rang éminent de la maternité en islam</Link>.
+                        Le Prophète (paix et bénédictions sur lui) a dit : « Tu
                         as plus droit à lui tant que tu ne te remaries pas »
                         (rapporté par Abu Dawud). Le père conserve la
                         responsabilité financière de l&apos;entretien des

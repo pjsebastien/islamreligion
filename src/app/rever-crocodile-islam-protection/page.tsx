@@ -359,7 +359,9 @@ export default function ReverCrocodileIslamProtection() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   Bien que l&apos;animal ne soit pas explicitement cité comme
                   symbole onirique dans le Coran et la Sunna, l&apos;idée
-                  d&apos;un prédateur rusé est souvent évoquée pour alerter les
+                  d&apos;un prédateur rusé &mdash; bien différent des{" "}
+                  <Link href="/rever-chat-islam-symbolisme" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">messages bienveillants du chat en islam</Link>{" "}
+                  &mdash; est souvent évoquée pour alerter les
                   croyants sur le danger des apparences trompeuses. Cette
                   dimension se retrouve dans les enseignements spirituels : la
                   méfiance, mais aussi l&apos;humilité face à la tentation de
@@ -396,8 +398,8 @@ export default function ReverCrocodileIslamProtection() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Beaucoup témoignent d&apos;une vigilance accrue après de tels
-                  rêves, accompagnée d&apos;un désir renforcé de chercher la
-                  protection d&apos;Allah. Un croyant qui rêve d&apos;un
+                  rêves, accompagnée d&apos;un désir renforcé de chercher{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la protection d&apos;Allah par les invocations</Link>. Un croyant qui rêve d&apos;un
                   crocodile géant peut réfléchir à l&apos;ampleur des défis
                   auxquels il fait face, tandis que celui qui rêve d&apos;un
                   bébé crocodile comprend qu&apos;un petit souci peut
@@ -628,7 +630,9 @@ export default function ReverCrocodileIslamProtection() {
                 </h2>
 
                 <p className="mt-6 leading-relaxed text-foreground">
-                  Le monde des rêves en islam est perçu comme une source de
+                  Le monde des{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves en islam</Link>{" "}
+                  est perçu comme une source de
                   guidance et de consolation. Lorsque le crocodile apparaît, il
                   appelle à la vigilance, mais surtout à la recherche de la
                   protection divine. Qu&apos;Allah facilite ce cheminement pour
@@ -894,7 +898,9 @@ export default function ReverCrocodileIslamProtection() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;apparition du crocodile en rêve dépasse la seule
                   interprétation nocturne : elle imprègne le quotidien du
-                  croyant d&apos;une vigilance nouvelle. Face à l&apos;ennemi
+                  croyant d&apos;une vigilance nouvelle, semblable à celle requise face aux{" "}
+                  <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves d&apos;araignée en islam</Link>.
+                  Face à l&apos;ennemi
                   caché que symbolise l&apos;animal, la spiritualité musulmane
                   encourage chacun à renforcer ses routines, développer son
                   intuition et maintenir la clarté dans ses relations.
@@ -1012,7 +1018,9 @@ export default function ReverCrocodileIslamProtection() {
                   Chaque rêve de crocodile en islam doit être accueilli avec
                   sagesse, sans angoisse excessive, transformant les
                   avertissements en force pour progresser sereinement sur le
-                  chemin spirituel. Qu&apos;Allah accorde à chacun la lucidité
+                  chemin spirituel. Demander le{" "}
+                  <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">pardon divin (maghfira)</Link>{" "}
+                  renforce cette démarche de purification. Qu&apos;Allah accorde à chacun la lucidité
                   et la protection nécessaires sur le chemin de la spiritualité
                   équilibrée et de la confiance en la miséricorde divine.
                 </p>

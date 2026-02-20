@@ -209,7 +209,8 @@ export default function DajjalSignes() {
                   Le Prophète (paix et salut sur lui) a précisé que le
                   Dajjal constitue la plus grande épreuve (fitna) que
                   l&apos;humanité ait jamais connue depuis la création
-                  d&apos;Adam. Dans un hadith rapporté par Muslim, il
+                  d&apos;Adam. Il figure parmi{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les grands signes de la fin du monde en islam</Link>. Dans un hadith rapporté par Muslim, il
                   affirme : &quot;Entre la création d&apos;Adam et
                   l&apos;avènement de l&apos;Heure, il n&apos;y a pas de
                   création plus imposante [en termes d&apos;épreuve] que le
@@ -570,8 +571,9 @@ export default function DajjalSignes() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   La multiplication des conflits armés, la dégradation
                   morale, l&apos;abandon des valeurs religieuses et la
-                  propagation du mensonge figurent parmi les conditions qui
-                  caractériseront cette époque. Le Prophète (paix et salut
+                  propagation du mensonge figurent parmi{" "}
+                  <Link href="/signes-mineurs-actuels" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les signes précurseurs déjà observables</Link>{" "}
+                  qui caractériseront cette époque. Le Prophète (paix et salut
                   sur lui) a dit : &quot;Le Dajjal sortira à un moment de
                   colère&quot; (Muslim), indiquant que son apparition
                   coïncidera avec une période de troubles généralisés et de
@@ -865,7 +867,9 @@ export default function DajjalSignes() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      La constance dans la prière quotidienne forge une
+                      La constance dans{" "}
+                      <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière quotidienne</Link>{" "}
+                      forge une
                       discipline spirituelle qui protège des tentations.
                     </span>
                   </li>
@@ -994,8 +998,8 @@ export default function DajjalSignes() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;épreuve du Dajjal, aussi terrible soit-elle,
-                  trouvera sa fin par l&apos;intervention divine à travers
-                  la descente de Issa (Jésus) fils de Maryam. Le Prophète
+                  trouvera sa fin par l&apos;intervention divine à travers{" "}
+                  <Link href="/retour-jesus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la descente de Issa (Jésus) fils de Maryam</Link>. Le Prophète
                   (paix et salut sur lui) a décrit avec précision les
                   circonstances de cette descente et la confrontation
                   finale entre Issa et le Dajjal. Ce récit porte un message
@@ -1101,7 +1105,9 @@ export default function DajjalSignes() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Après la défaite du Dajjal et l&apos;élimination
-                        de la menace de Gog et Magog (par l&apos;invocation
+                        de la menace de{" "}
+                        <Link href="/gog-magog-liberation-fin-des-temps" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">Gog et Magog</Link>{" "}
+                        (par l&apos;invocation
                         de Issa), une période de prospérité et de
                         tranquillité s&apos;installera. Les biens
                         abonderont, la justice régnera, et les coeurs

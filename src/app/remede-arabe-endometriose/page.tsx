@@ -320,7 +320,10 @@ export default function RemedeArabeEndometriose() {
                   symptômes. Ce délai s&apos;explique par la banalisation des
                   douleurs menstruelles et la méconnaissance de la maladie.
                   Un diagnostic précoce par un gynécologue spécialisé permet
-                  une prise en charge adaptée.
+                  une prise en charge adaptée, notamment pour les femmes
+                  souhaitant{" "}
+                  <Link href="/remede-arabe-grossesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">accompagner une grossesse</Link>{" "}
+                  dans les meilleures conditions.
                 </p>
 
                 <div className="mt-6 rounded-xl border border-amber-200 bg-amber-50 px-6 py-5">
@@ -432,7 +435,11 @@ export default function RemedeArabeEndometriose() {
                     peut inhiber la production de certains médiateurs
                     inflammatoires (prostaglandines, cytokines
                     pro-inflammatoires) impliqués dans la progression de
-                    l&apos;endométriose. Elle contribuerait également à
+                    l&apos;endométriose. La nigelle est aussi reconnue pour
+                    ses bienfaits sur la santé capillaire et la prévention
+                    de{" "}
+                    <Link href="/alopecie-remede-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la chute de cheveux</Link>.{" "}
+                    Elle contribuerait également à
                     réduire le stress oxydatif, un facteur aggravant de la
                     maladie.
                   </p>
@@ -747,7 +754,9 @@ export default function RemedeArabeEndometriose() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   Les invocations (<em>douas</em>) de guérison enseignées par
                   le Prophète Muhammad (paix et salut sur lui) s&apos;adressent
-                  à Dieu, Celui qui détient la guérison. Elles apportent
+                  à Dieu, Celui qui détient la guérison. Associées à la{" "}
+                  <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">protection spirituelle par la roqya</Link>,{" "}
+                  elles apportent
                   apaisement, espoir et force intérieure aux femmes qui
                   vivent avec l&apos;endométriose au quotidien.
                 </p>
@@ -875,7 +884,9 @@ export default function RemedeArabeEndometriose() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La roqya peut être pratiquée par la personne malade
                   elle-même, en posant la main sur la zone douloureuse et
-                  en récitant les versets mentionnés. L&apos;eau sur
+                  en récitant les versets mentionnés. Découvrez aussi{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les invocations prophétiques</Link>{" "}
+                  pour demander la facilité dans l&apos;épreuve. L&apos;eau sur
                   laquelle on a récité le Coran (<em>eau coranisée</em>)
                   peut également être bue ou utilisée en compresse sur le
                   bas-ventre.
@@ -1045,7 +1056,10 @@ export default function RemedeArabeEndometriose() {
                   particulièrement pertinente pour les femmes atteintes
                   d&apos;endométriose. Les excès alimentaires aggravent
                   l&apos;inflammation et les troubles digestifs souvent
-                  associés à la maladie. Une alimentation mesurée,
+                  associés à la maladie. Pour celles qui souhaitent
+                  retrouver un poids de forme, notre guide sur{" "}
+                  <Link href="/remede-arabe-maigrir-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;alimentation équilibrée en islam</Link>{" "}
+                  détaille les principes de la Sunna appliqués à la nutrition. Une alimentation mesurée,
                   diversifiée et riche en nutriments anti-inflammatoires
                   contribue au bien-être global.
                 </p>
@@ -1073,7 +1087,9 @@ export default function RemedeArabeEndometriose() {
                   L&apos;endométriose n&apos;affecte pas seulement le corps.
                   Les douleurs chroniques, la fatigue, les difficultés de
                   fertilité et l&apos;incompréhension de l&apos;entourage
-                  peuvent peser lourdement sur le moral. L&apos;islam offre
+                  peuvent peser lourdement sur le moral. Apprendre à{" "}
+                  <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">gérer l&apos;angoisse liée à la maladie</Link>{" "}
+                  grâce aux enseignements prophétiques est essentiel. L&apos;islam offre
                   un cadre spirituel qui aide à traverser cette épreuve avec
                   patience et espérance.
                 </p>

@@ -198,7 +198,9 @@ export default function PrierIslamExcellenceSpirituelle() {
                   l&apos;excellence dans l&apos;adoration (ihsan). Les savants
                   musulmans, dont Ibn Sirin, enseignent que la prière en rêve
                   renvoie à l&apos;accomplissement des obligations spirituelles
-                  et à la recherche de la proximité divine.
+                  et à la recherche de la proximité divine. À l&apos;inverse,{" "}
+                  <Link href="/abandon-priere-islam-consequences" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les conséquences de l&apos;abandon de la prière</Link>{" "}
+                  rappellent combien cette pratique est essentielle dans la vie du croyant.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -460,7 +462,10 @@ export default function PrierIslamExcellenceSpirituelle() {
                   La diversité des formes de prière en rêve illustre la
                   richesse de la vie spirituelle du croyant. Chaque vision
                   porte un enseignement adapté à la situation personnelle du
-                  rêveur. Les savants invitent à accueillir ces rêves avec
+                  rêveur, tout comme{" "}
+                  <Link href="/priere-voyageur-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière du voyageur en islam</Link>{" "}
+                  s&apos;adapte aux circonstances du croyant en déplacement.
+                  Les savants invitent à accueillir ces rêves avec
                   confiance et humilité, en y voyant des signes de
                   l&apos;attention divine.
                 </p>
@@ -499,6 +504,9 @@ export default function PrierIslamExcellenceSpirituelle() {
                   présence du coeur sont autant de signes positifs. A
                   l&apos;inverse, une prière troublée, interrompue ou
                   incomplète peut signaler un besoin de réforme intérieure.
+                  La{" "}
+                  <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">protection spirituelle en islam</Link>{" "}
+                  passe également par la régularité de la prière et le rappel d&apos;Allah.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -863,7 +871,10 @@ export default function PrierIslamExcellenceSpirituelle() {
                   croyant doit accueillir avec gratitude. Qu&apos;il
                   s&apos;agisse d&apos;un moment de joie, de questionnement
                   ou d&apos;épreuve, la prière reste le pilier fondamental de
-                  la relation avec Allah.
+                  la relation avec Allah. Pour{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">renforcer sa foi au quotidien</Link>,
+                  les invocations et le dhikr complètent naturellement
+                  cette pratique spirituelle.
                 </p>
 
                 <div className="mt-8 overflow-x-auto">
@@ -971,8 +982,9 @@ export default function PrierIslamExcellenceSpirituelle() {
                       Ce rêve reflète une quête de guidance dans les choix de
                       vie, notamment relationnels. Prier avec ferveur en rêve
                       annonce une période de clarté et de bénédictions. Les
-                      savants conseillent de pratiquer la prière de
-                      consultation (istikhara) pour les décisions importantes
+                      savants conseillent de pratiquer{" "}
+                      <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière de consultation (istikhara)</Link>{" "}
+                      pour les décisions importantes
                       et de faire confiance à la sagesse d&apos;Allah.
                     </p>
                   </div>

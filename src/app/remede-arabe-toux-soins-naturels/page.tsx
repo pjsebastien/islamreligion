@@ -341,6 +341,14 @@ export default function RemedeArabeToux() {
                   Cette vision holistique s&apos;applique particulièrement bien
                   aux affections respiratoires, où le repos, les soins locaux et
                   la sérénité du coeur contribuent ensemble au rétablissement.
+                  Pour la toux du fumeur, le premier pas reste de{" "}
+                  <Link
+                    href="/remede-arabe-arreter-fumer"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    arrêter le tabac pour éliminer la toux chronique
+                  </Link>
+                  .
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -399,7 +407,14 @@ export default function RemedeArabeToux() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le Prophète Muhammad (paix et salut sur lui) consommait
                   régulièrement du miel et le recommandait pour les troubles
-                  digestifs et respiratoires. Un hadith rapporté par al-Bukhari
+                  digestifs et respiratoires. Découvrez aussi{" "}
+                  <Link
+                    href="/remede-arabe-constipation"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    le miel et ses bienfaits digestifs
+                  </Link>
+                  . Un hadith rapporté par al-Bukhari
                   et Muslim relate qu&apos;un homme vint consulter le Prophète
                   (paix et salut sur lui) au sujet de son frère souffrant de
                   troubles abdominaux, et qu&apos;il lui prescrivit du miel à
@@ -1245,7 +1260,14 @@ export default function RemedeArabeToux() {
                 </h3>
 
                 <p className="mt-4 leading-relaxed text-foreground">
-                  La récitation du Coran sur le malade fait partie de la roqya
+                  {" "}
+                  <Link
+                    href="/sorcellerie-islam-protection"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    La récitation du Coran comme soin
+                  </Link>{" "}
+                  sur le malade fait partie de la roqya
                   légitime (<em>ar-ruqya ash-shar&apos;iyya</em>). Parmi les
                   passages les plus récités :
                 </p>
@@ -1305,7 +1327,14 @@ export default function RemedeArabeToux() {
                   sucrée au miel tout en récitant les versets de guérison,
                   ou prendre du miel et de la nigelle en commencant par
                   &laquo;&nbsp;Bismillah&nbsp;&raquo;, fait partie de cette
-                  démarche intégrée.
+                  démarche intégrée. On peut aussi{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    calmer le stress qui aggrave les symptômes
+                  </Link>{" "}
+                  grâce aux pratiques spirituelles de l&apos;islam.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -1422,7 +1451,14 @@ export default function RemedeArabeToux() {
                       Pour une femme enceinte
                     </h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-                      Le miel et la talbina sont sûrs et recommandés. Le thym
+                      Découvrez{" "}
+                      <Link
+                        href="/remede-arabe-grossesse"
+                        className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                      >
+                        les remèdes sûrs pendant la grossesse
+                      </Link>
+                      . Le miel et la talbina sont sûrs et recommandés. Le thym
                       en infusion légère et l&apos;huile d&apos;olive sont
                       également adaptés. Eviter la nigelle en forte dose et le
                       costus marin sans avis médical. Les invocations de

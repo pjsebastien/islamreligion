@@ -211,8 +211,9 @@ export default function PechesSexualite() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   L&apos;adultère (zina al-muhsan) constitue une aggravation
-                  de cette transgression, car il brise en plus le pacte
-                  conjugal et porte atteinte à la famille. Le Prophète (paix
+                  de cette transgression, car il brise en plus{" "}
+                  <Link href="/divorce-islam-talaq-khula" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le pacte conjugal</Link>{" "}
+                  et porte atteinte à la famille. Le Prophète (paix
                   et salut sur lui) a classé la fornication parmi les sept
                   péchés destructeurs (al-mubiqat), aux côtés du shirk
                   (associationnisme) et du meurtre, ce qui témoigne de la
@@ -420,7 +421,9 @@ export default function PechesSexualite() {
                   dignité de chacun, protège la filiation et maintient la
                   cohésion sociale. L&apos;islam reconnaît pleinement le désir
                   comme une composante de la nature humaine (fitra) et
-                  propose le mariage comme la voie saine et bénie pour
+                  propose{" "}
+                  <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le contrat de mariage</Link>{" "}
+                  comme la voie saine et bénie pour
                   l&apos;exprimer.
                 </p>
 
@@ -593,7 +596,9 @@ export default function PechesSexualite() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Baisser le regard et éviter les contenus explicites
-                      protège le coeur et la foi.
+                      protège le coeur et la foi. Même les{" "}
+                      <Link href="/reve-erotique-islam-purification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves à caractère intime</Link>{" "}
+                      appellent une purification spirituelle.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -798,7 +803,9 @@ export default function PechesSexualite() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;islam ne ferme jamais la porte de l&apos;espérance.
-                  Aussi grave que soit le péché commis, la miséricorde
+                  La voie du{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère (tawba)</Link>{" "}
+                  reste toujours ouverte, car aussi grave que soit le péché commis, la miséricorde
                   d&apos;Allah reste plus vaste. Le Coran proclame :
                   <em>&laquo; Dis : O Mes serviteurs qui avez commis des
                   excès à votre propre détriment, ne désespérez pas de la
@@ -952,7 +959,10 @@ export default function PechesSexualite() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Consulter un imam ou un conseiller de confiance pour
-                      un accompagnement spirituel personnalisé.
+                      un accompagnement spirituel personnalisé. En cas
+                      d&apos;angoisse persistante, les{" "}
+                      <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes contre l&apos;angoisse en islam</Link>{" "}
+                      offrent un soutien complémentaire.
                     </span>
                   </li>
                 </ul>

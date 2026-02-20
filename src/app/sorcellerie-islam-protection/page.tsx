@@ -197,7 +197,9 @@ export default function SorcellerieIslam() {
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   La question du rêve de sorcellerie dans l&apos;islam intrigue,
                   inquiète parfois, mais montre aussi la profondeur de la
-                  spiritualité musulmane. Rêver de sihr n&apos;est jamais
+                  spiritualité musulmane. Comme d&apos;autres{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">visions oniriques en islam</Link>,
+                  rêver de sihr n&apos;est jamais
                   anodin : cette expérience résonne avec des alertes sur la
                   santé de l&apos;âme, la vigilance face à l&apos;invisible et
                   la nécessité d&apos;une introspection sincère.
@@ -328,7 +330,9 @@ export default function SorcellerieIslam() {
                   Ce type de rêve, souvent déstabilisant, doit pousser à
                   interroger ses habitudes, ses fréquentations et sa recherche
                   de spiritualité. Se rapprocher d&apos;Allah, renouveler ses
-                  vœux de repentance et solliciter Son amour sont les premières
+                  vœux de{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentance sincère</Link>{" "}
+                  et solliciter Son amour sont les premières
                   étapes pour dissiper les ombres de la nuit.
                 </p>
 
@@ -354,7 +358,9 @@ export default function SorcellerieIslam() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le sens profond du rêve de sorcellerie dépasse la simple peur
-                  de l&apos;influence extérieure. À travers le récit de
+                  de l&apos;influence extérieure, tout comme le{" "}
+                  <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve de défunt</Link>{" "}
+                  va au-delà de la crainte de la mort. À travers le récit de
                   certaines histoires, le croyant apprend à discerner les signes
                   qui révèlent la nécessité d&apos;une transformation
                   intérieure.
@@ -394,7 +400,8 @@ export default function SorcellerieIslam() {
                   négliger. Les spécialistes recommandent d&apos;unir la
                   purification spirituelle via la Ruqyah à une attention à la
                   santé corporelle : exercices de respiration, équilibre
-                  alimentaire, voire recours à la Hijama (médecine prophétique).
+                  alimentaire, voire recours à la Hijama ({" "}
+                  <Link href="/remede-arabe" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">médecine prophétique</Link>).
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -612,7 +619,9 @@ export default function SorcellerieIslam() {
                   Adopter ces gestes, c&apos;est installer peu à peu un manteau
                   de baraka tout autour de soi, qui agit comme une véritable
                   défense invisible contre les attaques occultes, et rétablit
-                  la paix du cœur dans la durée.
+                  la paix du cœur dans la durée. Si ces rêves provoquent des{" "}
+                  <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">larmes dans le sommeil</Link>,
+                  cela peut témoigner d&apos;une sensibilité spirituelle à cultiver.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">

@@ -163,8 +163,10 @@ export default function MaterniteIslam() {
                   En résumé
                 </p>
                 <p className="mt-2 text-base leading-relaxed text-foreground">
-                  La maternité en islam dépasse le simple rôle biologique. Elle
-                  est reconnue comme une responsabilité sacrée, un acte
+                  La maternité en islam dépasse le simple rôle biologique. Inscrite
+                  dans le prolongement du{" "}
+                  <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">contrat de mariage islamique</Link>,
+                  elle est reconnue comme une responsabilité sacrée, un acte
                   d&apos;adoration continu et une voie privilégiée vers le
                   Paradis. Du Coran à la Sunna, les textes fondateurs élèvent
                   la mère à un rang exceptionnel, rappelant ses sacrifices, ses
@@ -314,6 +316,10 @@ export default function MaterniteIslam() {
                   les transformations du corps sont autant d&apos;épreuves que
                   la mère traverse pour donner la vie, un acte que les textes
                   comparent au djihad (effort dans le sentier d&apos;Allah).
+                  Ce thème occupe une place si profonde dans l&apos;inconscient
+                  des croyantes que{" "}
+                  <Link href="/rever-enceinte-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;être enceinte en islam</Link>{" "}
+                  est souvent interprété comme un signe de bénédiction.
                   L&apos;accouchement, moment de vulnérabilité intense, est
                   perçu comme un passage qui peut élever la mère au rang des
                   martyrs si elle y perdait la vie.
@@ -493,8 +499,9 @@ export default function MaterniteIslam() {
                   Transmettre la foi fait partie des premières responsabilités
                   de la mère musulmane. C&apos;est elle qui murmure les
                   premières invocations à l&apos;oreille du nouveau-né,
-                  c&apos;est elle qui initie l&apos;enfant à la prière par
-                  l&apos;exemple bien avant l&apos;âge de sept ans. Les
+                  c&apos;est elle qui initie l&apos;enfant à{" "}
+                  <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière</Link>{" "}
+                  par l&apos;exemple bien avant l&apos;âge de sept ans. Les
                   savants insistent sur le fait que l&apos;enfant apprend
                   davantage par l&apos;observation que par les discours : une
                   mère qui prie avec constance transmet la prière plus
@@ -704,7 +711,10 @@ export default function MaterniteIslam() {
                   aux tâches domestiques et s&apos;occupait de ses enfants
                   avec tendresse. Un foyer où les responsabilités sont
                   partagées permet à la mère de remplir son rôle éducatif et
-                  spirituel dans les meilleures conditions.
+                  spirituel dans les meilleures conditions. En cas de
+                  séparation, la priorité maternelle dans la garde est
+                  protégée par{" "}
+                  <Link href="/droits-femme-divorce-islamique" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les droits de la femme dans le divorce islamique</Link>.
                 </p>
 
                 <ArticleCTA
@@ -886,7 +896,9 @@ export default function MaterniteIslam() {
                       La grossesse est une période bénie où chaque difficulté
                       endurée avec patience est récompensée. Les invocations
                       de protection pour le bébé, la lecture régulière du
-                      Coran et le maintien d&apos;une alimentation saine
+                      Coran, le recours aux{" "}
+                      <Link href="/remede-arabe-grossesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes naturels pour la grossesse</Link>{" "}
+                      et le maintien d&apos;une alimentation saine
                       (conforme aux recommandations prophétiques) contribuent
                       à vivre cette étape avec sérénité et confiance en Allah.
                     </p>

@@ -269,7 +269,8 @@ export default function ReverChien() {
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  Au sein de la tradition du rêve en islam, l&apos;approche
+                  Au sein de la tradition du{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve en islam</Link>, l&apos;approche
                   d&apos;Ibn Sirin reste centrale pour l&apos;explication des
                   messages oniriques intégrant le symbolisme du chien. Ibn
                   Sirin, grand exégète onirique du VIIIe siècle, a posé des
@@ -411,8 +412,9 @@ export default function ReverChien() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Le chien <strong>errant, souffrant ou malade</strong> peut
-                      rappeler une nécessité de purification spirituelle ou
-                      d&apos;acte de miséricorde envers ses semblables.
+                      rappeler une nécessité de purification spirituelle, de{" "}
+                      <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière assidue</Link>{" "}
+                      ou d&apos;acte de miséricorde envers ses semblables.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -483,7 +485,8 @@ export default function ReverChien() {
                   L&apos;interprétation du rêve de chien en islam se veut donc
                   un terrain d&apos;équilibre entre espoir et vigilance, chaque
                   détail devenant une source de réflexion sérieuse mais jamais
-                  une condamnation.
+                  une condamnation. Cette même approche équilibrée s&apos;applique lorsqu&apos;on cherche à comprendre le{" "}
+                  <Link href="/reve-cheval-islam-bienfaits" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">symbolisme du cheval dans les songes</Link>.
                 </p>
 
                 <ArticleCTA
@@ -532,7 +535,8 @@ export default function ReverChien() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Un chien qui <strong>attaque ou poursuit</strong> signale
-                      une lutte interne contre ses défauts ou passions.
+                      une lutte interne contre ses défauts ou passions, rappelant l&apos;importance de la{" "}
+                      <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">protection spirituelle face aux épreuves</Link>.
                     </span>
                   </li>
                 </ul>
@@ -667,7 +671,8 @@ export default function ReverChien() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Morsures</strong> : indiquent des conflits
-                      intérieurs ou des agressions subies dans la vie réelle.
+                      intérieurs ou des agressions subies dans la vie réelle, nécessitant un travail de{" "}
+                      <Link href="/conditions-maghfira-pardon" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">pardon et de réconciliation</Link>.
                     </span>
                   </li>
                 </ul>

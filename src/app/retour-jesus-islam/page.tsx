@@ -513,8 +513,8 @@ export default function RetourJesus() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         La descente de Jésus se produira pendant la
-                        période de tribulation provoquée par le Dajjal
-                        (l&apos;Antéchrist). Les croyants, assiégés et
+                        période de tribulation provoquée par{" "}
+                        <Link href="/dajjal-signes-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le Dajjal (l&apos;Antéchrist)</Link>. Les croyants, assiégés et
                         éprouvés, trouveront en l&apos;arrivée de Jésus
                         le secours promis par Allah. C&apos;est au moment
                         où la prière de l&apos;aube sera sur le point
@@ -663,7 +663,9 @@ export default function RetourJesus() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   L&apos;abolition de la jizya (impôt de protection)
                   mentionnée dans les hadiths signifie, selon les exégètes,
-                  que Jésus n&apos;acceptera que l&apos;islam. Il n&apos;y
+                  que Jésus n&apos;acceptera que l&apos;islam. Cet événement
+                  s&apos;inscrit dans la séquence des{" "}
+                  <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes majeurs de la fin des temps</Link>. Il n&apos;y
                   aura plus de distinction entre communautés religieuses,
                   car la vérité sera devenue manifeste pour tous. Les
                   Gens du Livre, reconnaissant en Jésus le prophète
@@ -718,6 +720,9 @@ export default function RetourJesus() {
                 </ul>
 
                 <p className="mt-6 leading-relaxed text-foreground">
+                  Après cette victoire, Jésus devra aussi faire face à{" "}
+                  <Link href="/gog-magog-liberation-fin-des-temps" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">l&apos;invasion de Gog et Magog</Link>,
+                  une épreuve qui ne pourra être surmontée que par l&apos;invocation divine.
                   Le lien avec le Mahdi mérite une attention particulière.
                   Selon les hadiths, le Mahdi sera déjà présent lorsque
                   Jésus descendra. Au moment de la prière, le Mahdi
@@ -908,8 +913,9 @@ export default function RetourJesus() {
                   régulièrement soulevé par les savants. Se perdre dans
                   les calculs de dates, chercher à identifier le Dajjal
                   ou le Mahdi dans l&apos;actualité, interpréter chaque
-                  événement politique comme un signe de l&apos;Heure :
-                  autant d&apos;attitudes que la tradition islamique
+                  événement politique comme{" "}
+                  <Link href="/signes-mineurs-actuels" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">un signe de l&apos;Heure</Link>{" "}
+                  : autant d&apos;attitudes que la tradition islamique
                   décourage. La connaissance du moment exact de l&apos;Heure
                   appartient à Allah seul (31:34).
                 </p>
@@ -919,7 +925,9 @@ export default function RetourJesus() {
                   savants, repose sur cinq piliers pratiques :
                   l&apos;affermissement de la foi par l&apos;apprentissage,
                   la régularité dans la prière, la générosité envers
-                  les plus vulnérables, la patience face aux épreuves
+                  les plus vulnérables,{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le repentir sincère</Link>,
+                  la patience face aux épreuves
                   et le maintien de liens familiaux et communautaires
                   sains. Ces actes, répétés jour après jour, constituent
                   la meilleure réponse à toute interrogation sur la fin

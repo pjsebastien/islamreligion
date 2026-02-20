@@ -259,7 +259,11 @@ export default function CafardIslamSignification() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   Dans la tradition islamique, le rêve de cafard revêt une
-                  signification profonde et complexe. Au-delà du dégoût naturel
+                  signification profonde et complexe, à l&apos;image des{" "}
+                  <Link href="/rever-poux-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves de poux en islam</Link>{" "}
+                  ou de{" "}
+                  <Link href="/rever-rat-islam-purification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves de rat</Link>.
+                  Au-delà du dégoût naturel
                   que cet insecte inspire, il incarne une alerte spirituelle
                   invitant à l&apos;introspection honnête. Le cafard dans un
                   rêve agit comme un miroir des préoccupations enfouies, des
@@ -285,7 +289,9 @@ export default function CafardIslamSignification() {
                     <h4 className="font-semibold text-primary">Cafard noir</h4>
                     <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
                       Symbolise des intentions hostiles ou des influences malignes
-                      dans l&apos;entourage. Il avertit le rêveur d&apos;une
+                      dans l&apos;entourage, parfois liées à des formes de{" "}
+                      <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">sorcellerie dont l&apos;islam enseigne la protection</Link>.
+                      Il avertit le rêveur d&apos;une
                       personne qui agit dans l&apos;ombre et lui veut du mal.
                       La vigilance et les invocations de protection sont
                       particulièrement recommandées.
@@ -567,7 +573,9 @@ export default function CafardIslamSignification() {
                     <div>
                       <h3 className="font-semibold text-primary">Repentir et sadaqa</h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
-                        Le repentir sincère (tawba) et l&apos;aumône (sadaqa)
+                        Le{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère (tawba)</Link>{" "}
+                        et l&apos;aumône (sadaqa)
                         sont des actes puissants de purification. Ils
                         permettent de renouveler l&apos;intention, de purifier
                         le coeur et d&apos;attirer la miséricorde d&apos;Allah.
@@ -745,7 +753,9 @@ export default function CafardIslamSignification() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Que l&apos;on soit confronté à un rêve de cafard noir, rouge
                   ou autre, l&apos;enseignement clé demeure la vigilance et la
-                  confiance en Allah. Chaque signe invite à la purification
+                  confiance en Allah. Tout comme{" "}
+                  <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les larmes dans un rêve en islam</Link>{" "}
+                  traduisent des émotions profondes, chaque signe invite à la purification
                   progressive de l&apos;âme et à l&apos;affirmation des
                   ressources intérieures. Le croyant qui prend au sérieux les
                   messages de ses rêves et agit en conséquence renforce sa foi

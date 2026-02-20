@@ -192,7 +192,9 @@ export default function ReverRat() {
                 </h2>
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
-                  Dans l&apos;univers des rêves spirituels, le rat se trouve
+                  Dans l&apos;univers des{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves spirituels en islam</Link>,
+                  le rat se trouve
                   souvent chargé d&apos;une symbolique puissante dans le
                   contexte islamique. Ce rongeur, qui suscite fréquemment
                   l&apos;aversion, apparaît en rêve comme un messager ambigu.
@@ -347,8 +349,10 @@ export default function ReverRat() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   Le message d&apos;un rat qui apparaît en rêve ne devrait
                   jamais être ignoré, car il s&apos;agit d&apos;une véritable
-                  veille spirituelle imposée par la sagesse islamique. Mais
-                  comment y réagir concrètement ? Plusieurs pistes peuvent être
+                  veille spirituelle imposée par la sagesse islamique. Certains
+                  rêveurs associent cette vision à une forme de{" "}
+                  <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">sorcellerie ou de mauvais oeil nécessitant une protection</Link>.
+                  Mais comment y réagir concrètement ? Plusieurs pistes peuvent être
                   explorées pour transformer l&apos;inquiétude en croissance
                   intérieure.
                 </p>
@@ -383,7 +387,9 @@ export default function ReverRat() {
                         Le rat peut symboliser une habitude nocive, une
                         jalousie non avouée ou une relation toxique. Il
                         s&apos;agit d&apos;un appel à la remise en question
-                        pour progresser dans son harmonie intérieure.
+                        pour progresser dans son harmonie intérieure. Le{" "}
+                        <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère (tawba)</Link>
+                        {" "}accompagne utilement cette démarche.
                       </p>
                     </div>
                   </div>
@@ -509,7 +515,10 @@ export default function ReverRat() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Certains se demandent si faire un rêve de rat en islam est
-                  forcément un mauvais présage. Or, les traditions et les
+                  forcément un mauvais présage. D&apos;autres rêves d&apos;animaux
+                  nuisibles, comme{" "}
+                  <Link href="/rever-poux-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de poux en islam</Link>,
+                  portent également un message de purification. Les traditions et les
                   commentaires contemporains rappellent qu&apos;il s&apos;agit
                   d&apos;abord d&apos;un signe destiné à réveiller une
                   vigilance, mais jamais à enfermer dans la peur ou la
@@ -536,8 +545,9 @@ export default function ReverRat() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Entretien du lien conjugal :</strong> faire écho
-                      au contrat du mariage authentique, fondé sur la confiance
-                      et la transparence.
+                      au{" "}
+                      <Link href="/mariage-islamique-contrat" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">contrat du mariage en islam</Link>,
+                      fondé sur la confiance et la transparence.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -577,7 +587,9 @@ export default function ReverRat() {
                   S&apos;interroger sur la signification profonde d&apos;un
                   rêve de rat, c&apos;est aussi ouvrir la voie à une
                   interprétation pure qui ne se limite pas à la peur ou à la
-                  superstition. En islam, toute expérience, y compris nocturne,
+                  superstition. Tout comme le{" "}
+                  <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve d&apos;araignée</Link>,
+                  chaque expérience nocturne en islam
                   porte un message pour construire ou reconstruire
                   l&apos;harmonie dans la vie du croyant.
                 </p>

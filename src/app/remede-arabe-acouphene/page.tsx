@@ -540,7 +540,15 @@ export default function RemedeArabeAcouphene() {
                     respiratoires supérieures. Sa proximité avec la sphère ORL
                     en fait un remède pertinent pour les troubles auriculaires
                     liés à une inflammation de la trompe d&apos;Eustache ou de
-                    l&apos;oreille moyenne.
+                    l&apos;oreille moyenne. La nigelle est également utilisée
+                    pour{" "}
+                    <Link
+                      href="/remede-yeux-islam-soins"
+                      className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >
+                      prendre soin de ses yeux
+                    </Link>
+                    , preuve de la polyvalence de ces remèdes prophétiques.
                   </p>
 
                   <div className="mt-4 rounded-lg bg-accent p-4">
@@ -1206,8 +1214,14 @@ export default function RemedeArabeAcouphene() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   L&apos;alimentation joue un rôle souvent sous-estimé dans la
-                  gestion des acouphènes. Une alimentation riche en
-                  antioxydants, en oméga-3 et en minéraux favorise la santé de
+                  gestion des acouphènes. Adopter{" "}
+                  <Link
+                    href="/remede-arabe-maigrir-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    une alimentation saine et équilibrée
+                  </Link>{" "}
+                  riche en antioxydants, en oméga-3 et en minéraux favorise la santé de
                   l&apos;oreille interne et réduit l&apos;inflammation
                   systémique. La Sunna offre un cadre alimentaire
                   naturellement anti-inflammatoire.
@@ -1336,7 +1350,16 @@ export default function RemedeArabeAcouphene() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   Certains aliments et comportements sont connus pour aggraver
-                  les acouphènes. Les limiter fait partie d&apos;une
+                  les acouphènes. Il est par exemple essentiel d&apos;envisager
+                  d&apos;
+                  <Link
+                    href="/remede-arabe-arreter-fumer"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    arrêter de fumer pour préserver sa santé
+                  </Link>{" "}
+                  auditive, car le tabac altère la circulation cochléaire.
+                  Les limiter fait partie d&apos;une
                   hygiène de vie conforme à la modération prônée par l&apos;islam.
                 </p>
 
@@ -1420,12 +1443,26 @@ export default function RemedeArabeAcouphene() {
                   des acouphènes. La boucle stress-acouphène-stress est un
                   cercle vicieux bien documenté : le bourdonnement provoque de
                   l&apos;anxiété, qui à son tour rend le bourdonnement plus
-                  perceptible.
+                  perceptible. Comprendre{" "}
+                  <Link
+                    href="/remede-angoisse-islam"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    l&apos;anxiété et ses effets sur la santé
+                  </Link>{" "}
+                  permet de mieux briser ce cercle vicieux.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   La salat (prière) structure la journée en cinq moments de
-                  pause et de recentrage. La prosternation (sujud), en
+                  pause et de recentrage. Découvrez comment{" "}
+                  <Link
+                    href="/prier-islam-excellence-spirituelle"
+                    className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                  >
+                    la prière peut devenir une source d&apos;apaisement
+                  </Link>{" "}
+                  profond. La prosternation (sujud), en
                   particulier, favorise l&apos;afflux sanguin vers le cerveau
                   et procure un apaisement physique et psychologique mesurable.
                   Le dhikr, par sa répétition rythmée, active le système

@@ -314,7 +314,9 @@ export default function ReverEnceinte() {
                   Interpréter le rêve de grossesse, c&apos;est avant tout
                   accueillir l&apos;idée d&apos;une croissance intérieure.
                   Pour de nombreuses soeurs musulmanes, ce rêve ne se réduit
-                  pas à un simple désir de maternité, mais peut révéler une
+                  pas à un simple désir de{" "}
+                  <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">maternité dans la tradition islamique</Link>,
+                  mais peut révéler une
                   phase de transformation personnelle, de renouveau spirituel
                   ou l&apos;émergence de nouveaux projets porteurs de sens.
                 </p>
@@ -493,7 +495,9 @@ export default function ReverEnceinte() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   L&apos;islam insiste sur la prudence dans
-                  l&apos;interprétation des rêves. Seul Allah connait
+                  l&apos;interprétation des{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves selon la tradition islamique</Link>.
+                  Seul Allah connait
                   véritablement leur signification. Chaque rêve doit être
                   accueilli avec humilité et discernement.
                 </p>
@@ -589,7 +593,9 @@ export default function ReverEnceinte() {
                   apparait précieux aux yeux d&apos;Allah. Il convient de ne
                   pas négliger la santé émotionnelle et d&apos;accueillir ces
                   rêves comme des invitations à la réflexion et à la
-                  croissance spirituelle.
+                  croissance spirituelle. Un{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère</Link>{" "}
+                  peut accompagner cette démarche intérieure.
                 </p>
 
                 <ArticleCTA
@@ -614,7 +620,9 @@ export default function ReverEnceinte() {
                   aussi dans d&apos;autres cultures, illustre puissamment les
                   concepts de mutation, de créativité et de projets en
                   germination. En islam, cela va bien au-delà de
-                  l&apos;accouchement physique : c&apos;est aussi la naissance
+                  l&apos;accouchement physique &mdash; comme le montre aussi la signification de{" "}
+                  <Link href="/rever-accoucher-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;accoucher en islam</Link>{" "}
+                  &mdash; : c&apos;est aussi la naissance
                   d&apos;une nouvelle facette de soi, d&apos;un engagement ou
                   d&apos;une vocation.
                 </p>
@@ -998,7 +1006,9 @@ export default function ReverEnceinte() {
                   Seule la prière et la droiture du coeur permettent
                   finalement d&apos;accueillir le message du rêve avec
                   sérénité et générosité, invitant à faire un pas nouveau vers
-                  la plénitude spirituelle.
+                  la plénitude spirituelle. Comme le rappelle aussi le symbolisme de{" "}
+                  <Link href="/rever-chat-islam-symbolisme" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de chat en islam</Link>,
+                  chaque créature onirique porte un message qui mérite d&apos;être médité.
                 </p>
 
                 <ArticleCTA

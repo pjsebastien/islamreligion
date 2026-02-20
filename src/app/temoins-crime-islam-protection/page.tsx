@@ -242,7 +242,8 @@ export default function TemoinsCrimeIslamProtection() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      La protection divine se manifeste par la prière,
+                      La protection divine se manifeste par{" "}
+                      <Link href="/prier-islam-excellence-spirituelle" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la prière</Link>,
                       l&apos;invocation et le renforcement de la foi.
                     </span>
                   </li>
@@ -351,7 +352,9 @@ export default function TemoinsCrimeIslamProtection() {
                   périodes d&apos;incertitude ou avant une épreuve morale. Il
                   convient alors de l&apos;accueillir avec sagesse et
                   discernement, sans se précipiter vers des conclusions
-                  hâtives.
+                  hâtives. Dans ces moments, la{" "}
+                  <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">prière de consultation (istikhara)</Link>{" "}
+                  peut guider le croyant vers la bonne décision.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -519,7 +522,8 @@ export default function TemoinsCrimeIslamProtection() {
                         Mettre en place des barrières :
                       </strong>{" "}
                       contre la tentation et l&apos;abus, en s&apos;appuyant
-                      sur la prière et l&apos;étude de la Sunna.
+                      sur la prière et{" "}
+                      <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le repentir sincère</Link>.
                     </span>
                   </li>
                 </ul>
@@ -853,8 +857,9 @@ export default function TemoinsCrimeIslamProtection() {
                   Karim, croyant musulman, témoigne de son expérience : après
                   un rêve récurrent où il assistait à un crime sans pouvoir
                   agir, il choisit de s&apos;impliquer dans des actions
-                  citoyennes pour la justice et d&apos;étudier la
-                  jurisprudence islamique sur la protection des plus faibles.
+                  citoyennes pour la justice et d&apos;étudier{" "}
+                  <Link href="/halal-haram-criteres" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les critères du licite et de l&apos;illicite en islam</Link>{" "}
+                  ainsi que la jurisprudence sur la protection des plus faibles.
                   Ce rêve devint pour lui un point de départ vers un
                   engagement plus profond dans sa communauté.
                 </p>
@@ -985,7 +990,10 @@ export default function TemoinsCrimeIslamProtection() {
                   La clé reste toujours la douceur, la compréhension et la
                   patience avec soi-même. Demander à Allah d&apos;apaiser les
                   songes et d&apos;éclairer les nuits par la sagesse et la
-                  paix intérieure est le meilleur réflexe du croyant.
+                  paix intérieure est le meilleur réflexe du croyant. Pour
+                  se prémunir contre les cauchemars récurrents, découvrez
+                  les{" "}
+                  <Link href="/sorcellerie-islam-protection" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">moyens de protection spirituelle en islam</Link>.
                 </p>
               </section>
 

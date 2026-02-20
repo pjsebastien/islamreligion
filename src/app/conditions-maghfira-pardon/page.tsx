@@ -276,7 +276,7 @@ export default function ConditionsMaghfira() {
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
-                      <strong>Tawba :</strong> le repentir sincère du
+                      <strong>Tawba :</strong> <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le repentir sincère</Link> du
                       serviteur qui constitue la démarche active vers le
                       pardon divin.
                     </span>
@@ -439,7 +439,7 @@ export default function ConditionsMaghfira() {
                   Les savants précisent que le repentir doit être accompli
                   avant deux échéances : la mort individuelle (lorsque
                   l&apos;âme atteint la gorge, le repentir n&apos;est plus
-                  accepté) et les signes majeurs de la fin des temps
+                  accepté) et les <Link href="/signes-fin-monde-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">signes majeurs de la fin des temps</Link>
                   (comme le lever du soleil depuis l&apos;occident). Le
                   Prophète (paix et bénédictions sur lui) a dit : « Allah
                   accepte le repentir du serviteur tant que son âme
@@ -661,7 +661,7 @@ export default function ConditionsMaghfira() {
                   subsistance de là où il ne s&apos;y attend pas »
                   (rapporté par Abu Dawud). Cette promesse prophétique
                   montre que l&apos;istighfar est à la fois un acte de
-                  purification et une source de bénédictions concrètes.
+                  purification et une source de bénédictions concrètes. Retrouvez également les <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations authentiques pour la réussite et la facilité</Link>.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -723,7 +723,7 @@ export default function ConditionsMaghfira() {
                         par al-Bukhari et Muslim). Les prières
                         surérogatoires (rawatib, tahajjud, duha) ajoutent
                         une couche supplémentaire de purification et
-                        rapprochent le serviteur de son Seigneur.
+                        rapprochent le serviteur de son Seigneur. Découvrez aussi les <Link href="/abandon-priere-islam-consequences" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">conséquences de l&apos;abandon de la prière</Link> et l&apos;importance de maintenir ce pilier.
                       </p>
                     </div>
                   </div>
@@ -923,7 +923,8 @@ export default function ConditionsMaghfira() {
 
                 <p className="mt-4 leading-relaxed text-foreground">
                   La rechute est l&apos;un des obstacles les plus
-                  décourageants pour le croyant qui tente de se repentir.
+                  décourageants pour le croyant qui tente de se repentir,
+                  notamment dans le domaine des <Link href="/peches-sexualite-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">péchés liés à la sexualité</Link>.
                   Pourtant, les savants sont unanimes : la rechute
                   n&apos;invalide pas les repentirs précédents, et le
                   croyant doit se repentir à nouveau à chaque fois
@@ -958,8 +959,8 @@ export default function ConditionsMaghfira() {
                   l&apos;élan du repentir, les savants recommandent de
                   s&apos;entourer de compagnons vertueux, de fréquenter
                   les cercles de savoir, de maintenir une routine
-                  d&apos;adoration régulière et de ne jamais cesser
-                  l&apos;istighfar.
+                  d&apos;adoration régulière, de ne jamais cesser
+                  l&apos;istighfar et de <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">retrouver la sérénité par les remèdes spirituels de l&apos;islam</Link>.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">

@@ -222,7 +222,9 @@ export default function PriereVoyageur() {
                   temps. Allah, par Sa miséricorde, allège le fardeau du
                   croyant en déplacement afin que la prière reste un acte
                   accompli avec concentration et dévotion, plutôt qu&apos;une
-                  charge pénible. Le Prophète (paix et salut sur lui) a dit :
+                  charge pénible. Car{" "}
+                  <Link href="/abandon-priere-islam-consequences" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">abandonner la prière</Link>{" "}
+                  reste un péché majeur, même en voyage. Le Prophète (paix et salut sur lui) a dit :
                   &laquo; Allah aime que l&apos;on prenne Ses concessions,
                   comme Il déteste que l&apos;on commette Ses interdits &raquo;
                   (rapporté par Ahmad et Ibn Hibban).
@@ -492,7 +494,9 @@ export default function PriereVoyageur() {
                   laissé à la libre appréciation de chacun. Les juristes
                   musulmans ont défini un ensemble de conditions qui doivent
                   être réunies pour que le voyageur puisse légitimement
-                  bénéficier de cette concession. Ces conditions varient
+                  bénéficier de cette concession, conformément aux principes de la{" "}
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">jurisprudence islamique</Link>.
+                  Ces conditions varient
                   légèrement d&apos;une école juridique à l&apos;autre, mais un
                   socle commun se dégage.
                 </p>
@@ -688,6 +692,9 @@ export default function PriereVoyageur() {
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
+                  Le voyageur peut également profiter de ses déplacements pour{" "}
+                  <Link href="/istikhara-priere-consultation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">accomplir la prière d&apos;istikhara</Link>{" "}
+                  s&apos;il fait face à une décision importante lors de son voyage.
                   Il convient de noter que les adaptations liées aux ablutions
                   s&apos;appliquent également en voyage. Le voyageur peut
                   essuyer ses chaussettes en cuir (khuff) pendant trois jours
@@ -1092,6 +1099,13 @@ export default function PriereVoyageur() {
                 </div>
 
                 <p className="mt-6 leading-relaxed text-foreground">
+                  Afin de multiplier les{" "}
+                  <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">invocations propices à la réussite</Link>{" "}
+                  durant le voyage, le croyant peut profiter des moments d&apos;attente
+                  pour le dhikr et la récitation du Coran.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
                   Le cas du Ramadan en voyage mérite une attention
                   particulière. Le voyageur a le choix entre jeûner et rompre
                   son jeûne, conformément au verset coranique : &laquo;
@@ -1123,7 +1137,11 @@ export default function PriereVoyageur() {
                   ou en bus obéissent au même principe : c&apos;est la distance
                   entre le point de départ et la destination qui détermine le
                   statut de voyageur, et non le moyen de transport utilisé ni
-                  le temps nécessaire pour parcourir cette distance.
+                  le temps nécessaire pour parcourir cette distance. Pour
+                  distinguer ce qui est{" "}
+                  <Link href="/halal-haram-criteres" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">licite et illicite en islam</Link>,
+                  il est toujours recommandé de s&apos;appuyer sur les avis
+                  des savants reconnus.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">

@@ -203,8 +203,9 @@ export default function ReverMort() {
                   La signification est largement spirituelle : il s&apos;agit
                   souvent d&apos;un appel à l&apos;introspection, à la
                   réévaluation de son rapport à Allah et à la vie éternelle,
-                  mais aussi d&apos;un rappel affectueux de la valeur du
-                  repentir et de la prière pour les défunts. Beaucoup de frères
+                  mais aussi d&apos;un rappel affectueux de la valeur du{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir sincère</Link>{" "}
+                  et de la prière pour les défunts. Beaucoup de frères
                   et sœurs interrogent ces songes, spécialement lorsqu&apos;ils
                   concernent un parent proche ou une personne disparue
                   récemment.
@@ -325,7 +326,8 @@ export default function ReverMort() {
                   Toute interprétation spirituelle exige prudence et humilité.
                   C&apos;est une approche de miséricorde qu&apos;enseigne
                   l&apos;islam, particulièrement face à l&apos;inconnu de
-                  l&apos;au-delà.
+                  l&apos;au-delà. Pour mieux comprendre les fondements de cette science onirique, consultez notre{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">guide complet sur les rêves en islam</Link>.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -460,7 +462,9 @@ export default function ReverMort() {
                   L&apos;écoute des messages des morts doit toujours inviter à
                   renforcer les prières pour le défunt et à multiplier les
                   invocations, offrant ainsi paix et élévation à l&apos;âme du
-                  défunt, et consolation au rêveur. La sagesse islamique
+                  défunt, et consolation au rêveur. Ces visions rappellent parfois les{" "}
+                  <Link href="/rever-tirer-dessus-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves d&apos;épreuves violentes</Link>{" "}
+                  où le message spirituel prime sur la peur immédiate. La sagesse islamique
                   rappelle que chaque rêve recèle une opportunité
                   d&apos;approfondir la foi et de raffermir sa connexion au
                   Créateur.
@@ -649,8 +653,8 @@ export default function ReverMort() {
                 <p className="mt-4 leading-relaxed text-foreground">
                   Un rêve marqué par la présence d&apos;un défunt, par des
                   messages des morts ou par des échanges remplis de symbolisme,
-                  interroge le croyant sur le sens de la vie mortelle et sur la
-                  préparation de l&apos;au-delà. La plupart des guides
+                  interroge le croyant sur le sens de la vie mortelle et sur la{" "}
+                  <Link href="/fin-monde-islam-preparation" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">préparation de l&apos;au-delà</Link>. La plupart des guides
                   spirituels encouragent à lire ces expériences comme des appels
                   à plus de recul, de purification intérieure et de renforcement
                   de la relation à Allah.
@@ -672,7 +676,8 @@ export default function ReverMort() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       <strong>Stimulation du repentir</strong> : les rappels de
-                      la mort poussent à renouveler ses actes de piété.
+                      la mort poussent à renouveler ses actes de piété, à l&apos;image de ce que provoque{" "}
+                      <Link href="/signification-reve-tuer-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de tuer en islam</Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

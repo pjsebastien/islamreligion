@@ -210,8 +210,10 @@ export default function MariageIslamique() {
                   créer un espace de paix (sakina), nourri par
                   l&apos;affection (mawadda) et la miséricorde (rahma).
                   Le Nikah n&apos;est pas un sacrement au sens chrétien,
-                  mais un contrat civil à dimension spirituelle. Il se
-                  distingue du mariage civil français par sa nature
+                  mais un contrat civil à dimension spirituelle, encadré
+                  par les principes de la{" "}
+                  <Link href="/jurisprudence-islamique-coran-sunna-ijma" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">jurisprudence islamique</Link>.
+                  Il se distingue du mariage civil français par sa nature
                   religieuse, ses conditions spécifiques et ses
                   implications morales.
                 </p>
@@ -224,7 +226,10 @@ export default function MariageIslamique() {
                   partie des miens. » (rapporté par Ibn Majah).
                   Cette parole souligne que le mariage est un acte
                   d&apos;adoration (&apos;ibada) et non une simple formalité
-                  sociale.
+                  sociale. Il constitue aussi le cadre légitime de
+                  l&apos;intimité, hors duquel les{" "}
+                  <Link href="/peches-sexualite-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">péchés liés à la sexualité</Link>{" "}
+                  sont fermement prohibés.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -274,6 +279,10 @@ export default function MariageIslamique() {
                   obligations, conformément à la bienséance »
                   (sourate Al-Baqarah, 2:228). Cette réciprocité
                   fonde l&apos;ensemble du cadre juridique du Nikah.
+                  En cas de rupture de ce lien, des procédures précises
+                  régissent{" "}
+                  <Link href="/divorce-islam-talaq-khula" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le divorce en islam</Link>,
+                  afin de préserver les droits de chaque partie.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -414,6 +423,9 @@ export default function MariageIslamique() {
                   ne doit pas être donnée en mariage sans sa
                   permission. » (rapporté par Al-Bukhari et Muslim).
                   Ce hadith réfute toute forme de mariage forcé.
+                  Ce souci de justice se prolonge tout au long de
+                  la vie conjugale, y compris dans{" "}
+                  <Link href="/droits-femme-divorce-islamique" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les droits de la femme en cas de divorce</Link>.
                 </p>
 
                 <p className="mt-4 leading-relaxed text-foreground">
@@ -735,7 +747,10 @@ export default function MariageIslamique() {
                   meilleur d&apos;entre vous envers mes épouses. »
                   (rapporté par At-Tirmidhi). Cette parole
                   prophétique place la bonté conjugale au rang des
-                  vertus les plus nobles.
+                  vertus les plus nobles. Ce cadre de responsabilités
+                  mutuelles prend une dimension particulière lorsque
+                  le couple accueille un enfant, faisant de{" "}
+                  <Link href="/maternite-islam-responsabilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la maternité une responsabilité sacrée en islam</Link>.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">
@@ -1085,7 +1100,8 @@ export default function MariageIslamique() {
                       </h3>
                       <p className="mt-1 leading-relaxed text-foreground-secondary">
                         Priez ensemble, lisez le Coran en couple, participez
-                        à des cercles de science religieuse. La
+                        à des cercles de{" "}
+                        <Link href="/apprendre-science-religieuse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">science religieuse</Link>. La
                         spiritualité partagée est un ciment
                         puissant pour le couple musulman. Le Prophète
                         a dit : « Qu&apos;Allah fasse miséricorde

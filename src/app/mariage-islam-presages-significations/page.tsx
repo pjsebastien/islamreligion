@@ -342,9 +342,11 @@ export default function MariageIslamPresages() {
                   l&apos;oniromancie islamique, a consacré une attention
                   particulière aux rêves de mariage. Ses interprétations, qui
                   s&apos;appuient sur le Coran et la Sunna, demeurent la
-                  référence pour des millions de musulmans. D&apos;autres
-                  savants comme Al-Nabulsi (1641-1731) ont affiné ces lectures
-                  au fil des siècles.
+                  référence pour des millions de musulmans, au même titre que
+                  ses lectures des{" "}
+                  <Link href="/reve-poisson-islam-richesse" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves de poisson annonçant richesse et abondance</Link>.
+                  D&apos;autres savants comme Al-Nabulsi (1641-1731) ont affiné
+                  ces lectures au fil des siècles.
                 </p>
 
                 <div className="mt-6 border-l-4 border-secondary pl-6">
@@ -571,7 +573,9 @@ export default function MariageIslamPresages() {
                   enfant, un déménagement ou un changement de vie positif. Ce
                   rêve ne signifie pas un deuxième mariage mais invite le
                   rêveur à raviver la flamme de son foyer et à remercier Allah
-                  pour les bienfaits du couple.
+                  pour les bienfaits du couple. Connaitre les{" "}
+                  <Link href="/droits-femme-divorce-islamique" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">droits de la femme dans le cadre conjugal</Link>
+                  {" "}renforce cette harmonie.
                 </p>
 
                 {/* Témoignage Ahmed */}
@@ -892,9 +896,12 @@ export default function MariageIslamPresages() {
                   positif du mariage. La peur, l&apos;angoisse ou
                   l&apos;indifférence peuvent indiquer un rêve du Shaytane ou
                   un rêve de l&apos;âme qui reflète des tensions intérieures.
-                  Ibn Sirin accordait une attention majeure aux sentiments
-                  éprouvés pendant le rêve, les considérant comme la clé de
-                  l&apos;interprétation.
+                  Si le rêve fait ressurgir un ancien partenaire, la lecture
+                  des{" "}
+                  <Link href="/reves-ex-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves liés à un ex en islam</Link>
+                  {" "}peut éclairer le message. Ibn Sirin accordait une
+                  attention majeure aux sentiments éprouvés pendant le rêve,
+                  les considérant comme la clé de l&apos;interprétation.
                 </p>
 
                 {/* Tableau détails / signification positive / négative */}
@@ -1051,8 +1058,9 @@ export default function MariageIslamPresages() {
                   La conduite à adopter après un rêve de mariage dépend de la
                   nature du songe. La Sunna du Prophète (paix et salut sur lui)
                   offre des recommandations claires qui permettent au croyant
-                  d&apos;accueillir son rêve avec sérénité, qu&apos;il soit
-                  porteur de bonne nouvelle ou d&apos;avertissement.
+                  d&apos;accueillir son rêve avec sérénité. Tout comme{" "}
+                  <Link href="/reve-cheval-islam-bienfaits" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de cheval annonce des bienfaits</Link>,
+                  un mariage onirique heureux est porteur de bonne nouvelle.
                 </p>
 
                 <div className="mt-8 space-y-6">

@@ -201,7 +201,8 @@ export default function ReverTirerDessus() {
 
                 <p className="mt-6 text-lg leading-relaxed text-foreground">
                   La tradition musulmane accorde une place particulière à
-                  l&apos;interprétation des rêves islamiques, appelés
+                  l&apos;interprétation des{" "}
+                  <Link href="/reves-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêves islamiques</Link>, appelés
                   &quot;ruya&quot; dans les textes sacrés. Depuis des siècles,
                   la communauté musulmane s&apos;est interrogée sur la façon
                   dont les visions nocturnes pouvaient révéler des messages
@@ -346,7 +347,8 @@ export default function ReverTirerDessus() {
                     <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
                     <span>
                       Si l&apos;on est <strong>blessé au cœur</strong> :
-                      craintes affectives, deuil ou peur de perdre un proche.
+                      craintes affectives, deuil ou peur de perdre un proche. Ce ressenti rappelle les{" "}
+                      <Link href="/rever-mort-islam-messages" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">songes liés à la mort en islam</Link>.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -490,7 +492,8 @@ export default function ReverTirerDessus() {
                 <p className="mt-6 leading-relaxed text-foreground">
                   La sagesse islamique recommande de ne jamais négliger mais
                   plutôt d&apos;accueillir avec patience ces épreuves
-                  oniriques. Comme le rappelle notre tradition :
+                  oniriques, tout comme on accueille les{" "}
+                  <Link href="/rever-chien-islam-signification" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">visions d&apos;animaux symboliques dans les songes</Link>. Comme le rappelle notre tradition :
                   &quot;Quiconque endure la difficulté avec foi, Allah lui
                   accorde la facilité.&quot; C&apos;est dans cette dynamique
                   que trouver sens et apaisement en période d&apos;angoisse
@@ -675,7 +678,8 @@ export default function ReverTirerDessus() {
                   La capacité d&apos;accueillir la difficulté, de la
                   transformer en occasion de croissance, puis de la confier à
                   la miséricorde divine, incarne l&apos;essence même de la foi
-                  musulmane face aux épreuves nocturnes.
+                  musulmane face aux épreuves nocturnes. Si l&apos;angoisse persiste, il peut être utile de découvrir les{" "}
+                  <Link href="/remede-angoisse-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">remèdes islamiques contre l&apos;angoisse</Link>.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">
@@ -948,7 +952,8 @@ export default function ReverTirerDessus() {
                       Ce rêve reflète souvent des pressions professionnelles,
                       une rivalité ou un sentiment de responsabilité écrasante.
                       Il invite à faire le point sur ses priorités et à
-                      renforcer le Tawakkul (confiance en Allah).
+                      renforcer le Tawakkul (confiance en Allah), notamment par{" "}
+                      <Link href="/invocations-reussite-facilite" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">les invocations pour la réussite et la facilité</Link>.
                     </p>
                   </div>
                 </div>
