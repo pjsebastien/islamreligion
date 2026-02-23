@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title: "Islam religion : définition, piliers et croyances musulmanes",
@@ -986,6 +987,11 @@ export default function Home() {
                   </div>
                 </div>
               </section>
+
+              <AffiliateForm
+                title="Apprenez l'arabe et le Coran avec une formation structurée"
+                description="Choisissez la formation qui correspond à vos objectifs et recevez un programme d'apprentissage adapté à votre niveau."
+              />
 
               {/* ============================================ */}
               {/* CTA de navigation interne */}

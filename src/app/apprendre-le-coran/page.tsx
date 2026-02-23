@@ -394,6 +394,7 @@ export default function ApprendreLeCoran() {
                   title="Accédez à un cours de Coran en ligne"
                   description="Un programme structuré avec des enseignants qualifiés, adapté à votre niveau et à vos disponibilités. Laissez votre email pour recevoir les détails du programme."
                   buttonText="Recevoir les informations"
+                  preselect="coran"
                 />
               </section>
 
@@ -578,6 +579,7 @@ export default function ApprendreLeCoran() {
                   title="Apprenez le Coran avec un suivi personnalisé"
                   description="Un programme en ligne avec des enseignants diplômés qui corrigent votre récitation et vous accompagnent dans votre progression. Laissez votre email pour en savoir plus."
                   buttonText="Recevoir les informations"
+                  preselect="coran"
                 />
               </section>
 
@@ -672,6 +674,7 @@ export default function ApprendreLeCoran() {
                 title="Commencez votre parcours avec le Coran"
                 description="Accédez à un programme d'apprentissage du Coran en ligne, avec des enseignants qualifiés et un suivi adapté à votre niveau. Laissez votre email pour recevoir toutes les informations sur le programme et les conditions d'inscription."
                 buttonText="Recevoir les détails"
+                preselect="coran"
               />
 
               {/* Navigation interne */}

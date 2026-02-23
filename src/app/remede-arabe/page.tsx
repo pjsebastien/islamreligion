@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title: "Remèdes arabes et médecine prophétique : soins naturels en islam",
@@ -733,6 +734,12 @@ export default function RemedeArabe() {
 
                 <MedicalDisclaimer />
               </section>
+
+              <AffiliateForm
+                title="Récitez les invocations de guérison en arabe avec assurance"
+                description="La roqya et les invocations prophétiques nécessitent une bonne récitation. Formez-vous pour maîtriser la langue du Coran et ses vertus thérapeutiques."
+                preselect="coran"
+              />
 
               {/* ============================================ */}
               {/* FAQ */}

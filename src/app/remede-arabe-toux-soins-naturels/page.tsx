@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -1496,6 +1497,12 @@ export default function RemedeArabeToux() {
 
               {/* MedicalDisclaimer avant FAQ */}
               <MedicalDisclaimer />
+
+              <AffiliateForm
+                title="Maîtrisez les invocations de guérison prophétiques"
+                description="Les remèdes arabes s'accompagnent de douas et d'invocations en arabe. Apprenez à les réciter correctement grâce à une formation adaptée."
+                preselect="arabe"
+              />
 
               {/* ============================================ */}
               {/* FAQ */}

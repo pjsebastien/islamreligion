@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -953,6 +954,12 @@ export default function ReverChien() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <AffiliateForm
+                title="Comprenez les symboles coraniques de vos rêves"
+                description="La compréhension des rêves en islam passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation pour approfondir vos connaissances."
+                preselect="coran"
+              />
+
               <FaqSection items={faqItems} id="faq" />
 
               {/* Navigation interne */}

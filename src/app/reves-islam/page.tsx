@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title: "Interprétation des rêves en islam : significations et symboles",
@@ -735,6 +736,12 @@ export default function RevesIslam() {
                   d&apos;interprétation des rêves.
                 </p>
               </section>
+
+              <AffiliateForm
+                title="Apprenez à réciter les sourates protectrices avant de dormir"
+                description="Renforcez votre pratique spirituelle avec une formation qui vous guide pas à pas dans la récitation et la compréhension du Coran."
+                preselect="coran"
+              />
 
               {/* ============================================ */}
               {/* FAQ */}

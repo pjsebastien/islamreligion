@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -1023,6 +1024,12 @@ export default function PrierIslamExcellenceSpirituelle() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <AffiliateForm
+                title="Perfectionnez votre récitation pour sublimer votre prière"
+                description="Une bonne récitation du Coran enrichit chaque prière. Apprenez le tajwid et la langue arabe pour vivre une expérience spirituelle plus profonde."
+                preselect="coran"
+              />
+
               <FaqSection items={faqItems} id="faq" />
 
               {/* Navigation interne */}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "À propos d'IslamReligion.fr",
@@ -351,34 +352,14 @@ export default function APropos() {
         {/* ============================================ */}
         <section className="mt-16">
           <h2 className="text-2xl font-bold text-primary">Nous contacter</h2>
+          <p className="mt-3 leading-relaxed text-foreground-secondary">
+            Vous avez une question, une suggestion ou vous souhaitez
+            signaler une erreur dans l&apos;un de nos articles ? Remplissez
+            le formulaire ci-dessous, nous vous répondrons dans les meilleurs
+            délais.
+          </p>
           <div className="mt-6 rounded-xl border border-border bg-white p-6">
-            <p className="leading-relaxed text-foreground">
-              Vous avez une question, une suggestion ou vous souhaitez
-              signaler une erreur dans l&apos;un de nos articles ? N&apos;hésitez
-              pas à nous écrire. Nous lisons chaque message et nous efforçons
-              de répondre dans les meilleurs délais.
-            </p>
-            <div className="mt-4 flex items-center gap-3">
-              <svg
-                className="h-5 w-5 text-primary"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                />
-              </svg>
-              <a
-                href="mailto:contact@islamreligion.fr"
-                className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
-              >
-                contact@islamreligion.fr
-              </a>
-            </div>
+            <ContactForm />
           </div>
         </section>
 

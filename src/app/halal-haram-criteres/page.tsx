@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -1152,6 +1153,12 @@ export default function HalalHaram() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <AffiliateForm
+                title="Acc\u00e9dez aux sources du fiqh dans leur langue originale"
+                description="Le Coran, la Sunna et les ouvrages de jurisprudence sont en arabe. Formez-vous pour lire et comprendre les textes de r\u00e9f\u00e9rence."
+                preselect="arabe"
+              />
+
               <FaqSection items={faqItems} id="faq" />
 
               {/* Navigation interne */}

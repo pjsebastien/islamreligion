@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -939,6 +940,12 @@ export default function MaterniteIslam() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <AffiliateForm
+                title="Comprenez les sources islamiques du droit familial"
+                description="Les termes juridiques islamiques viennent du Coran et de la Sunna. Apprenez l'arabe pour acc\u00e9der directement aux textes fondateurs."
+                preselect="arabe"
+              />
+
               <FaqSection items={faqItems} id="faq" />
 
               {/* Navigation interne */}

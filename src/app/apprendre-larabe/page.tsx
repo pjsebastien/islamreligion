@@ -355,6 +355,7 @@ export default function ApprendreLarabe() {
                   title="Recevez une formation structurée en arabe"
                   description="Vous souhaitez aller plus loin que l'alphabet ? Accédez à un programme complet pour apprendre l'arabe avec un suivi pédagogique adapté à votre niveau."
                   buttonText="Recevoir les détails de la formation"
+                  preselect="arabe"
                 />
               </section>
 
@@ -529,6 +530,7 @@ export default function ApprendreLarabe() {
                   title="Suivez cette méthode avec un cours structuré"
                   description="Un programme en ligne qui reprend ces 5 étapes avec des cours vidéo, des exercices corrigés et un suivi personnalisé. Laissez votre email pour recevoir les détails."
                   buttonText="Recevoir les informations"
+                  preselect="arabe"
                 />
               </section>
 
@@ -683,6 +685,7 @@ export default function ApprendreLarabe() {
                 title="Prêt à commencer l'apprentissage de l'arabe ?"
                 description="Accédez à une formation en ligne complète, avec cours vidéo, exercices progressifs et suivi pédagogique. Laissez votre email pour recevoir toutes les informations sur le programme et les conditions d'inscription."
                 buttonText="Recevoir les détails"
+                preselect="arabe"
               />
 
               {/* Navigation interne */}

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
+import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
@@ -1008,6 +1009,12 @@ export default function RetourJesus() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <AffiliateForm
+                title="Mémorisez les sourates qui protègent des épreuves"
+                description="La connaissance du Coran est la meilleure préparation face aux épreuves de la fin des temps. Sourate Al-Kahf, les invocations de protection... formez-vous dès maintenant."
+                preselect="coran"
+              />
+
               <FaqSection items={faqItems} id="faq" />
 
               {/* Navigation interne */}
