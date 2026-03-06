@@ -20,6 +20,12 @@ export const metadata: Metadata = {
 const tocItems = [
   { id: "symbolique", label: "Symbolique des dents en islam" },
   { id: "variantes", label: "Variantes et scénarios" },
+  { id: "une-par-une-ou-toutes", label: "Une par une ou toutes d\u2019un coup" },
+  { id: "dents-cassees", label: "Dents qui se cassent" },
+  { id: "sang-ou-sans-sang", label: "Avec ou sans sang" },
+  { id: "sans-douleur", label: "Dents qui tombent sans douleur" },
+  { id: "ramasser-dents", label: "Ramasser ses dents" },
+  { id: "dents-repoussent", label: "Dents qui repoussent" },
   { id: "diversite", label: "Diversité culturelle" },
   { id: "conseils", label: "Conseils pratiques" },
   { id: "profils", label: "Selon la situation du rêveur" },
@@ -66,6 +72,21 @@ const faqItems = [
     question: "Rêver de dents cassées en islam : quelle signification ?",
     answer:
       "Des dents cassées ou effritées dans un rêve symbolisent la fragilité et une remise en question des valeurs fondatrices. Ce rêve invite à la réflexion et à la protection du lien familial, tout en renforçant la foi et la confiance en Allah.",
+  },
+  {
+    question: "Rêver que ses dents se cassent en islam : que faut-il comprendre ?",
+    answer:
+      "Selon An-Nabulsi, rêver que ses dents se cassent ou s\u2019effritent peut indiquer une perte de force intérieure, un choc émotionnel ou une atteinte à la réputation. Ce rêve invite le croyant à consolider ses fondations spirituelles et à se tourner vers Allah pour retrouver sa solidité. Si les dents se brisent sans tomber, cela peut aussi signaler des tensions familiales qui restent contenues.",
+  },
+  {
+    question: "Rêver de dents qui tombent avec du sang en islam : quelle signification ?",
+    answer:
+      "La présence de sang lors de la chute des dents dans un rêve accentue la dimension de souffrance et d\u2019épreuve. Selon Ibn Sirin, le sang symbolise la douleur émotionnelle profonde et peut annoncer une séparation douloureuse ou un conflit familial marquant. Ce rêve appelle à la patience (sabr), à la prière et aux invocations de protection.",
+  },
+  {
+    question: "Rêver de dents qui tombent sans douleur en islam : est-ce positif ?",
+    answer:
+      "Oui, selon plusieurs savants dont Ibn Sirin, si les dents tombent sans douleur et sans sang, cela peut représenter un soulagement futur ou un apaisement. La chute indolore suggère que les changements à venir, bien que déstabilisants, se dérouleront sans grande souffrance. C\u2019est parfois interprété comme un éloignement naturel et sans heurt d\u2019une personne ou d\u2019une situation.",
   },
 ];
 
@@ -470,6 +491,334 @@ export default function ReverPerdreDents() {
               </section>
 
               {/* ============================================ */}
+              {/* SECTION : Dents une par une vs toutes */}
+              {/* ============================================ */}
+              <section id="une-par-une-ou-toutes" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Dents qui tombent une par une ou toutes d&apos;un coup : des messages différents
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  La manière dont les dents tombent dans le rêve modifie profondément
+                  l&apos;interprétation. Ibn Sirin distinguait clairement ces deux
+                  scénarios, car ils ne portent pas le même message spirituel pour le
+                  rêveur.
+                </p>
+
+                <div className="mt-8 grid gap-6 sm:grid-cols-2">
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Dents qui tombent une par une
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      Lorsque les dents chutent progressivement, cela symbolise
+                      des épreuves successives étalées dans le temps. Selon Ibn Sirin,
+                      chaque dent perdue correspond à un événement précis touchant
+                      un membre de la famille. Ce rêve invite à la vigilance et à
+                      renforcer les liens avec ses proches, car les changements
+                      s&apos;annoncent graduellement.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Toutes les dents tombent d&apos;un coup
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      Voir toutes ses dents tomber simultanément porte une
+                      interprétation plus radicale. Selon la tradition, cela peut
+                      annoncer une longévité exceptionnelle — le rêveur survivant à
+                      sa génération — ou un bouleversement majeur dans la vie
+                      familiale. An-Nabulsi y voyait aussi le signe d&apos;un
+                      héritage ou d&apos;un passage d&apos;étape décisif.
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Dans les deux cas, la tradition encourage le croyant à ne pas
+                  céder à la peur, mais à chercher la signification profonde en
+                  lien avec sa situation personnelle. Une{" "}
+                  <Link href="/rever-perdre-cheveux-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">perte de cheveux en rêve</Link>
+                  {" "}partage une symbolique similaire de transformation et de
+                  détachement progressif.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Dents qui se cassent */}
+              {/* ============================================ */}
+              <section id="dents-cassees" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver que ses dents se cassent en islam : signification spécifique
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Le rêve de dents qui se cassent diffère de celui où elles tombent.
+                  La cassure évoque une rupture brutale, un choc inattendu qui
+                  fragilise les fondations du rêveur. Selon An-Nabulsi, les dents
+                  brisées dans un rêve peuvent symboliser&nbsp;:
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Une perte de force intérieure :</strong> le rêveur
+                      traverse une période où sa résistance morale est mise à
+                      l&apos;épreuve.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Un choc émotionnel :</strong> une nouvelle
+                      déstabilisante ou une trahison qui ébranle la confiance.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Une atteinte à la réputation :</strong> la dent
+                      cassée reflète parfois l&apos;image que les autres ont du
+                      rêveur, une image qui se fissure.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Si les dents se brisent sans tomber complètement, Ibn Sirin
+                  considérait que les tensions restent contenues et qu&apos;une
+                  réconciliation demeure possible. Ce rêve appelle à la patience
+                  et à la réparation des liens endommagés, un peu comme un{" "}
+                  <Link href="/rever-accident-voiture-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve d&apos;accident de voiture</Link>
+                  {" "}qui signale une épreuve soudaine sans annoncer
+                  nécessairement le pire.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Avec ou sans sang */}
+              {/* ============================================ */}
+              <section id="sang-ou-sans-sang" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Dents qui tombent avec du sang ou sans sang : deux interprétations distinctes
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  La présence ou l&apos;absence de sang dans le rêve de perte de
+                  dents constitue un élément déterminant pour les interprètes
+                  classiques. Ibn Sirin et An-Nabulsi accordaient une attention
+                  particulière à ce détail.
+                </p>
+
+                <div className="mt-8 overflow-x-auto">
+                  <table className="w-full border-collapse text-left text-sm">
+                    <thead>
+                      <tr className="border-b-2 border-primary/10">
+                        <th className="py-3 pr-4 font-semibold text-primary">
+                          Scénario
+                        </th>
+                        <th className="py-3 pr-4 font-semibold text-primary">
+                          Interprétation selon Ibn Sirin
+                        </th>
+                        <th className="py-3 font-semibold text-primary">
+                          Conseil spirituel
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="text-foreground-secondary">
+                      <tr className="border-b border-border">
+                        <td className="py-3 pr-4 font-medium text-foreground">
+                          Dents qui tombent avec du sang
+                        </td>
+                        <td className="py-3 pr-4">
+                          Séparation douloureuse, conflit familial profond,
+                          épreuve marquante avec souffrance émotionnelle
+                        </td>
+                        <td className="py-3">
+                          Patience (sabr), invocations de protection, sadaqa
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 pr-4 font-medium text-foreground">
+                          Dents qui tombent sans sang
+                        </td>
+                        <td className="py-3 pr-4">
+                          Changement naturel, transition sans violence,
+                          éloignement progressif d&apos;un proche
+                        </td>
+                        <td className="py-3">
+                          Acceptation sereine, confiance en la volonté d&apos;Allah
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Le sang accentue la dimension de souffrance et d&apos;urgence.
+                  Lorsqu&apos;il accompagne la chute, le rêve appelle à une réaction
+                  immédiate : se rapprocher de ses proches, multiplier les
+                  invocations et donner en charité. Sans sang, le message est plus
+                  doux et suggère une évolution naturelle de la situation familiale
+                  ou personnelle du rêveur. Cette distinction entre perte difficile
+                  et perte sereine rejoint la symbolique de{" "}
+                  <Link href="/rever-argent-or-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;argent ou d&apos;or en islam</Link>
+                  , où le contexte transforme le sens du rêve.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Sans douleur */}
+              {/* ============================================ */}
+              <section id="sans-douleur" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de dents qui tombent sans douleur : une interprétation apaisante
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  L&apos;absence de douleur lors de la chute des dents dans un rêve
+                  est un signe que les interprètes musulmans considèrent souvent
+                  avec nuance. Selon Ibn Sirin, lorsque les dents tombent sans
+                  douleur et sans sang, cela peut annoncer un soulagement futur ou
+                  un apaisement après une période d&apos;inquiétude.
+                </p>
+
+                <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-6">
+                  <p className="text-sm font-semibold uppercase tracking-wide text-secondary">
+                    Ce que disent les savants
+                  </p>
+                  <p className="mt-2 text-base leading-relaxed text-foreground">
+                    Pour An-Nabulsi, la chute indolore de dents suggère que les
+                    changements à venir, bien que déstabilisants en apparence, se
+                    produiront sans grande souffrance. C&apos;est parfois le signe
+                    d&apos;un éloignement naturel d&apos;une personne ou d&apos;une
+                    situation qui ne correspond plus au chemin du rêveur. Ibn Sirin
+                    ajoutait que ce rêve peut aussi refléter des actes accomplis
+                    sans valeur durable, invitant le croyant à revoir ses priorités.
+                  </p>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ce type de rêve ne doit pas alarmer outre mesure. Il invite
+                  plutôt à l&apos;introspection et à l&apos;acceptation des cycles
+                  de la vie. Le croyant peut y voir une occasion de se recentrer
+                  sur ce qui compte véritablement et de renforcer sa relation avec
+                  Allah.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Ramasser ses dents */}
+              {/* ============================================ */}
+              <section id="ramasser-dents" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Ramasser ses dents dans un rêve en islam : que signifie ce geste ?
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Se voir ramasser ses dents après leur chute dans un rêve porte une
+                  symbolique particulière dans la tradition islamique. Ce geste
+                  n&apos;est pas anodin : il traduit une tentative de retenir ce qui
+                  échappe ou de préserver un lien qui se défait.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Ramasser ses dents dans la main :</strong> selon
+                      Ibn Sirin, cela peut indiquer une difficulté à avoir des
+                      enfants ou la fin d&apos;un cycle de vie. C&apos;est aussi
+                      parfois interprété comme la volonté de garder le contrôle
+                      face à un changement inévitable.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Ramasser et remettre les dents :</strong> ce geste
+                      symbolise la tentative de réconciliation ou de réparation
+                      d&apos;une relation abîmée. C&apos;est un appel à agir
+                      concrètement pour restaurer l&apos;harmonie familiale.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Les dents tombent au sol sans qu&apos;on les ramasse :</strong>{" "}
+                      An-Nabulsi y voyait un signe de résignation ou
+                      d&apos;acceptation face au destin (qadar). Le rêveur accepte
+                      la perte et s&apos;en remet à la volonté d&apos;Allah.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Le fait de ramasser ou non ses dents révèle l&apos;attitude du
+                  rêveur face aux épreuves : résistance, acceptation ou volonté de
+                  réparation. Cette symbolique de perte et de récupération se
+                  retrouve dans d&apos;autres rêves comme{" "}
+                  <Link href="/rever-bague-bijoux-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de perdre une bague ou un bijou en islam</Link>
+                  , où l&apos;objet perdu représente un lien précieux.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Dents qui repoussent */}
+              {/* ============================================ */}
+              <section id="dents-repoussent" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de dents qui repoussent en islam : un signe de renouveau
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Parmi les rêves liés aux dents, celui où elles repoussent après
+                  être tombées est considéré comme l&apos;un des plus positifs dans
+                  la tradition islamique. Ce rêve rare porte un message
+                  d&apos;espoir et de transformation.
+                </p>
+
+                <div className="mt-8 grid gap-6 sm:grid-cols-2">
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Renouveau spirituel
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      Selon Ibn Sirin, des dents qui repoussent symbolisent la
+                      capacité du croyant à surmonter les épreuves et à renaître
+                      spirituellement. C&apos;est un signe que les difficultés
+                      traversées portent leurs fruits et que de nouvelles
+                      bénédictions se préparent.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Amélioration de la situation
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      An-Nabulsi y voyait un bon présage annonçant une amélioration
+                      notable dans la vie personnelle, professionnelle ou
+                      financière du rêveur. Les ennuis passés s&apos;éloignent et
+                      laissent place à une période de tranquillité et
+                      d&apos;opportunités nouvelles.
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ce rêve encourage le croyant à garder confiance même après les
+                  épreuves les plus rudes. La repousse des dents incarne la
+                  promesse qu&apos;après chaque difficulté vient la facilité, un
+                  principe fondamental rappelé dans le Coran (sourate Al-Inshirah,
+                  94:5-6). C&apos;est un appel à la gratitude et au renforcement
+                  de la foi.
+                </p>
+              </section>
+
+              {/* ============================================ */}
               {/* SECTION 3 : Diversité culturelle */}
               {/* ============================================ */}
               <section id="diversite" className="mt-16 scroll-mt-24">
@@ -794,6 +1143,30 @@ export default function ReverPerdreDents() {
                   >
                     Rêver de cheval en islam
                   </Link>
+                  <Link
+                    href="/rever-perdre-cheveux-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de perdre ses cheveux
+                  </Link>
+                  <Link
+                    href="/rever-accident-voiture-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;accident de voiture
+                  </Link>
+                  <Link
+                    href="/rever-argent-or-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;argent ou d&apos;or
+                  </Link>
+                  <Link
+                    href="/rever-bague-bijoux-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de bague ou bijoux
+                  </Link>
                 </div>
               </section>
 
@@ -820,6 +1193,30 @@ export default function ReverPerdreDents() {
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
                     Apprendre le Coran
+                  </Link>
+                  <Link
+                    href="/rever-perdre-cheveux-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de perdre ses cheveux
+                  </Link>
+                  <Link
+                    href="/rever-accident-voiture-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;accident de voiture
+                  </Link>
+                  <Link
+                    href="/rever-argent-or-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;argent ou d&apos;or
+                  </Link>
+                  <Link
+                    href="/rever-bague-bijoux-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de bague ou bijoux
                   </Link>
                 </div>
               </section>

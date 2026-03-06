@@ -592,7 +592,11 @@ export default function ReverRat() {
                   <Link href="/reve-arachnide-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêve d&apos;araignée</Link>,
                   chaque expérience nocturne en islam
                   porte un message pour construire ou reconstruire
-                  l&apos;harmonie dans la vie du croyant.
+                  l&apos;harmonie dans la vie du croyant. De manière
+                  intéressante, le{" "}
+                  <Link href="/rever-chat-islam-symbolisme" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">chat dans les rêves en islam</Link>,
+                  prédateur naturel du rat, incarne quant à lui la douceur
+                  et la protection spirituelle.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">

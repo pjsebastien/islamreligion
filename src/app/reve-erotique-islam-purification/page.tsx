@@ -9,9 +9,9 @@ import AffiliateForm from "@/components/AffiliateForm";
 
 export const metadata: Metadata = {
   title:
-    "Rêve érotique islam : compréhension spirituelle et purification recommandée",
+    "Rêve érotique islam : faire l'amour en rêve, signification et purification",
   description:
-    "Que dit l'islam sur les rêves érotiques ? Statut juridique, règles de ghusl, catégories de rêves et conseils spirituels pour aborder ce sujet sans honte.",
+    "Rêver de faire l'amour en islam : signification selon Ibn Sirin, rapports avec le conjoint, un inconnu ou un défunt. Statut juridique, ghusl et conseils spirituels.",
   alternates: {
     canonical: "https://www.islamreligion.fr/reve-erotique-islam-purification",
   },
@@ -22,6 +22,11 @@ const tocItems = [
   { id: "ghusl", label: "Règles de purification (ghusl)" },
   { id: "cas-particuliers", label: "Cas particuliers et avis juridiques" },
   { id: "approche-spirituelle", label: "Approche spirituelle et psychologique" },
+  { id: "faire-amour-conjoint", label: "Rêver de faire l\u0027amour avec son conjoint" },
+  { id: "rapports-inconnu", label: "Rêver de rapports avec un inconnu" },
+  { id: "rapports-defunt", label: "Rêver de rapports avec une personne décédée" },
+  { id: "rapports-interdits", label: "Rêver de rapports interdits (adultère, inceste)" },
+  { id: "differences-homme-femme", label: "Différences homme/femme dans l\u0027interprétation" },
   { id: "lever-gene", label: "Lever la gêne et consulter" },
   { id: "faq", label: "Questions fréquentes" },
 ];
@@ -72,6 +77,24 @@ const faqItems = [
     answer:
       "Le Prophète (paix et bénédictions sur lui) a toujours répondu avec douceur et sans jugement aux questions sensibles de ses compagnons, y compris celles d\u0027Umm Sulaym sur ce sujet. L\u0027islam encourage à chercher le savoir sans honte, à consulter un savant de confiance et à se rappeler que ces rêves sont une part naturelle de l\u0027expérience humaine.",
   },
+  {
+    question:
+      "Que signifie rêver de faire l\u0027amour avec son mari ou sa femme en islam ?",
+    answer:
+      "Selon Ibn Sirin, rêver de rapports intimes avec son conjoint est généralement un signe positif. Ce rêve reflète l\u0027harmonie et l\u0027affection au sein du couple, et peut indiquer une période de stabilité, de complicité et de bénédiction conjugale. An-Nabulsi y voit aussi un symbole de coopération et de confiance mutuelle entre les époux.",
+  },
+  {
+    question:
+      "Que signifie rêver de rapports sexuels avec un inconnu en islam ?",
+    answer:
+      "Ibn Sirin considère que rêver de rapports avec une personne inconnue peut refléter un état de trouble intérieur, un manque affectif ou une période d\u0027instabilité émotionnelle. Ce type de rêve relève souvent de la catégorie des rêves de l\u0027âme (hadith an-nafs) et ne porte aucune faute morale. Il convient de ne pas s\u0027en inquiéter et de chercher refuge auprès d\u0027Allah.",
+  },
+  {
+    question:
+      "Que signifie rêver de faire l\u0027amour avec un mort en islam ?",
+    answer:
+      "Ce rêve peut avoir plusieurs significations selon le contexte. Si le défunt est un proche, cela peut symboliser une invocation de du\u0027a en sa faveur ou un lien spirituel persistant. Selon An-Nabulsi, ce rêve peut aussi indiquer un besoin de transformation personnelle ou un nouveau départ. Il ne faut pas y voir un mauvais présage, mais plutôt un appel à la réflexion et à la prière pour le défunt.",
+  },
 ];
 
 export default function ReveErotique() {
@@ -83,9 +106,9 @@ export default function ReveErotique() {
         "@id":
           "https://www.islamreligion.fr/reve-erotique-islam-purification/#article",
         headline:
-          "Rêve érotique islam : compréhension spirituelle et purification recommandée",
+          "Rêve érotique islam : faire l'amour en rêve, signification et purification",
         description:
-          "Que dit l'islam sur les rêves érotiques ? Statut juridique, règles de ghusl, catégories de rêves et conseils spirituels.",
+          "Rêver de faire l'amour en islam : signification selon Ibn Sirin, rapports avec le conjoint, un inconnu ou un défunt. Statut juridique, ghusl et conseils spirituels.",
         image:
           "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Reve-erotique-islam-comprehension-spirituelle-et-purification-recommandee-1.jpg",
         datePublished: "2025-08-31",
@@ -140,8 +163,8 @@ export default function ReveErotique() {
       />
       <main>
         <Hero
-          title="Rêve érotique islam : compréhension spirituelle et purification recommandée"
-          subtitle="Statut juridique, purification et approche bienveillante des rêves érotiques selon le Coran et la Sunna."
+          title="Rêve érotique islam : faire l&apos;amour en rêve, signification et purification"
+          subtitle="Rêver de faire l&apos;amour en islam : signification selon Ibn Sirin, statut juridique, purification et approche bienveillante."
           imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Reve-erotique-islam-comprehension-spirituelle-et-purification-recommandee-1.jpg"
           imageAlt="Rêve érotique en islam, compréhension spirituelle et purification recommandée"
           compact
@@ -794,7 +817,309 @@ export default function ReveErotique() {
               </section>
 
               {/* ============================================ */}
-              {/* SECTION 5 : Lever la gêne */}
+              {/* SECTION 5 : Faire l'amour avec son conjoint */}
+              {/* ============================================ */}
+              <section id="faire-amour-conjoint" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de faire l&apos;amour avec son conjoint en islam
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Parmi les rêves intimes les plus fréquents, celui de faire
+                  l&apos;amour avec son mari ou sa femme occupe une place à part.
+                  Selon Ibn Sirin, ce type de rêve est porteur d&apos;un sens
+                  positif : il traduit l&apos;harmonie du couple, la profondeur
+                  du lien affectif et la bénédiction qui entoure la relation
+                  conjugale en islam.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  An-Nabulsi précise que rêver de rapports intimes avec son
+                  époux ou son épouse peut symboliser la coopération, la
+                  confiance mutuelle et l&apos;atteinte d&apos;objectifs
+                  communs. L&apos;intimité dans le mariage est considérée comme
+                  un acte d&apos;adoration lorsqu&apos;elle est vécue dans le
+                  cadre licite, et son reflet dans le rêve prolonge cette
+                  dimension spirituelle.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Signe de stabilité :</strong> ce rêve reflète
+                      souvent une période de calme et de sérénité dans la vie
+                      conjugale.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Expression d&apos;un besoin :</strong> il peut
+                      aussi traduire un désir de se rapprocher de son conjoint,
+                      notamment en période d&apos;éloignement ou de tensions
+                      passagères.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Bénédiction conjugale :</strong> le Prophète
+                      (paix et bénédictions sur lui) a rappelé que les rapports
+                      conjugaux sont une sadaqa (aumône), ce qui confère à
+                      l&apos;intimité maritale une valeur spirituelle reconnue.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ce rêve ne nécessite aucune inquiétude particulière. Il
+                  s&apos;inscrit dans la catégorie des rêves de l&apos;âme
+                  (hadith an-nafs), nourris par les sentiments et les
+                  préoccupations du quotidien. Les personnes mariées qui font
+                  ce type de rêve peuvent y voir un rappel de la valeur de
+                  leur relation et une invitation à renforcer leur lien. Pour
+                  approfondir la thématique des rêves liés aux proches, voir
+                  aussi{" "}
+                  <Link href="/rever-personne-aimee-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;une personne aimée en islam</Link>.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION 6 : Rapports avec un inconnu */}
+              {/* ============================================ */}
+              <section id="rapports-inconnu" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de rapports sexuels avec un inconnu en islam
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Rêver de faire l&apos;amour avec une personne inconnue est
+                  un rêve qui suscite souvent de la confusion ou de la
+                  culpabilité. Pourtant, les savants rappellent que le dormeur
+                  n&apos;a aucune responsabilité morale sur le contenu de ses
+                  rêves. Ce type de vision relève le plus souvent des rêves de
+                  l&apos;âme, liés aux pensées inconscientes et aux émotions
+                  refoulées.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Selon Ibn Sirin, rêver de rapports avec un inconnu peut
+                  refléter un sentiment de manque affectif, une période
+                  d&apos;instabilité émotionnelle ou un besoin d&apos;attention
+                  et de tendresse. An-Nabulsi ajoute que ce rêve peut aussi
+                  symboliser une recherche intérieure, un désir de changement
+                  ou une transition dans la vie du rêveur.
+                </p>
+
+                <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-6">
+                  <p className="text-sm font-semibold uppercase tracking-wide text-secondary">
+                    Point de vigilance
+                  </p>
+                  <p className="mt-2 text-base leading-relaxed text-foreground">
+                    Ce rêve ne constitue ni un péché ni une tentation à
+                    laquelle le rêveur aurait cédé. La plume est levée pour le
+                    dormeur. Il convient de ne pas raconter ce rêve à autrui,
+                    de chercher refuge auprès d&apos;Allah en disant{" "}
+                    <em>&quot;A&apos;udhu billahi min ash-Shaytan
+                    ar-rajim&quot;</em> et de ne pas chercher à interpréter
+                    chaque détail.
+                  </p>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Si ce rêve se répète fréquemment, les savants conseillent de
+                  renforcer les adhkar du coucher, de veiller à baisser le
+                  regard pendant la journée et de s&apos;éloigner des contenus
+                  visuels qui nourrissent l&apos;imagination. Le jeûne
+                  surérogatoire est aussi mentionné comme un moyen d&apos;apaiser
+                  l&apos;âme.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION 7 : Rapports avec un défunt */}
+              {/* ============================================ */}
+              <section id="rapports-defunt" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de faire l&apos;amour avec une personne décédée en islam
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ce rêve, bien que troublant, revient régulièrement dans les
+                  interrogations adressées aux savants. La personne décédée
+                  peut être un conjoint disparu, un proche ou parfois une
+                  personne inconnue du rêveur. L&apos;interprétation varie
+                  selon le lien qui existait avec le défunt et les émotions
+                  ressenties dans le rêve.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Un conjoint décédé :</strong> selon An-Nabulsi,
+                      ce rêve peut exprimer la persistance du lien affectif et
+                      un besoin de du&apos;a (invocation) en faveur du défunt.
+                      Il peut aussi refléter la difficulté du deuil et le
+                      manque ressenti.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Un proche décédé :</strong> Ibn Sirin y voit
+                      parfois un signe que le défunt a besoin de prières et
+                      d&apos;aumônes de la part des vivants. Ce rêve invite à
+                      multiplier les bonnes actions en son nom.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Transformation personnelle :</strong> ce rêve
+                      peut symboliser un nouveau départ, une période de
+                      changement profond dans la vie du rêveur, selon
+                      certaines interprétations classiques.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Dans tous les cas, ce rêve ne doit pas susciter de la peur.
+                  Il est recommandé de faire du&apos;a pour le défunt, de
+                  donner une aumône en son nom et de se rappeler qu&apos;Allah
+                  est le Maître de toute chose, y compris de ce qui se
+                  manifeste dans le sommeil. Pour mieux comprendre les rêves
+                  liés aux liens familiaux, voir aussi{" "}
+                  <Link href="/rever-bebe-nouveau-ne-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;un bébé ou d&apos;un nouveau-né en islam</Link>.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION 8 : Rapports interdits */}
+              {/* ============================================ */}
+              <section id="rapports-interdits" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver de rapports interdits en islam (adultère, inceste)
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Parmi les rêves qui provoquent le plus de détresse, ceux
+                  impliquant des rapports illicites — adultère, inceste ou
+                  relation avec un mahram — sont les plus perturbants. Le
+                  croyant qui fait ce type de rêve peut ressentir une
+                  culpabilité profonde, mais les savants sont unanimes : aucune
+                  responsabilité morale n&apos;incombe au dormeur.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Ces rêves sont attribués à la catégorie des suggestions de
+                  Shaytan (hulm). Le Prophète (paix et bénédictions sur lui) a
+                  enseigné que Shaytan cherche à troubler le croyant par ce
+                  type de visions nocturnes, afin de semer le doute et
+                  l&apos;angoisse. La réponse prophétique est claire : ne pas
+                  s&apos;en inquiéter, ne pas raconter le rêve, cracher trois
+                  fois à gauche et chercher refuge auprès d&apos;Allah.
+                </p>
+
+                <div className="mt-6 rounded-xl border border-secondary/20 bg-accent p-6">
+                  <p className="text-sm font-semibold uppercase tracking-wide text-secondary">
+                    Ce qu&apos;il faut retenir
+                  </p>
+                  <p className="mt-2 text-base leading-relaxed text-foreground">
+                    Un rêve de rapport interdit ne reflète pas la volonté ni la
+                    personnalité du rêveur. Il ne diminue en rien sa foi et ne
+                    constitue pas un péché. Le Prophète (paix et bénédictions
+                    sur lui) a dit :{" "}
+                    <em>&quot;Le bon rêve vient d&apos;Allah et le mauvais
+                    rêve vient de Shaytan&quot;</em> (Sahih al-Bukhari). Le
+                    croyant doit simplement appliquer les recommandations
+                    prophétiques et ne pas ruminer ce type de vision.
+                  </p>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ibn Sirin souligne que ces rêves peuvent aussi survenir en
+                  période de stress, de fatigue intense ou lorsque le croyant
+                  traverse une épreuve. Ils ne sont pas un signe de dépravation
+                  mais un test de Shaytan. La meilleure réponse reste le rappel
+                  d&apos;Allah, les adhkar et la confiance en Sa miséricorde.
+                  Pour les personnes traversant des épreuves conjugales, voir
+                  aussi{" "}
+                  <Link href="/rever-divorce-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de divorce en islam</Link>.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION 9 : Différences homme/femme */}
+              {/* ============================================ */}
+              <section id="differences-homme-femme" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Différences homme/femme dans l&apos;interprétation des rêves intimes
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Sur le plan juridique (fiqh), les règles de purification
+                  après un rêve érotique sont strictement identiques pour les
+                  hommes et les femmes. Le hadith d&apos;Umm Sulaym le confirme
+                  sans ambiguïté. Cependant, l&apos;interprétation symbolique
+                  de ces rêves peut varier selon le genre, notamment dans la
+                  tradition d&apos;Ibn Sirin et d&apos;An-Nabulsi.
+                </p>
+
+                <div className="mt-8 grid gap-4 sm:grid-cols-2">
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Pour les hommes
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      Selon Ibn Sirin, les rêves intimes chez l&apos;homme
+                      reflètent souvent des préoccupations liées à la
+                      responsabilité, à la virilité ou à la capacité de
+                      subvenir aux besoins de sa famille. Un rêve de rapports
+                      avec son épouse peut symboliser la réussite dans un
+                      projet ou l&apos;obtention d&apos;un bien.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-6">
+                    <h3 className="text-lg font-semibold text-primary">
+                      Pour les femmes
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                      An-Nabulsi note que les rêves intimes chez la femme
+                      peuvent exprimer un besoin de sécurité émotionnelle, de
+                      tendresse ou de reconnaissance. Un rêve de rapports avec
+                      son mari peut indiquer un renforcement du lien conjugal
+                      et une période de bonheur familial.
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Dans les deux cas, les savants insistent sur le fait que le
+                  rêve ne doit pas être source de jugement ni de comparaison.
+                  Chaque individu vit des rêves qui lui sont propres, en
+                  fonction de sa situation personnelle, de ses émotions et de
+                  son état spirituel. L&apos;interprétation ne doit jamais
+                  conduire à la culpabilité. Pour les femmes traversant des
+                  interrogations spécifiques, voir aussi{" "}
+                  <Link href="/rever-regles-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de ses règles en islam</Link>{" "}
+                  et{" "}
+                  <Link href="/rever-enceinte-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;être enceinte en islam</Link>.
+                </p>
+
+                <ArticleCTA
+                  variant="lire-aussi"
+                  title="Rêver d'un bébé ou d'un nouveau-né en islam : symbole de renouveau"
+                  description="La naissance en rêve, signe de bénédiction et de nouveaux commencements selon la tradition islamique."
+                  href="/rever-bebe-nouveau-ne-islam"
+                />
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION 10 : Lever la gêne */}
               {/* ============================================ */}
               <section id="lever-gene" className="mt-16 scroll-mt-24">
                 <h2 className="text-2xl font-bold text-primary lg:text-3xl">
@@ -984,6 +1309,30 @@ export default function ReveErotique() {
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
                     Voir quelqu&apos;un pleurer en rêve
+                  </Link>
+                  <Link
+                    href="/rever-bebe-nouveau-ne-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;un bébé en islam
+                  </Link>
+                  <Link
+                    href="/rever-regles-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de ses règles en islam
+                  </Link>
+                  <Link
+                    href="/rever-divorce-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de divorce en islam
+                  </Link>
+                  <Link
+                    href="/rever-personne-aimee-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;une personne aimée en islam
                   </Link>
                 </div>
               </section>

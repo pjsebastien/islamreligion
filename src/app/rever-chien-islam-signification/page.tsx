@@ -308,7 +308,12 @@ export default function ReverChien() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Ibn Sirin enseignait qu&apos;il ne fallait jamais détacher
-                  ces images du vécu individuel du rêveur. L&apos;explication
+                  ces images du vécu individuel du rêveur. D&apos;autres animaux
+                  proches du chien, comme{" "}
+                  <Link href="/rever-loup-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">le loup en rêve islamique</Link>,
+                  partagent cette symbolique de force et de vigilance, tandis que{" "}
+                  <Link href="/rever-lion-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de lion en islam</Link>{" "}
+                  évoque davantage l&apos;autorité et la puissance. L&apos;explication
                   d&apos;un rêve de chien, selon les règles transmises par les
                   savants classiques, met l&apos;accent sur les émotions
                   ressenties dans le rêve. Une peur profonde, un sentiment de

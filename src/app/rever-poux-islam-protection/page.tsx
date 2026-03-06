@@ -518,7 +518,13 @@ export default function ReverPouxIslamProtection() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Au-delà de la dimension spirituelle, le rêve de poux porte
-                  aussi une charge psychologique importante. Les poux dans un
+                  aussi une charge psychologique importante. D&apos;autres
+                  créatures parasites apparaissent dans les rêves avec des
+                  significations proches, comme{" "}
+                  <Link href="/rever-asticot-ver-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;asticots ou de vers en islam</Link>.
+                  À l&apos;opposé,{" "}
+                  <Link href="/rever-abeille-guepe-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;abeilles ou de guêpes</Link>{" "}
+                  évoque la productivité et l&apos;effort collectif. Les poux dans un
                   rêve symbolisent souvent des pensées obsédantes, un
                   sentiment d&apos;impuissance ou une honte non exprimée. Ils
                   traduisent ce qui parasite l&apos;esprit et empêche la

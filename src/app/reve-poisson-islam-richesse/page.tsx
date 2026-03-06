@@ -344,7 +344,13 @@ export default function RevePoisson() {
                   bénédictions. Les savants rappellent que rêver de poisson frais
                   ou de nager parmi les poissons renforce l&apos;idée d&apos;un
                   cœur apaisé, d&apos;une foi solide et d&apos;un avenir ouvert
-                  à la prospérité.
+                  à la prospérité. L&apos;eau qui entoure le poisson joue un rôle
+                  central dans l&apos;interprétation, comme le détaille notre article sur{" "}
+                  <Link href="/rever-eau-mer-nager-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;eau, de mer ou de nager en islam</Link>.
+                  Parmi les autres créatures aquatiques,{" "}
+                  <Link href="/rever-tortue-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">la tortue en rêve</Link>{" "}
+                  porte elle aussi des significations liées à la patience et
+                  à la sagesse.
                 </p>
 
                 <div className="mt-6 overflow-hidden rounded-xl">

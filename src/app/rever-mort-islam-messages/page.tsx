@@ -20,6 +20,12 @@ export const metadata: Metadata = {
 const tocItems = [
   { id: "significations", label: "Significations spirituelles" },
   { id: "symboles", label: "Paroles, objets et symboles" },
+  { id: "mort-qui-parle", label: "Mort qui parle et donne un conseil" },
+  { id: "mort-donne-objet", label: "Mort qui donne un objet" },
+  { id: "mort-prend", label: "Mort qui prend quelque chose" },
+  { id: "mort-pleure", label: "Mort qui pleure ou souffre" },
+  { id: "mort-revit", label: "Mort qui revit ou ressuscite" },
+  { id: "serrer-mort", label: "Serrer un mort dans ses bras" },
   { id: "invocations", label: "Invocations et prières" },
   { id: "role", label: "Rôle des rêves dans la foi" },
   { id: "profils", label: "Selon la situation du rêveur" },
@@ -66,6 +72,21 @@ const faqItems = [
     question: "Pourquoi rêve-t-on souvent d'un parent décédé en islam ?",
     answer:
       "Rêver fréquemment d'un parent décédé peut indiquer que le défunt a besoin d'invocations, d'aumônes ou de prières en son nom. Cela peut aussi refléter le processus de deuil naturel du rêveur. Les savants recommandent de multiplier les actes de bienfaisance pour l'âme du parent et de consulter un imam si les rêves persistent.",
+  },
+  {
+    question: "Que signifie rêver d'un mort qui donne quelque chose en islam ?",
+    answer:
+      "Selon Ibn Sirin, recevoir quelque chose d'un défunt dans un rêve est un signe favorable. La nourriture symbolise une subsistance bénie, un vêtement peut annoncer une protection ou une élévation spirituelle, et de l'argent représente souvent un bienfait matériel à venir. Ce rêve invite à remercier Allah et à faire une aumône au nom du défunt.",
+  },
+  {
+    question: "Rêver d'un mort qui pleure en islam : quelle signification ?",
+    answer:
+      "Un défunt qui pleure dans un rêve peut exprimer un besoin pressant de douas et de sadaqa de la part des vivants. Selon An-Nabulsi, ces larmes traduisent parfois une souffrance liée à des dettes non réglées ou à un manque de prières en son nom. Il est recommandé de multiplier les invocations de pardon et les aumônes continues.",
+  },
+  {
+    question: "Rêver d'un mort qui demande de l'aide en islam : que faire ?",
+    answer:
+      "Lorsqu'un défunt demande de l'aide dans un rêve, les savants musulmans y voient un appel sincère à accomplir des actes en son nom : réciter le Coran, offrir une sadaqah jariyah, régler une dette laissée en suspens ou accomplir un pèlerinage en son nom. Ce rêve témoigne du lien persistant entre les vivants et les morts dans la tradition islamique.",
   },
 ];
 
@@ -490,6 +511,301 @@ export default function ReverMort() {
               </section>
 
               {/* ============================================ */}
+              {/* SECTION : Mort qui parle et donne un conseil */}
+              {/* ============================================ */}
+              <section id="mort-qui-parle" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Personne décédée qui parle dans un rêve en islam : crédibilité du message selon les savants
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Lorsqu&apos;une personne décédée parle dans un rêve, la tradition islamique accorde une attention particulière au contenu de ses paroles. Selon Ibn Sirin, les morts ne mentent pas dans les rêves, car ils appartiennent désormais au monde de la vérité (<em>dar al-haqq</em>). Ce principe confère aux paroles d&apos;un défunt une crédibilité singulière dans l&apos;interprétation onirique.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  An-Nabulsi précise que si le défunt transmet un conseil ou un avertissement, le rêveur doit y prêter une attention sincère. Qu&apos;il s&apos;agisse d&apos;une mise en garde contre un péché, d&apos;un rappel à la prière ou d&apos;une exhortation au{" "}
+                  <Link href="/repentir-sincere-islam-tawba" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">repentir</Link>,
+                  le message du mort est considéré comme porteur de vérité. Il convient toutefois de ne pas fonder des décisions juridiques ou financières sur un rêve seul : la consultation d&apos;un savant reste recommandée.
+                </p>
+
+                <h3 className="mt-8 text-xl font-semibold text-primary">
+                  Comment discerner un vrai message d&apos;un rêve ordinaire ?
+                </h3>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Les savants distinguent le rêve véridique (<em>ru&apos;ya</em>) du rêve confus (<em>hulm</em>). Un message d&apos;un défunt est plus probablement véridique lorsqu&apos;il est clair, cohérent et qu&apos;il laisse au réveil un sentiment de paix ou de certitude. Si le défunt parle avec douceur et transmet un conseil précis, cela renforce la valeur du message. À l&apos;inverse, un rêve confus ou angoissant relève souvent de l&apos;imagination ou des insufflations de Shaytan.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Paroles claires et apaisées</strong> : forte probabilité d&apos;un rêve véridique selon les interprètes.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Conseil sur la pratique religieuse</strong> : invitation à corriger un comportement ou à renforcer sa dévotion.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Avertissement ou mise en garde</strong> : le défunt peut prévenir d&apos;un danger imminent ou d&apos;une épreuve à venir.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Pour approfondir la compréhension de ces visions, la{" "}
+                  <Link href="/rever-lire-coran-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">lecture du Coran en rêve</Link>{" "}
+                  est souvent associée à une guidance divine directe, et sa présence dans un rêve de défunt renforce la dimension spirituelle du message.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Mort qui donne un objet */}
+              {/* ============================================ */}
+              <section id="mort-donne-objet" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver d&apos;un mort qui donne un objet : nourriture, vêtement, argent
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Recevoir un objet d&apos;un défunt dans un rêve est considéré comme un signe favorable par la majorité des interprètes musulmans. Ibn Sirin enseigne que ce geste symbolise une bénédiction transmise du monde de l&apos;au-delà vers le rêveur. La nature de l&apos;objet affine considérablement l&apos;interprétation.
+                </p>
+
+                <h3 className="mt-8 text-xl font-semibold text-primary">
+                  Signification selon l&apos;objet reçu
+                </h3>
+
+                <div className="mt-6 space-y-4">
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Nourriture offerte par un défunt
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Selon An-Nabulsi, recevoir de la nourriture d&apos;un mort annonce une subsistance bénie (<em>rizq halal</em>). Le pain, les fruits ou un repas partagé symbolisent l&apos;abondance et la satisfaction des besoins. C&apos;est aussi un rappel à nourrir les pauvres au nom du défunt.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Vêtement donné par un défunt
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Un vêtement neuf ou propre offert par un mort symbolise une protection spirituelle, une élévation de rang ou une couverture divine contre les épreuves. Un vêtement usé ou sale peut en revanche signaler un besoin de prières pour le défunt.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Argent ou or remis par un défunt
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Recevoir de l&apos;argent d&apos;un mort est un signe de bienfait matériel à venir. Pour en comprendre toute la portée, consultez notre analyse sur{" "}
+                      <Link href="/rever-argent-or-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;argent et d&apos;or en islam</Link>.
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Quel que soit l&apos;objet reçu, les savants recommandent de remercier Allah pour cette vision positive et d&apos;accomplir une sadaqa au nom du défunt en signe de gratitude et de continuité dans le bien.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Mort qui prend quelque chose */}
+              {/* ============================================ */}
+              <section id="mort-prend" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver d&apos;un mort qui prend quelque chose : avertissement et précaution
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  À l&apos;inverse du don, lorsqu&apos;un défunt prend un objet au rêveur, l&apos;interprétation se nuance. Ibn Sirin considère que ce geste peut constituer un avertissement. Si le mort prend de la nourriture, cela peut annoncer une perte de subsistance ou un appel à se rapprocher d&apos;Allah pour préserver ses bienfaits.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Selon An-Nabulsi, un défunt qui prend un vêtement du rêveur peut signifier une vulnérabilité spirituelle ou une épreuve à venir. Si le mort prend de l&apos;argent, certains interprètes y voient un rappel à régler des dettes du défunt restées en suspens, ou une invitation à donner davantage en aumône.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Le mort prend de la nourriture</strong> : possible diminution de la subsistance, appel à la prière de protection.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Le mort prend un objet personnel</strong> : invitation à vérifier ses affaires et à renforcer sa relation avec Allah.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Le mort emmène le rêveur</strong> : signe à prendre au sérieux, les savants recommandent de chercher refuge auprès d&apos;Allah et de multiplier les invocations de protection.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Face à ce type de rêve, il ne faut pas céder à la peur mais plutôt redoubler de vigilance dans sa pratique religieuse, réciter les invocations du matin et du soir, et faire preuve de générosité envers les nécessiteux.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Mort qui pleure ou souffre */}
+              {/* ============================================ */}
+              <section id="mort-pleure" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver d&apos;un mort qui pleure ou souffre : besoin de douas et de sadaqa
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Voir un défunt pleurer ou exprimer de la souffrance dans un rêve touche profondément le cœur du croyant. Selon An-Nabulsi, ces larmes peuvent traduire un besoin urgent d&apos;invocations et d&apos;aumônes de la part des vivants. Le défunt, privé de la capacité d&apos;agir par lui-même, dépend de la prière de ses proches pour alléger sa condition.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Ibn Sirin distingue plusieurs cas : si le défunt pleure silencieusement, cela peut refléter un regret lié à des actes non accomplis de son vivant. Si ses pleurs s&apos;accompagnent de paroles, il convient d&apos;écouter attentivement le message. Parfois, le défunt exprime une souffrance liée à une dette non réglée, un tort non réparé ou un manque de prières en son nom.
+                </p>
+
+                <h3 className="mt-8 text-xl font-semibold text-primary">
+                  Que faire après ce rêve ?
+                </h3>
+
+                <div className="mt-6 space-y-4">
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Multiplier les douas de pardon
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Réciter régulièrement &quot;Allahumma ighfir lahu wa rhamhu&quot; et demander à Allah d&apos;alléger les épreuves du défunt dans le barzakh.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Offrir une sadaqah jariyah
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Financer un puits, distribuer de la nourriture ou contribuer à une œuvre de bienfaisance au nom du défunt. La récompense lui parvient dans l&apos;au-delà.
+                    </p>
+                  </div>
+
+                  <div className="rounded-xl border border-border bg-white p-5">
+                    <p className="font-semibold text-primary">
+                      Régler les dettes du défunt
+                    </p>
+                    <p className="mt-1 text-sm text-foreground-secondary">
+                      Si le défunt avait des dettes, les régler apporte un soulagement à son âme. Le Prophète (paix et salut sur lui) a souligné la gravité de la dette non acquittée.
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Ce rêve, bien que douloureux, est une miséricorde d&apos;Allah qui permet au rêveur d&apos;agir pour l&apos;âme du défunt. Pour approfondir la symbolique des larmes dans les rêves, consultez notre article sur{" "}
+                  <Link href="/pleurer-reve-islam-compassion" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">pleurer en rêve en islam</Link>.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Mort qui revit ou ressuscite */}
+              {/* ============================================ */}
+              <section id="mort-revit" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Rêver d&apos;un mort qui revit ou ressuscite en islam
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  Voir un défunt revenir à la vie dans un rêve suscite étonnement et émotion. Selon Ibn Sirin, ce type de vision porte une symbolique riche. Si le mort revit dans un état de joie et de bonne santé, cela peut signifier que son âme est dans un état de félicité auprès d&apos;Allah, ou que ses bonnes actions continuent de porter leurs fruits.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  An-Nabulsi ajoute que la résurrection d&apos;un défunt dans un rêve peut aussi symboliser le renouveau d&apos;un projet abandonné, la renaissance d&apos;un espoir ou le retour d&apos;un bienfait que l&apos;on croyait perdu. Pour le rêveur, c&apos;est un message d&apos;encouragement et de confiance en la miséricorde divine.
+                </p>
+
+                <ul className="mt-6 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Mort qui revit souriant</strong> : signe que le défunt est satisfait de sa condition dans l&apos;au-delà.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Mort qui revit et parle</strong> : message de vérité à écouter avec attention, rappel d&apos;un engagement ou d&apos;une promesse.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Mort qui revit malade</strong> : appel à redoubler de prières et de charité pour le repos de son âme.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  La visite d&apos;un{" "}
+                  <Link href="/rever-cimetiere-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">cimetière en rêve</Link>{" "}
+                  accompagne parfois ces visions de résurrection, rappelant au croyant la réalité de la vie après la mort et l&apos;importance de se préparer pour l&apos;au-delà.
+                </p>
+              </section>
+
+              {/* ============================================ */}
+              {/* SECTION : Serrer un mort dans ses bras */}
+              {/* ============================================ */}
+              <section id="serrer-mort" className="mt-16 scroll-mt-24">
+                <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                  Serrer un mort dans ses bras en rêve : signification affective en islam
+                </h2>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  L&apos;étreinte d&apos;un défunt dans un rêve est l&apos;une des expériences oniriques les plus intenses sur le plan émotionnel. Ibn Sirin interprète ce geste comme un signe de connexion profonde entre le rêveur et le défunt. Serrer un mort dans ses bras peut exprimer l&apos;amour persistant, le manque ressenti ou la réception d&apos;une bénédiction spirituelle de la part du disparu.
+                </p>
+
+                <p className="mt-4 leading-relaxed text-foreground">
+                  Selon An-Nabulsi, si l&apos;étreinte est douce et apaisante, elle indique que le défunt se trouve dans un état de paix et qu&apos;il rassure le rêveur sur sa condition. Si l&apos;étreinte est longue ou accompagnée de larmes, elle peut traduire un besoin de douas supplémentaires ou une difficulté à lâcher prise dans le processus de deuil.
+                </p>
+
+                <h3 className="mt-8 text-xl font-semibold text-primary">
+                  Nuances selon l&apos;identité du défunt
+                </h3>
+
+                <ul className="mt-4 space-y-3 text-foreground">
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Serrer son père décédé</strong> : lien de filiation, rappel des responsabilités familiales et invitation à{" "}
+                      <Link href="/rever-pere-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">honorer la mémoire du père</Link>.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Serrer une personne aimée décédée</strong> : témoignage de la permanence des liens d&apos;amour au-delà de la mort, signe que cette{" "}
+                      <Link href="/rever-personne-aimee-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">personne aimée</Link>{" "}
+                      reste dans la pensée du rêveur.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-secondary" />
+                    <span>
+                      <strong>Serrer un inconnu décédé</strong> : peut symboliser un bienfait inattendu ou une leçon spirituelle que le rêveur s&apos;apprête à recevoir.
+                    </span>
+                  </li>
+                </ul>
+
+                <p className="mt-6 leading-relaxed text-foreground">
+                  L&apos;islam enseigne que ces rêves ne doivent pas alimenter la tristesse mais plutôt renforcer la foi en la miséricorde d&apos;Allah et encourager le rêveur à prier pour le repos éternel du défunt.
+                </p>
+              </section>
+
+              {/* ============================================ */}
               {/* SECTION 3 : Invocations et prieres */}
               {/* ============================================ */}
               <section id="invocations" className="mt-16 scroll-mt-24">
@@ -870,6 +1186,36 @@ export default function ReverMort() {
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
                   >
                     Sorcellerie en islam
+                  </Link>
+                  <Link
+                    href="/rever-cimetiere-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;un cimetière en islam
+                  </Link>
+                  <Link
+                    href="/rever-pere-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de son père en islam
+                  </Link>
+                  <Link
+                    href="/rever-personne-aimee-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;une personne aimée en islam
+                  </Link>
+                  <Link
+                    href="/rever-lire-coran-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver de lire le Coran en islam
+                  </Link>
+                  <Link
+                    href="/rever-argent-or-islam"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Rêver d&apos;argent et d&apos;or en islam
                   </Link>
                 </div>
               </section>

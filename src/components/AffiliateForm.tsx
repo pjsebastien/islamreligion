@@ -41,15 +41,10 @@ export default function AffiliateForm({
       .join(" + ");
 
     try {
-      const res = await fetch("https://formspree.io/f/xeelparo", {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email,
-          formations: selected,
-          _subject: `Demande formation ${selected}`,
-          type: "formation",
-        }),
+        body: JSON.stringify({ email }),
       });
 
       if (res.ok) {

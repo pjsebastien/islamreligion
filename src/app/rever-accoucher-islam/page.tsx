@@ -698,6 +698,12 @@ export default function ReverAccoucher() {
                   son parcours. La joie dans un rêve de naissance peut
                   annoncer une réconciliation, une guérison ou la
                   réalisation d&apos;un souhait cher au cœur du dormeur.
+                  Ce bonheur se prolonge souvent dans les rêves où l&apos;on voit{" "}
+                  <Link href="/rever-bebe-nouveau-ne-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">un bébé ou un nouveau-né en islam</Link>.
+                  À l&apos;inverse, un rêve de{" "}
+                  <Link href="/rever-fausse-couche-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">fausse couche en islam</Link>{" "}
+                  porte un message bien différent qu&apos;il convient
+                  d&apos;analyser avec attention.
                 </p>
 
                 <h3 className="mt-8 text-xl font-semibold text-primary">

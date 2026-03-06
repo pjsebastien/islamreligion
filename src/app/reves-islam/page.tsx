@@ -6,6 +6,9 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { publishSchedule, isPublished } from "@/data/publishSchedule";
+
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Interprétation des rêves en islam : significations et symboles",
@@ -522,6 +525,9 @@ export default function RevesIslam() {
                     { href: "/rever-chat-islam-symbolisme", label: "Rêver de chat" },
                     { href: "/rever-crocodile-islam-protection", label: "Rêver de crocodile" },
                     { href: "/cafard-islam-signification", label: "Rêver de cafard" },
+                    ...publishSchedule
+                      .filter((a) => a.category === "animaux" && isPublished(a.publishDate))
+                      .map((a) => ({ href: `/${a.slug}`, label: a.label })),
                   ].map((link) => (
                     <Link
                       key={link.href}
@@ -549,6 +555,9 @@ export default function RevesIslam() {
                     { href: "/rever-accoucher-islam", label: "Rêver d'accoucher" },
                     { href: "/reve-erotique-islam-purification", label: "Rêve érotique en islam" },
                     { href: "/mariage-islam-presages-significations", label: "Rêver de mariage" },
+                    ...publishSchedule
+                      .filter((a) => a.category === "actions" && isPublished(a.publishDate))
+                      .map((a) => ({ href: `/${a.slug}`, label: a.label })),
                   ].map((link) => (
                     <Link
                       key={link.href}
@@ -562,6 +571,150 @@ export default function RevesIslam() {
                     </Link>
                   ))}
                 </div>
+
+                {(() => {
+                  const nourritureItems = publishSchedule
+                    .filter((a) => a.category === "nourriture" && isPublished(a.publishDate));
+                  return nourritureItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves de nourriture et boissons</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {nourritureItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
+
+                {(() => {
+                  const objetsItems = publishSchedule
+                    .filter((a) => a.category === "objets" && isPublished(a.publishDate));
+                  return objetsItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves d&apos;objets et symboles</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {objetsItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
+
+                {(() => {
+                  const personnesItems = publishSchedule
+                    .filter((a) => a.category === "personnes" && isPublished(a.publishDate));
+                  return personnesItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves de personnes</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {personnesItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
+
+                {(() => {
+                  const lieuxItems = publishSchedule
+                    .filter((a) => a.category === "lieux" && isPublished(a.publishDate));
+                  return lieuxItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves de lieux</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {lieuxItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
+
+                {(() => {
+                  const natureItems = publishSchedule
+                    .filter((a) => a.category === "nature" && isPublished(a.publishDate));
+                  return natureItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves d&apos;éléments naturels</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {natureItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
+
+                {(() => {
+                  const spirituelItems = publishSchedule
+                    .filter((a) => a.category === "spirituel" && isPublished(a.publishDate));
+                  return spirituelItems.length > 0 ? (
+                    <>
+                      <h3 className="mt-10 text-xl font-semibold text-primary">Rêves à caractère spirituel</h3>
+                      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {spirituelItems.map((a) => (
+                          <Link
+                            key={a.slug}
+                            href={`/${a.slug}`}
+                            className="group flex items-center gap-3 rounded-xl border border-border bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-secondary/30 hover:shadow-md"
+                          >
+                            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-white">
+                              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </span>
+                            <span className="text-sm font-medium text-foreground group-hover:text-primary">{a.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  ) : null;
+                })()}
 
                 <h3 className="mt-10 text-xl font-semibold text-primary">Protection spirituelle</h3>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

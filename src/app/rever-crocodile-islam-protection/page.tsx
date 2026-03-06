@@ -694,7 +694,13 @@ export default function ReverCrocodileIslamProtection() {
 
                 <p className="mt-6 leading-relaxed text-foreground">
                   Beaucoup témoignent d&apos;une énergie et d&apos;une
-                  sérénité retrouvées après avoir suivi ces conseils. Chaque
+                  sérénité retrouvées après avoir suivi ces conseils. Le crocodile
+                  partage son habitat aquatique avec d&apos;autres créatures
+                  oniriques : la{" "}
+                  <Link href="/rever-tortue-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">tortue en rêve islamique</Link>{" "}
+                  symbolise la patience et la sagesse, tandis que{" "}
+                  <Link href="/rever-eau-mer-nager-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;eau ou de mer</Link>{" "}
+                  révèle l&apos;univers émotionnel du rêveur. Chaque
                   rêve troublant devient l&apos;opportunité de se rapprocher
                   de la lumière et de l&apos;amour du Créateur, qui offre sa
                   protection sans limite aux chercheurs sincères.

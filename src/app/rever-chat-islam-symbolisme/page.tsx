@@ -333,7 +333,12 @@ export default function ReverChatIslamSymbolisme() {
                   Le chat occupe une place singuliere dans la tradition
                   islamique. Contrairement a d&apos;autres animaux, il est
                   associe a la douceur, a la proprete et a la compagnie
-                  discrete. Le Prophete Muhammad ﷺ etait connu pour sa
+                  discrete. Parmi les felins, le{" "}
+                  <Link href="/rever-lion-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">lion dans les reves en islam</Link>{" "}
+                  et le{" "}
+                  <Link href="/rever-tigre-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">tigre en songe</Link>{" "}
+                  portent des significations bien differentes, liees a la puissance
+                  et a l&apos;autorite. Le Prophete Muhammad ﷺ etait connu pour sa
                   bienveillance envers les chats, et plusieurs hadiths
                   temoignent de cette relation particuliere.
                 </p>

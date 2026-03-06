@@ -897,7 +897,15 @@ export default function ReverEnceinte() {
                   pas céder à l&apos;interprétation hative ni à la peur
                   excessive. L&apos;islam privilégie les échanges calmes avec
                   des personnes savantes et l&apos;accompagnement du rêve par
-                  des prières spécifiques.
+                  des prières spécifiques. Ce rêve est souvent à mettre en
+                  parallèle avec d&apos;autres visions liées à la maternité,
+                  comme{" "}
+                  <Link href="/rever-bebe-nouveau-ne-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver d&apos;un bébé ou nouveau-né en islam</Link>,{" "}
+                  <Link href="/rever-fausse-couche-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de fausse couche</Link>{" "}
+                  ou encore{" "}
+                  <Link href="/rever-regles-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">rêver de règles en islam</Link>,
+                  qui éclairent chacun une facette différente du cycle
+                  féminin et spirituel.
                 </p>
 
                 <ul className="mt-6 space-y-3 text-foreground">

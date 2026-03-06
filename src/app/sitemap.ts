@@ -1,9 +1,12 @@
 import type { MetadataRoute } from "next";
+import { publishSchedule, isPublished } from "@/data/publishSchedule";
+
+export const revalidate = 86400;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.islamreligion.fr";
 
-  return [
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -394,4 +397,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.2,
     },
   ];
+
+  // Nouveaux articles rêves — ajoutés dynamiquement selon la date de publication
+  const scheduledArticles: MetadataRoute.Sitemap = publishSchedule
+    .filter((article) => isPublished(article.publishDate))
+    .map((article) => ({
+      url: `${baseUrl}/${article.slug}`,
+      lastModified: new Date(article.publishDate),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
+
+  return [...staticPages, ...scheduledArticles];
 }
