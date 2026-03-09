@@ -29,6 +29,7 @@ const silos = [
       { href: "/remede-arabe", label: "Remèdes arabes" },
       { href: "/fin-monde-islam-preparation", label: "Fin des temps" },
       { href: "/sorcellerie-islam-protection", label: "Protection spirituelle" },
+      { href: "/doua-islam", label: "Doua (invocations)" },
       { href: "/invocations-reussite-facilite", label: "Invocations" },
     ],
   },

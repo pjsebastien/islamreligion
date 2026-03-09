@@ -415,7 +415,7 @@ export default function InvocationsReussite() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Invocations-authentiques-pour-la-reussite-et-la-facilite-1.jpg"
+                    src="/images/doua-mains-ouvertes-rayons-dores.jpg"
                     alt="Liste des invocations authentiques pour la réussite en islam"
                     width={1200}
                     height={720}
@@ -575,7 +575,7 @@ export default function InvocationsReussite() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Invocations-authentiques-pour-la-reussite-et-la-facilite-1.jpg"
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
                     alt="Moments propices pour faire des invocations en islam"
                     width={1200}
                     height={720}
@@ -923,7 +923,7 @@ export default function InvocationsReussite() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Invocations-authentiques-pour-la-reussite-et-la-facilite-1.jpg"
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
                     alt="Allier effort personnel et confiance en Allah pour la réussite"
                     width={1200}
                     height={720}

@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/apprendre-larabe", label: "Apprendre l'arabe" },
   { href: "/apprendre-le-coran", label: "Apprendre le Coran" },
   { href: "/reves-islam", label: "Rêves en islam" },
+  { href: "/doua-islam", label: "Doua" },
   { href: "/remede-arabe", label: "Remèdes arabes" },
   { href: "/fin-monde-islam-preparation", label: "Fin des temps" },
   { href: "/formation-arabe-en-ligne", label: "Formations arabe" },
