@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de chien islam : signification spirituelle selon l'interprétation islamique",
   description:
     "Découvrez la signification spirituelle des rêves de chien en islam et leur interprétation selon la tradition islamique.",
+  openGraph: {
+    title:
+      "Rêver de chien islam : signification spirituelle selon l'interprétation islamique",
+    description:
+      "Découvrez la signification spirituelle des rêves de chien en islam et leur interprétation selon la tradition islamique.",
+    url: "https://www.islamreligion.fr/rever-chien-islam-signification",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-chien-islam-signification",
   },
@@ -83,7 +91,7 @@ export default function ReverChien() {
         description:
           "Découvrez la signification spirituelle des rêves de chien en islam et leur interprétation selon la tradition islamique.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chien-islam-signification-spirituelle-selon-linterpretation-islamique.jpg",
+          "/images/croissant-lune-dore-etoiles-symbole-islam.jpg",
         datePublished: "2025-08-25",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -138,7 +146,7 @@ export default function ReverChien() {
         <Hero
           title="Rêver de chien islam : signification spirituelle selon l'interprétation islamique"
           subtitle="Interprétation du rêve de chien selon Ibn Sirin, le Coran et la tradition soufie."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chien-islam-signification-spirituelle-selon-linterpretation-islamique.jpg"
+          imageSrc="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
           imageAlt="Rêver de chien en islam, signification spirituelle et interprétation islamique"
           compact
         />
@@ -377,7 +385,7 @@ export default function ReverChien() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chien-islam-signification-spirituelle-selon-linterpretation-islamique-1.jpg"
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
                     alt="Interprétation du rêve de chien en islam selon Ibn Sirin"
                     width={1200}
                     height={720}
@@ -503,6 +511,14 @@ export default function ReverChien() {
                 />
               </section>
 
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
+
               {/* ============================================ */}
               {/* SECTION 3 : Approche soufie */}
               {/* ============================================ */}
@@ -603,7 +619,7 @@ export default function ReverChien() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chien-islam-signification-spirituelle-selon-linterpretation-islamique-2.jpg"
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
                     alt="Approche soufie du rêve de chien en islam, nafs et transformation intérieure"
                     width={1200}
                     height={720}
@@ -739,7 +755,7 @@ export default function ReverChien() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chien-islam-signification-spirituelle-selon-linterpretation-islamique-3.jpg"
+                    src="/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg"
                     alt="Couleur et comportement du chien dans les rêves en islam"
                     width={1200}
                     height={720}

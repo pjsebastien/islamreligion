@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de quelqu&apos;un qu&apos;on aime en islam : signification et interprétation",
   description:
     "Signification de rêver de quelqu&apos;un qu&apos;on aime en islam selon Ibn Sirin et An-Nabulsi. Conjoint, ex, ami proche, personne aimée qui sourit ou pleure.",
+  openGraph: {
+    title:
+      "Rêver de quelqu&apos;un qu&apos;on aime en islam : signification et interprétation",
+    description:
+      "Signification de rêver de quelqu&apos;un qu&apos;on aime en islam selon Ibn Sirin et An-Nabulsi. Conjoint, ex, ami proche, personne aimée qui sourit ou pleure.",
+    url: "https://www.islamreligion.fr/rever-personne-aimee-islam",
+    images: [{ url: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-personne-aimee-islam",
   },
@@ -333,6 +341,14 @@ export default function ReverPersonneAimeeIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Rêver de son conjoint */}

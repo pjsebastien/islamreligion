@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import ArticleCTA from "@/components/ArticleCTA";
 import { publishSchedule, isPublished } from "@/data/publishSchedule";
 
 export const revalidate = 86400;
@@ -14,6 +15,14 @@ export const metadata: Metadata = {
   title: "Interprétation des rêves en islam : significations et symboles",
   description:
     "Comprendre les rêves en islam : les 3 types de rêves selon le Prophète ﷺ, les règles d'interprétation, les invocations et un dictionnaire des symboles par thème.",
+  openGraph: {
+    title:
+      "Interprétation des rêves en islam : significations et symboles",
+    description:
+      "Comprendre les rêves en islam : les 3 types de rêves selon le Prophète ﷺ, les règles d'interprétation, les invocations et un dictionnaire des symboles par thème.",
+    url: "https://www.islamreligion.fr/reves-islam",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reves-islam",
   },
@@ -381,6 +390,14 @@ export default function RevesIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Invocations */}

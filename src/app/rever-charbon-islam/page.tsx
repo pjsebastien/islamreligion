@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de charbon en islam : signification et interprétation complète",
   description:
     "Signification de rêver de charbon en islam selon Ibn Sirin et An-Nabulsi. Charbon ardent, éteint, braises, marcher sur le charbon : toutes les interprétations.",
+  openGraph: {
+    title:
+      "Rêver de charbon en islam : signification et interprétation complète",
+    description:
+      "Signification de rêver de charbon en islam selon Ibn Sirin et An-Nabulsi. Charbon ardent, éteint, braises, marcher sur le charbon : toutes les interprétations.",
+    url: "https://www.islamreligion.fr/rever-charbon-islam",
+    images: [{ url: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-charbon-islam",
   },
@@ -484,6 +492,14 @@ export default function ReverCharbonIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Charbon ardent et charbon éteint */}

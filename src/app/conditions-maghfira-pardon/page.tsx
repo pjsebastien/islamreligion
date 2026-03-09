@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Pardon d'Allah : conditions pour obtenir le maghfira",
   description:
     "Découvrez les conditions du pardon divin (maghfira) en islam : repentir sincère, regret, abandon du péché, invocations et actions vertueuses pour obtenir la miséricorde d'Allah.",
+  openGraph: {
+    title:
+      "Pardon d'Allah : conditions pour obtenir le maghfira",
+    description:
+      "Découvrez les conditions du pardon divin (maghfira) en islam : repentir sincère, regret, abandon du péché, invocations et actions vertueuses pour obtenir la miséricorde d'Allah.",
+    url: "https://www.islamreligion.fr/conditions-maghfira-pardon",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Pardon-dAllah-conditions-pour-obtenir-le-maghfira-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/conditions-maghfira-pardon",
   },
@@ -525,6 +533,14 @@ export default function ConditionsMaghfira() {
                   href="/repentir-sincere-islam-tawba"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Les invocations du pardon */}

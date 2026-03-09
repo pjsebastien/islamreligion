@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de tuer quelqu'un en islam : signification, interprétation et repentir",
   description:
     "Que signifie rêver de tuer quelqu'un en islam ? Interprétation selon les savants, symbolisme de l'arme et de la victime, distinction entre rêve et péché, et conseils de repentir.",
+  openGraph: {
+    title:
+      "Rêver de tuer quelqu'un en islam : signification, interprétation et repentir",
+    description:
+      "Que signifie rêver de tuer quelqu'un en islam ? Interprétation selon les savants, symbolisme de l'arme et de la victime, distinction entre rêve et péché, et conseils de repentir.",
+    url: "https://www.islamreligion.fr/signification-reve-tuer-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-tuer-quelquun-signification-islam-interpretation-et-repentir.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/signification-reve-tuer-islam",
   },
@@ -482,6 +490,14 @@ export default function ReveTuerIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* SECTION 3 : Culpabilite */}
               <section id="culpabilite" className="mt-16 scroll-mt-24">

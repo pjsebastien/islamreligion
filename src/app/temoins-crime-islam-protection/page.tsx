@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'être témoin d'un crime islam : avertissement divin et protection",
   description:
     "Que signifie rêver d'être témoin d'un crime en islam ? Interprétation spirituelle, avertissement divin, symbolisme de la culpabilité et conseils de protection selon la tradition islamique.",
+  openGraph: {
+    title:
+      "Rêver d'être témoin d'un crime islam : avertissement divin et protection",
+    description:
+      "Que signifie rêver d'être témoin d'un crime en islam ? Interprétation spirituelle, avertissement divin, symbolisme de la culpabilité et conseils de protection selon la tradition islamique.",
+    url: "https://www.islamreligion.fr/temoins-crime-islam-protection",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-detre-temoin-dun-crime-islam-avertissement-divin-et-protection.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/temoins-crime-islam-protection",
   },
@@ -470,6 +478,14 @@ export default function TemoinsCrimeIslamProtection() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Culpabilité et prévention */}

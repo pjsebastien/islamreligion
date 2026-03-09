@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de se faire tirer dessus islam : épreuves et protection d'Allah",
   description:
     "Découvrez la signification islamique de rêver de se faire tirer dessus : interprétation, épreuves et protection d'Allah dans vos rêves.",
+  openGraph: {
+    title:
+      "Rêver de se faire tirer dessus islam : épreuves et protection d'Allah",
+    description:
+      "Découvrez la signification islamique de rêver de se faire tirer dessus : interprétation, épreuves et protection d'Allah dans vos rêves.",
+    url: "https://www.islamreligion.fr/rever-tirer-dessus-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-tirer-dessus-islam",
   },
@@ -90,7 +98,7 @@ export default function ReverTirerDessus() {
         description:
           "Découvrez la signification islamique de rêver de se faire tirer dessus : interprétation, épreuves et protection d'Allah dans vos rêves.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-se-faire-tirer-dessus-islam-epreuves-et-protection-dAllah.jpg",
+          "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg",
         datePublished: "2025-09-26",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -145,7 +153,7 @@ export default function ReverTirerDessus() {
         <Hero
           title="Rêver de se faire tirer dessus islam : épreuves et protection d'Allah"
           subtitle="Interprétation islamique des rêves de fusillade, symbolique de l'agression et protection divine."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-se-faire-tirer-dessus-islam-epreuves-et-protection-dAllah.jpg"
+          imageSrc="/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg"
           imageAlt="Rêver de se faire tirer dessus en islam, épreuves et protection d'Allah"
           compact
         />
@@ -371,7 +379,7 @@ export default function ReverTirerDessus() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-se-faire-tirer-dessus-islam-epreuves-et-protection-dAllah-1.jpg"
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
                     alt="Interprétation du rêve de se faire tirer dessus en islam, épreuves et protection divine"
                     width={1200}
                     height={720}
@@ -503,7 +511,7 @@ export default function ReverTirerDessus() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-se-faire-tirer-dessus-islam-epreuves-et-protection-dAllah-2.jpg"
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
                     alt="Symbolique de l'agression en rêve islamique, persévérance et protection d'Allah"
                     width={1200}
                     height={720}
@@ -518,6 +526,14 @@ export default function ReverTirerDessus() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Perspectives thérapeutiques */}
@@ -685,7 +701,7 @@ export default function ReverTirerDessus() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-se-faire-tirer-dessus-islam-epreuves-et-protection-dAllah-3.jpg"
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
                     alt="Perspectives thérapeutiques et spirituelles face aux rêves d'agression en islam"
                     width={1200}
                     height={720}

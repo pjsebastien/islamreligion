@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de lire ou réciter le Coran en islam : signification complète",
   description:
     "Que signifie rêver de lire, réciter ou écouter le Coran en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Sourates spécifiques, scénarios et conseils.",
+  openGraph: {
+    title:
+      "Rêver de lire ou réciter le Coran en islam : signification complète",
+    description:
+      "Que signifie rêver de lire, réciter ou écouter le Coran en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Sourates spécifiques, scénarios et conseils.",
+    url: "https://www.islamreligion.fr/rever-lire-coran-islam",
+    images: [{ url: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-lire-coran-islam",
   },
@@ -325,6 +333,14 @@ export default function ReverLireCoranIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Lire le Coran dans un rêve */}

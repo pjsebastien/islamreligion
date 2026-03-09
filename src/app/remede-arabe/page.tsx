@@ -7,15 +7,26 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateForm from "@/components/AffiliateForm";
+import ArticleCTA from "@/components/ArticleCTA";
 
 export const metadata: Metadata = {
   title: "Remèdes arabes et médecine prophétique : soins naturels en islam",
   description:
     "Découvrez les remèdes arabes et la médecine prophétique : nigelle, miel, hijama, huile d'olive, dattes et autres soins naturels mentionnés dans le Coran et la Sunna.",
+  openGraph: {
+    title:
+      "Remèdes arabes et médecine prophétique : soins naturels en islam",
+    description:
+      "Découvrez les remèdes arabes et la médecine prophétique : nigelle, miel, hijama, huile d'olive, dattes et autres soins naturels mentionnés dans le Coran et la Sunna.",
+    url: "https://www.islamreligion.fr/remede-arabe",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe",
   },
 };
+
+export const revalidate = 86400;
 
 const tocItems = [
   { id: "medecine-prophetique", label: "Qu'est-ce que la médecine prophétique ?" },
@@ -438,6 +449,14 @@ export default function RemedeArabe() {
                   </div>
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Par problème de santé */}

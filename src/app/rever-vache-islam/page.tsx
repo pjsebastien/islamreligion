@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de vache en islam : signification et interprétation selon Ibn Sirin",
   description:
     "Que signifie rêver de vache en islam ? Vache grasse, maigre, troupeau, traire une vache : interprétation selon Ibn Sirin et An-Nabulsi. Les 7 vaches de la sourate Yusuf.",
+  openGraph: {
+    title:
+      "Rêver de vache en islam : signification et interprétation selon Ibn Sirin",
+    description:
+      "Que signifie rêver de vache en islam ? Vache grasse, maigre, troupeau, traire une vache : interprétation selon Ibn Sirin et An-Nabulsi. Les 7 vaches de la sourate Yusuf.",
+    url: "https://www.islamreligion.fr/rever-vache-islam",
+    images: [{ url: "/images/decoration-ramadan-islam-lanternes-croissant-lune.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-vache-islam",
   },
@@ -335,6 +343,14 @@ export default function ReverVacheIslam() {
                   un départ ou une perte.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Vache grasse vs vache maigre */}

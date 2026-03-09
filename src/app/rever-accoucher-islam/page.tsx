@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'accoucher islam : bonne nouvelle ou avertissement ? Décryptage complet",
   description:
     "Découvrez la signification de rêver d'accoucher en islam : symbolisme de la naissance, interprétations selon le type d'accouchement, profil du rêveur et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêver d'accoucher islam : bonne nouvelle ou avertissement ? Décryptage complet",
+    description:
+      "Découvrez la signification de rêver d'accoucher en islam : symbolisme de la naissance, interprétations selon le type d'accouchement, profil du rêveur et conseils spirituels.",
+    url: "https://www.islamreligion.fr/rever-accoucher-islam",
+    images: [{ url: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-accoucher-islam",
   },
@@ -86,7 +94,7 @@ export default function ReverAccoucher() {
         description:
           "Découvrez la signification de rêver d'accoucher en islam : symbolisme de la naissance, interprétations selon le type d'accouchement, profil du rêveur et conseils spirituels.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-daccoucher-islam-bonne-nouvelle-ou-avertissement-Decryptage-complet-1.jpg",
+          "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg",
         datePublished: "2025-08-24",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -141,7 +149,7 @@ export default function ReverAccoucher() {
         <Hero
           title="Rêver d'accoucher islam : bonne nouvelle ou avertissement ?"
           subtitle="Symbolisme de la naissance dans les rêves selon la tradition islamique, Ibn Sirin et les textes sacrés."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-daccoucher-islam-bonne-nouvelle-ou-avertissement-Decryptage-complet-1.jpg"
+          imageSrc="/images/croissant-lune-lanterne-islam-decoration-pastel.jpg"
           imageAlt="Rêver d'accoucher en islam, bonne nouvelle ou avertissement spirituel"
           compact
         />
@@ -298,7 +306,7 @@ export default function ReverAccoucher() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-daccoucher-islam-bonne-nouvelle-ou-avertissement-Decryptage-complet-1.jpg"
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
                     alt="Symbolisme de l'accouchement dans les rêves en islam"
                     width={1200}
                     height={720}
@@ -531,6 +539,14 @@ export default function ReverAccoucher() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Selon le profil du rêveur */}
@@ -868,7 +884,7 @@ export default function ReverAccoucher() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-daccoucher-islam-bonne-nouvelle-ou-avertissement-Decryptage-complet-1.jpg"
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
                     alt="Rôle des émotions dans l'interprétation du rêve d'accouchement en islam"
                     width={1200}
                     height={720}
@@ -1101,7 +1117,7 @@ export default function ReverAccoucher() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-daccoucher-islam-bonne-nouvelle-ou-avertissement-Decryptage-complet-1.jpg"
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
                     alt="Que faire après un rêve d'accouchement en islam, conseils spirituels"
                     width={1200}
                     height={720}

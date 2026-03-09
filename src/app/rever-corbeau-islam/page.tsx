@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de corbeau en islam : signification et interpretation des songes",
   description:
     "Que signifie rever de corbeau en islam ? Symbolisme coranique (histoire de Cain et Abel), interpretation selon Ibn Sirin et An-Nabulsi, corbeau noir, blanc, qui croasse.",
+  openGraph: {
+    title:
+      "Rever de corbeau en islam : signification et interpretation des songes",
+    description:
+      "Que signifie rever de corbeau en islam ? Symbolisme coranique (histoire de Cain et Abel), interpretation selon Ibn Sirin et An-Nabulsi, corbeau noir, blanc, qui croasse.",
+    url: "https://www.islamreligion.fr/rever-corbeau-islam",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-corbeau-islam",
   },
@@ -441,6 +449,14 @@ export default function ReverCorbeauIslam() {
                   linkText="Voir les 3 types de reves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Ibn Sirin et An-Nabulsi */}

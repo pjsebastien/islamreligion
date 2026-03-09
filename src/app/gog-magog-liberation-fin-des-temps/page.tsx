@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Gog et Magog (Yajouj Majouj) : leur libération avant la fin des temps",
   description:
     "Découvrez qui sont Gog et Magog (Yajouj et Majouj) en islam, le mur de Dhul-Qarnayn, leur libération à la fin des temps et les enseignements spirituels pour le croyant.",
+  openGraph: {
+    title:
+      "Gog et Magog (Yajouj Majouj) : leur libération avant la fin des temps",
+    description:
+      "Découvrez qui sont Gog et Magog (Yajouj et Majouj) en islam, le mur de Dhul-Qarnayn, leur libération à la fin des temps et les enseignements spirituels pour le croyant.",
+    url: "https://www.islamreligion.fr/gog-magog-liberation-fin-des-temps",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Gog-et-Magog-Yajouj-Majouj-leur-liberation-avant-la-fin-des-temps-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical:
       "https://www.islamreligion.fr/gog-magog-liberation-fin-des-temps",
@@ -416,6 +424,14 @@ export default function GogMagog() {
                   href="/signes-fin-monde-islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Libération à la fin des temps */}

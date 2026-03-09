@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'inondation en islam : signification et interprétation",
   description:
     "Que signifie rêver d'inondation en islam ? Eau qui déborde, maison inondée, survivre au déluge : interprétation selon Ibn Sirin, An-Nabulsi et les sources islamiques.",
+  openGraph: {
+    title:
+      "Rêver d'inondation en islam : signification et interprétation",
+    description:
+      "Que signifie rêver d'inondation en islam ? Eau qui déborde, maison inondée, survivre au déluge : interprétation selon Ibn Sirin, An-Nabulsi et les sources islamiques.",
+    url: "https://www.islamreligion.fr/rever-inondation-islam",
+    images: [{ url: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-inondation-islam",
   },
@@ -317,6 +325,14 @@ export default function ReverInondationIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Inondation de maison */}

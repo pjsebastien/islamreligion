@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Petits signes de l'Heure : reconnaître les signes mineurs actuels",
   description:
     "Découvrez les petits signes de la fin des temps en islam : signes mineurs déjà réalisés, signes en cours et attitude du croyant face à l'Heure.",
+  openGraph: {
+    title:
+      "Petits signes de l'Heure : reconnaître les signes mineurs actuels",
+    description:
+      "Découvrez les petits signes de la fin des temps en islam : signes mineurs déjà réalisés, signes en cours et attitude du croyant face à l'Heure.",
+    url: "https://www.islamreligion.fr/signes-mineurs-actuels",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Petits-signes-de-lHeure-reconnaitre-les-signes-mineurs-actuels-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/signes-mineurs-actuels",
   },
@@ -409,6 +417,14 @@ export default function SignesMineurs() {
                   href="/signes-fin-monde-islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Les signes mineurs en cours */}

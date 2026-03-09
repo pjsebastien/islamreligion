@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Droits de la femme dans le divorce islamique : talaq, khula et protection",
   description:
     "Découvrez les droits de la femme dans le divorce en islam : khula, droits financiers pendant la iddah, garde des enfants et recours juridiques selon le Coran et la Sunna.",
+  openGraph: {
+    title:
+      "Droits de la femme dans le divorce islamique : talaq, khula et protection",
+    description:
+      "Découvrez les droits de la femme dans le divorce en islam : khula, droits financiers pendant la iddah, garde des enfants et recours juridiques selon le Coran et la Sunna.",
+    url: "https://www.islamreligion.fr/droits-femme-divorce-islamique",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Droits-de-la-femme-dans-le-divorce-islamique-guide-juridique-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/droits-femme-divorce-islamique",
   },
@@ -439,6 +447,14 @@ export default function DroitsFemmeDivorce() {
                   href="/divorce-islam-talaq-khula"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Droits financiers pendant la iddah */}

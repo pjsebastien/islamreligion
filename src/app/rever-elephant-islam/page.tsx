@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: "Rêver d'éléphant en islam : signification et interprétation complète",
   description:
     "Que signifie rêver d'éléphant en islam ? Interprétation selon Ibn Sirin et An-Nabulsi, sourate Al-Fil, monter un éléphant, bébé éléphant, troupeau et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêver d'éléphant en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver d'éléphant en islam ? Interprétation selon Ibn Sirin et An-Nabulsi, sourate Al-Fil, monter un éléphant, bébé éléphant, troupeau et conseils spirituels.",
+    url: "https://www.islamreligion.fr/rever-elephant-islam",
+    images: [{ url: "/images/grande-mosquee-blanche-minarets-islam-architecture.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-elephant-islam",
   },
@@ -317,6 +325,14 @@ export default function ReverElephantIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Monter un éléphant */}

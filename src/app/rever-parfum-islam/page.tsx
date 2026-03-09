@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de parfum en islam : signification et interprétation",
   description:
     "Que signifie rêver de parfum en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : sentir un parfum agréable, recevoir ou offrir du parfum, musc, rose, encens et conseils pratiques.",
+  openGraph: {
+    title:
+      "Rêver de parfum en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de parfum en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : sentir un parfum agréable, recevoir ou offrir du parfum, musc, rose, encens et conseils pratiques.",
+    url: "https://www.islamreligion.fr/rever-parfum-islam",
+    images: [{ url: "/images/ramadan-kareem-islam-dattes-chapelet-coran.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-parfum-islam",
   },
@@ -343,6 +351,14 @@ export default function ReverParfumIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Parfum agréable / désagréable */}

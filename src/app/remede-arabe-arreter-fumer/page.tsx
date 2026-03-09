@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Remède arabe pour arrêter de fumer : sevrage naturel, invocations et soutien spirituel",
   description:
     "Découvrez les remèdes arabes pour arrêter de fumer : nigelle, miel, siwak, hijama, invocations prophétiques et soutien spirituel pour un sevrage doux et durable en islam.",
+  openGraph: {
+    title:
+      "Remède arabe pour arrêter de fumer : sevrage naturel, invocations et soutien spirituel",
+    description:
+      "Découvrez les remèdes arabes pour arrêter de fumer : nigelle, miel, siwak, hijama, invocations prophétiques et soutien spirituel pour un sevrage doux et durable en islam.",
+    url: "https://www.islamreligion.fr/remede-arabe-arreter-fumer",
+    images: [{ url: "/images/remede-arabe-arreter-fumer-methodes-douces-invocations.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-arreter-fumer",
   },
@@ -636,6 +644,14 @@ export default function RemedeArabeArreterFumer() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Hijama et sevrage */}

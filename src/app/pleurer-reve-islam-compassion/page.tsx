@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: "Voir quelqu'un pleurer en rêve islam : compassion divine et intercession",
   description:
     "Que signifie voir quelqu'un pleurer en rêve en islam ? Interprétation des pleurs de joie, de tristesse, d'un proche ou d'un inconnu selon la tradition islamique.",
+  openGraph: {
+    title:
+      "Voir quelqu'un pleurer en rêve islam : compassion divine et intercession",
+    description:
+      "Que signifie voir quelqu'un pleurer en rêve en islam ? Interprétation des pleurs de joie, de tristesse, d'un proche ou d'un inconnu selon la tradition islamique.",
+    url: "https://www.islamreligion.fr/pleurer-reve-islam-compassion",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Voir-quelquun-pleurer-en-reve-islam-compassion-divine-et-intercession.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/pleurer-reve-islam-compassion",
   },
@@ -286,6 +294,14 @@ export default function PleurerReveIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* SECTION 3 */}
               <section id="intercession" className="mt-16 scroll-mt-24">

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'orange en islam : signification et interprétation complète",
   description:
     "Que signifie rêver d'orange en islam ? Manger, cueillir, offrir des oranges : interprétation selon Ibn Sirin et An-Nabulsi. Orange mûre, pourrie, jus d'orange.",
+  openGraph: {
+    title:
+      "Rêver d'orange en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver d'orange en islam ? Manger, cueillir, offrir des oranges : interprétation selon Ibn Sirin et An-Nabulsi. Orange mûre, pourrie, jus d'orange.",
+    url: "https://www.islamreligion.fr/rever-orange-islam",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-orange-islam",
   },
@@ -345,6 +353,14 @@ export default function ReverOrangeIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger et cueillir des oranges */}

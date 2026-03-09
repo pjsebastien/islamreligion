@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de la Mecque ou de la Kaaba en islam : signification et interprétation",
   description:
     "Signification de rêver de la Mecque, voir la Kaaba, faire le tawaf, prier au Haram ou entrer dans la Kaaba en islam selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de la Mecque ou de la Kaaba en islam : signification et interprétation",
+    description:
+      "Signification de rêver de la Mecque, voir la Kaaba, faire le tawaf, prier au Haram ou entrer dans la Kaaba en islam selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-mecque-kaaba-islam",
+    images: [{ url: "/images/kaaba-mecque-islam-lieu-saint.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-mecque-kaaba-islam",
   },
@@ -306,6 +314,14 @@ export default function ReverMecqueKaabaIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Faire le tawaf */}

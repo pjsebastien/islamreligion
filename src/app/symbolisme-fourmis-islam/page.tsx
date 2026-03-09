@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de fourmis islam : symbolisme du travail et bénédictions divines",
   description:
     "Dans la tradition islamique, rêver de fourmis invite à explorer des enseignements profonds liés au travail, à la persévérance et aux multiples bénédictions divines.",
+  openGraph: {
+    title:
+      "Rêver de fourmis islam : symbolisme du travail et bénédictions divines",
+    description:
+      "Dans la tradition islamique, rêver de fourmis invite à explorer des enseignements profonds liés au travail, à la persévérance et aux multiples bénédictions divines.",
+    url: "https://www.islamreligion.fr/symbolisme-fourmis-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-fourmis-islam-symbolisme-du-travail-et-benedictions-divines.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/symbolisme-fourmis-islam",
   },
@@ -195,6 +203,14 @@ export default function SymbolismeFourmis() {
                 </div>
                 <ArticleCTA variant="page-mere" title="Pour comprendre les fondements de l'interprétation des rêves" href="/reves-islam" linkText="Voir les 3 types de rêves en islam" />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* SECTION 3 */}
               <section id="communaute" className="mt-16 scroll-mt-24">

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Comment se repentir sincèrement en islam : conditions du tawba",
   description:
     "Découvrez les cinq conditions du repentir sincère (tawba) en islam, les références coraniques et prophétiques, et les bienfaits spirituels d\u2019un retour à Allah.",
+  openGraph: {
+    title:
+      "Comment se repentir sincèrement en islam : conditions du tawba",
+    description:
+      "Découvrez les cinq conditions du repentir sincère (tawba) en islam, les références coraniques et prophétiques, et les bienfaits spirituels d\u2019un retour à Allah.",
+    url: "https://www.islamreligion.fr/repentir-sincere-islam-tawba",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Comment-se-repentir-sincerement-en-islam-conditions-du-tawba-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/repentir-sincere-islam-tawba",
   },
@@ -487,6 +495,14 @@ export default function RepentirTawba() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Le repentir concernant les droits d'autrui */}

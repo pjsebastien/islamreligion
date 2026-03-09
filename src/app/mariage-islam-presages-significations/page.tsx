@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de mariage en islam : présages heureux et significations selon la tradition",
   description:
     "Que signifie rêver de mariage en islam ? Interprétation selon Ibn Sirin, présages selon le contexte du rêveur, robe, alliance, lieu, émotions et conseils pratiques.",
+  openGraph: {
+    title:
+      "Rêver de mariage en islam : présages heureux et significations selon la tradition",
+    description:
+      "Que signifie rêver de mariage en islam ? Interprétation selon Ibn Sirin, présages selon le contexte du rêveur, robe, alliance, lieu, émotions et conseils pratiques.",
+    url: "https://www.islamreligion.fr/mariage-islam-presages-significations",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-mariage-islam-presages-heureux-et-significations-selon-la-tradition.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical:
       "https://www.islamreligion.fr/mariage-islam-presages-significations",
@@ -502,6 +510,14 @@ export default function MariageIslamPresages() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Rêver de son propre mariage */}

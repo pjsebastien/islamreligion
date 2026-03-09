@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêve de cheval en islam : noblesse spirituelle et voyages bénéfiques",
   description:
     "Découvrez la signification du rêve de cheval en islam : symbole de noblesse spirituelle, de chance et de voyages bénéfiques pour le rêveur.",
+  openGraph: {
+    title:
+      "Rêve de cheval en islam : noblesse spirituelle et voyages bénéfiques",
+    description:
+      "Découvrez la signification du rêve de cheval en islam : symbole de noblesse spirituelle, de chance et de voyages bénéfiques pour le rêveur.",
+    url: "https://www.islamreligion.fr/reve-cheval-islam-bienfaits",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Reve-de-cheval-en-islam-noblesse-spirituelle-et-voyages-benefiques.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reve-cheval-islam-bienfaits",
   },
@@ -496,6 +504,14 @@ export default function ReveCheval() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Liberté et indépendance */}

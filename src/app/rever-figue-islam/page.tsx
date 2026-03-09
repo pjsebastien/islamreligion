@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de figue en islam : signification et interprétation complète",
   description:
     "Que signifie rêver de figue en islam ? Figue fraîche, sèche, manger ou cueillir des figues : interprétation selon Ibn Sirin et An-Nabulsi. Sourate At-Tin et symbolique du figuier.",
+  openGraph: {
+    title:
+      "Rêver de figue en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver de figue en islam ? Figue fraîche, sèche, manger ou cueillir des figues : interprétation selon Ibn Sirin et An-Nabulsi. Sourate At-Tin et symbolique du figuier.",
+    url: "https://www.islamreligion.fr/rever-figue-islam",
+    images: [{ url: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-figue-islam",
   },
@@ -348,6 +356,14 @@ export default function ReverFigueIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger et cueillir des figues */}

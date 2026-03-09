@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de couteau en islam : signification et interprétation complète",
   description:
     "Que signifie rêver de couteau en islam ? Couteau tranchant, émoussé, être poignardé, couper : interprétation selon Ibn Sirin et An-Nabulsi. Guide complet.",
+  openGraph: {
+    title:
+      "Rêver de couteau en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver de couteau en islam ? Couteau tranchant, émoussé, être poignardé, couper : interprétation selon Ibn Sirin et An-Nabulsi. Guide complet.",
+    url: "https://www.islamreligion.fr/rever-couteau-islam",
+    images: [{ url: "/images/motif-arabesque-islamique-geometrie-dore.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-couteau-islam",
   },
@@ -341,6 +349,14 @@ export default function ReverCouteauIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Couteau tranchant vs émoussé */}

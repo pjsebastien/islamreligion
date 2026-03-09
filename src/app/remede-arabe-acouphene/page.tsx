@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "Remède arabe acouphène : soins prophétiques et naturels contre les bourdonnements",
   description:
     "Découvrez les remèdes arabes et prophétiques contre l'acouphène : huile de nigelle, huile d'olive, costus marin, hijama, invocations de guérison et alimentation Sunna pour soulager les bourdonnements d'oreille.",
+  openGraph: {
+    title:
+      "Remède arabe acouphène : soins prophétiques et naturels contre les bourdonnements",
+    description:
+      "Découvrez les remèdes arabes et prophétiques contre l'acouphène : huile de nigelle, huile d'olive, costus marin, hijama, invocations de guérison et alimentation Sunna pour soulager les bourdonnements d'oreille.",
+    url: "https://www.islamreligion.fr/remede-arabe-acouphene",
+    images: [{ url: "/images/remede-yeux-islam-soins.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-acouphene",
   },
@@ -696,6 +704,14 @@ export default function RemedeArabeAcouphene() {
                   </table>
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Hijama */}

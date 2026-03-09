@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de divorce en islam : signification, interprétation et conseils",
   description:
     "Découvrez la signification de rêver de divorce en islam selon Ibn Sirin et An-Nabulsi. Interprétations selon les contextes, conseils spirituels et messages oniriques.",
+  openGraph: {
+    title:
+      "Rêver de divorce en islam : signification, interprétation et conseils",
+    description:
+      "Découvrez la signification de rêver de divorce en islam selon Ibn Sirin et An-Nabulsi. Interprétations selon les contextes, conseils spirituels et messages oniriques.",
+    url: "https://www.islamreligion.fr/rever-divorce-islam",
+    images: [{ url: "/images/priere-islam-doua-mosquee-silhouette.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-divorce-islam",
   },
@@ -389,6 +397,14 @@ export default function ReverDivorceIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Demander ou recevoir le divorce */}

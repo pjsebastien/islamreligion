@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Retour de Jésus (Issa) : ce que dit vraiment l'islam",
   description:
     "Que dit l'islam sur le retour de Jésus (Issa) ? Versets coraniques, hadiths authentiques, circonstances de sa descente et mission selon la tradition islamique.",
+  openGraph: {
+    title:
+      "Retour de Jésus (Issa) : ce que dit vraiment l'islam",
+    description:
+      "Que dit l'islam sur le retour de Jésus (Issa) ? Versets coraniques, hadiths authentiques, circonstances de sa descente et mission selon la tradition islamique.",
+    url: "https://www.islamreligion.fr/retour-jesus-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Retour-de-Jesus-Issa-ce-que-dit-vraiment-lislam-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/retour-jesus-islam",
   },
@@ -466,6 +474,14 @@ export default function RetourJesus() {
                   lectures plus métaphoriques de ces textes.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Les circonstances de la descente */}

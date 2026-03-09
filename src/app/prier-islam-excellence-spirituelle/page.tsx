@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de prier en islam : excellence spirituelle et proximité divine",
   description:
     "Que signifie rêver de prier en islam ? Symbole d'excellence spirituelle, de Takwa et de proximité divine. Interprétation complète selon les savants musulmans.",
+  openGraph: {
+    title:
+      "Rêver de prier en islam : excellence spirituelle et proximité divine",
+    description:
+      "Que signifie rêver de prier en islam ? Symbole d'excellence spirituelle, de Takwa et de proximité divine. Interprétation complète selon les savants musulmans.",
+    url: "https://www.islamreligion.fr/prier-islam-excellence-spirituelle",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-prier-en-islam-excellence-spirituelle-et-proximite-divine.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/prier-islam-excellence-spirituelle",
   },
@@ -478,6 +486,14 @@ export default function PrierIslamExcellenceSpirituelle() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Excellence spirituelle et Takwa */}

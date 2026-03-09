@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de viande en islam : signification et interprétation",
   description:
     "Que signifie rêver de viande en islam ? Viande crue, cuite, de mouton, boeuf ou poulet : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas.",
+  openGraph: {
+    title:
+      "Rêver de viande en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de viande en islam ? Viande crue, cuite, de mouton, boeuf ou poulet : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas.",
+    url: "https://www.islamreligion.fr/rever-viande-islam",
+    images: [{ url: "/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-viande-islam",
   },
@@ -321,6 +329,14 @@ export default function ReverViandeIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Viande crue vs cuite */}

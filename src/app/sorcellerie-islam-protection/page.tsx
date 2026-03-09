@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de sorcellerie islam : protection contre le mal et invocations puissantes",
   description:
     "Découvrez la signification de rêver de sorcellerie en islam, ses protections contre le mal et les invocations puissantes recommandées.",
+  openGraph: {
+    title:
+      "Rêver de sorcellerie islam : protection contre le mal et invocations puissantes",
+    description:
+      "Découvrez la signification de rêver de sorcellerie en islam, ses protections contre le mal et les invocations puissantes recommandées.",
+    url: "https://www.islamreligion.fr/sorcellerie-islam-protection",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-sorcellerie-islam-protection-contre-le-mal-et-invocations-puissantes.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/sorcellerie-islam-protection",
   },
@@ -522,6 +530,14 @@ export default function SorcellerieIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Protection */}

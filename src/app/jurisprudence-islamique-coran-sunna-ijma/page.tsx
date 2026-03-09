@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Sources de la jurisprudence islamique : Coran, Sunna, Ijma",
   description:
     "Découvrez les sources de la jurisprudence islamique : le Coran, la Sunna du Prophète, l&apos;Ijma (consensus), le Qiyas (analogie), l&apos;Ijtihad et les quatre écoles juridiques (madhahib).",
+  openGraph: {
+    title:
+      "Sources de la jurisprudence islamique : Coran, Sunna, Ijma",
+    description:
+      "Découvrez les sources de la jurisprudence islamique : le Coran, la Sunna du Prophète, l&apos;Ijma (consensus), le Qiyas (analogie), l&apos;Ijtihad et les quatre écoles juridiques (madhahib).",
+    url: "https://www.islamreligion.fr/jurisprudence-islamique-coran-sunna-ijma",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Sources-de-la-jurisprudence-islamique-Coran-Sunna-Ijma-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical:
       "https://www.islamreligion.fr/jurisprudence-islamique-coran-sunna-ijma",
@@ -453,6 +461,14 @@ export default function JurisprudenceIslamique() {
                   href="/halal-haram-criteres"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : L'Ijma */}

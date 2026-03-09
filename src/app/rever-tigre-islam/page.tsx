@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de tigre en islam : signification, interpretation et messages spirituels",
   description:
     "Que signifie rever de tigre en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, tigre paisible ou agressif, bebe tigre, attaque et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rever de tigre en islam : signification, interpretation et messages spirituels",
+    description:
+      "Que signifie rever de tigre en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, tigre paisible ou agressif, bebe tigre, attaque et conseils spirituels.",
+    url: "https://www.islamreligion.fr/rever-tigre-islam",
+    images: [{ url: "/images/symbole-islam-croissant-etoile-dore-mosquee.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-tigre-islam",
   },
@@ -310,6 +318,14 @@ export default function ReverTigreIslam() {
                   importante pour celui qui le vit.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Ibn Sirin et An-Nabulsi */}

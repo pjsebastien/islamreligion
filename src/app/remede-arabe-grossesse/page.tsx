@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Remède arabe grossesse : alimentation prophétique, invocations et soins naturels",
   description:
     "Découvrez les remèdes arabes pour la grossesse en islam : dattes, miel, huile d'olive, invocations pour la femme enceinte et conseils issus de la médecine prophétique. Suivi médical obligatoire.",
+  openGraph: {
+    title:
+      "Remède arabe grossesse : alimentation prophétique, invocations et soins naturels",
+    description:
+      "Découvrez les remèdes arabes pour la grossesse en islam : dattes, miel, huile d'olive, invocations pour la femme enceinte et conseils issus de la médecine prophétique. Suivi médical obligatoire.",
+    url: "https://www.islamreligion.fr/remede-arabe-grossesse",
+    images: [{ url: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-grossesse",
   },
@@ -669,6 +677,14 @@ export default function RemedeArabeGrossesse() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Nausées et maux courants */}

@@ -12,10 +12,20 @@ export const metadata: Metadata = {
   title: "Islam religion : définition, piliers et croyances musulmanes",
   description:
     "Qu'est-ce que l'islam ? Découvrez la religion musulmane, ses 5 piliers, les 6 piliers de la foi, le Coran, le Prophète Muhammad ﷺ et l'histoire de l'islam.",
+  openGraph: {
+    title:
+      "Islam religion : définition, piliers et croyances musulmanes",
+    description:
+      "Qu'est-ce que l'islam ? Découvrez la religion musulmane, ses 5 piliers, les 6 piliers de la foi, le Coran, le Prophète Muhammad ﷺ et l'histoire de l'islam.",
+    url: "https://www.islamreligion.fr",
+    images: [{ url: "/images/grande-mosquee-blanche-minarets-islam-architecture.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr",
   },
 };
+
+export const revalidate = 86400;
 
 const tocItems = [
   { id: "definition", label: "Qu'est-ce que l'islam ?" },

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de lapin en islam : signification, Ibn Sirin et interprétation complète",
   description:
     "Que signifie rêver de lapin en islam ? Lapin blanc, noir, attraper un lapin, élevage... Interprétation selon Ibn Sirin et An-Nabulsi. Guide complet et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêver de lapin en islam : signification, Ibn Sirin et interprétation complète",
+    description:
+      "Que signifie rêver de lapin en islam ? Lapin blanc, noir, attraper un lapin, élevage... Interprétation selon Ibn Sirin et An-Nabulsi. Guide complet et conseils spirituels.",
+    url: "https://www.islamreligion.fr/rever-lapin-islam",
+    images: [{ url: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-lapin-islam",
   },
@@ -417,6 +425,14 @@ export default function ReverLapinIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Lapin blanc */}

@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Remède arabe constipation : séné, miel, huile d'olive et solutions prophétiques",
   description:
     "Découvrez les remèdes arabes contre la constipation : séné (sana makki), miel, huile d'olive, dattes, talbina et alimentation prophétique. Hadiths, dosages et précautions.",
+  openGraph: {
+    title:
+      "Remède arabe constipation : séné, miel, huile d'olive et solutions prophétiques",
+    description:
+      "Découvrez les remèdes arabes contre la constipation : séné (sana makki), miel, huile d'olive, dattes, talbina et alimentation prophétique. Hadiths, dosages et précautions.",
+    url: "https://www.islamreligion.fr/remede-arabe-constipation",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Remede-arabe-pour-la-constipation-solutions-naturelles-selon-la-tradition-islamique-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-constipation",
   },
@@ -608,6 +616,14 @@ export default function RemedeArabeConstipation() {
                   quotidien.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : MIEL, HUILE D&apos;OLIVE, DATTES */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de couscous en islam : signification et interprétation complète",
   description:
     "Que signifie rêver de couscous en islam ? Manger, préparer, partager du couscous : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas détaillés.",
+  openGraph: {
+    title:
+      "Rêver de couscous en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver de couscous en islam ? Manger, préparer, partager du couscous : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas détaillés.",
+    url: "https://www.islamreligion.fr/rever-couscous-islam",
+    images: [{ url: "/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-couscous-islam",
   },
@@ -360,6 +368,14 @@ export default function ReverCouscousIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger ou préparer du couscous */}

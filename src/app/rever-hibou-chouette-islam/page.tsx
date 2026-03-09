@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   title: "Rêver de hibou ou de chouette en islam : signification et interprétation",
   description:
     "Que signifie rêver de hibou ou de chouette en islam ? Interprétation selon Ibn Sirin et An-Nabulsi, symbolisme du hibou qui hulule, chouette blanche ou noire, et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêver de hibou ou de chouette en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de hibou ou de chouette en islam ? Interprétation selon Ibn Sirin et An-Nabulsi, symbolisme du hibou qui hulule, chouette blanche ou noire, et conseils spirituels.",
+    url: "https://www.islamreligion.fr/rever-hibou-chouette-islam",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-hibou-chouette-islam",
   },
@@ -283,6 +291,14 @@ export default function ReverHibouChouetteIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Hibou qui hulule */}

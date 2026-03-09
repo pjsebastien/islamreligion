@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'accident de voiture en islam : signification",
   description:
     "Que signifie rêver d'un accident de voiture en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Conducteur, passager, spectateur : tous les cas expliqués.",
+  openGraph: {
+    title:
+      "Rêver d'accident de voiture en islam : signification",
+    description:
+      "Que signifie rêver d'un accident de voiture en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Conducteur, passager, spectateur : tous les cas expliqués.",
+    url: "https://www.islamreligion.fr/rever-accident-voiture-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-accident-voiture-islam",
   },
@@ -346,6 +354,14 @@ export default function ReverAccidentVoitureIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Types d'accidents */}

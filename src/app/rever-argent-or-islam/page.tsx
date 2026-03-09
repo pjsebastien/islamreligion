@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'argent, de billets ou d'or en islam : signification",
   description:
     "Que signifie rêver d'argent, de billets ou d'or en islam ? Interprétation selon Ibn Sirin, An-Nabulsi et la tradition prophétique. Tous les cas expliqués.",
+  openGraph: {
+    title:
+      "Rêver d'argent, de billets ou d'or en islam : signification",
+    description:
+      "Que signifie rêver d'argent, de billets ou d'or en islam ? Interprétation selon Ibn Sirin, An-Nabulsi et la tradition prophétique. Tous les cas expliqués.",
+    url: "https://www.islamreligion.fr/rever-argent-or-islam",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-argent-or-islam",
   },
@@ -316,6 +324,14 @@ export default function ReverArgentOrIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Rêver de billets */}

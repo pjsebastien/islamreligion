@@ -12,10 +12,20 @@ export const metadata: Metadata = {
     "Rêver de la fin du monde en islam : signes spirituels et préparation à l'au-delà",
   description:
     "Que signifie rêver de la fin du monde en islam ? Interprétation selon le Coran, les hadiths et Ibn Sirin. Signes eschatologiques, du'as de protection et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêver de la fin du monde en islam : signes spirituels et préparation à l'au-delà",
+    description:
+      "Que signifie rêver de la fin du monde en islam ? Interprétation selon le Coran, les hadiths et Ibn Sirin. Signes eschatologiques, du'as de protection et conseils spirituels.",
+    url: "https://www.islamreligion.fr/fin-monde-islam-preparation",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-la-fin-du-monde-islam-signes-spirituels-et-preparation-a-lau-dela.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/fin-monde-islam-preparation",
   },
 };
+
+export const revalidate = 86400;
 
 const tocItems = [
   { id: "interpretation", label: "Interprétation selon la tradition" },
@@ -584,6 +594,14 @@ export default function FinMondeIslamPreparation() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Le Dajjal et les epreuves */}

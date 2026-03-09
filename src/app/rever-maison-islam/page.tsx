@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de maison en islam : signification et interprétation complète",
   description:
     "Signification de rêver de maison en islam selon Ibn Sirin et An-Nabulsi. Maison neuve, ancienne, en ruine, inconnue, construire ou acheter : toutes les interprétations.",
+  openGraph: {
+    title:
+      "Rêver de maison en islam : signification et interprétation complète",
+    description:
+      "Signification de rêver de maison en islam selon Ibn Sirin et An-Nabulsi. Maison neuve, ancienne, en ruine, inconnue, construire ou acheter : toutes les interprétations.",
+    url: "https://www.islamreligion.fr/rever-maison-islam",
+    images: [{ url: "/images/grande-mosquee-blanche-minarets-islam-architecture.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-maison-islam",
   },
@@ -399,6 +407,14 @@ export default function ReverMaisonIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Maison neuve ou ancienne */}

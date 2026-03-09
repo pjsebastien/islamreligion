@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "La maternité dans l'islam, une responsabilité précieuse et spirituelle",
   description:
     "Découvrez le statut de la mère en islam, la maternité comme acte d'adoration, le rôle éducatif maternel et les droits de la mère selon le Coran et la Sunna.",
+  openGraph: {
+    title:
+      "La maternité dans l'islam, une responsabilité précieuse et spirituelle",
+    description:
+      "Découvrez le statut de la mère en islam, la maternité comme acte d'adoration, le rôle éducatif maternel et les droits de la mère selon le Coran et la Sunna.",
+    url: "https://www.islamreligion.fr/maternite-islam-responsabilite",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2026/01/La-maternite-dans-lislam-une-responsabilite-precieuse-et-spirituelle.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/maternite-islam-responsabilite",
   },
@@ -476,6 +484,14 @@ export default function MaterniteIslam() {
                   href="/mariage-islamique-contrat"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Le rôle éducatif de la mère */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de faire ses ablutions en islam : signification et interprétation",
   description:
     "Que signifie rêver de faire ses ablutions (wudu) en islam ? Eau claire, eau trouble, ablutions complètes ou incomplètes : interprétation selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de faire ses ablutions en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de faire ses ablutions (wudu) en islam ? Eau claire, eau trouble, ablutions complètes ou incomplètes : interprétation selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-ablutions-islam",
+    images: [{ url: "/images/prosternation-sujud-priere-islam-mosquee.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-ablutions-islam",
   },

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Diff\u00e9rence entre halal et haram : crit\u00e8res de lic\u00e9it\u00e9",
   description:
     "Comprenez la diff\u00e9rence entre halal et haram en islam : les cinq cat\u00e9gories juridiques, crit\u00e8res alimentaires, transactions financi\u00e8res et applications au quotidien.",
+  openGraph: {
+    title:
+      "Diff\u00e9rence entre halal et haram : crit\u00e8res de lic\u00e9it\u00e9",
+    description:
+      "Comprenez la diff\u00e9rence entre halal et haram en islam : les cinq cat\u00e9gories juridiques, crit\u00e8res alimentaires, transactions financi\u00e8res et applications au quotidien.",
+    url: "https://www.islamreligion.fr/halal-haram-criteres",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Difference-entre-halal-et-haram-criteres-de-liceite-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/halal-haram-criteres",
   },
@@ -595,6 +603,14 @@ export default function HalalHaram() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Halal et haram dans la finance */}

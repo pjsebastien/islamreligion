@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: "Rêver de cafard en islam : signification spirituelle et protection divine",
   description:
     "Que signifie rêver de cafard en islam ? Signification spirituelle selon les couleurs, les actions et les lieux, rituels de purification et protection divine.",
+  openGraph: {
+    title:
+      "Rêver de cafard en islam : signification spirituelle et protection divine",
+    description:
+      "Que signifie rêver de cafard en islam ? Signification spirituelle selon les couleurs, les actions et les lieux, rituels de purification et protection divine.",
+    url: "https://www.islamreligion.fr/cafard-islam-signification",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-cafard-en-islam-signification-spirituelle-et-protection-divine.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/cafard-islam-signification",
   },
@@ -375,6 +383,14 @@ export default function CafardIslamSignification() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Couleurs, actions et émotions */}

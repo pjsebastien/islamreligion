@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Dajjal (Antéchrist) en islam : description et signes de son apparition",
   description:
     "Qui est le Dajjal en islam ? Description physique, pouvoirs, signes précurseurs de son apparition, moyens de protection et défaite par Issa (Jésus) selon les hadiths authentiques.",
+  openGraph: {
+    title:
+      "Dajjal (Antéchrist) en islam : description et signes de son apparition",
+    description:
+      "Qui est le Dajjal en islam ? Description physique, pouvoirs, signes précurseurs de son apparition, moyens de protection et défaite par Issa (Jésus) selon les hadiths authentiques.",
+    url: "https://www.islamreligion.fr/dajjal-signes-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Dajjal-Antechrist-en-islam-description-et-signes-de-son-apparition-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/dajjal-signes-islam",
   },
@@ -535,6 +543,14 @@ export default function DajjalSignes() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Signes précurseurs */}

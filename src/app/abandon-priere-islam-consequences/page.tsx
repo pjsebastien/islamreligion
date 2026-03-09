@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Abandonner la prière en islam : jugement et conséquences",
   description:
     "Que dit l'islam sur l'abandon de la prière ? Découvrez le jugement des quatre écoles, les conséquences spirituelles et le chemin du retour vers Allah.",
+  openGraph: {
+    title:
+      "Abandonner la prière en islam : jugement et conséquences",
+    description:
+      "Que dit l'islam sur l'abandon de la prière ? Découvrez le jugement des quatre écoles, les conséquences spirituelles et le chemin du retour vers Allah.",
+    url: "https://www.islamreligion.fr/abandon-priere-islam-consequences",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Abandoner-la-priere-en-islam-jugement-et-consequences-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/abandon-priere-islam-consequences",
   },
@@ -449,6 +457,14 @@ export default function AbandonPriere() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Conséquences spirituelles et psychologiques */}

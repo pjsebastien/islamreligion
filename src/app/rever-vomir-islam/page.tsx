@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de vomir en islam : signification et interprétation spirituelle",
   description:
     "Que signifie rêver de vomir en islam ? Vomir du sang, de la nourriture, en public ou se retenir : interprétation selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de vomir en islam : signification et interprétation spirituelle",
+    description:
+      "Que signifie rêver de vomir en islam ? Vomir du sang, de la nourriture, en public ou se retenir : interprétation selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-vomir-islam",
+    images: [{ url: "/images/mains-priere-doua-islam-invocation.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-vomir-islam",
   },
@@ -334,6 +342,14 @@ export default function ReverVomirIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Vomir du sang / nourriture */}

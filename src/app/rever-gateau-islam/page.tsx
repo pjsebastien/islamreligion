@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de gâteau en islam : signification et interprétation selon Ibn Sirin",
   description:
     "Que signifie rêver de gâteau en islam ? Manger, préparer, offrir ou recevoir un gâteau : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas analysés.",
+  openGraph: {
+    title:
+      "Rêver de gâteau en islam : signification et interprétation selon Ibn Sirin",
+    description:
+      "Que signifie rêver de gâteau en islam ? Manger, préparer, offrir ou recevoir un gâteau : interprétation selon Ibn Sirin et An-Nabulsi. Tous les cas analysés.",
+    url: "https://www.islamreligion.fr/rever-gateau-islam",
+    images: [{ url: "/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-gateau-islam",
   },
@@ -337,6 +345,14 @@ export default function ReverGateauIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger ou préparer un gâteau */}

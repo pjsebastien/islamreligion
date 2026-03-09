@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêve de poisson en islam : richesse spirituelle et bénédictions à venir",
   description:
     "Que signifie rêver de poisson en islam ? Interprétation selon Ibn Sirin et Al-Nabulsi, signification par type, couleur, état et action du poisson dans le rêve.",
+  openGraph: {
+    title:
+      "Rêve de poisson en islam : richesse spirituelle et bénédictions à venir",
+    description:
+      "Que signifie rêver de poisson en islam ? Interprétation selon Ibn Sirin et Al-Nabulsi, signification par type, couleur, état et action du poisson dans le rêve.",
+    url: "https://www.islamreligion.fr/reve-poisson-islam-richesse",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Reve-de-poisson-en-islam-richesse-spirituelle-et-benedictions-a-venir.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reve-poisson-islam-richesse",
   },
@@ -455,6 +463,14 @@ export default function RevePoisson() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Etats et contextes */}

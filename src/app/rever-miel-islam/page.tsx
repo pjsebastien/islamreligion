@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de miel en islam : signification et interprétation",
   description:
     "Que signifie rêver de miel en islam ? Manger, recevoir ou offrir du miel : interprétation selon Ibn Sirin et An-Nabulsi. Miel pur, abeilles et contextes.",
+  openGraph: {
+    title:
+      "Rêver de miel en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de miel en islam ? Manger, recevoir ou offrir du miel : interprétation selon Ibn Sirin et An-Nabulsi. Miel pur, abeilles et contextes.",
+    url: "https://www.islamreligion.fr/rever-miel-islam",
+    images: [{ url: "/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-miel-islam",
   },
@@ -323,6 +331,14 @@ export default function ReverMielIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger du miel */}

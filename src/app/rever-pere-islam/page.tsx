@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de son père en islam : signification selon Ibn Sirin et An-Nabulsi",
   description:
     "Que signifie rêver de son père en islam ? Père vivant, décédé, souriant ou en colère : découvrez les interprétations d'Ibn Sirin et d'An-Nabulsi selon votre situation.",
+  openGraph: {
+    title:
+      "Rêver de son père en islam : signification selon Ibn Sirin et An-Nabulsi",
+    description:
+      "Que signifie rêver de son père en islam ? Père vivant, décédé, souriant ou en colère : découvrez les interprétations d'Ibn Sirin et d'An-Nabulsi selon votre situation.",
+    url: "https://www.islamreligion.fr/rever-pere-islam",
+    images: [{ url: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-pere-islam",
   },
@@ -360,6 +368,14 @@ export default function ReverPereIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Père vivant ou décédé */}

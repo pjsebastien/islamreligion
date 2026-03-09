@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de crocodile en islam : ennemi caché et protection divine requise",
   description:
     "Que signifie rêver de crocodile en islam ? Symbole d'ennemi caché, de danger insidieux et d'appel à la protection divine. Interprétation selon les savants musulmans.",
+  openGraph: {
+    title:
+      "Rêver de crocodile en islam : ennemi caché et protection divine requise",
+    description:
+      "Que signifie rêver de crocodile en islam ? Symbole d'ennemi caché, de danger insidieux et d'appel à la protection divine. Interprétation selon les savants musulmans.",
+    url: "https://www.islamreligion.fr/rever-crocodile-islam-protection",
+    images: [{ url: "/images/dome-mosquee-croissant-lune-islam-architecture.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-crocodile-islam-protection",
   },
@@ -82,7 +90,7 @@ export default function ReverCrocodileIslamProtection() {
         description:
           "Que signifie rêver de crocodile en islam ? Symbole d'ennemi caché, de danger insidieux et d'appel à la protection divine.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-crocodile-en-islam-ennemi-cache-et-protection-divine-requise.jpg",
+          "/images/dome-mosquee-croissant-lune-islam-architecture.jpg",
         datePublished: "2025-09-18",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -137,7 +145,7 @@ export default function ReverCrocodileIslamProtection() {
         <Hero
           title="Rêver de crocodile en islam : ennemi caché et protection divine requise"
           subtitle="Interprétation du rêve de crocodile selon la tradition islamique, les savants musulmans et la protection par la prière."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-crocodile-en-islam-ennemi-cache-et-protection-divine-requise.jpg"
+          imageSrc="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
           imageAlt="Rêver de crocodile en islam, ennemi caché et protection divine requise"
           compact
         />
@@ -329,7 +337,7 @@ export default function ReverCrocodileIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-crocodile-en-islam-ennemi-cache-et-protection-divine-requise-1.jpg"
+                    src="/images/motif-arabesque-islamique-geometrie-dore.jpg"
                     alt="Rêver de crocodile en islam, symbole de danger et ennemi caché"
                     width={1200}
                     height={720}
@@ -468,6 +476,14 @@ export default function ReverCrocodileIslamProtection() {
                 />
               </section>
 
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
+
               {/* ============================================ */}
               {/* SECTION 3 : Décoder chaque situation */}
               {/* ============================================ */}
@@ -605,7 +621,7 @@ export default function ReverCrocodileIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-crocodile-en-islam-ennemi-cache-et-protection-divine-requise-2.jpg"
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
                     alt="Interprétation des rêves de crocodile en islam, décoder chaque situation"
                     width={1200}
                     height={720}
@@ -884,7 +900,7 @@ export default function ReverCrocodileIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-crocodile-en-islam-ennemi-cache-et-protection-divine-requise-3.jpg"
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
                     alt="Témoignages autour des rêves de crocodile dans la spiritualité musulmane"
                     width={1200}
                     height={720}

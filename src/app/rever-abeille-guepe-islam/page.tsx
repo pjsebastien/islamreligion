@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'abeille ou de guêpe en islam : signification et interprétation",
   description:
     "Signification de rêver d'abeille ou de guêpe en islam selon Ibn Sirin et An-Nabulsi. Piqûre, essaim, miel : toutes les interprétations détaillées.",
+  openGraph: {
+    title:
+      "Rêver d'abeille ou de guêpe en islam : signification et interprétation",
+    description:
+      "Signification de rêver d'abeille ou de guêpe en islam selon Ibn Sirin et An-Nabulsi. Piqûre, essaim, miel : toutes les interprétations détaillées.",
+    url: "https://www.islamreligion.fr/rever-abeille-guepe-islam",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-abeille-guepe-islam",
   },
@@ -359,6 +367,14 @@ export default function ReverAbeilleGuepeIslam() {
                   href="/rever-chat-islam-symbolisme"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Être piqué */}

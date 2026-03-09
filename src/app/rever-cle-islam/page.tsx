@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de clé en islam : signification et interprétation selon Ibn Sirin",
   description:
     "Que signifie rêver de clé en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : trouver, perdre une clé, clé en or, en argent, ouvrir une porte, trousseau de clés et bien plus.",
+  openGraph: {
+    title:
+      "Rêver de clé en islam : signification et interprétation selon Ibn Sirin",
+    description:
+      "Que signifie rêver de clé en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : trouver, perdre une clé, clé en or, en argent, ouvrir une porte, trousseau de clés et bien plus.",
+    url: "https://www.islamreligion.fr/rever-cle-islam",
+    images: [{ url: "/images/motif-arabesque-islamique-geometrie-dore.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-cle-islam",
   },
@@ -359,6 +367,14 @@ export default function ReverCleIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />
 

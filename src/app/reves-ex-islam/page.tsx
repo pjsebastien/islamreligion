@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de son ex islam : que dit l'islam sur ces rêves du passé ?",
   description:
     "Découvrez la signification des rêves sur votre ex selon l'islam et ce que ces songes révèlent sur votre passé et votre spiritualité.",
+  openGraph: {
+    title:
+      "Rêver de son ex islam : que dit l'islam sur ces rêves du passé ?",
+    description:
+      "Découvrez la signification des rêves sur votre ex selon l'islam et ce que ces songes révèlent sur votre passé et votre spiritualité.",
+    url: "https://www.islamreligion.fr/reves-ex-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-son-ex-islam-que-dit-lislam-sur-ces-reves-du-passe-.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reves-ex-islam",
   },
@@ -604,6 +612,14 @@ export default function ReverExIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Analyser ces reves */}

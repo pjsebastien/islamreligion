@@ -5,12 +5,21 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import ArticleCTA from "@/components/ArticleCTA";
 
 export const metadata: Metadata = {
   title:
     "Rêver de guerre en islam : signification et interprétation complète",
   description:
     "Signification de rêver de guerre en islam selon Ibn Sirin et An-Nabulsi. Être soldat, fuir la guerre, bombardement, gagner ou perdre un combat : interprétations détaillées.",
+  openGraph: {
+    title:
+      "Rêver de guerre en islam : signification et interprétation complète",
+    description:
+      "Signification de rêver de guerre en islam selon Ibn Sirin et An-Nabulsi. Être soldat, fuir la guerre, bombardement, gagner ou perdre un combat : interprétations détaillées.",
+    url: "https://www.islamreligion.fr/rever-guerre-islam",
+    images: [{ url: "/images/priere-islam-doua-mosquee-silhouette.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-guerre-islam",
   },
@@ -349,6 +358,14 @@ export default function ReverGuerreIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Être soldat ou combattant        */}

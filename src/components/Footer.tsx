@@ -7,6 +7,7 @@ const silos = [
     links: [
       { href: "/", label: "La religion musulmane" },
       { href: "/apprendre-larabe", label: "Apprendre l'arabe" },
+      { href: "/formation-arabe-en-ligne", label: "Formations arabe en ligne" },
       { href: "/apprendre-le-coran", label: "Apprendre le Coran" },
       { href: "/apprendre-science-religieuse-islam", label: "Science religieuse" },
     ],
@@ -43,7 +44,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center gap-2.5">
               <Image
                 src="/images/favicon-islam.ico"
-                alt="Logo IslamReligion"
+                alt="IslamReligion.fr - Comprendre l'islam"
                 width={28}
                 height={28}
                 className="h-7 w-7"
@@ -98,7 +99,7 @@ export default function Footer() {
             </Link>
             <span>·</span>
             <Link
-              href="/mentions-legales"
+              href="/mentions-legales#confidentialite"
               className="transition-colors hover:text-secondary"
             >
               Politique de confidentialité

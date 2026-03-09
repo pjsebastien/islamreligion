@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de pigeon ou d'oiseau en islam : signification et interpretation",
   description:
     "Que signifie rever de pigeon ou d'oiseau en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, symbolisme coranique, couleurs et contextes du reve.",
+  openGraph: {
+    title:
+      "Rever de pigeon ou d'oiseau en islam : signification et interpretation",
+    description:
+      "Que signifie rever de pigeon ou d'oiseau en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, symbolisme coranique, couleurs et contextes du reve.",
+    url: "https://www.islamreligion.fr/rever-pigeon-oiseau-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-pigeon-oiseau-islam",
   },
@@ -322,6 +330,14 @@ export default function ReverPigeonOiseauIslam() {
                   permet de mieux saisir ces references.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Ibn Sirin et An-Nabulsi */}

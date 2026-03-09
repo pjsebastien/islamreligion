@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d\u2019asticots ou de vers en islam : signification et interprétation complète",
   description:
     "Que signifie rêver d\u2019asticots ou de vers en islam ? Découvrez les interprétations d\u2019Ibn Sirin et An-Nabulsi, les variantes du rêve et les conseils spirituels adaptés.",
+  openGraph: {
+    title:
+      "Rêver d\u2019asticots ou de vers en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver d\u2019asticots ou de vers en islam ? Découvrez les interprétations d\u2019Ibn Sirin et An-Nabulsi, les variantes du rêve et les conseils spirituels adaptés.",
+    url: "https://www.islamreligion.fr/rever-asticot-ver-islam",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-asticot-ver-islam",
   },
@@ -532,6 +540,14 @@ export default function ReverAsticotVerIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Vers sortant du corps */}

@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "Psoriasis remède arabe : soins naturels et médecine prophétique pour la peau",
   description:
     "Découvrez les remèdes arabes contre le psoriasis : huile de nigelle, miel, hijama, huile d'olive, henné et invocations de guérison. Soins naturels issus de la tradition prophétique en complément d'un suivi médical.",
+  openGraph: {
+    title:
+      "Psoriasis remède arabe : soins naturels et médecine prophétique pour la peau",
+    description:
+      "Découvrez les remèdes arabes contre le psoriasis : huile de nigelle, miel, hijama, huile d'olive, henné et invocations de guérison. Soins naturels issus de la tradition prophétique en complément d'un suivi médical.",
+    url: "https://www.islamreligion.fr/psoriasis-remede-arabe",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Psoriasis-remede-arabe-traitements-naturels-et-invocations-de-protection-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/psoriasis-remede-arabe",
   },
@@ -704,6 +712,14 @@ export default function PsoriasisRemedeArabe() {
                   linkText="Voir les remèdes arabes et la médecine prophétique"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Hijama et peau */}

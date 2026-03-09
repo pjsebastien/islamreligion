@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Istikhara : la prière de consultation étape par étape",
   description:
     "Apprenez à accomplir la salat al-istikhara, prière de consultation en islam : étapes, invocation complète, moments propices et témoignages concrets.",
+  openGraph: {
+    title:
+      "Istikhara : la prière de consultation étape par étape",
+    description:
+      "Apprenez à accomplir la salat al-istikhara, prière de consultation en islam : étapes, invocation complète, moments propices et témoignages concrets.",
+    url: "https://www.islamreligion.fr/istikhara-priere-consultation",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Istikhara-la-priere-de-consultation-etape-par-etape-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/istikhara-priere-consultation",
   },
@@ -538,6 +546,14 @@ export default function IstikharaPriere() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Quand et pour quels sujets */}

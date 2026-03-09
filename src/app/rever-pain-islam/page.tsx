@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de pain en islam : signification et interprétation selon Ibn Sirin",
   description:
     "Que signifie rêver de pain en islam ? Pain frais, rassis, blanc ou complet : interprétation selon Ibn Sirin et An-Nabulsi. Manger, acheter ou distribuer du pain dans un rêve.",
+  openGraph: {
+    title:
+      "Rêver de pain en islam : signification et interprétation selon Ibn Sirin",
+    description:
+      "Que signifie rêver de pain en islam ? Pain frais, rassis, blanc ou complet : interprétation selon Ibn Sirin et An-Nabulsi. Manger, acheter ou distribuer du pain dans un rêve.",
+    url: "https://www.islamreligion.fr/rever-pain-islam",
+    images: [{ url: "/images/ramadan-kareem-islam-dattes-chapelet-coran.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-pain-islam",
   },
@@ -322,6 +330,14 @@ export default function ReverPainIslam() {
                   redoubler de vigilance spirituelle.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Pain frais vs pain rassis */}

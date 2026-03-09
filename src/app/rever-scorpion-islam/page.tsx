@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de scorpion en islam : ennemi caché, trahison et protection spirituelle",
   description:
     "Découvrez la signification du rêve de scorpion en islam selon Ibn Sirin et An-Nabulsi : ennemi caché, médisance, piqûre, couleurs et conseils de protection.",
+  openGraph: {
+    title:
+      "Rêver de scorpion en islam : ennemi caché, trahison et protection spirituelle",
+    description:
+      "Découvrez la signification du rêve de scorpion en islam selon Ibn Sirin et An-Nabulsi : ennemi caché, médisance, piqûre, couleurs et conseils de protection.",
+    url: "https://www.islamreligion.fr/rever-scorpion-islam",
+    images: [{ url: "/images/mains-priere-doua-islam-invocation.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-scorpion-islam",
   },
@@ -514,6 +522,14 @@ export default function ReverScorpionIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Être piqué par un scorpion */}

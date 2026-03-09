@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'un mort en islam : messages de l'au-delà et invocations conseillées",
   description:
     "Découvrez la signification de rêver d'un mort en islam, les messages de l'au-delà et les invocations à privilégier pour les défunts.",
+  openGraph: {
+    title:
+      "Rêver d'un mort en islam : messages de l'au-delà et invocations conseillées",
+    description:
+      "Découvrez la signification de rêver d'un mort en islam, les messages de l'au-delà et les invocations à privilégier pour les défunts.",
+    url: "https://www.islamreligion.fr/rever-mort-islam-messages",
+    images: [{ url: "/images/priere-islam-doua-mosquee-silhouette.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-mort-islam-messages",
   },
@@ -103,7 +111,7 @@ export default function ReverMort() {
         description:
           "Découvrez la signification de rêver d'un mort en islam, les messages de l'au-delà et les invocations à privilégier pour les défunts.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-dun-mort-en-islam-messages-de-lau-dela-et-invocations-conseillees.jpg",
+          "/images/priere-islam-doua-mosquee-silhouette.jpg",
         datePublished: "2025-09-03",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -158,7 +166,7 @@ export default function ReverMort() {
         <Hero
           title="Rêver d'un mort en islam : messages de l'au-delà et invocations conseillées"
           subtitle="Signification du rêve de défunt selon la tradition islamique, invocations et prières recommandées."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-dun-mort-en-islam-messages-de-lau-dela-et-invocations-conseillees.jpg"
+          imageSrc="/images/priere-islam-doua-mosquee-silhouette.jpg"
           imageAlt="Rêver d'un mort en islam, messages de l'au-delà et invocations conseillées"
           compact
         />
@@ -354,7 +362,7 @@ export default function ReverMort() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-dun-mort-en-islam-messages-de-lau-dela-et-invocations-conseillees-1.jpg"
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
                     alt="Signification spirituelle du rêve de défunt en islam, messages de l'au-delà"
                     width={1200}
                     height={720}
@@ -494,7 +502,7 @@ export default function ReverMort() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-dun-mort-en-islam-messages-de-lau-dela-et-invocations-conseillees-2.jpg"
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
                     alt="Symboles et objets dans le rêve de défunt en islam, interprétation spirituelle"
                     width={1200}
                     height={720}
@@ -509,6 +517,14 @@ export default function ReverMort() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION : Mort qui parle et donne un conseil */}

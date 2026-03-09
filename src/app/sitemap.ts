@@ -26,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/formation-arabe-en-ligne`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/reves-islam`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -37,13 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    // Articles rêves - Tier 1
-    {
-      url: `${baseUrl}/rever-souris-islam`,
-      lastModified: new Date("2025-09-05"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
+    // Articles rêves (non gérés par publishSchedule)
     {
       url: `${baseUrl}/reve-poisson-islam-richesse`,
       lastModified: new Date("2025-09-17"),
@@ -69,45 +69,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/rever-tirer-dessus-islam`,
-      lastModified: new Date("2025-09-26"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/rever-mort-islam-messages`,
-      lastModified: new Date("2025-09-03"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/sorcellerie-islam-protection`,
       lastModified: new Date("2025-09-12"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/rever-chien-islam-signification`,
-      lastModified: new Date("2025-09-08"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    // Articles rêves - Tier 2
-    {
       url: `${baseUrl}/reve-cheval-islam-bienfaits`,
       lastModified: new Date("2025-09-15"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/rever-perdre-dents-islam`,
-      lastModified: new Date("2025-08-28"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/rever-rat-islam-purification`,
-      lastModified: new Date("2025-10-03"),
       changeFrequency: "monthly",
       priority: 0.7,
     },
@@ -124,41 +93,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/rever-poux-islam-protection`,
-      lastModified: new Date("2025-09-11"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/rever-enceinte-islam`,
-      lastModified: new Date("2025-08-20"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/rever-chat-islam-symbolisme`,
-      lastModified: new Date("2025-08-21"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/rever-crocodile-islam-protection`,
-      lastModified: new Date("2025-09-18"),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/cafard-islam-signification`,
       lastModified: new Date("2025-09-04"),
       changeFrequency: "monthly",
       priority: 0.7,
-    },
-    // Articles rêves - Tier 3
-    {
-      url: `${baseUrl}/rever-accoucher-islam`,
-      lastModified: new Date("2025-08-24"),
-      changeFrequency: "monthly",
-      priority: 0.6,
     },
     {
       url: `${baseUrl}/reve-erotique-islam-purification`,

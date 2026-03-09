@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de dispute ou de bagarre en islam : signification complète",
   description:
     "Signification de rêver de dispute ou de bagarre en islam selon Ibn Sirin et An-Nabulsi. Dispute familiale, conjugale, bagarre physique, conflit avec un défunt : interprétations détaillées.",
+  openGraph: {
+    title:
+      "Rêver de dispute ou de bagarre en islam : signification complète",
+    description:
+      "Signification de rêver de dispute ou de bagarre en islam selon Ibn Sirin et An-Nabulsi. Dispute familiale, conjugale, bagarre physique, conflit avec un défunt : interprétations détaillées.",
+    url: "https://www.islamreligion.fr/rever-dispute-bagarre-islam",
+    images: [{ url: "/images/priere-islam-doua-mosquee-silhouette.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-dispute-bagarre-islam",
   },
@@ -391,6 +399,14 @@ export default function ReverDisputeBagarreIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Dispute familiale ou conjugale   */}

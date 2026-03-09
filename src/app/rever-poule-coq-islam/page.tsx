@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de poule ou de coq en islam : signification et interpretation des reves",
   description:
     "Que signifie rever de poule ou de coq en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, symbolique du coq qui chante, de la poule qui pond, des poussins et du sacrifice.",
+  openGraph: {
+    title:
+      "Rever de poule ou de coq en islam : signification et interpretation des reves",
+    description:
+      "Que signifie rever de poule ou de coq en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, symbolique du coq qui chante, de la poule qui pond, des poussins et du sacrifice.",
+    url: "https://www.islamreligion.fr/rever-poule-coq-islam",
+    images: [{ url: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-poule-coq-islam",
   },
@@ -311,6 +319,14 @@ export default function ReverPouleCoqIslam() {
                   vigilance et au presage.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Ibn Sirin et An-Nabulsi */}

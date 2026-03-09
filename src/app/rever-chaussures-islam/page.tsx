@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de chaussures en islam : signification et interprétation",
   description:
     "Que signifie rêver de chaussures en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Chaussures neuves, perdues, volées, offertes : tous les cas détaillés.",
+  openGraph: {
+    title:
+      "Rêver de chaussures en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de chaussures en islam ? Interprétation selon Ibn Sirin et An-Nabulsi. Chaussures neuves, perdues, volées, offertes : tous les cas détaillés.",
+    url: "https://www.islamreligion.fr/rever-chaussures-islam",
+    images: [{ url: "/images/motifs-geometriques-islam-croissant-etoile.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-chaussures-islam",
   },
@@ -353,6 +361,14 @@ export default function ReverChaussuresIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Neuves vs vieilles */}

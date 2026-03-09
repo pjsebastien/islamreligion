@@ -4,6 +4,7 @@ import { Noto_Naskh_Arabic } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -66,6 +67,7 @@ export default function RootLayout({
         <div className="pt-16 lg:pt-20">{children}</div>
         <Footer />
         <CookieBanner />
+        <ExitIntentPopup />
       </body>
     </html>
   );

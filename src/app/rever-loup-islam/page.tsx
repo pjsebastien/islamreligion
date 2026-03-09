@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de loup en islam : signification et interpretation des songes",
   description:
     "Que signifie rever de loup en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, loup agressif ou docile, meute, attaque, apprivoiser un loup et conseils islamiques.",
+  openGraph: {
+    title:
+      "Rever de loup en islam : signification et interpretation des songes",
+    description:
+      "Que signifie rever de loup en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, loup agressif ou docile, meute, attaque, apprivoiser un loup et conseils islamiques.",
+    url: "https://www.islamreligion.fr/rever-loup-islam",
+    images: [{ url: "/images/symbole-islam-croissant-etoile-dore-mosquee.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-loup-islam",
   },
@@ -408,6 +416,14 @@ export default function ReverLoupIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Loup agressif vs docile */}

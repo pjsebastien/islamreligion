@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de lune en islam : signification et interprétation complète",
   description:
     "Signification de rêver de lune en islam selon Ibn Sirin et An-Nabulsi. Pleine lune, croissant, lune brillante, obscurcie ou qui tombe : toutes les interprétations.",
+  openGraph: {
+    title:
+      "Rêver de lune en islam : signification et interprétation complète",
+    description:
+      "Signification de rêver de lune en islam selon Ibn Sirin et An-Nabulsi. Pleine lune, croissant, lune brillante, obscurcie ou qui tombe : toutes les interprétations.",
+    url: "https://www.islamreligion.fr/rever-lune-islam",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-lune-islam",
   },
@@ -447,6 +455,14 @@ export default function ReverLuneIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Pleine lune et croissant        */}

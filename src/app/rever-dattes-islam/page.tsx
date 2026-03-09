@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de dattes en islam : signification et interprétation complète",
   description:
     "Que signifie rêver de dattes en islam ? Manger, cueillir, recevoir des dattes, dattes fraîches ou sèches : interprétation selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de dattes en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver de dattes en islam ? Manger, cueillir, recevoir des dattes, dattes fraîches ou sèches : interprétation selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-dattes-islam",
+    images: [{ url: "/images/ramadan-kareem-islam-dattes-chapelet-coran.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-dattes-islam",
   },
@@ -351,6 +359,14 @@ export default function ReverDattesIslam() {
                   bénédiction spirituelle particulière.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Manger des dattes */}

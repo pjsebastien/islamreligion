@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de marabout en islam : signification et interprétation",
   description:
     "Signification de rêver de marabout en islam selon Ibn Sirin et An-Nabulsi. Homme pieux, sorcellerie, conseil spirituel : toutes les interprétations détaillées.",
+  openGraph: {
+    title:
+      "Rêver de marabout en islam : signification et interprétation",
+    description:
+      "Signification de rêver de marabout en islam selon Ibn Sirin et An-Nabulsi. Homme pieux, sorcellerie, conseil spirituel : toutes les interprétations détaillées.",
+    url: "https://www.islamreligion.fr/rever-marabout-islam",
+    images: [{ url: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-marabout-islam",
   },
@@ -364,6 +372,14 @@ export default function ReverMaraboutIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Position de l'islam sur la sorcellerie */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de papillon en islam : transformation, beauté et renouveau spirituel",
   description:
     "Que signifie rêver de papillon en islam ? Symbole de transformation, de légèreté et de renouveau. Interprétation selon Ibn Sirin, An-Nabulsi et la tradition musulmane.",
+  openGraph: {
+    title:
+      "Rêver de papillon en islam : transformation, beauté et renouveau spirituel",
+    description:
+      "Que signifie rêver de papillon en islam ? Symbole de transformation, de légèreté et de renouveau. Interprétation selon Ibn Sirin, An-Nabulsi et la tradition musulmane.",
+    url: "https://www.islamreligion.fr/rever-papillon-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-papillon-islam",
   },
@@ -433,6 +441,14 @@ export default function ReverPapillonIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Papillon coloré, blanc, noir */}

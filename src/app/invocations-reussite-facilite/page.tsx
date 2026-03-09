@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Invocations authentiques pour la réussite et la facilité en islam",
   description:
     "Découvrez les invocations authentiques pour la réussite et la facilité en islam : du&apos;as coraniques, moments propices, témoignages et conseils pour allier effort et confiance en Allah.",
+  openGraph: {
+    title:
+      "Invocations authentiques pour la réussite et la facilité en islam",
+    description:
+      "Découvrez les invocations authentiques pour la réussite et la facilité en islam : du&apos;as coraniques, moments propices, témoignages et conseils pour allier effort et confiance en Allah.",
+    url: "https://www.islamreligion.fr/invocations-reussite-facilite",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Invocations-authentiques-pour-la-reussite-et-la-facilite-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/invocations-reussite-facilite",
   },
@@ -422,6 +430,14 @@ export default function InvocationsReussite() {
                   href="/istikhara-priere-consultation"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Quand et comment */}

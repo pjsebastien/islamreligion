@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/reves-islam", label: "Rêves en islam" },
   { href: "/remede-arabe", label: "Remèdes arabes" },
   { href: "/fin-monde-islam-preparation", label: "Fin des temps" },
+  { href: "/formation-arabe-en-ligne", label: "Formations arabe" },
 ];
 
 export default function Header() {
@@ -39,7 +40,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2.5">
             <Image
               src="/images/favicon-islam.ico"
-              alt="Logo IslamReligion"
+              alt="IslamReligion.fr - Comprendre l'islam"
               width={32}
               height={32}
               className="h-8 w-8 lg:h-9 lg:w-9"

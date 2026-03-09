@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: "Rêver d'araignée en islam : symbolisme et interprétation selon les savants",
   description:
     "Que signifie rêver d'araignée en islam ? Symbolisme coranique, interprétation selon Ibn Sirin et Al-Nabulsi, signification par couleur et comportement.",
+  openGraph: {
+    title:
+      "Rêver d'araignée en islam : symbolisme et interprétation selon les savants",
+    description:
+      "Que signifie rêver d'araignée en islam ? Symbolisme coranique, interprétation selon Ibn Sirin et Al-Nabulsi, signification par couleur et comportement.",
+    url: "https://www.islamreligion.fr/reve-arachnide-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-daraignee-islam-symbolisme-et-interpretation-selon-les-savants.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reve-arachnide-islam",
   },
@@ -310,6 +318,14 @@ export default function ReveArachnideIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* SECTION 3 */}
               <section id="couleurs" className="mt-16 scroll-mt-24">

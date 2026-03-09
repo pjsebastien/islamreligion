@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Péchés liés à la sexualité : ce qui est interdit en islam",
   description:
     "Découvrez les interdits sexuels en islam : zina, pratiques prohibées, masturbation, pornographie, cadre conjugal et repentir. Approche respectueuse et sourcée.",
+  openGraph: {
+    title:
+      "Péchés liés à la sexualité : ce qui est interdit en islam",
+    description:
+      "Découvrez les interdits sexuels en islam : zina, pratiques prohibées, masturbation, pornographie, cadre conjugal et repentir. Approche respectueuse et sourcée.",
+    url: "https://www.islamreligion.fr/peches-sexualite-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Peches-lies-a-la-sexualite-ce-qui-est-interdit-en-islam-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/peches-sexualite-islam",
   },
@@ -452,6 +460,14 @@ export default function PechesSexualite() {
                   </li>
                 </ul>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Questions contemporaines */}

@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "À propos d'IslamReligion.fr",
   description:
     "Découvrez la mission, les valeurs et l'équipe derrière IslamReligion.fr. Un site dédié à la compréhension authentique de l'islam, ses enseignements et sa spiritualité.",
+  openGraph: {
+    title:
+      "À propos d'IslamReligion.fr",
+    description:
+      "Découvrez la mission, les valeurs et l'équipe derrière IslamReligion.fr. Un site dédié à la compréhension authentique de l'islam, ses enseignements et sa spiritualité.",
+    url: "https://www.islamreligion.fr/a-propos",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/a-propos",
   },

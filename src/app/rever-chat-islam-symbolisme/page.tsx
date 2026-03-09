@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de chat en islam : symbolisme et messages divins dans vos songes",
   description:
     "Que signifie rever de chat en islam ? Symbolisme coranique, interpretation selon les savants, signification par couleur et comportement du chat dans les reves.",
+  openGraph: {
+    title:
+      "Rever de chat en islam : symbolisme et messages divins dans vos songes",
+    description:
+      "Que signifie rever de chat en islam ? Symbolisme coranique, interpretation selon les savants, signification par couleur et comportement du chat dans les reves.",
+    url: "https://www.islamreligion.fr/rever-chat-islam-symbolisme",
+    images: [{ url: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-chat-islam-symbolisme",
   },
@@ -82,7 +90,7 @@ export default function ReverChatIslamSymbolisme() {
         description:
           "Que signifie rever de chat en islam ? Symbolisme coranique, interpretation selon les savants, signification par couleur et comportement.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chat-en-islam-symbolisme-et-messages-divins-dans-vos-songes.jpg",
+          "/images/croissant-lune-dore-etoiles-symbole-islam.jpg",
         datePublished: "2025-08-21",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -137,7 +145,7 @@ export default function ReverChatIslamSymbolisme() {
         <Hero
           title="Rever de chat en islam : symbolisme et messages divins dans vos songes"
           subtitle="Signification du reve de chat selon le Coran, la Sunna et la tradition islamique."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chat-en-islam-symbolisme-et-messages-divins-dans-vos-songes.jpg"
+          imageSrc="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
           imageAlt="Rever de chat en islam, symbolisme et messages divins dans vos songes"
           compact
         />
@@ -312,7 +320,7 @@ export default function ReverChatIslamSymbolisme() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chat-en-islam-symbolisme-et-messages-divins-dans-vos-songes-1.jpg"
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
                     alt="Symbolisme du chat dans les reves en islam et messages divins"
                     width={1200}
                     height={720}
@@ -486,6 +494,14 @@ export default function ReverChatIslamSymbolisme() {
                   linkText="Voir les 3 types de reves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Couleurs, comportements et messages */}
@@ -699,7 +715,7 @@ export default function ReverChatIslamSymbolisme() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chat-en-islam-symbolisme-et-messages-divins-dans-vos-songes-2.jpg"
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
                     alt="Interpretation des couleurs et comportements du chat dans les reves en islam"
                     width={1200}
                     height={720}
@@ -976,7 +992,7 @@ export default function ReverChatIslamSymbolisme() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-chat-en-islam-symbolisme-et-messages-divins-dans-vos-songes-3.jpg"
+                    src="/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg"
                     alt="Cheminement spirituel et reves de chat en islam, itineraire interieur du croyant"
                     width={1200}
                     height={720}

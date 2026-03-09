@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Importance d'apprendre la science religieuse en islam",
   description:
     "Pourquoi apprendre la science religieuse en islam est une obligation pour chaque musulman. Disciplines, bienfaits spirituels, méthodes et défis contemporains.",
+  openGraph: {
+    title:
+      "Importance d'apprendre la science religieuse en islam",
+    description:
+      "Pourquoi apprendre la science religieuse en islam est une obligation pour chaque musulman. Disciplines, bienfaits spirituels, méthodes et défis contemporains.",
+    url: "https://www.islamreligion.fr/apprendre-science-religieuse-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Importance-dapprendre-la-science-religieuse-en-islam-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical:
       "https://www.islamreligion.fr/apprendre-science-religieuse-islam",
@@ -452,6 +460,14 @@ export default function ApprendreScience() {
                   href="/apprendre-le-coran"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Les bienfaits spirituels et sociaux */}

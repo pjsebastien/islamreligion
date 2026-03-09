@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de voler dans les airs en islam : signification et interprétation",
   description:
     "Que signifie rêver de voler dans les airs en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : voler haut, avec des ailes, tomber en volant, au-dessus de la Kaaba.",
+  openGraph: {
+    title:
+      "Rêver de voler dans les airs en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de voler dans les airs en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : voler haut, avec des ailes, tomber en volant, au-dessus de la Kaaba.",
+    url: "https://www.islamreligion.fr/rever-voler-airs-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-voler-airs-islam",
   },
@@ -335,6 +343,14 @@ export default function ReverVolerAirsIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Voler haut ou voler bas */}

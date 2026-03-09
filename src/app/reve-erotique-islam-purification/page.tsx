@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêve érotique islam : faire l'amour en rêve, signification et purification",
   description:
     "Rêver de faire l'amour en islam : signification selon Ibn Sirin, rapports avec le conjoint, un inconnu ou un défunt. Statut juridique, ghusl et conseils spirituels.",
+  openGraph: {
+    title:
+      "Rêve érotique islam : faire l'amour en rêve, signification et purification",
+    description:
+      "Rêver de faire l'amour en islam : signification selon Ibn Sirin, rapports avec le conjoint, un inconnu ou un défunt. Statut juridique, ghusl et conseils spirituels.",
+    url: "https://www.islamreligion.fr/reve-erotique-islam-purification",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Reve-erotique-islam-comprehension-spirituelle-et-purification-recommandee-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/reve-erotique-islam-purification",
   },
@@ -509,6 +517,14 @@ export default function ReveErotique() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Cas particuliers et avis */}

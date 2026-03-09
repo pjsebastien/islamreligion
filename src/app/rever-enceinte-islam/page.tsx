@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'être enceinte islam : significations spirituelles et interprétations",
   description:
     "Découvrez la signification de rêver d'être enceinte en islam : interprétations selon Ibn Sirin, symbolisme spirituel, conseils pratiques et messages cachés.",
+  openGraph: {
+    title:
+      "Rêver d'être enceinte islam : significations spirituelles et interprétations",
+    description:
+      "Découvrez la signification de rêver d'être enceinte en islam : interprétations selon Ibn Sirin, symbolisme spirituel, conseils pratiques et messages cachés.",
+    url: "https://www.islamreligion.fr/rever-enceinte-islam",
+    images: [{ url: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-enceinte-islam",
   },
@@ -88,7 +96,7 @@ export default function ReverEnceinte() {
         description:
           "Découvrez la signification de rêver d'être enceinte en islam : interprétations selon Ibn Sirin, symbolisme spirituel et conseils pratiques.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-detre-enceinte-islam-significations-spirituelles-et-interpretations.jpg",
+          "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg",
         datePublished: "2025-08-20",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -143,7 +151,7 @@ export default function ReverEnceinte() {
         <Hero
           title="Rêver d'être enceinte islam : significations spirituelles et interprétations"
           subtitle="Interprétation du rêve de grossesse selon la tradition islamique, Ibn Sirin et les textes sacrés."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-detre-enceinte-islam-significations-spirituelles-et-interpretations.jpg"
+          imageSrc="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
           imageAlt="Rêver d'être enceinte en islam, significations spirituelles et interprétations"
           compact
         />
@@ -426,7 +434,7 @@ export default function ReverEnceinte() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-detre-enceinte-islam-significations-spirituelles-et-interpretations-1.jpg"
+                    src="/images/famille-musulmane-lecture-coran-islam-education.jpg"
                     alt="Signification spirituelle du rêve de grossesse en islam"
                     width={1200}
                     height={720}
@@ -441,6 +449,14 @@ export default function ReverEnceinte() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Interprétations selon la tradition */}
@@ -718,7 +734,7 @@ export default function ReverEnceinte() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-detre-enceinte-islam-significations-spirituelles-et-interpretations-2.jpg"
+                    src="/images/croissant-lune-lanterne-islam-decoration-pastel.jpg"
                     alt="Symbolisme de la grossesse en rêve en islam, mutation et créativité"
                     width={1200}
                     height={720}
@@ -875,7 +891,7 @@ export default function ReverEnceinte() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-detre-enceinte-islam-significations-spirituelles-et-interpretations-3.jpg"
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
                     alt="Rêves prémonitoires et sens cachés de la grossesse en islam"
                     width={1200}
                     height={720}

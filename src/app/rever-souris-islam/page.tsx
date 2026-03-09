@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   title: "Rêver de souris en islam : signification, couleurs et interprétation",
   description:
     "Que signifie rêver de souris en islam ? Interprétation selon Ibn Sirin et Al-Nabulsi, signification par couleur (blanche, noire, grise), scénarios courants et conseils prophétiques.",
+  openGraph: {
+    title:
+      "Rêver de souris en islam : signification, couleurs et interprétation",
+    description:
+      "Que signifie rêver de souris en islam ? Interprétation selon Ibn Sirin et Al-Nabulsi, signification par couleur (blanche, noire, grise), scénarios courants et conseils prophétiques.",
+    url: "https://www.islamreligion.fr/rever-souris-islam",
+    images: [{ url: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-souris-islam",
   },
@@ -83,7 +91,7 @@ export default function ReverSourisIslam() {
         headline: "Rêver de souris en islam : signification, couleurs et interprétation",
         description:
           "Que signifie rêver de souris en islam ? Interprétation selon Ibn Sirin, signification par couleur, scénarios courants et conseils prophétiques.",
-        image: "https://www.islamreligion.frhttps://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-souris-islam-interpretation-islamique-et-conseils-spirituels.jpg",
+        image: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
         mainEntityOfPage: { "@id": "https://www.islamreligion.fr/rever-souris-islam/#webpage" },
@@ -118,7 +126,7 @@ export default function ReverSourisIslam() {
         <Hero
           title="Rêver de souris en islam : signification et interprétation"
           subtitle="Ce que symbolise la souris dans un rêve selon la tradition islamique, les savants et les textes prophétiques."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-souris-islam-interpretation-islamique-et-conseils-spirituels.jpg"
+          imageSrc="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
           imageAlt="Signification de rêver de souris en islam, interprétation spirituelle selon la tradition islamique"
           compact
         />
@@ -222,7 +230,7 @@ export default function ReverSourisIslam() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-souris-islam-interpretation-islamique-et-conseils-spirituels-1.jpg"
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
                     alt="Interprétation islamique du rêve de souris et sa signification spirituelle"
                     width={1200}
                     height={720}
@@ -289,6 +297,14 @@ export default function ReverSourisIslam() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Par couleur */}
@@ -544,7 +560,7 @@ export default function ReverSourisIslam() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-souris-islam-interpretation-islamique-et-conseils-spirituels-2.jpg"
+                    src="/images/islam-science-savoir-connaissance-livre.jpg"
                     alt="Scénarios de rêves de souris en islam et leurs significations"
                     width={1200}
                     height={720}
@@ -800,7 +816,7 @@ export default function ReverSourisIslam() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-souris-islam-interpretation-islamique-et-conseils-spirituels-3.jpg"
+                    src="/images/famille-musulmane-lecture-coran-islam-education.jpg"
                     alt="Conseils spirituels pour réagir après un rêve de souris en islam"
                     width={1200}
                     height={720}

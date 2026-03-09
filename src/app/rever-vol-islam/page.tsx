@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'être victime de vol en islam : signification et interprétation",
   description:
     "Que signifie rêver de se faire voler en islam ? Interprétation du vol d'argent, de bijoux, de voiture et du cambriolage selon Ibn Sirin et An-Nabulsi. Guide complet.",
+  openGraph: {
+    title:
+      "Rêver d'être victime de vol en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de se faire voler en islam ? Interprétation du vol d'argent, de bijoux, de voiture et du cambriolage selon Ibn Sirin et An-Nabulsi. Guide complet.",
+    url: "https://www.islamreligion.fr/rever-vol-islam",
+    images: [{ url: "/images/mains-priere-doua-islam-invocation.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-vol-islam",
   },
@@ -361,6 +369,14 @@ export default function ReverVolIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Vol d'argent, bijoux, voiture */}

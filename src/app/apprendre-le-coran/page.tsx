@@ -11,10 +11,20 @@ export const metadata: Metadata = {
   title: "Apprendre le Coran : mémorisation, récitation et tajwid",
   description:
     "Comment apprendre le Coran ? Méthodes de mémorisation, règles de tajwid, planning concret et conseils adaptés à chaque profil (débutant, enfant, adulte, converti).",
+  openGraph: {
+    title:
+      "Apprendre le Coran : mémorisation, récitation et tajwid",
+    description:
+      "Comment apprendre le Coran ? Méthodes de mémorisation, règles de tajwid, planning concret et conseils adaptés à chaque profil (débutant, enfant, adulte, converti).",
+    url: "https://www.islamreligion.fr/apprendre-le-coran",
+    images: [{ url: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/apprendre-le-coran",
   },
 };
+
+export const revalidate = 86400;
 
 const tocItems = [
   { id: "merites", label: "Les mérites de l'apprentissage du Coran" },

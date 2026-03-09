@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "Remède arabe hémorroïdes : soins naturels et médecine prophétique",
   description:
     "Découvrez les remèdes arabes contre les hémorroïdes : huile de nigelle, miel, hijama, séné, hygiène prophétique et invocations de guérison issues du Coran et de la Sunna.",
+  openGraph: {
+    title:
+      "Remède arabe hémorroïdes : soins naturels et médecine prophétique",
+    description:
+      "Découvrez les remèdes arabes contre les hémorroïdes : huile de nigelle, miel, hijama, séné, hygiène prophétique et invocations de guérison issues du Coran et de la Sunna.",
+    url: "https://www.islamreligion.fr/remede-arabe-hemorroides",
+    images: [{ url: "/images/remede-yeux-islam-soins.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-hemorroides",
   },
@@ -612,6 +620,14 @@ export default function RemedeArabeHemorroides() {
                   </table>
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : La hijama */}

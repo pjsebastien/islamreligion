@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de livre en islam : signification et interprétation selon Ibn Sirin",
   description:
     "Que signifie rêver de livre en islam ? Livre ouvert, fermé, reçu, livre de la main droite ou gauche : interprétation selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de livre en islam : signification et interprétation selon Ibn Sirin",
+    description:
+      "Que signifie rêver de livre en islam ? Livre ouvert, fermé, reçu, livre de la main droite ou gauche : interprétation selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-livre-islam",
+    images: [{ url: "/images/islam-science-savoir-connaissance-livre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-livre-islam",
   },
@@ -356,6 +364,14 @@ export default function ReverLivreIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Lire un livre */}

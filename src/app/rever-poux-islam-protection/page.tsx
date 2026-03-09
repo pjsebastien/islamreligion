@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de poux en islam : purification nécessaire et protection spirituelle",
   description:
     "Découvrez la signification du rêve de poux en islam : purification nécessaire, avertissement et conseils pour renforcer votre protection spirituelle.",
+  openGraph: {
+    title:
+      "Rêver de poux en islam : purification nécessaire et protection spirituelle",
+    description:
+      "Découvrez la signification du rêve de poux en islam : purification nécessaire, avertissement et conseils pour renforcer votre protection spirituelle.",
+    url: "https://www.islamreligion.fr/rever-poux-islam-protection",
+    images: [{ url: "/images/priere-islam-doua-mosquee-silhouette.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-poux-islam-protection",
   },
@@ -84,7 +92,7 @@ export default function ReverPouxIslamProtection() {
         description:
           "Découvrez la signification du rêve de poux en islam : purification nécessaire, avertissement et conseils pour renforcer votre protection spirituelle.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-poux-en-islam-purification-necessaire-et-protection-spirituelle.jpg",
+          "/images/priere-islam-doua-mosquee-silhouette.jpg",
         datePublished: "2025-09-11",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -139,7 +147,7 @@ export default function ReverPouxIslamProtection() {
         <Hero
           title="Rêver de poux en islam : purification nécessaire et protection spirituelle"
           subtitle="Ce que symbolisent les poux dans un rêve selon la tradition islamique, les savants et les conseils de purification."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-poux-en-islam-purification-necessaire-et-protection-spirituelle.jpg"
+          imageSrc="/images/priere-islam-doua-mosquee-silhouette.jpg"
           imageAlt="Rêver de poux en islam, purification nécessaire et protection spirituelle"
           compact
         />
@@ -336,7 +344,7 @@ export default function ReverPouxIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-poux-en-islam-purification-necessaire-et-protection-spirituelle-1.jpg"
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
                     alt="Symbolisme du rêve de poux en islam et interprétation spirituelle"
                     width={1200}
                     height={720}
@@ -492,7 +500,7 @@ export default function ReverPouxIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-poux-en-islam-purification-necessaire-et-protection-spirituelle-2.jpg"
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
                     alt="Purification spirituelle après un rêve de poux en islam"
                     width={1200}
                     height={720}
@@ -507,6 +515,14 @@ export default function ReverPouxIslamProtection() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Significations psychologiques */}
@@ -794,7 +810,7 @@ export default function ReverPouxIslamProtection() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Rever-de-poux-en-islam-purification-necessaire-et-protection-spirituelle-3.jpg"
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
                     alt="Actions concrètes et protection spirituelle après un rêve de poux en islam"
                     width={1200}
                     height={720}

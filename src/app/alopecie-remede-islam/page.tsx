@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Alopécie remède islam : traitements naturels et médecine prophétique",
   description:
     "Découvrez les remèdes islamiques contre l\u2019alopécie : huile de nigelle, henné, miel, huile d\u2019olive et invocations de guérison. Médecine prophétique, alimentation selon la Sunna et soutien spirituel face à la chute de cheveux.",
+  openGraph: {
+    title:
+      "Alopécie remède islam : traitements naturels et médecine prophétique",
+    description:
+      "Découvrez les remèdes islamiques contre l\u2019alopécie : huile de nigelle, henné, miel, huile d\u2019olive et invocations de guérison. Médecine prophétique, alimentation selon la Sunna et soutien spirituel face à la chute de cheveux.",
+    url: "https://www.islamreligion.fr/alopecie-remede-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/09/Alopecie-remede-islam-traitements-naturels-et-invocations-de-guerison-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/alopecie-remede-islam",
   },
@@ -747,6 +755,14 @@ export default function AlopecieRemedeIslam() {
                   linkText="Voir les remèdes arabes et la médecine prophétique"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Alimentation selon la Sunna */}

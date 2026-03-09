@@ -11,10 +11,20 @@ export const metadata: Metadata = {
   title: "Apprendre l'arabe : méthode, alphabet et premiers pas",
   description:
     "Comment apprendre l'arabe ? Alphabet, méthode pour débutants, différences entre arabe littéraire et dialecte, et accès à une formation en ligne structurée.",
+  openGraph: {
+    title:
+      "Apprendre l'arabe : méthode, alphabet et premiers pas",
+    description:
+      "Comment apprendre l'arabe ? Alphabet, méthode pour débutants, différences entre arabe littéraire et dialecte, et accès à une formation en ligne structurée.",
+    url: "https://www.islamreligion.fr/apprendre-larabe",
+    images: [{ url: "/images/islam-science-savoir-connaissance-livre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/apprendre-larabe",
   },
 };
+
+export const revalidate = 86400;
 
 const tocItems = [
   { id: "pourquoi", label: "Pourquoi apprendre l'arabe ?" },
@@ -692,6 +702,12 @@ export default function ApprendreLarabe() {
               <section className="mt-12 rounded-xl bg-background-alt p-6">
                 <h2 className="text-lg font-bold text-primary">Sur le même sujet</h2>
                 <div className="mt-4 flex flex-wrap gap-3">
+                  <Link
+                    href="/formation-arabe-en-ligne"
+                    className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"
+                  >
+                    Meilleures formations d&apos;arabe en ligne
+                  </Link>
                   <Link
                     href="/apprendre-le-coran"
                     className="rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-secondary/30 hover:text-primary"

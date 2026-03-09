@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de cancer en islam : signification et interprétation",
   description:
     "Signification de rêver de cancer en islam selon Ibn Sirin et An-Nabulsi. Avoir un cancer, guérir, voir un proche malade : interprétations complètes.",
+  openGraph: {
+    title:
+      "Rêver de cancer en islam : signification et interprétation",
+    description:
+      "Signification de rêver de cancer en islam selon Ibn Sirin et An-Nabulsi. Avoir un cancer, guérir, voir un proche malade : interprétations complètes.",
+    url: "https://www.islamreligion.fr/rever-cancer-islam",
+    images: [{ url: "/images/mains-priere-doua-islam-invocation.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-cancer-islam",
   },
@@ -252,6 +260,14 @@ export default function ReverCancerIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* Section 3 - Avoir un cancer */}
               <section id="avoir-cancer" className="mb-12 scroll-mt-28">

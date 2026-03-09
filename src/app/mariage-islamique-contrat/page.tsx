@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Mariage islamique : contrat, conditions et obligations mutuelles",
   description:
     "Tout savoir sur le mariage islamique (Nikah) : conditions de validité, mahr, obligations des époux, clauses particulières et conseils pratiques pour un contrat conforme.",
+  openGraph: {
+    title:
+      "Mariage islamique : contrat, conditions et obligations mutuelles",
+    description:
+      "Tout savoir sur le mariage islamique (Nikah) : conditions de validité, mahr, obligations des époux, clauses particulières et conseils pratiques pour un contrat conforme.",
+    url: "https://www.islamreligion.fr/mariage-islamique-contrat",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Mariage-islamique-contrat-conditions-et-obligations-mutuelles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/mariage-islamique-contrat",
   },
@@ -470,6 +478,14 @@ export default function MariageIslamique() {
                   </li>
                 </ul>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Le mahr */}

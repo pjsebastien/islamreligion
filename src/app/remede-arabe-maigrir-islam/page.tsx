@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Remède arabe pour maigrir : méthodes saines selon l'islam et la médecine prophétique",
   description:
     "Découvrez les remèdes arabes pour maigrir en islam : jeûne, nigelle, miel, talbina, huile d'olive, activité physique et invocations prophétiques pour une perte de poids saine et durable.",
+  openGraph: {
+    title:
+      "Remède arabe pour maigrir : méthodes saines selon l'islam et la médecine prophétique",
+    description:
+      "Découvrez les remèdes arabes pour maigrir en islam : jeûne, nigelle, miel, talbina, huile d'olive, activité physique et invocations prophétiques pour une perte de poids saine et durable.",
+    url: "https://www.islamreligion.fr/remede-arabe-maigrir-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Remede-arabe-pour-maigrir-methodes-saines-selon-lislam-et-la-tradition-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-maigrir-islam",
   },
@@ -562,6 +570,14 @@ export default function RemedArabeMaigrirIslam() {
                   le pratiquer en cas de contre-indication m&eacute;dicale.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Aliments prophetiques */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de perdre ses cheveux en islam : signification",
   description:
     "Signification de rêver de perdre ses cheveux ou de se les couper en islam selon Ibn Sirin et An-Nabulsi. Interprétations homme et femme.",
+  openGraph: {
+    title:
+      "Rêver de perdre ses cheveux en islam : signification",
+    description:
+      "Signification de rêver de perdre ses cheveux ou de se les couper en islam selon Ibn Sirin et An-Nabulsi. Interprétations homme et femme.",
+    url: "https://www.islamreligion.fr/rever-perdre-cheveux-islam",
+    images: [{ url: "/images/dome-mosquee-croissant-lune-islam-architecture.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-perdre-cheveux-islam",
   },
@@ -425,6 +433,14 @@ export default function ReverPerdreCheveux() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Couper / raser */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rever de singe en islam : signification et interpretation des songes",
   description:
     "Que signifie rever de singe en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, singe agressif, joueur, en cage, transformation et conseils islamiques.",
+  openGraph: {
+    title:
+      "Rever de singe en islam : signification et interpretation des songes",
+    description:
+      "Que signifie rever de singe en islam ? Interpretation selon Ibn Sirin et An-Nabulsi, singe agressif, joueur, en cage, transformation et conseils islamiques.",
+    url: "https://www.islamreligion.fr/rever-singe-islam",
+    images: [{ url: "/images/motifs-geometriques-islam-croissant-etoile.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-singe-islam",
   },
@@ -357,6 +365,14 @@ export default function ReverSingeIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Singe agressif ou joueur */}

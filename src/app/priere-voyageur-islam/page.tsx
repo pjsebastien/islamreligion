@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Prière du voyageur : raccourcissement et conditions en islam",
   description:
     "Tout savoir sur la prière du voyageur en islam : raccourcissement (qasr), regroupement (jam), conditions, distance, durée et avis des quatre écoles juridiques.",
+  openGraph: {
+    title:
+      "Prière du voyageur : raccourcissement et conditions en islam",
+    description:
+      "Tout savoir sur la prière du voyageur en islam : raccourcissement (qasr), regroupement (jam), conditions, distance, durée et avis des quatre écoles juridiques.",
+    url: "https://www.islamreligion.fr/priere-voyageur-islam",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Priere-du-voyageur-raccourcissement-et-conditions-en-islam-1.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/priere-voyageur-islam",
   },
@@ -481,6 +489,14 @@ export default function PriereVoyageur() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Conditions pour le raccourcissement */}

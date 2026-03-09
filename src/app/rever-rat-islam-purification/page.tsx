@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de rat en islam : mise en garde et purification spirituelle",
   description:
     "Découvrez la signification de rêver de rat en islam : symboles d'avertissement, purification spirituelle et conseils pour interpréter ce rêve.",
+  openGraph: {
+    title:
+      "Rêver de rat en islam : mise en garde et purification spirituelle",
+    description:
+      "Découvrez la signification de rêver de rat en islam : symboles d'avertissement, purification spirituelle et conseils pour interpréter ce rêve.",
+    url: "https://www.islamreligion.fr/rever-rat-islam-purification",
+    images: [{ url: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-rat-islam-purification",
   },
@@ -82,7 +90,7 @@ export default function ReverRat() {
         description:
           "Découvrez la signification de rêver de rat en islam : symboles d'avertissement, purification spirituelle et conseils.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/10/Rever-de-rat-en-islam-mise-en-garde-et-purification-spirituelle.jpg",
+          "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg",
         datePublished: "2025-10-03",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -137,7 +145,7 @@ export default function ReverRat() {
         <Hero
           title="Rêver de rat en islam : mise en garde et purification spirituelle"
           subtitle="Signification du rêve de rat selon la tradition islamique, Ibn Sirin et les textes sacrés."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/10/Rever-de-rat-en-islam-mise-en-garde-et-purification-spirituelle.jpg"
+          imageSrc="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
           imageAlt="Rêver de rat en islam, mise en garde et purification spirituelle"
           compact
         />
@@ -330,7 +338,7 @@ export default function ReverRat() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/10/Rever-de-rat-en-islam-mise-en-garde-et-purification-spirituelle-1.jpg"
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
                     alt="Interprétation du rêve de rat en islam selon Ibn Sirin"
                     width={1200}
                     height={720}
@@ -489,7 +497,7 @@ export default function ReverRat() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/10/Rever-de-rat-en-islam-mise-en-garde-et-purification-spirituelle-2.jpg"
+                    src="/images/motif-arabesque-islamique-geometrie-dore.jpg"
                     alt="Purification spirituelle après un rêve de rat en islam"
                     width={1200}
                     height={720}
@@ -504,6 +512,14 @@ export default function ReverRat() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Impact vie quotidienne */}
@@ -686,7 +702,7 @@ export default function ReverRat() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/10/Rever-de-rat-en-islam-mise-en-garde-et-purification-spirituelle-3.jpg"
+                    src="/images/grande-mosquee-blanche-minarets-islam-architecture.jpg"
                     alt="Conseils pour la paix intérieure après un rêve de rat en islam"
                     width={1200}
                     height={720}

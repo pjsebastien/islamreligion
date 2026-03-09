@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de fausse couche en islam : signification, interprétation et conseils spirituels",
   description:
     "Que signifie rêver de fausse couche en islam ? Découvrez les interprétations selon Ibn Sirin et An-Nabulsi, le symbolisme selon le profil du rêveur et les conseils spirituels adaptés.",
+  openGraph: {
+    title:
+      "Rêver de fausse couche en islam : signification, interprétation et conseils spirituels",
+    description:
+      "Que signifie rêver de fausse couche en islam ? Découvrez les interprétations selon Ibn Sirin et An-Nabulsi, le symbolisme selon le profil du rêveur et les conseils spirituels adaptés.",
+    url: "https://www.islamreligion.fr/rever-fausse-couche-islam",
+    images: [{ url: "/images/femme-musulmane-hijab-lecture-coran-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-fausse-couche-islam",
   },
@@ -399,6 +407,14 @@ export default function ReverFausseCouche() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Rêver de perdre un bébé */}

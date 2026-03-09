@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     "Remède arabe endométriose : nigelle, hijama et soins prophétiques",
   description:
     "Découvrez les remèdes arabes et prophétiques pour accompagner l'endométriose : nigelle, miel, hijama, huile d'olive, invocations et alimentation anti-inflammatoire selon la Sunna.",
+  openGraph: {
+    title:
+      "Remède arabe endométriose : nigelle, hijama et soins prophétiques",
+    description:
+      "Découvrez les remèdes arabes et prophétiques pour accompagner l'endométriose : nigelle, miel, hijama, huile d'olive, invocations et alimentation anti-inflammatoire selon la Sunna.",
+    url: "https://www.islamreligion.fr/remede-arabe-endometriose",
+    images: [{ url: "/images/mains-priere-doua-islam-invocation.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-arabe-endometriose",
   },
@@ -732,6 +740,14 @@ export default function RemedeArabeEndometriose() {
                   </table>
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Invocations et douas */}

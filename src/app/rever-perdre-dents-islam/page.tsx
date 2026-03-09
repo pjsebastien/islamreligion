@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de perdre ses dents en islam : interprétation et messages spirituels",
   description:
     "Découvrez la signification du rêve de perdre ses dents en islam : interprétations, messages et conseils spirituels pour mieux comprendre.",
+  openGraph: {
+    title:
+      "Rêver de perdre ses dents en islam : interprétation et messages spirituels",
+    description:
+      "Découvrez la signification du rêve de perdre ses dents en islam : interprétations, messages et conseils spirituels pour mieux comprendre.",
+    url: "https://www.islamreligion.fr/rever-perdre-dents-islam",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-perdre-dents-islam",
   },
@@ -103,7 +111,7 @@ export default function ReverPerdreDents() {
         description:
           "Découvrez la signification du rêve de perdre ses dents en islam : interprétations, messages et conseils spirituels.",
         image:
-          "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-perdre-ses-dents-en-islam-interpretation-et-messages-spirituels.jpg",
+          "/images/coran-ouvert-nature-coucher-soleil-islam.jpg",
         datePublished: "2025-08-28",
         inLanguage: "fr-FR",
         isPartOf: { "@id": "https://www.islamreligion.fr/#website" },
@@ -158,7 +166,7 @@ export default function ReverPerdreDents() {
         <Hero
           title="Rêver de perdre ses dents en islam : interprétation et messages spirituels"
           subtitle="Signification du rêve de perte de dents selon la tradition islamique, Ibn Sirin et les textes sacrés."
-          imageSrc="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-perdre-ses-dents-en-islam-interpretation-et-messages-spirituels.jpg"
+          imageSrc="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
           imageAlt="Rêver de perdre ses dents en islam, interprétation et messages spirituels"
           compact
         />
@@ -322,7 +330,7 @@ export default function ReverPerdreDents() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-perdre-ses-dents-en-islam-interpretation-et-messages-spirituels-1.jpg"
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
                     alt="Symbolique des dents dans les rêves en islam, liens familiaux et interprétation"
                     width={1200}
                     height={720}
@@ -474,7 +482,7 @@ export default function ReverPerdreDents() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-perdre-ses-dents-en-islam-interpretation-et-messages-spirituels-2.jpg"
+                    src="/images/islam-science-savoir-connaissance-livre.jpg"
                     alt="Variantes des rêves de perte dentaire en islam, témoignages et interprétations"
                     width={1200}
                     height={720}
@@ -489,6 +497,14 @@ export default function ReverPerdreDents() {
                   linkText="Voir les 3 types de rêves en islam"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION : Dents une par une vs toutes */}
@@ -1022,7 +1038,7 @@ export default function ReverPerdreDents() {
 
                 <div className="mt-6 overflow-hidden rounded-xl">
                   <Image
-                    src="https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Rever-de-perdre-ses-dents-en-islam-interpretation-et-messages-spirituels-3.jpg"
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
                     alt="Conseils pratiques après un rêve de perte de dents en islam"
                     width={1200}
                     height={720}

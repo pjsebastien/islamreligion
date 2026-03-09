@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de bébé en islam : signification et interprétation complète",
   description:
     "Signification de rêver de bébé ou de nouveau-né en islam selon Ibn Sirin et An-Nabulsi. Bébé garçon, fille, qui pleure, souriant, allaiter.",
+  openGraph: {
+    title:
+      "Rêver de bébé en islam : signification et interprétation complète",
+    description:
+      "Signification de rêver de bébé ou de nouveau-né en islam selon Ibn Sirin et An-Nabulsi. Bébé garçon, fille, qui pleure, souriant, allaiter.",
+    url: "https://www.islamreligion.fr/rever-bebe-nouveau-ne-islam",
+    images: [{ url: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-bebe-nouveau-ne-islam",
   },
@@ -400,6 +408,14 @@ export default function ReverBebeNouveauNeIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Bébé qui pleure ou sourit */}

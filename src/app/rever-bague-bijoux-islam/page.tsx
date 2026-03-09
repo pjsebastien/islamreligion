@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de bague ou de bijoux en islam : signification et interprétation",
   description:
     "Que signifie rêver de bague, de collier ou de bijoux en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : bague en or, en argent, avec pierre précieuse, recevoir, perdre ou casser une bague.",
+  openGraph: {
+    title:
+      "Rêver de bague ou de bijoux en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de bague, de collier ou de bijoux en islam ? Interprétation selon Ibn Sirin et An-Nabulsi : bague en or, en argent, avec pierre précieuse, recevoir, perdre ou casser une bague.",
+    url: "https://www.islamreligion.fr/rever-bague-bijoux-islam",
+    images: [{ url: "/images/motif-arabesque-islamique-geometrie-dore.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-bague-bijoux-islam",
   },
@@ -346,6 +354,14 @@ export default function ReverBagueBijouxIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Matière de la bague */}

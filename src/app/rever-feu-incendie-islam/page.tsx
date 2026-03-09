@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de feu ou d'incendie en islam : signification complète",
   description:
     "Que signifie rêver de feu en islam ? Incendie, flammes, être brûlé, éteindre un feu : interprétation selon Ibn Sirin, An-Nabulsi et les sources coraniques.",
+  openGraph: {
+    title:
+      "Rêver de feu ou d'incendie en islam : signification complète",
+    description:
+      "Que signifie rêver de feu en islam ? Incendie, flammes, être brûlé, éteindre un feu : interprétation selon Ibn Sirin, An-Nabulsi et les sources coraniques.",
+    url: "https://www.islamreligion.fr/rever-feu-incendie-islam",
+    images: [{ url: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-feu-incendie-islam",
   },
@@ -340,6 +348,14 @@ export default function ReverFeuIncendieIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Feu destructeur vs feu bénéfique */}

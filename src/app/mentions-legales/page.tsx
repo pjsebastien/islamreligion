@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Mentions légales et politique de confidentialité",
   description:
     "Mentions légales, conditions d'utilisation et politique de confidentialité du site IslamReligion.fr.",
+  openGraph: {
+    title:
+      "Mentions légales et politique de confidentialité",
+    description:
+      "Mentions légales, conditions d'utilisation et politique de confidentialité du site IslamReligion.fr.",
+    url: "https://www.islamreligion.fr/mentions-legales",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/mentions-legales",
   },
@@ -133,7 +141,7 @@ export default function MentionsLegales() {
       {/* ============================================ */}
       {/* POLITIQUE DE CONFIDENTIALITÉ */}
       {/* ============================================ */}
-      <section className="mt-16">
+      <section id="confidentialite" className="mt-16 scroll-mt-24">
         <h2 className="text-2xl font-bold text-primary">
           Politique de confidentialité
         </h2>

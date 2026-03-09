@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver d'eau, de mer ou de nager en islam : signification",
   description:
     "Que signifie rêver d'eau en islam ? Eau claire, mer, nager, pluie, se noyer : interprétation selon Ibn Sirin, An-Nabulsi et les sources islamiques.",
+  openGraph: {
+    title:
+      "Rêver d'eau, de mer ou de nager en islam : signification",
+    description:
+      "Que signifie rêver d'eau en islam ? Eau claire, mer, nager, pluie, se noyer : interprétation selon Ibn Sirin, An-Nabulsi et les sources islamiques.",
+    url: "https://www.islamreligion.fr/rever-eau-mer-nager-islam",
+    images: [{ url: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-eau-mer-nager-islam",
   },
@@ -375,6 +383,14 @@ export default function ReverEauMerNagerIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Rêver de la mer et de l'océan */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de mouton ou d'agneau en islam : signification et interprétation",
   description:
     "Que signifie rêver de mouton ou d'agneau en islam ? Mouton blanc, noir, troupeau, sacrifice : interprétation selon Ibn Sirin et An-Nabulsi.",
+  openGraph: {
+    title:
+      "Rêver de mouton ou d'agneau en islam : signification et interprétation",
+    description:
+      "Que signifie rêver de mouton ou d'agneau en islam ? Mouton blanc, noir, troupeau, sacrifice : interprétation selon Ibn Sirin et An-Nabulsi.",
+    url: "https://www.islamreligion.fr/rever-mouton-agneau-islam",
+    images: [{ url: "/images/decoration-ramadan-islam-lanternes-croissant-lune.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-mouton-agneau-islam",
   },
@@ -334,6 +342,14 @@ export default function ReverMoutonAgneauIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Couleurs du mouton */}

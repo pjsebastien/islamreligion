@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Règles complètes du divorce en islam : talaq, khula et procédures",
   description:
     "Découvrez les règles du divorce en islam : talaq, khula, faskh, droits des époux, période de iddah, garde des enfants et procédures selon le Coran et la Sunna.",
+  openGraph: {
+    title:
+      "Règles complètes du divorce en islam : talaq, khula et procédures",
+    description:
+      "Découvrez les règles du divorce en islam : talaq, khula, faskh, droits des époux, période de iddah, garde des enfants et procédures selon le Coran et la Sunna.",
+    url: "https://www.islamreligion.fr/divorce-islam-talaq-khula",
+    images: [{ url: "https://www.blog.islamreligion.fr/wp-content/uploads/2025/08/Regles-completes-du-divorce-en-islam-talaq-khula-et-procedures.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/divorce-islam-talaq-khula",
   },
@@ -505,6 +513,14 @@ export default function DivorceIslam() {
                   href="/mariage-islamique-contrat"
                 />
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Envie d'approfondir votre compréhension ?"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Le khula */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de tortue en islam : patience, protection et sagesse spirituelle",
   description:
     "Que signifie rêver de tortue en islam ? Symbole de patience, de longévité et de protection divine. Interprétation selon Ibn Sirin, An-Nabulsi et la tradition musulmane.",
+  openGraph: {
+    title:
+      "Rêver de tortue en islam : patience, protection et sagesse spirituelle",
+    description:
+      "Que signifie rêver de tortue en islam ? Symbole de patience, de longévité et de protection divine. Interprétation selon Ibn Sirin, An-Nabulsi et la tradition musulmane.",
+    url: "https://www.islamreligion.fr/rever-tortue-islam",
+    images: [{ url: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-tortue-islam",
   },
@@ -418,6 +426,14 @@ export default function ReverTortueIslam() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Tortue terrestre vs marine */}

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de caca, uriner ou toilettes en islam : sens",
   description:
     "Signification de rêver de caca, d'uriner ou de toilettes en islam selon Ibn Sirin et An-Nabulsi. Purification, richesse et interprétations détaillées.",
+  openGraph: {
+    title:
+      "Rêver de caca, uriner ou toilettes en islam : sens",
+    description:
+      "Signification de rêver de caca, d'uriner ou de toilettes en islam selon Ibn Sirin et An-Nabulsi. Purification, richesse et interprétations détaillées.",
+    url: "https://www.islamreligion.fr/rever-caca-toilettes-islam",
+    images: [{ url: "/images/motifs-geometriques-islam-croissant-etoile.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-caca-toilettes-islam",
   },
@@ -433,6 +441,14 @@ export default function ReverCacaToilettes() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Toilettes */}

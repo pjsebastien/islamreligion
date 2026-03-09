@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     "Remède pour les yeux en islam : soins oculaires selon la sunna et la tradition prophétique",
   description:
     "Découvrez les remèdes prophétiques pour les yeux en islam : kohl ithmid, miel, nigelle, eau de zamzam, invocations de protection de la vue et conseils pratiques issus de la sunna.",
+  openGraph: {
+    title:
+      "Remède pour les yeux en islam : soins oculaires selon la sunna et la tradition prophétique",
+    description:
+      "Découvrez les remèdes prophétiques pour les yeux en islam : kohl ithmid, miel, nigelle, eau de zamzam, invocations de protection de la vue et conseils pratiques issus de la sunna.",
+    url: "https://www.islamreligion.fr/remede-yeux-islam-soins",
+    images: [{ url: "/images/remede-yeux-islam-soins.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/remede-yeux-islam-soins",
   },
@@ -597,6 +605,14 @@ export default function RemedeYeuxIslamSoins() {
                   />
                 </div>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Lisez les sources originales de la médecine prophétique"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Eau de zamzam et invocations */}

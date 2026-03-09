@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Rêver de président en islam : signification et interprétation complète",
   description:
     "Que signifie rêver de président en islam ? Découvrez les interprétations selon Ibn Sirin et An-Nabulsi : parler au président, devenir président, président en colère et plus encore.",
+  openGraph: {
+    title:
+      "Rêver de président en islam : signification et interprétation complète",
+    description:
+      "Que signifie rêver de président en islam ? Découvrez les interprétations selon Ibn Sirin et An-Nabulsi : parler au président, devenir président, président en colère et plus encore.",
+    url: "https://www.islamreligion.fr/rever-president-islam",
+    images: [{ url: "/images/islam-science-savoir-connaissance-livre.jpg", width: 1200, height: 630 }],
+  },
   alternates: {
     canonical: "https://www.islamreligion.fr/rever-president-islam",
   },
@@ -343,6 +351,14 @@ export default function ReverPresidentIslam() {
                   distingue d&apos;une lecture trop littérale du rêve.
                 </p>
               </section>
+
+              <ArticleCTA
+                variant="formation"
+                title="Comprenez vos rêves en lisant le Coran en arabe"
+                description="Apprenez à lire l'arabe et à comprendre le Coran grâce à des formations en ligne adaptées aux francophones."
+                href="/formation-arabe-en-ligne"
+                linkText="Voir les formations recommandées"
+              />
 
               {/* ============================================ */}
               {/* SECTION 3 : Parler au président */}
