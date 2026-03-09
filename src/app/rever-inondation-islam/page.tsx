@@ -306,6 +306,16 @@ export default function ReverInondationIslam() {
                   rêve peut avoir des significations radicalement différentes
                   selon la personne qui le fait.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee symbolisant le refuge spirituel face au reve d inondation"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -701,6 +711,16 @@ export default function ReverInondationIslam() {
                   peut signifier que le rêveur ne prend pas assez au sérieux
                   un danger qui se profile.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dome de mosquee avec croissant de lune symbolisant le refuge spirituel apres un reve d inondation"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

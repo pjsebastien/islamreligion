@@ -348,6 +348,16 @@ export default function ReverCleIslam() {
                   clé est cassée, rouillée ou perdue que le rêve
                   prend une connotation d&apos;avertissement.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune dore et etoiles, symbolisant les cles spirituelles dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />
@@ -753,6 +763,16 @@ export default function ReverCleIslam() {
                   clés dans ce contexte annonce la maîtrise de
                   plusieurs disciplines.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation en priere dans une mosquee, illustrant la gratitude apres un reve de cle en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -390,6 +390,16 @@ export default function ReverTigreIslam() {
                 </p>
 
                 <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune dore et etoiles, symbole islamique lie a l'interpretation des reves de tigre"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -728,6 +738,16 @@ export default function ReverTigreIslam() {
                   a puiser dans sa determination et sa foi en Allah pour
                   surmonter les obstacles.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation et priere en islam, attitude spirituelle recommandee apres un reve de tigre"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

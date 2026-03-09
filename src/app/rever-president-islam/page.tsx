@@ -263,6 +263,16 @@ export default function ReverPresidentIslam() {
                   height={450}
                   className="mt-8 w-full rounded-xl object-cover"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/symbole-islam-croissant-etoile-dore-mosquee.jpg"
+                    alt="Symbole islamique avec croissant et étoile dorés devant une mosquée, évoquant l'autorité dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -693,6 +703,16 @@ export default function ReverPresidentIslam() {
                   persévérer dans ses efforts et à garder confiance en son
                   parcours.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains en prière et invocation en islam, attitude spirituelle après un rêve de président"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

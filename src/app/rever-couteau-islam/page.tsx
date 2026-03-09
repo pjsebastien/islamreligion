@@ -330,6 +330,16 @@ export default function ReverCouteauIslam() {
                   pain ou préparer un repas n&apos;a pas la même valeur qu&apos;un
                   couteau brandi de manière menaçante.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-lanternes-islam-ramadan.jpg"
+                    alt="Croissant de lune doré et lanternes islamiques, évoquant la dimension spirituelle du rêve de couteau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -806,6 +816,16 @@ export default function ReverCouteauIslam() {
                       concurrent.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/musulman-tenant-coran-chapelet-islam-foi.jpg"
+                    alt="Musulman tenant le Coran et un chapelet, symbolisant la foi et les conseils après un rêve de couteau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

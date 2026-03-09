@@ -310,6 +310,16 @@ export default function ReverViandeIslam() {
                   choses, même si la viande cuite reste toujours préférable
                   dans l&apos;interprétation.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la sagesse islamique dans l'interprétation des rêves de viande"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -730,6 +740,16 @@ export default function ReverViandeIslam() {
                       placez votre confiance en Allah.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en prière et invocation, conseils après un rêve de viande en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

@@ -473,6 +473,16 @@ export default function ReverCharbonIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
+                    alt="Calligraphie du nom d Allah sur bois, illustrant la symbolique spirituelle du charbon dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -857,6 +867,16 @@ export default function ReverCharbonIslam() {
                       redoubler d&apos;efforts dans l&apos;étude.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation en priere dans une mosquee, symbolisant le repentir et la purification apres un reve de charbon"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

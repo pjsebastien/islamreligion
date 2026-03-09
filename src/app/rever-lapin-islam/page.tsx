@@ -406,6 +406,16 @@ export default function ReverLapinIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec un chapelet en bois, symbolisant la recherche de sens dans les reves de lapin en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -882,6 +892,16 @@ export default function ReverLapinIslam() {
                       prépare un soulagement pour chaque difficulté.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee, illustrant la spiritualite apres un reve de lapin en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

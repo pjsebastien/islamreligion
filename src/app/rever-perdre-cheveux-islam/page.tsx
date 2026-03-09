@@ -414,6 +414,16 @@ export default function ReverPerdreCheveux() {
                   href="/reves-islam"
                   linkText="Voir les 3 types de rêves en islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en prière dans une mosquée, symbolisant la réflexion spirituelle après un rêve de perte de cheveux"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -874,6 +884,16 @@ export default function ReverPerdreCheveux() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en doua et invocation, conseils pratiques après un rêve de perte de cheveux en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

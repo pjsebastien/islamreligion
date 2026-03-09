@@ -378,6 +378,16 @@ export default function ReverDivorceIslam() {
                   href="/reves-islam"
                   linkText="Comprendre les 3 types de rêves en islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie symbolisant les valeurs du foyer et la réflexion sur le divorce dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -830,6 +840,16 @@ export default function ReverDivorceIslam() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, invitant à la réflexion spirituelle après un rêve de divorce en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

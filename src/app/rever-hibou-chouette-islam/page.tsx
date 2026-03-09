@@ -340,6 +340,16 @@ export default function ReverHibouChouetteIslam() {
                   </Link>{" "}
                   peut combiner ces deux symboliques, mêlant avertissement et appel spirituel.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg"
+                    alt="Mosquee miniature sous un ciel etoile, evoquant le mystere nocturne du hibou dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -684,6 +694,16 @@ export default function ReverHibouChouetteIslam() {
                       de Dieu est le meilleur remède à l&apos;angoisse.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dome de mosquee et croissant de lune, symbole de protection divine apres un reve de hibou en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

@@ -329,6 +329,16 @@ export default function ReverFeuIncendieIslam() {
                   de rêve invite le croyant à prêter une attention
                   particulière aux paroles entendues dans le songe.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation et prière dans une mosquée, symbolisant le recours à Allah après un rêve de feu en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -859,6 +869,16 @@ export default function ReverFeuIncendieIslam() {
                   à revenir vers son Créateur avec humilité et
                   détermination.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en invocation et doua, attitude recommandée après un rêve de feu ou d'incendie en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

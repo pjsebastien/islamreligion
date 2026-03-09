@@ -306,6 +306,16 @@ export default function ReverElephantIslam() {
                   éléphant sombre, et un éléphant particulièrement grand amplifie la
                   signification, qu&apos;elle soit positive ou négative.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la sagesse de l'interprétation des rêves d'éléphant en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -612,6 +622,16 @@ export default function ReverElephantIslam() {
                       y voyait le signe de transactions fructueuses et de prospérité durable.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en prière et invocation en islam, symbolisant les conseils spirituels après un rêve d'éléphant"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

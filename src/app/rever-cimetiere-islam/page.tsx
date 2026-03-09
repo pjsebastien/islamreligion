@@ -415,6 +415,16 @@ export default function ReverCimetiere() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la méditation sur la mort et le cimetière dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -794,6 +804,16 @@ export default function ReverCimetiere() {
                       qu&apos;un passage.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation en prière dans une mosquée, attitude spirituelle recommandée après un rêve de cimetière en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

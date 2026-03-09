@@ -346,6 +346,16 @@ export default function ReverSingeIslam() {
                     du reveur et des circonstances du songe.
                   </p>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
+                    alt="Coran et chapelet tasbih, sources de sagesse pour l'interpretation des reves de singe en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -704,6 +714,16 @@ export default function ReverSingeIslam() {
                   authentiques et a privilegier la comprehension sur la
                   memorisation vide de sens.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere dans une mosquee, attitude de reflexion apres un reve de singe en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

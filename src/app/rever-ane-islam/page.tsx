@@ -523,6 +523,16 @@ export default function ReverAneIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
+                    alt="Coran et chapelet tasbih, symbolisant l'etude des reves d'ane dans la tradition islamique"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -937,6 +947,16 @@ export default function ReverAneIslam() {
                       cette periode.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et doua en islam, conseils spirituels apres un reve d'ane"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

@@ -393,6 +393,16 @@ export default function ReverPrisonIslam() {
                   signification est moins alarmante que s&apos;ils sont
                   agressifs ou malveillants.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dôme de mosquée et croissant de lune, symbole d'espoir et de libération dans le rêve de prison en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -730,6 +740,16 @@ export default function ReverPrisonIslam() {
                       agir concrètement pour se libérer du poids financier.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, méditation et réflexion après un rêve de prison en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

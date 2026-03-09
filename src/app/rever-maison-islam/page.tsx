@@ -388,6 +388,16 @@ export default function ReverMaisonIslam() {
                   personnel, des émotions ressenties pendant le rêve et
                   des détails observés.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie, symbolisant la maison comme foyer familial dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -804,6 +814,16 @@ export default function ReverMaisonIslam() {
                       droiture.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dome de mosquee sous le croissant de lune, rappelant la dimension spirituelle du reve de maison en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

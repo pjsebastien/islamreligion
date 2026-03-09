@@ -388,6 +388,16 @@ export default function ReverFausseCouche() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains en priere et invocation pour trouver le reconfort apres un reve de fausse couche en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -714,6 +724,16 @@ export default function ReverFausseCouche() {
                   description="Découvrez les significations du rêve d'accouchement selon la tradition islamique et les savants musulmans."
                   href="/rever-accoucher-islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee evoquant le recueillement apres un reve de fausse couche en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

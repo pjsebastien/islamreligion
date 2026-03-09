@@ -326,6 +326,16 @@ export default function ReverGateauIslam() {
                   avec malaise ou sans appétit peut indiquer un bienfait que
                   le rêveur ne sait pas apprécier à sa juste valeur.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, symbolisant l'interprétation des rêves de gâteau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -721,6 +731,16 @@ export default function ReverGateauIslam() {
                   enceinte annoncent un accouchement facile et un enfant béni,
                   avec la permission d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie symbolisant les valeurs de partage et de joie liées au rêve de gâteau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

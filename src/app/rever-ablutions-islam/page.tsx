@@ -297,6 +297,16 @@ export default function ReverAblutionsIslam() {
               ou prie est le signe d&apos;une foi solide et d&apos;un cheminement spirituel béni.
             </p>
 
+            <div className="mt-6 overflow-hidden rounded-xl">
+              <Image
+                src="/images/mains-priere-doua-islam-invocation.jpg"
+                alt="Mains levées en prière et invocation en islam, symbolisant la purification spirituelle des ablutions dans les rêves"
+                width={1200}
+                height={720}
+                className="w-full object-cover"
+              />
+            </div>
+
             {/* Section 3 */}
             <h2 id="completes-incompletes" className="scroll-mt-24">
               Ablutions complètes ou incomplètes : deux messages distincts
@@ -444,6 +454,16 @@ export default function ReverAblutionsIslam() {
               description="La purification rituelle est au coeur de la pratique musulmane. Apprenez à réciter le Coran et à comprendre les enseignements en arabe."
               preselect="coran"
             />
+
+            <div className="mt-6 overflow-hidden rounded-xl">
+              <Image
+                src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                alt="Dôme de mosquée avec croissant de lune, symbolisant le lieu de prière et les ablutions en islam"
+                width={1200}
+                height={720}
+                className="w-full object-cover"
+              />
+            </div>
 
             {/* Section 8 */}
             <h2 id="conseils" className="scroll-mt-24">

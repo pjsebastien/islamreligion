@@ -380,6 +380,16 @@ export default function ReverDisputeBagarreIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et invocation, illustrant la recherche d'apaisement apres un reve de dispute en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -821,6 +831,16 @@ export default function ReverDisputeBagarreIslam() {
                   flamme, le conflit onirique peut purifier ou détruire,
                   selon l&apos;attitude du rêveur et sa relation avec Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet, rappelant les conseils islamiques de reconciliation apres un reve de dispute"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -353,6 +353,16 @@ export default function ReverMaraboutIslam() {
                     dans le rêve comme dans la réalité.
                   </p>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune dore et etoiles, symbolisant la guidance divine dans les reves de marabout en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -778,6 +788,16 @@ export default function ReverMaraboutIslam() {
                       ne sont pas pures. La vigilance reste de mise.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee, illustrant la protection spirituelle apres un reve de marabout en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

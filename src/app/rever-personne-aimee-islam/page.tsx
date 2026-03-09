@@ -322,6 +322,16 @@ export default function ReverPersonneAimeeIslam() {
                   tel rêve et recommandait de faire une prière de deux
                   unités (<em>rak&apos;atayn</em>) pour remercier Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en invocation illustrant la priere pour une personne aimee en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -672,6 +682,16 @@ export default function ReverPersonneAimeeIslam() {
                   </Link>{" "}
                   développe ces interprétations en profondeur.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
+                    alt="Femme musulmane lisant le Coran illustrant la reflexion spirituelle apres un reve de personne aimee"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

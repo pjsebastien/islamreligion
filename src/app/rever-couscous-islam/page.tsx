@@ -349,6 +349,16 @@ export default function ReverCouscousIslam() {
                   className="mt-8 w-full rounded-xl object-cover"
                   loading="lazy"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane partageant un repas de couscous dans une ambiance chaleureuse"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -761,6 +771,16 @@ export default function ReverCouscousIslam() {
                       métaphore de l&apos;apprentissage méthodique.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune dore et etoiles symbole islamique evoquant la benediction divine dans le reve de couscous"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

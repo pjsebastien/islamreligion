@@ -298,6 +298,16 @@ export default function ReverVacheIslam() {
                   observés par le rêveur.
                 </p>
 
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, méditation sur la symbolique de la vache en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
+
                 <h3 className="mt-8 text-xl font-semibold text-foreground">
                   L&apos;interprétation d&apos;An-Nabulsi
                 </h3>
@@ -649,6 +659,16 @@ export default function ReverVacheIslam() {
                   et la confiance en Allah (<em>tawakkul</em>) sont les
                   clés pour traverser ces cycles.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motif-arabesque-islamique-geometrie-dore.jpg"
+                    alt="Motif arabesque islamique doré, symbole de la richesse et de la prospérité liées au rêve de vache"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

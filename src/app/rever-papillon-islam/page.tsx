@@ -422,6 +422,16 @@ export default function ReverPapillonIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motifs-geometriques-islam-croissant-etoile.jpg"
+                    alt="Motifs geometriques islamiques evoquant la beaute et la symetrie du papillon dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -952,6 +962,16 @@ export default function ReverPapillonIslam() {
                       puissant à persévérer sur la voie droite.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-lanterne-islam-decoration-pastel.jpg"
+                    alt="Lanterne islamique et croissant de lune en decoration pastel evoquant la legerete du papillon en reve"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

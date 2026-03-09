@@ -345,6 +345,16 @@ export default function ReverLivreIslam() {
                   métaphysique profonde qui dépasse le simple symbole du
                   savoir terrestre.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec un chapelet en bois symbolisant la quete de savoir dans le reve de livre en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -733,6 +743,16 @@ export default function ReverLivreIslam() {
                   la lecture du Coran et les invocations pour trouver
                   l&apos;apaisement et la clarté.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
+                    alt="Calligraphie du nom d Allah sur coeur en bois evoquant la foi et le savoir dans le reve de livre en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

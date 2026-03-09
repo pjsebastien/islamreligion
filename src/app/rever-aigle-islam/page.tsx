@@ -332,6 +332,16 @@ export default function ReverAigleIslam() {
                   relation avec Allah influencent profondement la signification
                   du songe.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, illustrant les references des savants sur le reve d aigle en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -660,6 +670,16 @@ export default function ReverAigleIslam() {
                   face a son etat. Dans tous les cas, le recours a la priere
                   et a la confiance en Allah est recommande.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee au coucher du soleil, symbolisant la confiance en Allah apres un reve d aigle"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />

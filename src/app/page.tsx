@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { publishSchedule, isPublished } from "@/data/publishSchedule";
 
 export const metadata: Metadata = {
   title: "Islam religion : définition, piliers et croyances musulmanes",
@@ -1035,6 +1036,67 @@ export default function Home() {
             </article>
           </div>
         </div>
+
+        {/* Section : Derniers articles publiés */}
+        {(() => {
+          const latestArticles = publishSchedule
+            .filter((a) => isPublished(a.publishDate))
+            .sort((a, b) => b.publishDate.localeCompare(a.publishDate))
+            .slice(0, 6);
+
+          if (latestArticles.length === 0) return null;
+
+          return (
+            <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+              <h2 className="text-2xl font-bold text-primary lg:text-3xl">
+                Derniers articles publiés
+              </h2>
+              <p className="mt-2 text-foreground-secondary">
+                Découvrez nos interprétations les plus récentes sur les rêves en islam.
+              </p>
+
+              <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {latestArticles.map((article) => (
+                  <Link
+                    key={article.slug}
+                    href={`/${article.slug}`}
+                    className="group overflow-hidden rounded-xl border border-border bg-white shadow-sm transition-shadow hover:shadow-md"
+                  >
+                    <div className="aspect-[16/10] overflow-hidden">
+                      <Image
+                        src={article.image}
+                        alt={article.label}
+                        width={600}
+                        height={375}
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <span className="text-xs font-medium uppercase tracking-wide text-secondary">
+                        {article.category}
+                      </span>
+                      <h3 className="mt-1 text-base font-semibold text-primary group-hover:text-secondary transition-colors">
+                        {article.label}
+                      </h3>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+
+              <div className="mt-8 text-center">
+                <Link
+                  href="/reves-islam"
+                  className="inline-flex items-center gap-2 rounded-lg bg-secondary px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-secondary-dark"
+                >
+                  Voir tous les rêves en islam
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </Link>
+              </div>
+            </section>
+          );
+        })()}
       </main>
     </>
   );

@@ -350,6 +350,16 @@ export default function ReverVolIslam() {
                   et invite le croyant à renforcer ses invocations et
                   sa vigilance.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Musulman en prosternation dans une mosquee illustrant la protection par la priere contre le vol en reve"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -707,6 +717,16 @@ export default function ReverVolIslam() {
                   preuve de patience et à se rappeler que toute épreuve
                   est une occasion de se rapprocher d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune et etoiles dores symbolisant la confiance en Allah apres un reve de vol en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

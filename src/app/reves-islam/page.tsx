@@ -526,7 +526,7 @@ export default function RevesIslam() {
                     { href: "/rever-crocodile-islam-protection", label: "Rêver de crocodile" },
                     { href: "/cafard-islam-signification", label: "Rêver de cafard" },
                     ...publishSchedule
-                      .filter((a) => a.category === "animaux" && isPublished(a.publishDate))
+                      .filter((a) => a.category === "animaux" && isPublished(a.publishDate) && !["rever-souris-islam", "rever-chien-islam-signification", "rever-rat-islam-purification", "rever-poux-islam-protection", "rever-chat-islam-symbolisme", "rever-crocodile-islam-protection"].includes(a.slug))
                       .map((a) => ({ href: `/${a.slug}`, label: a.label })),
                   ].map((link) => (
                     <Link
@@ -556,7 +556,7 @@ export default function RevesIslam() {
                     { href: "/reve-erotique-islam-purification", label: "Rêve érotique en islam" },
                     { href: "/mariage-islam-presages-significations", label: "Rêver de mariage" },
                     ...publishSchedule
-                      .filter((a) => a.category === "actions" && isPublished(a.publishDate))
+                      .filter((a) => a.category === "actions" && isPublished(a.publishDate) && !["rever-tirer-dessus-islam", "rever-mort-islam-messages", "rever-perdre-dents-islam", "rever-enceinte-islam", "rever-accoucher-islam"].includes(a.slug))
                       .map((a) => ({ href: `/${a.slug}`, label: a.label })),
                   ].map((link) => (
                     <Link

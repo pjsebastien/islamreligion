@@ -332,6 +332,16 @@ export default function ReverParfumIslam() {
                   la personne qui le porte et de l&apos;émotion ressentie
                   par le rêveur.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-lanternes-islam-ramadan.jpg"
+                    alt="Croissant de lune dore et lanternes islamiques, evoquant la beaute et la spiritualite du parfum dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -523,6 +533,16 @@ export default function ReverParfumIslam() {
                   </Link>
                   , où chaque élément modifie la signification globale.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
+                    alt="Calligraphie du nom d'Allah sur un coeur en bois, symbolisant la purete spirituelle associee au parfum en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

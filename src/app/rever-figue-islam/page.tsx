@@ -337,6 +337,16 @@ export default function ReverFigueIslam() {
                   réflexion sur ses sources de revenus, sa relation à
                   l&apos;argent et la licéité de ses biens.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil evoquant la spiritualite liee au reve de figue en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -715,6 +725,16 @@ export default function ReverFigueIslam() {
                   bénédiction en islam : le bien partagé est un bien
                   multiplié.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motif-arabesque-islamique-geometrie-dore.jpg"
+                    alt="Motif arabesque islamique dore evoquant la beaute et la richesse symbolique de la figue en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />

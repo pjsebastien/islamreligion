@@ -397,6 +397,16 @@ export default function ReverLoupIslam() {
                   description="Decouvrez ce que symbolise le tigre dans un reve selon la tradition islamique et les savants."
                   href="/rever-tigre-islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la sagesse divine dans l'interpretation des reves de loup en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -839,6 +849,16 @@ export default function ReverLoupIslam() {
                   d&apos;une personne de science est recommandee pour les
                   reves particulierement marquants ou recurrents.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et invocation, attitude recommandee apres un reve de loup en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

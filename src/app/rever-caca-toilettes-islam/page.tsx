@@ -422,6 +422,16 @@ export default function ReverCacaToilettes() {
                   href="/reves-islam"
                   linkText="Voir les 3 types de rêves en islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dôme de mosquée avec croissant de lune, architecture islamique symbolisant la purification spirituelle"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -942,6 +952,16 @@ export default function ReverCacaToilettes() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en invocation et prière, attitude recommandée après un rêve lié aux toilettes en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

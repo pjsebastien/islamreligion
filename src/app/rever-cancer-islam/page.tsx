@@ -241,6 +241,16 @@ export default function ReverCancerIslam() {
                 <p className="mb-4 leading-relaxed text-foreground-secondary">
                   Les deux savants s&apos;accordent sur un point fondamental : <strong>l&apos;interprétation d&apos;un rêve ne peut jamais être figée</strong>. Elle dépend du contexte personnel du rêveur, de son état de foi, de ses préoccupations du moment et des détails précis du songe. Un même rêve de cancer peut avoir des significations radicalement différentes selon la personne qui le fait.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, symbolisant les enseignements des savants Ibn Sirin et An-Nabulsi sur les reves de maladie"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* Section 3 - Avoir un cancer */}
@@ -399,6 +409,16 @@ export default function ReverCancerIslam() {
                 <p className="mb-4 leading-relaxed text-foreground-secondary">
                   Rêver de cancer pendant une période de stress (examens, changement de travail, déménagement) traduit simplement la <strong>peur de l&apos;échec ou de l&apos;inconnu</strong>. Le cancer symbolise ici ce qui pourrait mal tourner et échapper au contrôle. Ce rêve invite à placer sa confiance en Allah (tawakkul) tout en fournissant les efforts nécessaires.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
+                    alt="Femme musulmane en hijab lisant le Coran, illustrant la serenite et la confiance en Allah apres un reve de cancer"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />

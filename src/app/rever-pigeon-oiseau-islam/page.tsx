@@ -462,6 +462,16 @@ export default function ReverPigeonOiseauIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/grande-mosquee-blanche-minarets-islam-architecture.jpg"
+                    alt="Grande mosquee blanche aux minarets, architecture islamique liee a la symbolique du pigeon en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -902,6 +912,16 @@ export default function ReverPigeonOiseauIslam() {
                       et sa capacite a proteger les siens.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
+                    alt="Calligraphie du nom d'Allah sur coeur en bois, symbole de foi et de spiritualite lie au reve d'oiseau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

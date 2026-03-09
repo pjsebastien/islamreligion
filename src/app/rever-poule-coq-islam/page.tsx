@@ -387,6 +387,16 @@ export default function ReverPouleCoqIslam() {
                   invite toujours le reveur a s&apos;interroger sur l&apos;etat de son
                   foyer et de sa spiritualite.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie, valeurs islamiques du foyer liees au reve de poule et de coq"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -625,6 +635,16 @@ export default function ReverPouleCoqIslam() {
                   islamique. Ce reve encourage la perseverance et la confiance
                   en la misericorde divine.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/musulman-tenant-coran-chapelet-islam-foi.jpg"
+                    alt="Musulman tenant le Coran et un chapelet, symbole de foi et de reflexion apres un reve de poule ou de coq"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

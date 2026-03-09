@@ -436,6 +436,16 @@ export default function ReverAbeilleGuepeIslam() {
                   description="Découvrez ce que symbolisent les poux dans un rêve et les conseils de purification des savants."
                   href="/rever-poux-islam-protection"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-lanternes-islam-ramadan.jpg"
+                    alt="Croissant de lune doré et lanternes islamiques, symboles spirituels liés au rêve d'abeille en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -640,6 +650,16 @@ export default function ReverAbeilleGuepeIslam() {
                       dans le rêve symbolise la victoire sur cet adversaire.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains en prière et invocation en islam, attitude spirituelle après un rêve d'abeille ou de guêpe"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

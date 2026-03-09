@@ -394,6 +394,16 @@ export default function ReverPainIslam() {
                   encore reconnu ? Ce rêve est un rappel miséricordieux
                   qui pousse à la repentance et à la purification.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, symboles de la foi islamique liés à l'interprétation du rêve de pain"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -681,6 +691,16 @@ export default function ReverPainIslam() {
                   affirme que le pain dans le rêve du nécessiteux est une
                   promesse de soulagement et de subsistance prochaine.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie, valeurs islamiques de partage et de subsistance liées au rêve de pain"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

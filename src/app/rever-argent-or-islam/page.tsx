@@ -305,6 +305,16 @@ export default function ReverArgentOrIslam() {
                   par les attraits de ce monde. Cette distinction est
                   fondamentale dans la tradition onirique islamique.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
+                    alt="Coran et chapelet tasbih, symboles de la tradition islamique liés à l'interprétation des rêves d'argent et d'or"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -654,6 +664,16 @@ export default function ReverArgentOrIslam() {
                   aumônes. La purification des biens matériels est une voie
                   vers la sérénité du coeur et la clarté des rêves.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levées en prière et invocation, attitude recommandée après un rêve d'argent ou d'or en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* AffiliateForm */}

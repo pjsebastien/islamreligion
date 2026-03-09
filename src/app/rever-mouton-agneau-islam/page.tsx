@@ -323,6 +323,16 @@ export default function ReverMoutonAgneauIslam() {
                   peut indiquer la rencontre avec une personne influente ou
                   l&apos;accès à une position de responsabilité.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert et chapelet en bois, symboles de la foi islamique liés à l'interprétation des rêves de mouton"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -671,6 +681,16 @@ export default function ReverMoutonAgneauIslam() {
                   cela annonce le retour de la vitalité et de l&apos;énergie
                   avec la permission d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie symbolisant les valeurs islamiques et la bénédiction dans le rêve de mouton"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

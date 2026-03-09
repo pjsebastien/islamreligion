@@ -407,6 +407,16 @@ export default function ReverTortueIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg"
+                    alt="Mosquee miniature sous un ciel etoile, evoquant la patience et la sagesse de la tortue dans les reves islamiques"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -818,6 +828,16 @@ export default function ReverTortueIslam() {
                       condition de persévérer dans l&apos;effort et la prière.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation en priere dans une mosquee, rappelant l'importance de la patience et de la priere apres un reve de tortue"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

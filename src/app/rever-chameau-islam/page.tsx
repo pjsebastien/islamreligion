@@ -335,6 +335,16 @@ export default function ReverChameauIslam() {
                   </Link>
                   , autre monture prestigieuse de la tradition arabe.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la sagesse des savants sur les reves de chameau en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -833,6 +843,16 @@ export default function ReverChameauIslam() {
                   , porte une signification propre que les savants decryptent
                   avec soin.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/musulman-tenant-coran-chapelet-islam-foi.jpg"
+                    alt="Musulman tenant le Coran et un chapelet, illustrant la foi et la reflexion apres un reve de chameau"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

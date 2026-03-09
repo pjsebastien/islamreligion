@@ -335,6 +335,16 @@ export default function ReverAccidentVoitureIslam() {
                   croyant face à ce rêve doit être le recours à Allah, la prière et
                   l&apos;examen de conscience, jamais la panique ou la superstition.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune doré et étoiles, symbole islamique pour illustrer l'interprétation des rêves d'accident"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -701,6 +711,16 @@ export default function ReverAccidentVoitureIslam() {
                   que la vie est en ordre, alors il mérite une réflexion plus approfondie.
                   Dans le cas contraire, la sérénité et la confiance en Allah suffisent.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en prière dans une mosquée, attitude spirituelle recommandée après un rêve d'accident en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* AffiliateForm */}

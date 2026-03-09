@@ -349,6 +349,16 @@ export default function ReverPereIslam() {
                     al-Bukhari)
                   </p>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et doua, illustrant le lien spirituel avec le pere dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -765,6 +775,16 @@ export default function ReverPereIslam() {
                       l&apos;épreuve sera surmontée avec patience et foi.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, rappelant les conseils islamiques apres un reve de son pere"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

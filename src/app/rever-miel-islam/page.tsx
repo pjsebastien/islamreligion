@@ -312,6 +312,16 @@ export default function ReverMielIslam() {
                   Le rêveur doit alors s&apos;interroger sur la licéité de
                   ses revenus et la sincérité de son entourage.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, evoquant la douceur et la benediction du miel dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -616,6 +626,16 @@ export default function ReverMielIslam() {
                   parole de vérité et à l&apos;éloquence au service
                   de la religion.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune et etoiles dores, symbole islamique illustrant la benediction divine liee au miel dans les reves"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

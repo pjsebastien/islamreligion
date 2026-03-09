@@ -323,6 +323,16 @@ export default function ReverVomirIslam() {
                   négligence. Cette nuance est fondamentale pour comprendre la
                   portée du rêve.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
+                    alt="Coran et chapelet tasbih, symboles de purification spirituelle liés au rêve de vomir en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -621,6 +631,16 @@ export default function ReverVomirIslam() {
                   à se recentrer sur l&apos;essentiel, à se rapprocher
                   d&apos;Allah et à choisir un entourage vertueux.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation et prière en islam, attitude de repentance et de purification après un rêve de vomissement"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

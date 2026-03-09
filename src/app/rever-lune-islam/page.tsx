@@ -436,6 +436,16 @@ export default function ReverLuneIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-lanterne-islam-decoration-pastel.jpg"
+                    alt="Croissant de lune et lanterne islamique dans une ambiance pastel, symbolisant la douceur de la lune dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -872,6 +882,16 @@ export default function ReverLuneIslam() {
                   des hadiths et l&apos;approfondissement de la jurisprudence
                   islamique (fiqh).
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motifs-geometriques-islam-croissant-etoile.jpg"
+                    alt="Motifs géométriques islamiques avec croissant et étoile, évoquant la beauté de la lune dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

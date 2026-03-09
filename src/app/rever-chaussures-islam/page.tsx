@@ -342,6 +342,16 @@ export default function ReverChaussuresIslam() {
                   l&apos;interprétation à la situation réelle du rêveur pour
                   en extraire un sens juste et utile.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motif-arabesque-islamique-geometrie-dore.jpg"
+                    alt="Motif arabesque islamique dore, evoquant la richesse symbolique des chaussures dans les reves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -676,6 +686,16 @@ export default function ReverChaussuresIslam() {
                   C&apos;est un rappel de la miséricorde d&apos;Allah envers
                   Ses serviteurs dans les moments de difficulté.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, rappelant les conseils islamiques pour interpreter les reves de chaussures"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

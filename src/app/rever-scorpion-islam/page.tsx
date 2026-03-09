@@ -503,6 +503,16 @@ export default function ReverScorpionIslam() {
                   href="/reves-islam"
                   linkText="Voir les 3 types de rêves en islam"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, symbolisant la sagesse des savants sur le reve de scorpion en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -961,6 +971,16 @@ export default function ReverScorpionIslam() {
                   </Link>
                   .
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motifs-geometriques-islam-croissant-etoile.jpg"
+                    alt="Motifs geometriques islamiques avec croissant et etoile, illustrant la protection spirituelle contre le scorpion en reve"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -433,6 +433,16 @@ export default function ReverDattesIslam() {
                     musulmane, notamment lors de la rupture du jeûne.
                   </p>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg"
+                    alt="Lanternes orientales, croissant de lune et dattes du Ramadan, symboles islamiques liés au rêve de dattes"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -762,6 +772,16 @@ export default function ReverDattesIslam() {
                       l&apos;âme, tout comme la datte nourrit le corps.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-nature-coucher-soleil-islam.jpg"
+                    alt="Coran ouvert dans la nature au coucher du soleil, méditation spirituelle après un rêve de dattes en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

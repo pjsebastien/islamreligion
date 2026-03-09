@@ -295,6 +295,16 @@ export default function ReverMecqueKaabaIslam() {
                   </Link>
                   .
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/grande-mosquee-blanche-minarets-islam-architecture.jpg"
+                    alt="Grande mosquee blanche avec minarets, evoquant la splendeur architecturale des lieux saints en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -550,6 +560,16 @@ export default function ReverMecqueKaabaIslam() {
                   </Link>
                   , où le défunt transmet parfois un avertissement au vivant.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/prosternation-sujud-priere-islam-mosquee.jpg"
+                    alt="Prosternation en priere dans une mosquee, illustrant la devotion liee au reve de la Mecque et de la Kaaba"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

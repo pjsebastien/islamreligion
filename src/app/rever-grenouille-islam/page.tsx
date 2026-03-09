@@ -401,6 +401,16 @@ export default function ReverGrenouilleIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-chapelet-tasbih-islam-livre-sacre.jpg"
+                    alt="Coran et chapelet tasbih, illustrant les references des savants musulmans sur les reves de grenouille"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -809,6 +819,16 @@ export default function ReverGrenouilleIslam() {
                       et de pratiquer la justice dans ses transactions.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et invocation, symbolisant les conseils spirituels apres un reve de grenouille en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

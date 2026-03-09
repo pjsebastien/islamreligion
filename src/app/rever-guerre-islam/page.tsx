@@ -338,6 +338,16 @@ export default function ReverGuerreIslam() {
                   <Link href="/rever-couteau-islam" className="font-medium text-primary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">couteau en islam</Link>{" "}
                   qui partage une dimension de danger et de tranchant.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/kaaba-mecque-islam-lieu-saint.jpg"
+                    alt="La Kaaba a La Mecque symbole de foi et de perseverance dans le combat spirituel en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -690,6 +700,16 @@ export default function ReverGuerreIslam() {
                       et persévérance.
                     </p>
                   </div>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/symbole-islam-croissant-etoile-dore-mosquee.jpg"
+                    alt="Symbole islamique croissant et etoile dores devant une mosquee evoquant la paix apres un reve de guerre"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
                 </div>
               </section>
 

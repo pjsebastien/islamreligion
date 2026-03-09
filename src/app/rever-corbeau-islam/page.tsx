@@ -584,6 +584,16 @@ export default function ReverCorbeauIslam() {
                   partage cette complexite : ce qui semble sombre peut cacher
                   un message de lumiere.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motifs-geometriques-islam-croissant-etoile.jpg"
+                    alt="Motifs geometriques islamiques avec croissant et etoile, symbolisme spirituel lie au reve de corbeau"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -1008,6 +1018,16 @@ export default function ReverCorbeauIslam() {
                   la puissance du symbole invite a la reflexion plutot
                   qu&apos;a la panique.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en priere devant une mosquee, attitude spirituelle recommandee apres un reve de corbeau"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

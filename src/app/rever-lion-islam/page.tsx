@@ -353,6 +353,16 @@ export default function ReverLionIslam() {
                   description="Decouvrez ce que symbolise le crocodile dans un reve selon la tradition islamique et les savants."
                   href="/rever-crocodile-islam-protection"
                 />
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune dore et etoiles, symbole de l'islam evoquant la puissance et la noblesse du lion dans les reves"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -712,6 +722,16 @@ export default function ReverLionIslam() {
                   prononcer. La consultation d&apos;une personne de science est
                   recommandee pour les reves particulierement marquants.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, rappelant les conseils islamiques pour interpreter les reves de lion"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -335,6 +335,16 @@ export default function ReverMenageIslam() {
                   s&apos;adonner à cette tâche traduit une volonté positive
                   que la tradition islamique valorise.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
+                    alt="Coran ouvert avec chapelet en bois, symbolisant la purification spirituelle dans les reves de menage en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -666,6 +676,16 @@ export default function ReverMenageIslam() {
                   et le retour à une situation stable. Ibn Sirin associe
                   fréquemment le nettoyage à la prospérité retrouvée.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie, symbolisant les valeurs de purification et de renouveau dans les reves de menage en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

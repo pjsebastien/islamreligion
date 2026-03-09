@@ -335,6 +335,16 @@ export default function ReverBagueBijouxIslam() {
                   l&apos;interprétation dépasse le cadre strictement
                   sentimental et touche à toutes les sphères de la vie.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune doré et étoiles, symbole islamique illustrant la signification des rêves de bague et bijoux"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -726,6 +736,16 @@ export default function ReverBagueBijouxIslam() {
                   interprétations restent indicatives et ne remplacent pas
                   la confiance en la sagesse d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/femme-musulmane-hijab-lecture-coran-islam.jpg"
+                    alt="Femme musulmane en hijab lisant le Coran, symbolisant la recherche de guidance après un rêve de bijoux en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

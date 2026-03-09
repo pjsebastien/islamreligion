@@ -314,6 +314,16 @@ export default function ReverLireCoranIslam() {
                   Coran dans un rêve porte un sens propre, qui dépend aussi de
                   l&apos;état de piété du rêveur dans sa vie éveillée.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/calligraphie-allah-islam-coeur-bois.jpg"
+                    alt="Calligraphie du nom d'Allah sur un coeur en bois, symbolisant la foi et le lien spirituel avec le Coran en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -686,6 +696,16 @@ export default function ReverLireCoranIslam() {
                   , le contexte de vie du rêveur éclaire considérablement la
                   signification du songe.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/musulman-tenant-coran-chapelet-islam-foi.jpg"
+                    alt="Musulman tenant le Coran et un chapelet, illustration de la foi et de la lecture coranique en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

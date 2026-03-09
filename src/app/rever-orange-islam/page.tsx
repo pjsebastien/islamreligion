@@ -334,6 +334,16 @@ export default function ReverOrangeIslam() {
                   paix confirme la dimension positive du rêve, tandis qu&apos;un
                   malaise invite à la prudence et à l&apos;invocation.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-lanternes-islam-ramadan.jpg"
+                    alt="Lanternes islamiques et croissant de lune symbolisant la lumiere divine dans le reve d orange en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -678,6 +688,16 @@ export default function ReverOrangeIslam() {
                   présente dans l&apos;interprétation, quel que soit le profil
                   du rêveur.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/motifs-geometriques-islam-croissant-etoile.jpg"
+                    alt="Motifs geometriques islamiques avec croissant et etoile evoquant la richesse spirituelle du reve d orange"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -389,6 +389,16 @@ export default function ReverBebeNouveauNeIslam() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/famille-musulmane-islam-croissant-lune-valeurs.jpg"
+                    alt="Famille musulmane unie, symbolisant les valeurs islamiques liées au rêve de bébé et de nouveau-né"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -841,6 +851,16 @@ export default function ReverBebeNouveauNeIslam() {
                   l&apos;humilité face au savoir divin et la confiance
                   en la sagesse d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/priere-islam-doua-mosquee-silhouette.jpg"
+                    alt="Silhouette en prière dans une mosquée, invocation après un rêve de bébé en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

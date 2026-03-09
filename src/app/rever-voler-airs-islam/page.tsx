@@ -324,6 +324,16 @@ export default function ReverVolerAirsIslam() {
                   par une chute appelle à la vigilance et à l&apos;examen de
                   conscience.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-dore-etoiles-symbole-islam.jpg"
+                    alt="Croissant de lune doré et étoiles symbolisant l'élévation spirituelle du vol dans les rêves en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -673,6 +683,16 @@ export default function ReverVolerAirsIslam() {
                   vol correspond au niveau de science qu&apos;il atteindra, avec
                   la permission d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/kaaba-mecque-islam-lieu-saint.jpg"
+                    alt="La Kaaba à La Mecque, lieu saint de l'islam, en lien avec le rêve de voler au-dessus des lieux sacrés"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}

@@ -311,6 +311,16 @@ export default function ReverReglesIslam() {
                     n&apos;importe laquelle de ces catégories.
                   </p>
                 </div>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/croissant-lune-lanterne-islam-decoration-pastel.jpg"
+                    alt="Croissant de lune et lanterne islamique aux tons pastel, evoquant la douceur et la feminite dans l'interpretation des reves"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -704,6 +714,16 @@ export default function ReverReglesIslam() {
                   chapitre de sa vie et à s&apos;ouvrir à de nouvelles
                   possibilités avec la permission d&apos;Allah.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains en priere et doua, rappelant l'importance de l'invocation apres un reve de regles en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               <AffiliateForm title="Approfondissez votre connaissance des rêves en islam" description="La compréhension des symboles oniriques passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation." preselect="coran" />

@@ -335,6 +335,16 @@ export default function ReverVoyageIslam() {
                   </Link>
                   , où l&apos;état de l&apos;eau détermine la nature du message.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/dome-mosquee-croissant-lune-islam-architecture.jpg"
+                    alt="Dome de mosquee avec croissant de lune, evoquant le voyage spirituel et la quete de foi en islam"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
@@ -667,6 +677,16 @@ export default function ReverVoyageIslam() {
                   </Link>
                   , souvent lié aux épreuves de la vie et à leur dépassement.
                 </p>
+
+                <div className="mt-6 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/mains-priere-doua-islam-invocation.jpg"
+                    alt="Mains levees en priere et invocation, illustrant les conseils islamiques face aux reves de voyage"
+                    width={1200}
+                    height={720}
+                    className="w-full object-cover"
+                  />
+                </div>
               </section>
 
               {/* ============================================ */}
