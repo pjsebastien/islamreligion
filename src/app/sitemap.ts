@@ -327,6 +327,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    // Hadith du jour
+    {
+      url: `${baseUrl}/hadith-du-jour`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
     // Pages institutionnelles
     {
       url: `${baseUrl}/a-propos`,

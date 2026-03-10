@@ -6,6 +6,7 @@ export async function GET() {
   revalidatePath("/");
   revalidatePath("/reves-islam");
   revalidatePath("/doua-islam");
+  revalidatePath("/hadith-du-jour");
   revalidatePath("/sitemap.xml");
 
   // Google Indexing API : uniquement en production (Vercel)

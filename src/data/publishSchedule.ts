@@ -15,7 +15,12 @@ export interface ScheduledArticle {
     | "doua-quotidien"
     | "doua-occasions"
     | "doua-epreuves"
-    | "doua-adoration";
+    | "doua-adoration"
+    | "hadith-fondements"
+    | "hadith-adoration"
+    | "hadith-famille"
+    | "hadith-ethique"
+    | "hadith-societe";
   image: string;
 }
 
@@ -195,6 +200,75 @@ export const publishSchedule: ScheduledArticle[] = [
   { slug: "doua-colere-islam", label: "Doua contre la colère", publishDate: "2026-04-18", category: "doua-epreuves", image: "/images/doua-mains-ouvertes-rayons-dores.jpg" },
   { slug: "doua-tahajjud-islam", label: "Doua du tahajjud", publishDate: "2026-04-19", category: "doua-adoration", image: "/images/doua-mains-rayons-motifs-islamiques.jpg" },
   { slug: "doua-malades-cancer-coma-islam", label: "Doua pour les malades (cancer, coma)", publishDate: "2026-04-19", category: "doua-epreuves", image: "/images/doua-mains-trait-fin-lumiere-subtile.jpg" },
+
+  // ARTICLES HADITH
+  { slug: "hadith-40-nawawi-islam", label: "Les 40 hadiths d'An-Nawawi", publishDate: "2026-03-10", category: "hadith-fondements", image: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg" },
+  { slug: "hadith-prophete-islam", label: "Hadiths du Prophète ﷺ", publishDate: "2026-03-10", category: "hadith-fondements", image: "/images/priere-islam-doua-mosquee-silhouette.jpg" },
+  { slug: "hadith-mariage-islam", label: "Hadiths sur le mariage en islam", publishDate: "2026-03-10", category: "hadith-famille", image: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg" },
+  { slug: "hadith-bukhari-islam", label: "Sahih Al-Bukhari : le recueil de hadiths le plus authentique", publishDate: "2026-03-11", category: "hadith-fondements", image: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg" },
+  { slug: "hadith-definition-sciences-islam", label: "Hadith : définition et sciences du hadith en islam", publishDate: "2026-03-12", category: "hadith-fondements", image: "/images/islam-science-savoir-connaissance-livre.jpg" },
+  { slug: "hadith-authentique-muslim-islam", label: "Hadiths authentiques : Sahih Muslim et critères d'authenticité", publishDate: "2026-03-13", category: "hadith-fondements", image: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg" },
+  { slug: "hadith-femme-islam", label: "Hadiths sur la femme en islam", publishDate: "2026-03-14", category: "hadith-famille", image: "/images/femme-musulmane-hijab-lecture-coran-islam.jpg" },
+  { slug: "hadith-livres-recueils-islam", label: "Les grands livres et recueils de hadiths en islam", publishDate: "2026-03-15", category: "hadith-fondements", image: "/images/musulman-tenant-coran-chapelet-islam-foi.jpg" },
+  { slug: "hadith-priere-islam", label: "Hadiths sur la prière en islam", publishDate: "2026-03-16", category: "hadith-adoration", image: "/images/prosternation-sujud-priere-islam-mosquee.jpg" },
+  { slug: "hadith-coran-islam", label: "Hadiths sur le Coran en islam", publishDate: "2026-03-17", category: "hadith-adoration", image: "/images/coran-ouvert-calligraphie-doree-lumiere.jpg" },
+  { slug: "hadith-medecine-prophetique-islam", label: "Hadiths sur la médecine prophétique et les plantes", publishDate: "2026-03-18", category: "hadith-societe", image: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg" },
+  { slug: "hadith-mort-islam", label: "Hadiths sur la mort en islam", publishDate: "2026-03-19", category: "hadith-societe", image: "/images/priere-islam-doua-mosquee-silhouette.jpg" },
+  { slug: "hadith-dajjal-fin-des-temps-islam", label: "Hadiths sur le Dajjal et la fin des temps", publishDate: "2026-03-20", category: "hadith-societe", image: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg" },
+  { slug: "hadith-qudsi-islam", label: "Hadiths qudsi : paroles divines rapportées par le Prophète ﷺ", publishDate: "2026-03-21", category: "hadith-fondements", image: "/images/calligraphie-allah-islam-coeur-bois.jpg" },
+  { slug: "hadith-ramadan-islam", label: "Hadiths sur le Ramadan en islam", publishDate: "2026-03-22", category: "hadith-adoration", image: "/images/ramadan-islam-lanternes-orientales-croissant-dattes.jpg" },
+  { slug: "hadith-bon-comportement-islam", label: "Hadiths sur le bon comportement (akhlaq) en islam", publishDate: "2026-03-23", category: "hadith-ethique", image: "/images/motif-arabesque-islamique-geometrie-dore.jpg" },
+  { slug: "hadith-patience-epreuves-islam", label: "Hadiths sur la patience et les épreuves en islam", publishDate: "2026-03-24", category: "hadith-ethique", image: "/images/mains-priere-doua-islam-invocation.jpg" },
+  { slug: "hadith-sadaqa-charite-islam", label: "Hadiths sur la sadaqa et la charité en islam", publishDate: "2026-03-25", category: "hadith-ethique", image: "/images/mosquee-prophete-medine-islam-dome-vert.jpg" },
+  { slug: "hadith-parents-mere-islam", label: "Hadiths sur les parents et la mère en islam", publishDate: "2026-03-26", category: "hadith-famille", image: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg" },
+  { slug: "hadith-voile-hijab-islam", label: "Hadiths sur le voile et le hijab en islam", publishDate: "2026-03-27", category: "hadith-societe", image: "/images/femme-musulmane-hijab-lecture-coran-islam.jpg" },
+  { slug: "hadith-sorcellerie-mauvais-oeil-islam", label: "Hadiths sur la sorcellerie et le mauvais œil en islam", publishDate: "2026-03-28", category: "hadith-societe", image: "/images/dome-mosquee-croissant-lune-islam-architecture.jpg" },
+  { slug: "hadith-aicha-islam", label: "Hadith sur Aïcha et le Prophète ﷺ en islam", publishDate: "2026-03-29", category: "hadith-fondements", image: "/images/coran-ouvert-chapelet-bois-islam-versets.jpg" },
+  { slug: "hadith-jeune-volontaire-islam", label: "Hadiths sur le jeûne volontaire et le jeûne en islam", publishDate: "2026-03-30", category: "hadith-adoration", image: "/images/ramadan-kareem-islam-dattes-chapelet-coran.jpg" },
+  { slug: "hadith-chat-animaux-islam", label: "Hadiths sur le chat et les animaux en islam", publishDate: "2026-03-31", category: "hadith-societe", image: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg" },
+  { slug: "hadith-vendredi-islam", label: "Hadiths sur le vendredi en islam", publishDate: "2026-04-01", category: "hadith-adoration", image: "/images/mosquee-prophete-medine-islam-dome-vert.jpg" },
+  { slug: "hadith-musique-islam", label: "Hadiths sur la musique en islam", publishDate: "2026-04-02", category: "hadith-societe", image: "/images/motifs-geometriques-islam-croissant-etoile.jpg" },
+  { slug: "hadith-tattoo-apparence-islam", label: "Hadiths sur le tatouage, l'épilation et l'apparence", publishDate: "2026-04-03", category: "hadith-societe", image: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg" },
+  { slug: "hadith-ablutions-purete-islam", label: "Hadiths sur les ablutions et la pureté rituelle", publishDate: "2026-04-04", category: "hadith-adoration", image: "/images/interieur-mosquee-arches-tapis-lumiere.jpg" },
+  { slug: "hadith-pardon-repentir-islam", label: "Hadiths sur le pardon et le repentir en islam", publishDate: "2026-04-05", category: "hadith-ethique", image: "/images/calligraphie-allah-islam-coeur-bois.jpg" },
+  { slug: "hadith-fornication-zina-islam", label: "Hadiths sur la fornication (zina) en islam", publishDate: "2026-04-06", category: "hadith-societe", image: "/images/priere-islam-doua-mosquee-silhouette.jpg" },
+  { slug: "hadith-alcool-islam", label: "Hadiths sur l'alcool en islam", publishDate: "2026-04-07", category: "hadith-societe", image: "/images/grande-mosquee-blanche-minarets-islam-architecture.jpg" },
+  { slug: "hadith-divorce-islam", label: "Hadiths sur le divorce en islam", publishDate: "2026-04-08", category: "hadith-famille", image: "/images/famille-musulmane-lecture-coran-islam-education.jpg" },
+  { slug: "hadith-sectes-73-islam", label: "Hadith des 73 sectes en islam", publishDate: "2026-04-09", category: "hadith-societe", image: "/images/coupole-mosquee-art-islamique-calligraphie.jpg" },
+  { slug: "hadith-hijama-islam", label: "Hadiths sur la hijama en islam", publishDate: "2026-04-10", category: "hadith-societe", image: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg" },
+  { slug: "hadith-photos-images-islam", label: "Hadiths sur les photos, images et dessins en islam", publishDate: "2026-04-11", category: "hadith-societe", image: "/images/motif-arabesque-islamique-geometrie-dore.jpg" },
+  { slug: "hadith-palestine-gaza-islam", label: "Hadiths sur la Palestine, Gaza et le Sham", publishDate: "2026-04-12", category: "hadith-societe", image: "/images/mosquee-prophete-medine-islam-dome-vert.jpg" },
+  { slug: "hadith-zakat-islam", label: "Hadiths sur la zakat en islam", publishDate: "2026-04-13", category: "hadith-adoration", image: "/images/kaaba-mecque-islam-lieu-saint.jpg" },
+  { slug: "hadith-mensonge-islam", label: "Hadiths sur le mensonge en islam", publishDate: "2026-04-14", category: "hadith-ethique", image: "/images/mains-priere-doua-islam-invocation.jpg" },
+  { slug: "hadith-jeune-mois-sacres-islam", label: "Hadiths sur le jeûne de Rajab, Chaabane et les mois sacrés", publishDate: "2026-04-15", category: "hadith-adoration", image: "/images/decoration-ramadan-islam-lanternes-croissant-lune.jpg" },
+  { slug: "hadith-amitie-frequentation-islam", label: "Hadiths sur l'amitié et la fréquentation en islam", publishDate: "2026-04-16", category: "hadith-ethique", image: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg" },
+  { slug: "hadith-vie-conseils-islam", label: "Hadiths sur la vie et conseils prophétiques", publishDate: "2026-04-17", category: "hadith-societe", image: "/images/islam-science-savoir-connaissance-livre.jpg" },
+  { slug: "hadith-nationalisme-islam", label: "Hadiths sur le nationalisme en islam", publishDate: "2026-04-18", category: "hadith-societe", image: "/images/grande-mosquee-blanche-minarets-islam-architecture.jpg" },
+  { slug: "hadith-cadeaux-islam", label: "Hadiths sur les cadeaux en islam", publishDate: "2026-04-19", category: "hadith-ethique", image: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg" },
+  { slug: "hadith-barbe-islam", label: "Hadiths sur la barbe en islam", publishDate: "2026-04-20", category: "hadith-societe", image: "/images/musulman-tenant-coran-chapelet-islam-foi.jpg" },
+  { slug: "hadith-nuit-du-destin-islam", label: "Hadiths sur la nuit du destin (Laylat al-Qadr)", publishDate: "2026-04-21", category: "hadith-adoration", image: "/images/croissant-lune-dore-etoiles-symbole-islam.jpg" },
+  { slug: "hadith-intention-niya-islam", label: "Hadiths sur l'intention (niya) en islam", publishDate: "2026-04-22", category: "hadith-ethique", image: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg" },
+  { slug: "hadith-jalousie-islam", label: "Hadiths sur la jalousie en islam", publishDate: "2026-04-23", category: "hadith-ethique", image: "/images/dome-mosquee-croissant-lune-islam-architecture.jpg" },
+  { slug: "hadith-riba-usure-islam", label: "Hadiths sur le riba (usure) en islam", publishDate: "2026-04-24", category: "hadith-societe", image: "/images/motifs-geometriques-islam-croissant-etoile.jpg" },
+  { slug: "hadith-medisance-calomnie-islam", label: "Hadiths sur la médisance et la calomnie en islam", publishDate: "2026-04-25", category: "hadith-ethique", image: "/images/priere-islam-doua-mosquee-silhouette.jpg" },
+  { slug: "hadith-richesse-rizq-islam", label: "Hadiths sur la richesse et la subsistance (rizq)", publishDate: "2026-04-26", category: "hadith-societe", image: "/images/calligraphie-allah-islam-coeur-bois.jpg" },
+  { slug: "hadith-omra-hajj-islam", label: "Hadiths sur la omra et le hajj en islam", publishDate: "2026-04-27", category: "hadith-adoration", image: "/images/kaaba-mecque-pelerinage-hajj-islam.jpg" },
+  { slug: "hadith-colere-islam", label: "Hadiths sur la colère en islam", publishDate: "2026-04-28", category: "hadith-ethique", image: "/images/mains-priere-doua-islam-invocation.jpg" },
+  { slug: "hadith-orphelin-islam", label: "Hadiths sur l'orphelin en islam", publishDate: "2026-04-29", category: "hadith-ethique", image: "/images/enfant-musulman-islam-ramadan-illustration-3d.jpg" },
+  { slug: "hadith-famille-liens-parente-islam", label: "Hadiths sur la famille et les liens de parenté", publishDate: "2026-04-30", category: "hadith-famille", image: "/images/famille-musulmane-lecture-coran-islam-education.jpg" },
+  { slug: "hadith-pluie-islam", label: "Hadiths sur la pluie en islam", publishDate: "2026-05-01", category: "hadith-societe", image: "/images/coran-ouvert-nature-coucher-soleil-islam.jpg" },
+  { slug: "hadith-isra-miraj-islam", label: "Hadiths sur le voyage nocturne (Isra wal-Miraj)", publishDate: "2026-05-02", category: "hadith-societe", image: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg" },
+  { slug: "hadith-circoncision-islam", label: "Hadiths sur la circoncision en islam", publishDate: "2026-05-03", category: "hadith-societe", image: "/images/coran-chapelet-tasbih-islam-livre-sacre.jpg" },
+  { slug: "hadith-tristesse-islam", label: "Hadiths sur la tristesse en islam", publishDate: "2026-05-04", category: "hadith-ethique", image: "/images/priere-islam-doua-mosquee-silhouette.jpg" },
+  { slug: "hadith-voisin-islam", label: "Hadiths sur le voisin en islam", publishDate: "2026-05-05", category: "hadith-ethique", image: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg" },
+  { slug: "hadith-science-connaissance-islam", label: "Hadiths sur la science et la connaissance en islam", publishDate: "2026-05-06", category: "hadith-societe", image: "/images/islam-science-savoir-connaissance-livre.jpg" },
+  { slug: "hadith-salam-islam", label: "Hadiths sur le salam en islam", publishDate: "2026-05-07", category: "hadith-ethique", image: "/images/motif-arabesque-islamique-geometrie-dore.jpg" },
+  { slug: "hadith-devoiler-peches-islam", label: "Hadiths sur le fait de dévoiler ses péchés", publishDate: "2026-05-08", category: "hadith-ethique", image: "/images/calligraphie-allah-islam-coeur-bois.jpg" },
+  { slug: "hadith-degrade-coiffure-islam", label: "Hadiths sur le dégradé et la coiffure en islam", publishDate: "2026-05-09", category: "hadith-societe", image: "/images/croissant-lune-lanterne-islam-decoration-pastel.jpg" },
+  { slug: "hadith-dot-islam", label: "Hadiths sur la dot (mahr) en islam", publishDate: "2026-05-10", category: "hadith-famille", image: "/images/croissant-lune-dore-lanternes-islam-ramadan.jpg" },
+  { slug: "hadith-reves-islam", label: "Hadiths sur les rêves en islam", publishDate: "2026-05-11", category: "hadith-societe", image: "/images/mosquee-miniature-3d-islam-nuit-etoiles.jpg" },
+  { slug: "hadith-suicide-islam", label: "Hadiths sur le suicide en islam", publishDate: "2026-05-12", category: "hadith-societe", image: "/images/mains-priere-doua-islam-invocation.jpg" },
+  { slug: "hadith-sourire-islam", label: "Hadiths sur le sourire en islam", publishDate: "2026-05-13", category: "hadith-ethique", image: "/images/famille-musulmane-islam-croissant-lune-valeurs.jpg" },
 ];
 
 export function isPublished(publishDate: string): boolean {

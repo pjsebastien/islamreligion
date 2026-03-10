@@ -119,6 +119,7 @@ const STATIC_PAGES: { slug: string; category: string }[] = [
   { slug: "doua-islam", category: "principal" },
   { slug: "reves-islam", category: "principal" },
   { slug: "remede-arabe", category: "principal" },
+  { slug: "hadith-du-jour", category: "principal" },
   { slug: "a-propos", category: "principal" },
   { slug: "mentions-legales", category: "principal" },
   { slug: "reve-poisson-islam-richesse", category: "reves" },
