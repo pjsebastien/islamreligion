@@ -4,7 +4,7 @@ const API_BASE = "https://api.systeme.io/api";
 const TAG_ID = 1907225; // "formation-arabe"
 
 export async function POST(request: Request) {
-  const { email } = await request.json();
+  const { email, skipTag } = await request.json();
 
   if (!email) {
     return NextResponse.json({ error: "Email requis" }, { status: 400 });
@@ -57,12 +57,14 @@ export async function POST(request: Request) {
     );
   }
 
-  // Step 2: Add the tag to the contact
-  await fetch(`${API_BASE}/contacts/${contactId}/tags`, {
-    method: "POST",
-    headers,
-    body: JSON.stringify({ tagId: TAG_ID }),
-  });
+  // Step 2: Add the tag to the contact (sauf si skipTag)
+  if (!skipTag) {
+    await fetch(`${API_BASE}/contacts/${contactId}/tags`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ tagId: TAG_ID }),
+    });
+  }
 
   return NextResponse.json({ success: true });
 }

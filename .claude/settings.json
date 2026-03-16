@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.quizzislam.fr)",
+      "WebFetch(domain:www.quizz.biz)",
+      "WebFetch(domain:fr.wikimini.org)",
+      "WebFetch(domain:maktaba-tawhid.fr)",
+      "WebFetch(domain:quizzislam.netlify.app)",
+      "WebFetch(domain:islamreligion.fr)",
+      "Read(//dev/**)",
+      "Read(//c/Users/pjseb/OneDrive/Desktop/islamreligion/**)",
+      "Read(//c/Users/pjseb/OneDrive/Desktop/islamreligion/s/slug: \"/;s/**)",
+      "Read(//tmp/**)",
+      "Read(//c/Users/pjseb/OneDrive/Desktop/islamreligion/s/.*publishDate: \"/;s/**)"
+    ]
+  }
+}

@@ -31,6 +31,7 @@ const silos = [
       { href: "/sorcellerie-islam-protection", label: "Protection spirituelle" },
       { href: "/doua-islam", label: "Doua (invocations)" },
       { href: "/invocations-reussite-facilite", label: "Invocations" },
+      { href: "/quizz-islam-enfant", label: "Quiz islam enfant" },
     ],
   },
 ];

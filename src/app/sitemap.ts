@@ -9,43 +9,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date("2026-03-16"),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
       url: `${baseUrl}/apprendre-larabe`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-08-20"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/apprendre-le-coran`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-08-20"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/formation-arabe-en-ligne`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-08-20"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/doua-islam`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-02-15"),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/reves-islam`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-01-10"),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/remede-arabe`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-10-01"),
       changeFrequency: "weekly",
       priority: 0.9,
     },
@@ -327,23 +327,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    // Quiz islam enfant
+    {
+      url: `${baseUrl}/quizz-islam-enfant`,
+      lastModified: new Date("2026-03-16"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     // Hadith du jour
     {
       url: `${baseUrl}/hadith-du-jour`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-03-10"),
       changeFrequency: "daily",
       priority: 0.9,
     },
     // Pages institutionnelles
     {
       url: `${baseUrl}/a-propos`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-08-19"),
       changeFrequency: "yearly",
       priority: 0.4,
     },
     {
       url: `${baseUrl}/mentions-legales`,
-      lastModified: new Date(),
+      lastModified: new Date("2025-08-19"),
       changeFrequency: "yearly",
       priority: 0.2,
     },

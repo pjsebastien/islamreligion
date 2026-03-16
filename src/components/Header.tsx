@@ -26,6 +26,7 @@ const navItems: NavItem[] = [
       { href: "/doua-islam", label: "Doua en islam" },
       { href: "/hadith-du-jour", label: "Hadith du jour" },
       { href: "/reves-islam", label: "Rêves en islam" },
+      { href: "/quizz-islam-enfant", label: "Quiz islam enfant" },
       { href: "/remede-arabe", label: "Remèdes arabes" },
       { href: "/fin-monde-islam-preparation", label: "Fin des temps" },
     ],
