@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import ExitIntentPopup from "@/components/ExitIntentPopup";
+import GiftBubble from "@/components/GiftBubble";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -68,6 +69,7 @@ export default function RootLayout({
         <Footer />
         <CookieBanner />
         <ExitIntentPopup />
+        <GiftBubble />
       </body>
     </html>
   );

@@ -1,17 +1,16 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 export default function ExitIntentPopup() {
   const [visible, setVisible] = useState(false);
   const [email, setEmail] = useState("");
-  const [formations, setFormations] = useState({ coran: false, arabe: true });
+  const [firstName, setFirstName] = useState("");
   const [consent, setConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-
-  const atLeastOneSelected = formations.coran || formations.arabe;
 
   const close = useCallback(() => {
     setVisible(false);
@@ -19,9 +18,7 @@ export default function ExitIntentPopup() {
   }, []);
 
   useEffect(() => {
-    // Skip on mobile (no mouse pointer)
     if (window.matchMedia("(pointer: coarse)").matches) return;
-    // Skip if already shown this session
     if (sessionStorage.getItem("exit-popup-shown")) return;
 
     let armed = false;
@@ -48,7 +45,6 @@ export default function ExitIntentPopup() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!atLeastOneSelected) return;
     setLoading(true);
     setError(false);
 
@@ -56,11 +52,15 @@ export default function ExitIntentPopup() {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({
+          email,
+          firstName: firstName || undefined,
+          tagName: "pdf",
+        }),
       });
       if (res.ok) {
         setSubmitted(true);
-        setTimeout(close, 2500);
+        setTimeout(close, 3000);
       } else {
         setError(true);
       }
@@ -74,13 +74,16 @@ export default function ExitIntentPopup() {
   if (!visible) return null;
 
   return (
-    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
-      <div className="relative w-full max-w-md rounded-2xl bg-white p-6 shadow-2xl sm:p-8">
+    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+      <div
+        className="relative w-full max-w-lg overflow-hidden rounded-2xl shadow-2xl"
+        style={{ background: "linear-gradient(135deg, #1A1A4E 0%, #2D2D7A 100%)" }}
+      >
         {/* Close button */}
         <button
           type="button"
           onClick={close}
-          className="absolute right-3 top-3 rounded-lg p-1.5 text-foreground-secondary transition-colors hover:bg-accent hover:text-foreground"
+          className="absolute right-3 top-3 z-10 rounded-lg p-1.5 text-white/60 transition-colors hover:bg-white/10 hover:text-white"
           aria-label="Fermer"
         >
           <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
@@ -89,102 +92,117 @@ export default function ExitIntentPopup() {
         </button>
 
         {submitted ? (
-          <div className="py-4 text-center">
-            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-secondary/10">
-              <svg className="h-7 w-7 text-secondary" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+          <div className="px-6 py-12 text-center sm:px-10">
+            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full" style={{ background: "#6BCB77" }}>
+              <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-primary">Demande envoyée</h3>
-            <p className="mt-2 text-sm text-foreground-secondary">
-              Vous recevrez les informations à l&apos;adresse indiquée.
+            <h3 className="text-xl font-bold text-white">
+              Jazak Allah Khayran ! <span className="text-2xl">&#127769;</span>
+            </h3>
+            <p className="mt-2 text-white/80">
+              Vérifie ta boîte mail — le guide arrive dans quelques instants.
+            </p>
+            <p className="mt-1 text-sm text-white/50">
+              Pense à vérifier tes spams ou l&apos;onglet Promotions.
             </p>
           </div>
         ) : (
-          <>
-            <div className="mb-1 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary/10">
-              <svg className="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-primary">
-              Apprenez l&apos;arabe et comprenez le Coran
-            </h3>
-            <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
-              Des milliers de francophones ont appris à lire l&apos;arabe en moins de
-              30 jours. Recevez les détails de nos formations recommandées.
-            </p>
-
-            <form onSubmit={handleSubmit} className="mt-5 space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <label className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors ${formations.coran ? "border-secondary bg-secondary/5 text-primary" : "border-border text-foreground-secondary hover:border-secondary/40"}`}>
-                  <input
-                    type="checkbox"
-                    checked={formations.coran}
-                    onChange={(e) => setFormations((f) => ({ ...f, coran: e.target.checked }))}
-                    className="h-4 w-4 rounded accent-secondary"
-                  />
-                  <span className="font-medium">Coran</span>
-                </label>
-                <label className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors ${formations.arabe ? "border-secondary bg-secondary/5 text-primary" : "border-border text-foreground-secondary hover:border-secondary/40"}`}>
-                  <input
-                    type="checkbox"
-                    checked={formations.arabe}
-                    onChange={(e) => setFormations((f) => ({ ...f, arabe: e.target.checked }))}
-                    className="h-4 w-4 rounded accent-secondary"
-                  />
-                  <span className="font-medium">Arabe</span>
-                </label>
+          <div className="px-6 py-8 sm:px-10">
+            {/* Header with book cover */}
+            <div className="mb-6 flex flex-col items-center gap-5 sm:flex-row sm:items-start">
+              <div className="relative flex-shrink-0">
+                <div
+                  className="absolute -inset-2 rounded-xl opacity-40 blur-lg"
+                  style={{ background: "#9B59B6" }}
+                />
+                <Image
+                  src="/images/book-pdf-cover.png"
+                  alt="Guide des 10 douas essentielles"
+                  width={120}
+                  height={150}
+                  className="relative z-10 rounded-lg drop-shadow-xl"
+                />
               </div>
+              <div className="text-center sm:text-left">
+                <span
+                  className="mb-2 inline-block rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider"
+                  style={{ background: "#FFD93D", color: "#1A1A4E" }}
+                >
+                  PDF Gratuit
+                </span>
+                <h3 className="mt-2 text-xl font-extrabold leading-tight text-white sm:text-2xl">
+                  10 douas essentielles pour{" "}
+                  <span style={{ color: "#FFD93D" }}>ton enfant</span>
+                </h3>
+                <p className="mt-2 text-sm text-white/70">
+                  Douas, histoires, conseils et activités — adapté dès 3 ans.
+                </p>
+              </div>
+            </div>
+
+            {/* Form */}
+            <form onSubmit={handleSubmit} className="space-y-3">
+              <input
+                type="text"
+                placeholder="Ton prénom (optionnel)"
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                className="w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder:text-white/40 focus:border-white/50 focus:outline-none focus:ring-2 focus:ring-white/20"
+              />
 
               <input
                 type="email"
                 required
-                placeholder="Votre adresse email"
+                placeholder="Ton adresse email *"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-foreground-secondary/60 focus:border-secondary focus:outline-none focus:ring-2 focus:ring-secondary/20"
+                className="w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder:text-white/40 focus:border-white/50 focus:outline-none focus:ring-2 focus:ring-white/20"
               />
 
-              <label className="flex items-start gap-2.5 cursor-pointer">
+              <label className="flex cursor-pointer items-start gap-2.5">
                 <input
                   type="checkbox"
                   required
                   checked={consent}
                   onChange={(e) => setConsent(e.target.checked)}
-                  className="mt-0.5 h-4 w-4 shrink-0 rounded border-border accent-secondary"
+                  className="mt-0.5 h-4 w-4 shrink-0 rounded accent-white"
                 />
-                <span className="text-xs text-foreground-secondary">
-                  J&apos;accepte de recevoir des informations par email (RGPD).
+                <span className="text-xs text-white/50">
+                  J&apos;accepte de recevoir le guide et des ressources par email (RGPD).
                 </span>
               </label>
 
               {error && (
-                <p className="text-xs text-red-600">Une erreur est survenue. Réessayez.</p>
+                <p className="rounded-lg p-2 text-xs text-white" style={{ background: "#FF6B6B" }}>
+                  Une erreur est survenue. Réessayez.
+                </p>
               )}
 
-              {!atLeastOneSelected && (
-                <p className="text-xs text-amber-600">Sélectionnez au moins une formation.</p>
-              )}
-
-              <div className="flex gap-3">
+              <div className="flex gap-3 pt-1">
                 <button
                   type="submit"
-                  disabled={loading || !atLeastOneSelected}
-                  className="flex-1 rounded-lg bg-secondary px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-secondary-dark disabled:opacity-60"
+                  disabled={loading}
+                  className="flex-1 rounded-xl px-4 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl disabled:opacity-60"
+                  style={{ background: "linear-gradient(135deg, #FF6B6B, #FF8E8E)" }}
                 >
-                  {loading ? "Envoi..." : "Recevoir les infos"}
+                  {loading ? "Envoi..." : "Recevoir mon guide gratuit"}
                 </button>
                 <button
                   type="button"
                   onClick={close}
-                  className="rounded-lg border border-border px-4 py-2.5 text-sm font-medium text-foreground-secondary transition-colors hover:bg-accent"
+                  className="rounded-xl border border-white/20 px-4 py-3 text-sm font-medium text-white/60 transition-colors hover:bg-white/10 hover:text-white"
                 >
                   Non merci
                 </button>
               </div>
             </form>
-          </>
+
+            <p className="mt-4 text-center text-xs text-white/30">
+              &#128274; Aucun spam — désinscription en 1 clic
+            </p>
+          </div>
         )}
       </div>
     </div>

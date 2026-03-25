@@ -1,10 +1,29 @@
 import { NextResponse } from "next/server";
 
 const API_BASE = "https://api.systeme.io/api";
-const TAG_ID = 1907225; // "formation-arabe"
+const DEFAULT_TAG_ID = 1907225; // "formation-arabe"
+
+async function findTagIdByName(
+  name: string,
+  headers: Record<string, string>
+): Promise<number | null> {
+  const res = await fetch(`${API_BASE}/tags?query=${encodeURIComponent(name)}`, {
+    headers,
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  const items = data.items || data;
+  if (Array.isArray(items)) {
+    const match = items.find(
+      (t: { name: string }) => t.name.toLowerCase() === name.toLowerCase()
+    );
+    if (match) return match.id;
+  }
+  return null;
+}
 
 export async function POST(request: Request) {
-  const { email, skipTag } = await request.json();
+  const { email, firstName, tagId, tagName, skipTag } = await request.json();
 
   if (!email) {
     return NextResponse.json({ error: "Email requis" }, { status: 400 });
@@ -24,10 +43,13 @@ export async function POST(request: Request) {
   };
 
   // Step 1: Create the contact
+  const contactBody: Record<string, string> = { email };
+  if (firstName) contactBody.firstName = firstName;
+
   const createRes = await fetch(`${API_BASE}/contacts`, {
     method: "POST",
     headers,
-    body: JSON.stringify({ email }),
+    body: JSON.stringify(contactBody),
   });
 
   let contactId: number | null = null;
@@ -59,10 +81,15 @@ export async function POST(request: Request) {
 
   // Step 2: Add the tag to the contact (sauf si skipTag)
   if (!skipTag) {
+    let resolvedTagId = tagId || DEFAULT_TAG_ID;
+    if (!tagId && tagName) {
+      const found = await findTagIdByName(tagName, headers);
+      if (found) resolvedTagId = found;
+    }
     await fetch(`${API_BASE}/contacts/${contactId}/tags`, {
       method: "POST",
       headers,
-      body: JSON.stringify({ tagId: TAG_ID }),
+      body: JSON.stringify({ tagId: resolvedTagId }),
     });
   }
 
