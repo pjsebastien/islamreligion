@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const revalidate = 86400;
 
@@ -865,6 +866,8 @@ export default function DouaMaladesCancerComaIslam() {
               </section>
 
               {/* Formulaire affiliation */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour comprendre vos douas"
                 description="Maîtrisez la langue du Coran pour réciter les invocations de guérison avec compréhension et conviction. Des formations adaptées à tous les niveaux."

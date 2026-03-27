@@ -29,11 +29,8 @@ export default function GiftBubble() {
       {/* Expanded bubble */}
       {showBubble && !dismissed && (
         <div
-          className="animate-in slide-in-from-bottom-4 fade-in relative w-72 rounded-2xl p-4 shadow-2xl sm:w-80"
-          style={{
-            background: "linear-gradient(135deg, #1A1A4E, #2D2D7A)",
-            animation: "slideUp 0.4s ease-out",
-          }}
+          className="relative w-72 animate-bounce-in rounded-2xl p-4 shadow-2xl sm:w-80"
+          style={{ background: "linear-gradient(135deg, #1A1A4E, #2D2D7A)" }}
         >
           {/* Close */}
           <button
@@ -91,18 +88,6 @@ export default function GiftBubble() {
         <span className="text-2xl">&#127873;</span>
       </button>
 
-      <style jsx>{`
-        @keyframes slideUp {
-          from {
-            opacity: 0;
-            transform: translateY(16px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
     </div>
   );
 }

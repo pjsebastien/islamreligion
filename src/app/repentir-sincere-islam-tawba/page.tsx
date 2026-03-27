@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1034,6 +1035,8 @@ export default function RepentirTawba() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Renforcez votre lien avec le Coran au quotidien"
                 description="Le repentir, le pardon et la science religieuse passent par une pratique régulière du Coran. Choisissez votre parcours d'apprentissage."

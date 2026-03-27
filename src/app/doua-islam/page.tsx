@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 import { publishSchedule, isPublished } from "@/data/publishSchedule";
 
@@ -821,6 +822,8 @@ export default function DouaIslam() {
               {/* ============================================ */}
               {/* CTA + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Comprenez vos invocations en arabe"
                 description="La plupart des douas viennent du Coran et de la Sunna. Apprendre l'arabe vous permet de les comprendre en profondeur, sans dépendre des traductions. Choisissez votre formation pour commencer."

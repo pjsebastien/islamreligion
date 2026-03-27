@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -972,6 +973,8 @@ export default function DouaRuptureJeune() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l'arabe pour réciter les douas dans leur langue originale"
                 description="Maîtriser la langue arabe vous permettra de comprendre et de réciter les invocations prophétiques avec profondeur et justesse."

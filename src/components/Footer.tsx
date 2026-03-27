@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { SocialIconsRow } from "@/components/SocialLinks";
 
 const silos = [
   {
@@ -59,6 +60,14 @@ export default function Footer() {
               Comprendre l&apos;Islam à travers ses enseignements authentiques,
               ses valeurs et sa spiritualité.
             </p>
+
+            {/* Réseaux sociaux — La Maison d'Adam */}
+            <div className="mt-5">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-secondary">
+                La Maison d&apos;Adam
+              </p>
+              <SocialIconsRow />
+            </div>
           </div>
 
           {/* Silos de liens */}

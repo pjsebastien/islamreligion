@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -741,7 +742,9 @@ export default function ReverAccidentVoitureIslam() {
 
               {/* AffiliateForm */}
               <div className="mt-14">
-                <AffiliateForm
+                <SocialBanner />
+
+              <AffiliateForm
                   title="Approfondissez votre compréhension des rêves en islam"
                   description="La compréhension des rêves en islam passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation pour approfondir vos connaissances."
                   preselect="coran"

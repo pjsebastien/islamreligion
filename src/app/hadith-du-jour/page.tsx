@@ -6,6 +6,7 @@ import HadithBlock from "@/components/HadithBlock";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 import { publishSchedule, isPublished } from "@/data/publishSchedule";
 
@@ -695,6 +696,8 @@ export default function HadithDuJour() {
                   </p>
                 )}
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Apprenez l'arabe et le Coran en ligne"

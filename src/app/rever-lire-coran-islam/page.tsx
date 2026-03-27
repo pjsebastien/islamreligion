@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -797,7 +798,9 @@ export default function ReverLireCoranIslam() {
 
               {/* AffiliateForm */}
               <div className="mt-14">
-                <AffiliateForm
+                <SocialBanner />
+
+              <AffiliateForm
                   title="Approfondissez votre lien avec le Coran"
                   description="Le Coran dans vos rêves vous appelle à renforcer votre relation avec le Livre d'Allah. Découvrez nos formations en récitation, tajwid et mémorisation du Coran."
                   preselect="coran"

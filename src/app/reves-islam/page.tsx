@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 import { publishSchedule, isPublished } from "@/data/publishSchedule";
 
@@ -906,6 +907,8 @@ export default function RevesIslam() {
                   d&apos;interprétation des rêves.
                 </p>
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Apprenez à réciter les sourates protectrices avant de dormir"

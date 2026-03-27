@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const revalidate = 86400;
 
@@ -817,6 +818,8 @@ export default function DouaEternuementIslam() {
               </section>
 
               {/* Affiliate Form avant FAQ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour comprendre vos douas"
                 description="Maitrisez la langue du Coran et comprenez les invocations prophetiques dans leur langue originale. Des formations en ligne adaptees a votre niveau."

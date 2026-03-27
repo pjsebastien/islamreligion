@@ -6,6 +6,7 @@ import HadithBlock from "@/components/HadithBlock";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 
 export const revalidate = 86400;
@@ -584,7 +585,9 @@ export default function HadithZakatIslam() {
 
               {/* Affiliate Form */}
               <div className="mt-16">
-                <AffiliateForm
+                <SocialBanner />
+
+              <AffiliateForm
                   title="Apprenez l&apos;arabe classique"
                   description="Comprenez les hadiths sur la zakat dans leur langue originale et approfondissez votre connaissance de l&apos;islam."
                   preselect="arabe"

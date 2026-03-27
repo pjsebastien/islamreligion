@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 
 export const metadata: Metadata = {
@@ -753,6 +754,8 @@ export default function RemedeArabe() {
 
                 <MedicalDisclaimer />
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Récitez les invocations de guérison en arabe avec assurance"

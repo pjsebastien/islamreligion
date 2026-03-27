@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const revalidate = 86400;
 
@@ -885,6 +886,8 @@ export default function DouaNaissanceNouveauNeIslam() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour comprendre les invocations dans leur langue originale"
                 description="Maitrisez la langue du Coran pour reciter les douas avec comprehension et profondeur spirituelle. Decouvrez nos formations en ligne adaptees a tous les niveaux."

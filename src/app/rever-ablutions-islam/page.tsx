@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -457,7 +458,9 @@ export default function ReverAblutionsIslam() {
               Rêver d&apos;ablutions complètes pour une personne endettée est le signe que ses dettes seront remboursées et que sa situation financière s&apos;améliorera. Ibn Sirin associe l&apos;achèvement des ablutions à la résolution des problèmes matériels. L&apos;eau claire symbolise ici des revenus licites qui permettront au rêveur de retrouver sa sérénité financière.
             </p>
 
-            <AffiliateForm
+            <SocialBanner />
+
+              <AffiliateForm
               title="Approfondissez votre compréhension des ablutions et de la prière"
               description="La purification rituelle est au coeur de la pratique musulmane. Apprenez à réciter le Coran et à comprendre les enseignements en arabe."
               preselect="coran"

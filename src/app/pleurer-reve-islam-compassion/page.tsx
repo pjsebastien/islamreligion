@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Voir quelqu'un pleurer en rêve islam : compassion divine et intercession",
@@ -567,6 +568,8 @@ export default function PleurerReveIslam() {
                   href="/reve-poisson-islam-richesse"
                 />
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Comprenez les symboles coraniques de vos rêves"

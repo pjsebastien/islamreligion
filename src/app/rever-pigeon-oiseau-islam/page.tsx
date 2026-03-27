@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1078,6 +1079,8 @@ export default function ReverPigeonOiseauIslam() {
               {/* ============================================ */}
               {/* AffiliateForm + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Comprenez les symboles coraniques de vos reves"
                 description="La comprehension des reves en islam passe par la connaissance du Coran et de la langue arabe. Choisissez votre formation pour approfondir vos connaissances."

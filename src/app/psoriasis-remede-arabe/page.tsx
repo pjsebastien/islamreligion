@@ -8,6 +8,7 @@ import ArticleCTA from "@/components/ArticleCTA";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import HadithCard from "@/components/HadithCard";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1590,6 +1591,8 @@ export default function PsoriasisRemedeArabe() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Maîtrisez les invocations de guérison prophétiques"
                 description="Les remèdes arabes s'accompagnent de douas et d'invocations en arabe. Apprenez à les réciter correctement grâce à une formation adaptée."

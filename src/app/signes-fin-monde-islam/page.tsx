@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1117,6 +1118,8 @@ export default function SignesFinMonde() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Mémorisez les sourates qui protègent des épreuves"
                 description="La connaissance du Coran est la meilleure préparation face aux épreuves de la fin des temps. Sourate Al-Kahf, les invocations de protection... formez-vous dès maintenant."

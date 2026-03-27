@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1005,6 +1006,8 @@ export default function AbandonPriere() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Perfectionnez votre récitation pour sublimer votre prière"
                 description="Une bonne récitation du Coran enrichit chaque prière. Apprenez le tajwid et la langue arabe pour vivre une expérience spirituelle plus profonde."

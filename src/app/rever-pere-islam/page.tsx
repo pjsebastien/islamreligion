@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -901,6 +902,8 @@ export default function ReverPereIslam() {
               {/* ============================================ */}
               {/* AffiliateForm + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Approfondissez votre compréhension des rêves en islam"
                 description="La connaissance du Coran et de la langue arabe enrichit la compréhension des symboles oniriques. Choisissez votre formation pour aller plus loin."

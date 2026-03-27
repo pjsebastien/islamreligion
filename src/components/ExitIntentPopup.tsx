@@ -18,29 +18,14 @@ export default function ExitIntentPopup() {
   }, []);
 
   useEffect(() => {
-    if (window.matchMedia("(pointer: coarse)").matches) return;
     if (sessionStorage.getItem("exit-popup-shown")) return;
 
-    let armed = false;
-    const armTimer = setTimeout(() => {
-      armed = true;
-    }, 30000);
+    const timer = setTimeout(() => {
+      setVisible(true);
+      sessionStorage.setItem("exit-popup-shown", "1");
+    }, 15000);
 
-    const handleMouseLeave = (e: MouseEvent) => {
-      if (!armed) return;
-      if (e.clientY < 0) {
-        setVisible(true);
-        sessionStorage.setItem("exit-popup-shown", "1");
-        document.documentElement.removeEventListener("mouseleave", handleMouseLeave);
-      }
-    };
-
-    document.documentElement.addEventListener("mouseleave", handleMouseLeave);
-
-    return () => {
-      clearTimeout(armTimer);
-      document.documentElement.removeEventListener("mouseleave", handleMouseLeave);
-    };
+    return () => clearTimeout(timer);
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {

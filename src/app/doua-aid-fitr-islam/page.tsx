@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const revalidate = 86400;
 
@@ -787,6 +788,8 @@ export default function DouaAidFitrIslam() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour comprendre les invocations dans leur langue originale"
                 description="Maîtrisez la langue du Coran pour réciter les douas de l&apos;Aïd et du Ramadan avec compréhension et profondeur spirituelle. Découvrez nos formations en ligne adaptées à tous les niveaux."

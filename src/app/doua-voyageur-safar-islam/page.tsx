@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1140,6 +1141,8 @@ export default function DouaVoyageurSafar() {
               {/* ============================================ */}
               {/* AffiliateForm */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Comprenez vos invocations en apprenant la langue arabe"
                 description="Réciter vos du&apos;as en arabe avec compréhension transforme votre expérience spirituelle. Découvrez nos formations adaptées aux francophones."

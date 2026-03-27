@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -900,6 +901,8 @@ export default function ReverFeuIncendieIslam() {
               {/* ============================================ */}
               {/* AffiliateForm + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Approfondissez votre compréhension des symboles coraniques"
                 description="Le feu, la lumière et les éléments naturels dans le Coran portent des significations profondes. Choisissez votre formation pour mieux comprendre vos rêves à la lumière des textes sacrés."

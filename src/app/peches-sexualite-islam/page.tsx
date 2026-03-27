@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1133,6 +1134,8 @@ export default function PechesSexualite() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Acc\u00e9dez aux sources du fiqh dans leur langue originale"
                 description="Le Coran, la Sunna et les ouvrages de jurisprudence sont en arabe. Formez-vous pour lire et comprendre les textes de r\u00e9f\u00e9rence."

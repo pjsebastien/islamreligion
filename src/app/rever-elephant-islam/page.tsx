@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Rêver d'éléphant en islam : signification et interprétation complète",
@@ -738,6 +739,8 @@ export default function ReverElephantIslam() {
               {/* ============================================ */}
               {/* AffiliateForm + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Approfondissez votre compréhension des symboles coraniques"
                 description="La sourate Al-Fil et les symboles oniriques du Coran prennent tout leur sens quand on maîtrise la langue arabe et la récitation. Choisissez votre formation pour progresser."

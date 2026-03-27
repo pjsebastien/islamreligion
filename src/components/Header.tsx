@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { SocialIconsCompact } from "@/components/SocialLinks";
 
 interface NavItem {
   href?: string;
@@ -120,9 +121,14 @@ export default function Header() {
               height={32}
               className="h-8 w-8 lg:h-9 lg:w-9"
             />
-            <span className="text-xl font-bold text-primary lg:text-2xl">
-              Islam<span className="text-secondary">Religion</span>
-            </span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold leading-tight text-primary lg:text-2xl">
+                Islam<span className="text-secondary">Religion</span>
+              </span>
+              <span className="text-[10px] leading-none text-foreground-secondary">
+                By La Maison d&apos;Adam
+              </span>
+            </div>
           </Link>
 
           {/* Navigation desktop */}
@@ -140,6 +146,9 @@ export default function Header() {
                 </Link>
               )
             )}
+            <div className="ml-2 border-l border-border pl-3">
+              <SocialIconsCompact />
+            </div>
           </div>
 
           {/* Bouton mobile */}

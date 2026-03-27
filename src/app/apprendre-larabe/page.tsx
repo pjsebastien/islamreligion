@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Apprendre l'arabe : méthode, alphabet et premiers pas",
@@ -361,7 +362,9 @@ export default function ApprendreLarabe() {
                   </p>
                 </div>
 
-                <AffiliateForm
+                <SocialBanner />
+
+              <AffiliateForm
                   title="Recevez une formation structurée en arabe"
                   description="Vous souhaitez aller plus loin que l'alphabet ? Accédez à un programme complet pour apprendre l'arabe avec un suivi pédagogique adapté à votre niveau."
                   buttonText="Recevoir les détails de la formation"

@@ -7,6 +7,7 @@ import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1602,6 +1603,8 @@ export default function RemedeArabeGrossesse() {
 
                 <MedicalDisclaimer />
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Maîtrisez les invocations de guérison prophétiques"

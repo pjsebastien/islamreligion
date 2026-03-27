@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -291,6 +292,8 @@ export default function SymbolismeFourmis() {
                   </div>
                 </div>
               </section>
+
+              <SocialBanner />
 
               <AffiliateForm
                 title="Comprenez les symboles coraniques de vos rêves"

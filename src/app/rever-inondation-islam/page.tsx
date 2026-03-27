@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -832,6 +833,8 @@ export default function ReverInondationIslam() {
               {/* ============================================ */}
               {/* AffiliateForm + FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Approfondissez votre compréhension des symboles coraniques"
                 description="L'interprétation des rêves en islam repose sur la connaissance du Coran et de la langue arabe. Choisissez votre formation pour enrichir votre savoir."

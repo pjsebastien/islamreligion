@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Apprendre le Coran : mémorisation, récitation et tajwid",
@@ -400,7 +401,9 @@ export default function ApprendreLeCoran() {
                   </table>
                 </div>
 
-                <AffiliateForm
+                <SocialBanner />
+
+              <AffiliateForm
                   title="Accédez à un cours de Coran en ligne"
                   description="Un programme structuré avec des enseignants qualifiés, adapté à votre niveau et à vos disponibilités. Laissez votre email pour recevoir les détails du programme."
                   buttonText="Recevoir les informations"

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 import ArticleCTA from "@/components/ArticleCTA";
 import QuizGame from "@/components/QuizGame";
 import { levels } from "@/data/quizQuestions";
@@ -344,7 +345,9 @@ export default function QuizIslamEnfantPage() {
               </div>
             </section>
 
-            <AffiliateForm
+            <SocialBanner />
+
+              <AffiliateForm
               title="Apprenez l'arabe et le Coran en ligne"
               description="Rejoignez des milliers d'étudiants qui apprennent l'arabe classique et la lecture du Coran avec des professeurs qualifiés."
               preselect="coran"

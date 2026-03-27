@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -1177,6 +1178,8 @@ export default function MariageIslamique() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Comprenez les sources islamiques du droit familial"
                 description="Les termes juridiques islamiques viennent du Coran et de la Sunna. Apprenez l'arabe pour acc\u00e9der directement aux textes fondateurs."

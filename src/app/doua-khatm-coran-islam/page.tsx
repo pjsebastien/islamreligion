@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const revalidate = 86400;
 
@@ -787,6 +788,8 @@ export default function DouaKhatmCoranIslam() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour réciter le Coran avec compréhension"
                 description="Maîtrisez la langue du Coran pour comprendre chaque verset que vous récitez et vivre une khatma transformatrice. Découvrez nos formations en ligne adaptées à tous les niveaux."

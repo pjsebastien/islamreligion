@@ -6,6 +6,7 @@ import FaqSection from "@/components/FaqSection";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -810,6 +811,8 @@ export default function ReverAbeilleGuepeIslam() {
               {/* ============================================ */}
               {/* FAQ */}
               {/* ============================================ */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Approfondissez votre compréhension du Coran et des rêves"
                 description="La sourate An-Nahl offre des clés de lecture pour comprendre le symbolisme de l'abeille. Choisissez votre formation pour maîtriser la langue arabe et la récitation du Coran."

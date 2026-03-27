@@ -7,6 +7,7 @@ import HadithCard from "@/components/HadithCard";
 import TableOfContents from "@/components/TableOfContents";
 import ArticleCTA from "@/components/ArticleCTA";
 import AffiliateForm from "@/components/AffiliateForm";
+import { SocialBanner } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title:
@@ -977,6 +978,8 @@ export default function DouaMatinAdhkarIslam() {
               </section>
 
               {/* ====== AffiliateForm ====== */}
+              <SocialBanner />
+
               <AffiliateForm
                 title="Apprenez l&apos;arabe pour comprendre vos adhkar du matin"
                 description="Comprendre le sens de chaque doua du matin transforme votre expérience spirituelle. Découvrez notre formation en ligne pour maîtriser la langue arabe et approfondir votre compréhension du Coran et des invocations prophétiques."
