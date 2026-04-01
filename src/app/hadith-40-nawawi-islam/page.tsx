@@ -39,7 +39,7 @@ const tocItems = [
   { id: "hadiths-fondamentaux", label: "Hadiths fondamentaux (1-10)" },
   { id: "hadiths-ethique", label: "Hadiths sur l'éthique (11-20)" },
   { id: "hadiths-piete", label: "Hadiths sur la piété (21-30)" },
-  { id: "hadiths-spiritualite", label: "Hadiths sur la spiritualité (31-40)" },
+  { id: "hadiths-spiritualite", label: "Hadiths sur la spiritualité (31-42)" },
   { id: "enseignements", label: "Enseignements pratiques" },
   { id: "faq", label: "Questions fréquentes" },
 ];
@@ -150,7 +150,7 @@ export default function Hadith40NawawiPage() {
       <main>
         <Hero
           title="Les 40 hadiths d&apos;An-Nawawi : les fondements de l&apos;islam"
-          subtitle="Découvrez les 40 hadiths essentiels compilés par l'imam An-Nawawi, avec texte arabe original, traduction française et explication détaillée. Les paroles prophétiques fondamentales que tout musulman doit connaître."
+          subtitle="Découvrez les 42 hadiths essentiels compilés par l'imam An-Nawawi, avec texte arabe original, traduction française et explication détaillée. Les paroles prophétiques fondamentales que tout musulman doit connaître."
           imageSrc="/images/coran-ouvert-chapelet-bois-islam-versets.jpg"
           imageAlt="Coran ouvert avec chapelet en bois, symbolisant l'étude des hadiths d'An-Nawawi"
           compact
@@ -193,7 +193,7 @@ export default function Hadith40NawawiPage() {
                   À retenir
                 </h2>
                 <ul className="ml-5 space-y-2 text-base leading-relaxed text-foreground list-disc marker:text-secondary">
-                  <li>Les <strong>40 hadiths d&apos;An-Nawawi</strong> sont une compilation de hadiths fondamentaux couvrant les bases de l&apos;islam, sélectionnés par l&apos;imam An-Nawawi au VII<sup>e</sup> siècle de l&apos;Hégire.</li>
+                  <li>Les <strong>40 hadiths d&apos;An-Nawawi</strong> (en réalité 42) sont une compilation de hadiths fondamentaux couvrant les bases de l&apos;islam, sélectionnés par l&apos;imam An-Nawawi au VII<sup>e</sup> siècle de l&apos;Hégire.</li>
                   <li>Chaque hadith traite d&apos;un <strong>principe fondamental</strong> de la religion : les piliers de l&apos;islam, la foi, l&apos;éthique, la piété et la spiritualité.</li>
                   <li>La quasi-totalité des hadiths sont <strong>authentiques (sahih)</strong>, tirés principalement des recueils de Bukhari et Muslim.</li>
                   <li>Cet ouvrage est le <strong>premier recueil recommandé</strong> pour tout musulman souhaitant approfondir sa connaissance des paroles prophétiques.</li>
@@ -356,12 +356,12 @@ export default function Hadith40NawawiPage() {
                 <HadithBlock
                   number={8}
                   title="L&apos;inviolabilité du sang du musulman"
-                  narrator="Ibn Mas&apos;ud"
-                  arabic="لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلَّا بِإِحْدَى ثَلَاثٍ"
-                  translation="Il n&apos;est pas permis de verser le sang d&apos;un musulman qui atteste qu&apos;il n&apos;y a de divinité digne d&apos;adoration qu&apos;Allah et que je suis le Messager d&apos;Allah, sauf dans trois cas."
-                  source="Sahih Al-Bukhari, n°6484 — Sahih Muslim, n°1676"
+                  narrator="Ibn &apos;Umar"
+                  arabic="أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلَاةَ، وَيُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا ذَٰلِكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلَّا بِحَقِّ الْإِسْلَامِ، وَحِسَابُهُمْ عَلَى اللَّهِ تَعَالَى"
+                  translation="Il m&apos;a été ordonné de combattre les gens jusqu&apos;à ce qu&apos;ils attestent qu&apos;il n&apos;y a de divinité digne d&apos;adoration qu&apos;Allah et que Muhammad est le Messager d&apos;Allah, qu&apos;ils accomplissent la prière et acquittent la zakat. S&apos;ils le font, ils préservent de moi leur sang et leurs biens, sauf en vertu du droit de l&apos;islam, et leur compte est auprès d&apos;Allah le Très-Haut."
+                  source="Sahih Al-Bukhari, n°25 — Sahih Muslim, n°22"
                   grade="sahih"
-                  explanation="Ce hadith établit le caractère sacré de la vie humaine en islam. La vie du musulman est inviolable par défaut. Ce principe de sacralité de la vie est l&apos;un des cinq objectifs supérieurs de la charia (maqasid ash-shari&apos;a). Les savants soulignent que seule l&apos;autorité judiciaire compétente peut appliquer ces exceptions."
+                  explanation="Ce hadith établit le caractère sacré de la vie et des biens du musulman. L&apos;attestation de foi, la prière et la zakat constituent le minimum par lequel une personne entre dans la protection de l&apos;islam. La fin du hadith — &laquo;&nbsp;leur compte est auprès d&apos;Allah&nbsp;&raquo; — enseigne que la sincérité intérieure n&apos;est jugée que par Allah, pas par les hommes. Abu Bakr as-Siddiq s&apos;est appuyé sur ce hadith pour justifier le combat contre ceux qui refusèrent de payer la zakat après la mort du Prophète ﷺ."
                 />
 
                 <HadithBlock
@@ -434,13 +434,13 @@ export default function Hadith40NawawiPage() {
 
                 <HadithBlock
                   number={14}
-                  title="Ne vous mettez pas en colère"
-                  narrator="Abu Hurayra"
-                  arabic="أَنَّ رَجُلًا قَالَ لِلنَّبِيِّ ﷺ أَوْصِنِي، قَالَ: لَا تَغْضَبْ، فَرَدَّدَ مِرَارًا، قَالَ: لَا تَغْضَبْ"
-                  translation="Un homme dit au Prophète ﷺ : 'Conseille-moi.' Il répondit : 'Ne te mets pas en colère.' L'homme répéta sa demande plusieurs fois, et le Prophète ﷺ répondit à chaque fois : 'Ne te mets pas en colère.'"
-                  source="Sahih Al-Bukhari, n°6116"
+                  title="L&apos;inviolabilité du sang du musulman (les trois cas)"
+                  narrator="Ibn Mas&apos;ud"
+                  arabic="لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلَّا بِإِحْدَى ثَلَاثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ"
+                  translation="Il n&apos;est pas permis de verser le sang d&apos;un musulman qui atteste qu&apos;il n&apos;y a de divinité digne d&apos;adoration qu&apos;Allah et que je suis le Messager d&apos;Allah, sauf dans trois cas : la personne mariée qui commet l&apos;adultère, vie pour vie (en cas de meurtre), et celui qui abandonne sa religion et quitte la communauté."
+                  source="Sahih Al-Bukhari, n°6484 — Sahih Muslim, n°1676"
                   grade="sahih"
-                  explanation="La répétition de ce conseil unique montre à quel point la maîtrise de la colère est essentielle en islam. La colère est la racine de nombreux péchés : les paroles blessantes, la violence, la rupture des liens familiaux et l'injustice. Le Prophète ﷺ a enseigné des remèdes pratiques contre la colère : changer de position (s'asseoir si l'on est debout, se coucher si l'on est assis), faire les ablutions, se taire et chercher refuge auprès d'Allah contre Satan. Le véritable fort n'est pas celui qui terrasse les autres, mais celui qui se maîtrise dans la colère."
+                  explanation="Ce hadith établit le caractère sacré de la vie humaine en islam. La vie du musulman est inviolable par défaut, et seuls trois cas exceptionnels, soumis à des procédures juridiques strictes, peuvent lever cette protection. Ce principe de sacralité de la vie est l&apos;un des cinq objectifs supérieurs de la charia (maqasid ash-shari&apos;a). Les savants soulignent que l&apos;application de ces sanctions relève exclusivement de l&apos;autorité judiciaire compétente."
                 />
 
                 <HadithBlock
@@ -456,13 +456,13 @@ export default function Hadith40NawawiPage() {
 
                 <HadithBlock
                   number={16}
-                  title="Ne vous enviez pas, ne vous détestez pas"
+                  title="Ne te mets pas en colère"
                   narrator="Abu Hurayra"
-                  arabic="لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا"
-                  translation="Ne vous enviez pas les uns les autres, ne surenchérissez pas pour tromper, ne vous détestez pas, ne vous tournez pas le dos, ne vendez pas les uns sur les transactions des autres, et soyez des serviteurs d&apos;Allah, des frères."
-                  source="Sahih Muslim, n°2564"
+                  arabic="أَنَّ رَجُلًا قَالَ لِلنَّبِيِّ ﷺ أَوْصِنِي، قَالَ: لَا تَغْضَبْ، فَرَدَّدَ مِرَارًا، قَالَ: لَا تَغْضَبْ"
+                  translation="Un homme dit au Prophète ﷺ : &apos;Conseille-moi.&apos; Il répondit : &apos;Ne te mets pas en colère.&apos; L&apos;homme répéta sa demande plusieurs fois, et le Prophète ﷺ répondit à chaque fois : &apos;Ne te mets pas en colère.&apos;"
+                  source="Sahih Al-Bukhari, n°6116"
                   grade="sahih"
-                  explanation="Ce hadith énumère les comportements qui détruisent le tissu social de la communauté musulmane : l&apos;envie, la tromperie commerciale, la haine et la rupture des liens. Il conclut par l&apos;injonction d&apos;être des frères, ce qui résume tout le programme de la fraternité islamique."
+                  explanation="La répétition de ce conseil unique montre à quel point la maîtrise de la colère est essentielle en islam. La colère est la racine de nombreux péchés : les paroles blessantes, la violence, la rupture des liens familiaux et l&apos;injustice. Le Prophète ﷺ a enseigné des remèdes pratiques contre la colère : changer de position, faire les ablutions, se taire et chercher refuge auprès d&apos;Allah contre Satan. Le véritable fort n&apos;est pas celui qui terrasse les autres, mais celui qui se maîtrise dans la colère."
                 />
 
                 <HadithBlock
@@ -546,13 +546,13 @@ export default function Hadith40NawawiPage() {
 
                 <HadithBlock
                   number={22}
-                  title="L&apos;inviolabilité du sang du musulman"
-                  narrator="Ibn Mas&apos;ud"
-                  arabic="لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلَّا بِإِحْدَى ثَلَاثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ"
-                  translation="Il n&apos;est pas permis de verser le sang d&apos;un musulman qui atteste qu&apos;il n&apos;y a de divinité digne d&apos;adoration qu&apos;Allah et que je suis le Messager d&apos;Allah, sauf dans trois cas : la personne mariée qui commet l&apos;adultère, vie pour vie (en cas de meurtre), et celui qui abandonne sa religion et quitte la communauté."
-                  source="Sahih Al-Bukhari, n°6484 — Sahih Muslim, n°1676"
+                  title="Fais les obligations et tu entreras au Paradis"
+                  narrator="Abu &apos;Abdallah Jabir ibn Abdallah al-Ansari"
+                  arabic="أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلَالَ، وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَٰلِكَ شَيْئًا، أَأَدْخُلُ الْجَنَّةَ؟ قَالَ: نَعَمْ"
+                  translation="Un homme demanda au Prophète ﷺ : &apos;Dis-moi, si j&apos;accomplis les prières obligatoires, que je jeûne le Ramadan, que je considère licite ce qui est licite et illicite ce qui est illicite, sans rien ajouter à cela, entrerai-je au Paradis ?&apos; Il répondit : &apos;Oui.&apos;"
+                  source="Sahih Muslim, n°15"
                   grade="sahih"
-                  explanation="Ce hadith établit le caractère sacré de la vie humaine en islam. La vie du musulman est inviolable par défaut, et seuls trois cas exceptionnels, soumis à des procédures juridiques strictes, peuvent lever cette protection. Ce principe de sacralité de la vie est l&apos;un des cinq objectifs supérieurs de la charia (maqasid ash-shari&apos;a). Les savants soulignent que l&apos;application de ces sanctions relève exclusivement de l&apos;autorité judiciaire compétente."
+                  explanation="Ce hadith montre que l&apos;islam est accessible à tous. L&apos;accomplissement sincère des obligations fondamentales — sans actes surérogatoires supplémentaires — suffit pour entrer au Paradis. Cela ne signifie pas que les actes volontaires sont inutiles, mais que le seuil minimum de la réussite dans l&apos;au-delà est à la portée de chaque musulman. Ce hadith est une source d&apos;espoir et de motivation pour les croyants."
                 />
 
                 <HadithBlock
@@ -568,35 +568,35 @@ export default function Hadith40NawawiPage() {
 
                 <HadithBlock
                   number={24}
-                  title="La chaîne d&apos;or de la bienfaisance"
-                  narrator="Abu Dharr"
+                  title="L&apos;interdiction de l&apos;injustice (hadith qudsi)"
+                  narrator="Abu Dharr al-Ghifari"
                   arabic="قَالَ اللَّهُ تَعَالَى: يَا عِبَادِي، إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلَا تَظَالَمُوا"
                   translation="Allah le Très-Haut a dit : &apos;Ô Mes serviteurs, Je Me suis interdit l&apos;injustice et Je l&apos;ai rendue interdite entre vous, alors ne soyez pas injustes les uns envers les autres.&apos;"
                   source="Sahih Muslim, n°2577"
                   grade="sahih"
-                  explanation="Ce hadith qudsi est l&apos;un des plus importants de toute la tradition islamique. Allah y déclare que l&apos;injustice est interdite, même pour Lui-même, et qu&apos;elle est donc à fortiori interdite entre les êtres humains. Ce hadith couvre ensuite la guidance, le pardon, la subsistance et la générosité divine. Il se conclut par un rappel que seules les oeuvres comptent et que la miséricorde d&apos;Allah est infinie pour celui qui Le cherche."
+                  explanation="Ce hadith qudsi est l&apos;un des plus importants de toute la tradition islamique. Allah y déclare que l&apos;injustice est interdite, même pour Lui-même, et qu&apos;elle est donc à fortiori interdite entre les êtres humains. Ce long hadith couvre ensuite la guidance, le pardon, la subsistance et la générosité divine. Il se conclut par un rappel que seules les oeuvres comptent et que la miséricorde d&apos;Allah est infinie pour celui qui Le cherche. Les savants le considèrent comme le hadith qudsi le plus important après celui des alliés d&apos;Allah."
                 />
 
                 <HadithBlock
                   number={25}
-                  title="Les portes du bien"
-                  narrator="Abu Hurayra"
-                  arabic="كُلُّ سُلَامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ"
-                  translation="Chaque articulation du corps humain doit une charité chaque jour où le soleil se lève. Être équitable entre deux personnes est une charité, aider un homme avec sa monture est une charité, la bonne parole est une charité, chaque pas vers la prière est une charité, et enlever un obstacle du chemin est une charité."
-                  source="Sahih Al-Bukhari, n°2989 — Sahih Muslim, n°1009"
+                  title="Les portes de la charité"
+                  narrator="Abu Dharr"
+                  arabic="يُصْبِحُ عَلَى كُلِّ سُلَامَى مِنْ أَحَدِكُمْ صَدَقَةٌ، فَكُلُّ تَسْبِيحَةٍ صَدَقَةٌ، وَكُلُّ تَحْمِيدَةٍ صَدَقَةٌ، وَكُلُّ تَهْلِيلَةٍ صَدَقَةٌ، وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ، وَنَهْيٌ عَنِ الْمُنْكَرِ صَدَقَةٌ، وَيُجْزِئُ مِنْ ذَٰلِكَ رَكْعَتَانِ يَرْكَعُهُمَا مِنَ الضُّحَى"
+                  translation="Chaque matin, chaque articulation de l&apos;un d&apos;entre vous doit une charité. Chaque glorification (SubhanAllah) est une charité, chaque louange (Al-hamdulillah) est une charité, chaque attestation d&apos;unicité (La ilaha illa Allah) est une charité, ordonner le bien est une charité, interdire le mal est une charité. Et deux unités de prière du Duha (milieu de matinée) suffisent pour cela."
+                  source="Sahih Muslim, n°720"
                   grade="sahih"
-                  explanation="Ce hadith enseigne que la gratitude pour la santé (360 articulations) s&apos;exprime par des actes de bienfaisance quotidiens. Le Prophète ﷺ énumère des actes simples et accessibles à tous : la parole aimable, l&apos;entraide, la marche vers la mosquée. La charité en islam n&apos;est pas réservée aux riches : un sourire, un mot gentil ou le retrait d&apos;un obstacle du chemin sont autant de formes de sadaqa."
+                  explanation="Ce hadith enseigne que la charité (sadaqa) en islam ne se limite pas à l&apos;argent. Chaque articulation du corps (360) doit une aumône quotidienne en remerciement. Le Prophète ﷺ énumère des actes accessibles à tous : le dhikr, ordonner le bien, interdire le mal. Et pour simplifier, deux unités de prière du Duha couvrent l&apos;ensemble de cette obligation. C&apos;est une grande facilité accordée par Allah."
                 />
 
                 <HadithBlock
                   number={26}
-                  title="Ne pas nuire ni causer de tort"
-                  narrator="Abu Sa&apos;id al-Khudri"
-                  arabic="لَا ضَرَرَ وَلَا ضِرَارَ"
-                  translation="Pas de préjudice ni de réciprocité dans le préjudice."
-                  source="Sunan Ibn Majah, n°2341 — Muwatta Malik, n°1435"
-                  grade="hasan"
-                  explanation="Ce hadith court mais fondamental établit l&apos;une des cinq grandes règles de la jurisprudence islamique. Il interdit de causer du tort à autrui (darar) et de répondre au tort par le tort (dirar). Ce principe est la base de la protection des droits d&apos;autrui en islam et s&apos;applique dans tous les domaines : voisinage, commerce, environnement et relations sociales."
+                  title="Chaque articulation a droit à une aumône"
+                  narrator="Abu Hurayra"
+                  arabic="كُلُّ سُلَامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: تَعْدِلُ بَيْنَ اثْنَيْنِ صَدَقَةٌ، وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ"
+                  translation="Chaque articulation du corps humain doit une charité chaque jour où le soleil se lève. Être équitable entre deux personnes est une charité, aider un homme avec sa monture est une charité, la bonne parole est une charité, chaque pas vers la prière est une charité, et enlever un obstacle du chemin est une charité."
+                  source="Sahih Al-Bukhari, n°2989 — Sahih Muslim, n°1009"
+                  grade="sahih"
+                  explanation="Ce hadith complète le précédent en détaillant des formes concrètes de charité quotidienne. Le Prophète ﷺ énumère des actes simples et accessibles à tous : rendre justice, aider autrui, la parole aimable, marcher vers la mosquée, retirer un obstacle du chemin. La charité en islam n&apos;est pas réservée aux riches : un sourire, un mot gentil ou un petit service sont autant de formes de sadaqa."
                 />
 
                 <HadithBlock
@@ -645,81 +645,81 @@ export default function Hadith40NawawiPage() {
               </section>
 
               {/* ============================================ */}
-              {/* HADITHS SUR LA SPIRITUALITE (31-40) */}
+              {/* HADITHS SUR LA SPIRITUALITE (31-42) */}
               {/* ============================================ */}
               <section id="hadiths-spiritualite" className="mt-16 scroll-mt-24">
                 <h2 className="mb-6 text-2xl font-bold text-primary lg:text-3xl">
-                  Les hadiths sur la spiritualité (31-40)
+                  Les hadiths sur la spiritualité (31-42)
                 </h2>
 
                 <p className="mb-8 text-lg leading-relaxed text-foreground">
-                  Les derniers hadiths de la compilation traitent de la <strong>dimension spirituelle et de la relation intime avec Allah</strong>. Ils abordent le détachement de ce monde, le chemin vers le Paradis, la proximité divine, le respect des aînés et la pudeur. Ces hadiths invitent le croyant à élever son regard au-delà du matériel pour atteindre l&apos;excellence spirituelle (<em>ihsan</em>).
+                  Les derniers hadiths de la compilation traitent de la <strong>dimension spirituelle et de la relation intime avec Allah</strong>. Ils abordent le détachement de ce monde, l&apos;interdiction de nuire, la preuve et le serment, le changement du mal, la fraternité, la proximité divine et l&apos;immensité du pardon d&apos;Allah. Ces hadiths invitent le croyant à élever son regard au-delà du matériel pour atteindre l&apos;excellence spirituelle (<em>ihsan</em>).
                 </p>
 
                 <HadithBlock
                   number={31}
-                  title="Sois dans ce monde comme un étranger"
-                  narrator="Ibn &apos;Umar"
-                  arabic="كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ"
-                  translation="Sois dans ce monde comme un étranger ou un voyageur de passage."
-                  source="Sahih Al-Bukhari, n°6416"
-                  grade="sahih"
-                  explanation="Ce hadith enseigne le détachement du monde matériel (zuhd), qui est l'une des stations les plus élevées de la spiritualité islamique. L'étranger ne s'attache pas au pays qu'il traverse, et le voyageur ne prend que le nécessaire pour son voyage. De même, le croyant doit considérer ce monde comme une étape temporaire vers l'au-delà éternel. Ibn 'Umar ajoutait : 'Quand tu es le soir, n'attends pas le matin, et quand tu es le matin, n'attends pas le soir.' Ce hadith n'interdit pas de profiter licitement de la vie, mais invite à ne pas en faire une fin en soi."
+                  title="Le renoncement au monde pour l&apos;amour d&apos;Allah"
+                  narrator="Sahl ibn Sa&apos;d as-Sa&apos;idi"
+                  arabic="ازْهَدْ فِي الدُّنْيَا يُحِبَّكَ اللَّهُ، وَازْهَدْ فِيمَا عِنْدَ النَّاسِ يُحِبَّكَ النَّاسُ"
+                  translation="Renonce à ce monde et Allah t&apos;aimera. Renonce à ce que possèdent les gens et les gens t&apos;aimeront."
+                  source="Sunan Ibn Majah, n°4102"
+                  grade="hasan"
+                  explanation="Ce hadith offre une double clé pour obtenir l&apos;amour d&apos;Allah et celui des gens. Le zuhd (détachement) ne signifie pas abandonner les biens matériels, mais ne pas en faire l&apos;objectif de sa vie. Ne pas convoiter ce que les autres possèdent libère des jalousies et des rivalités, et attire naturellement l&apos;estime et l&apos;amour des gens."
                 />
 
                 <HadithBlock
                   number={32}
-                  title="Le Paradis est entouré de choses désagréables"
-                  narrator="Abu Hurayra"
-                  arabic="حُفَّتِ الْجَنَّةُ بِالْمَكَارِهِ وَحُفَّتِ النَّارُ بِالشَّهَوَاتِ"
-                  translation="Le Paradis est entouré de choses désagréables et l'Enfer est entouré de désirs (tentations)."
-                  source="Sahih Al-Bukhari, n°6487 — Sahih Muslim, n°2822"
-                  grade="sahih"
-                  explanation="Ce hadith utilise une métaphore saisissante pour décrire la réalité du cheminement spirituel. Le chemin vers le Paradis passe par des épreuves, des sacrifices et la résistance aux tentations : se lever pour la prière de l'aube, jeûner sous la chaleur, dépenser ses biens en charité. À l'inverse, le chemin vers l'Enfer est pavé de plaisirs immédiats et de désirs non maîtrisés. Ce hadith encourage la patience et la persévérance face aux difficultés de l'obéissance à Allah."
+                  title="Ne pas nuire ni causer de tort"
+                  narrator="Abu Sa&apos;id al-Khudri"
+                  arabic="لَا ضَرَرَ وَلَا ضِرَارَ"
+                  translation="Pas de préjudice ni de réciprocité dans le préjudice."
+                  source="Sunan Ibn Majah, n°2341 — Muwatta Malik"
+                  grade="hasan"
+                  explanation="Ce hadith court mais fondamental établit l&apos;une des cinq grandes règles de la jurisprudence islamique (al-qawa&apos;id al-fiqhiyya). Il interdit de causer du tort à autrui (darar) et de répondre au tort par le tort (dirar). Ce principe est la base de la protection des droits d&apos;autrui en islam et s&apos;applique dans tous les domaines : voisinage, commerce, environnement et relations sociales."
                 />
 
                 <HadithBlock
                   number={33}
-                  title="Quiconque montre de l'hostilité envers un de Mes alliés"
-                  narrator="Abu Hurayra"
-                  arabic="إِنَّ اللَّهَ تَعَالَى قَالَ: مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ"
-                  translation="Allah le Très-Haut a dit : 'Quiconque montre de l'hostilité envers un de Mes alliés, Je lui déclare la guerre. Mon serviteur ne se rapproche pas de Moi par une chose plus aimée de Moi que ce que Je lui ai imposé. Et Mon serviteur ne cesse de se rapprocher de Moi par les oeuvres surérogatoires jusqu'à ce que Je l'aime.'"
-                  source="Sahih Al-Bukhari, n°6502"
-                  grade="sahih"
-                  explanation="Ce hadith qudsi (parole divine rapportée par le Prophète ﷺ) décrit le cheminement vers la proximité d'Allah en deux étapes. La première étape est l'accomplissement des obligations (fara'id) : la prière, le jeûne, la zakat. La seconde est l'ajout des actes surérogatoires (nawafil) : prières volontaires, jeûnes optionnels, charité supplémentaire. Lorsque le serviteur atteint ce niveau, Allah devient son protecteur et le guide dans toutes ses actions. Ce hadith est l'un des plus importants en matière de spiritualité islamique."
+                  title="La preuve incombe au demandeur et le serment au négateur"
+                  narrator="Ibn &apos;Abbas"
+                  arabic="لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لَادَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ، لَكِنَّ الْبَيِّنَةَ عَلَى الْمُدَّعِي وَالْيَمِينَ عَلَى مَنْ أَنْكَرَ"
+                  translation="Si l&apos;on donnait aux gens selon leurs seules prétentions, des hommes revendiqueraient les biens et le sang d&apos;autres personnes. Mais la preuve incombe au demandeur et le serment à celui qui nie."
+                  source="Rapporté par Al-Bayhaqi et d&apos;autres"
+                  grade="hasan"
+                  explanation="Ce hadith pose la base du système judiciaire islamique et de la présomption d&apos;innocence. Celui qui accuse doit fournir la preuve (bayyina), et celui qui est accusé doit jurer de son innocence. Ce principe protège les droits des individus et empêche les accusations infondées de prospérer. Les savants considèrent ce hadith comme le fondement de la procédure judiciaire en droit islamique."
                 />
 
                 <HadithBlock
                   number={34}
-                  title="N'est pas des nôtres celui qui ne respecte pas nos anciens"
-                  narrator="Anas"
-                  arabic="لَيْسَ مِنَّا مَنْ لَمْ يَرْحَمْ صَغِيرَنَا وَيُوَقِّرْ كَبِيرَنَا"
-                  translation="N'est pas des nôtres celui qui n'est pas miséricordieux envers nos jeunes et ne respecte pas nos anciens."
-                  source="Jami&apos; at-Tirmidhi, n°1919"
-                  grade="hasan"
-                  explanation="Ce hadith établit les règles de base du vivre-ensemble dans la communauté musulmane. La miséricorde envers les jeunes (enfants, adolescents) se manifeste par la douceur, la patience et l'éducation bienveillante. Le respect des anciens se traduit par la déférence, l'écoute et la reconnaissance de leur expérience et de leur savoir. Le Prophète ﷺ appliquait ce principe lui-même : il embrassait les enfants, jouait avec eux, et se levait pour accueillir les personnes âgées. Cette double exigence crée un équilibre social harmonieux."
+                  title="Changer le mal par la main, la langue ou le coeur"
+                  narrator="Abu Sa&apos;id al-Khudri"
+                  arabic="مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَٰلِكَ أَضْعَفُ الْإِيمَانِ"
+                  translation="Celui d&apos;entre vous qui voit un mal, qu&apos;il le change par sa main. S&apos;il ne le peut pas, alors par sa langue. S&apos;il ne le peut pas, alors par son coeur, et c&apos;est le degré le plus faible de la foi."
+                  source="Sahih Muslim, n°49"
+                  grade="sahih"
+                  explanation="Ce hadith établit trois niveaux de responsabilité face au mal : l&apos;action directe (par l&apos;autorité), la parole (par le conseil et la prédication) et le rejet intérieur (par le coeur). Chaque musulman est responsable selon sa capacité et sa position. Le dernier niveau — le rejet par le coeur — est le minimum absolu en deçà duquel il n&apos;y a plus de foi. Ce hadith est le fondement de l&apos;enjoindre le bien et d&apos;interdire le mal (al-amr bil-ma&apos;ruf wan-nahy &apos;anil-munkar)."
                 />
 
                 <HadithBlock
                   number={35}
-                  title="Allah est Bon et n&apos;accepte que le bon"
+                  title="Ne vous enviez pas, ne vous tournez pas le dos"
                   narrator="Abu Hurayra"
-                  arabic="إِنَّ اللَّهَ تَعَالَى طَيِّبٌ لَا يَقْبَلُ إِلَّا طَيِّبًا، وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ"
-                  translation="Allah le Très-Haut est Bon et n&apos;accepte que le bon. Et certes, Allah a ordonné aux croyants ce qu&apos;Il a ordonné aux messagers, en disant : &apos;Ô Messagers ! Mangez des bonnes choses et faites le bien.&apos;"
-                  source="Sahih Muslim, n°1015"
+                  arabic="لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا. الْمُسْلِمُ أَخُو الْمُسْلِمِ"
+                  translation="Ne vous enviez pas les uns les autres, ne surenchérissez pas pour tromper, ne vous détestez pas, ne vous tournez pas le dos, ne vendez pas les uns sur les transactions des autres, et soyez des serviteurs d&apos;Allah, des frères. Le musulman est le frère du musulman : il ne l&apos;opprime pas, ne le méprise pas et ne le trahit pas."
+                  source="Sahih Muslim, n°2564"
                   grade="sahih"
-                  explanation="Ce hadith établit un lien direct entre la pureté de la subsistance et l&apos;acceptation des actes d&apos;adoration. Allah étant Pur et Bon (at-Tayyib), Il n&apos;accepte que ce qui est pur et bon. Celui qui se nourrit de gains illicites verra ses invocations rejetées, même s&apos;il lève les mains vers le ciel avec ferveur. Ce hadith est un rappel puissant de l&apos;importance du halal dans tous les aspects de la vie."
+                  explanation="Ce hadith énumère les comportements qui détruisent le tissu social de la communauté musulmane : l&apos;envie, la tromperie commerciale, la haine et la rupture des liens. Il conclut par l&apos;injonction d&apos;être des frères et détaille les droits de la fraternité islamique : ne pas opprimer, ne pas mépriser, ne pas trahir. Le Prophète ﷺ précise que la piété est dans le coeur et que le sang, l&apos;honneur et les biens du musulman sont sacrés."
                 />
 
                 <HadithBlock
                   number={36}
-                  title="Celui qui soulage un croyant d&apos;une difficulte"
+                  title="Celui qui soulage un croyant d&apos;une difficulté"
                   narrator="Abu Hurayra"
                   arabic="مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ"
-                  translation="Celui qui soulage un croyant d&apos;une difficulte de ce monde, Allah le soulagera d&apos;une difficulte parmi celles du Jour de la Resurrection."
+                  translation="Celui qui soulage un croyant d&apos;une difficulté de ce monde, Allah le soulagera d&apos;une difficulté parmi celles du Jour de la Résurrection. Celui qui facilite les choses à un endetté, Allah lui facilitera dans ce monde et dans l&apos;au-delà."
                   source="Sahih Muslim, n°2699"
                   grade="sahih"
-                  explanation="Ce hadith établit un principe de réciprocité divine : la récompense est à la mesure de l&apos;acte. Soulager autrui, faciliter ses affaires, dissimuler ses défauts — tout cela est récompensé proportionnellement dans l&apos;au-delà. C&apos;est une puissante motivation pour l&apos;entraide et la solidarité communautaire."
+                  explanation="Ce hadith établit un principe de réciprocité divine : la récompense est à la mesure de l&apos;acte. Soulager autrui, faciliter ses affaires, dissimuler ses défauts — tout cela est récompensé proportionnellement dans l&apos;au-delà. Le hadith se conclut par la parole : &laquo;&nbsp;Allah aide Son serviteur tant que celui-ci aide son frère.&nbsp;&raquo; C&apos;est une puissante motivation pour l&apos;entraide et la solidarité communautaire."
                 />
 
                 <HadithBlock
@@ -735,13 +735,13 @@ export default function Hadith40NawawiPage() {
 
                 <HadithBlock
                   number={38}
-                  title="N&apos;est pas des nôtres celui qui ne respecte pas nos anciens"
-                  narrator="Anas ibn Malik"
-                  arabic="لَيْسَ مِنَّا مَنْ لَمْ يَرْحَمْ صَغِيرَنَا وَيُوَقِّرْ كَبِيرَنَا"
-                  translation="N&apos;est pas des nôtres celui qui n&apos;est pas miséricordieux envers nos jeunes et ne respecte pas nos anciens."
-                  source="Jami&apos; at-Tirmidhi, n°1919"
-                  grade="hasan"
-                  explanation="Ce hadith établit les règles du vivre-ensemble dans la communauté musulmane. La miséricorde envers les jeunes se manifeste par la douceur, la patience et l&apos;éducation bienveillante. Le respect des anciens se traduit par la déférence, l&apos;écoute et la reconnaissance de leur expérience. Le Prophète ﷺ incarnait ce principe : il embrassait les enfants et se levait pour accueillir les personnes âgées."
+                  title="Les alliés d&apos;Allah (hadith qudsi sur les actes surérogatoires)"
+                  narrator="Abu Hurayra"
+                  arabic="إِنَّ اللَّهَ تَعَالَى قَالَ: مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ"
+                  translation="Allah le Très-Haut a dit : &apos;Quiconque montre de l&apos;hostilité envers un de Mes alliés, Je lui déclare la guerre. Mon serviteur ne se rapproche pas de Moi par une chose plus aimée de Moi que ce que Je lui ai imposé. Et Mon serviteur ne cesse de se rapprocher de Moi par les oeuvres surérogatoires jusqu&apos;à ce que Je l&apos;aime.&apos;"
+                  source="Sahih Al-Bukhari, n°6502"
+                  grade="sahih"
+                  explanation="Ce hadith qudsi décrit le cheminement vers la proximité d&apos;Allah en deux étapes. La première est l&apos;accomplissement des obligations (fara&apos;id) : la prière, le jeûne, la zakat. La seconde est l&apos;ajout des actes surérogatoires (nawafil) : prières volontaires, jeûnes optionnels, charité supplémentaire. Lorsque le serviteur atteint ce niveau, Allah devient son ouïe, sa vue et sa main — c&apos;est-à-dire qu&apos;Il le guide dans toutes ses actions. Ce hadith est l&apos;un des plus importants en matière de spiritualité islamique."
                 />
 
                 <HadithBlock
@@ -750,20 +750,42 @@ export default function Hadith40NawawiPage() {
                   narrator="Ibn &apos;Abbas"
                   arabic="إِنَّ اللَّهَ تَجَاوَزَ عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوا عَلَيْهِ"
                   translation="Allah a pardonné à ma communauté l&apos;erreur involontaire, l&apos;oubli et ce qu&apos;on les a contraints de faire."
-                  source="Sunan Ibn Majah, n°2045"
+                  source="Sunan Ibn Majah, n°2045 — Al-Bayhaqi"
                   grade="hasan"
-                  explanation="Ce hadith illustre la miséricorde divine dans la législation islamique. Trois excuses libèrent le musulman de toute responsabilité : l&apos;erreur commise sans intention, l&apos;oubli involontaire, et la contrainte. Ce principe est un pilier de la jurisprudence islamique et montre que l&apos;islam ne surcharge pas ses fidèles au-delà de leur capacité."
+                  explanation="Ce hadith illustre la miséricorde divine dans la législation islamique. Trois excuses libèrent le musulman de toute responsabilité : l&apos;erreur commise sans intention, l&apos;oubli involontaire et la contrainte. Ce principe est un pilier de la jurisprudence islamique et montre que l&apos;islam ne surcharge pas ses fidèles au-delà de leur capacité. Ce hadith est une grande consolation pour les croyants."
                 />
 
                 <HadithBlock
                   number={40}
-                  title="Si tu n&apos;as pas de pudeur, fais ce que tu veux"
-                  narrator="Abu Mas&apos;ud"
-                  arabic="إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلَامِ النُّبُوَّةِ الْأُولَى: إِذَا لَمْ تَسْتَحِي فَاصْنَعْ مَا شِئْتَ"
-                  translation="Parmi ce que les gens ont retenu des paroles des premiers prophètes : &apos;Si tu n&apos;as pas de pudeur, fais ce que tu veux.&apos;"
-                  source="Sahih Al-Bukhari, n°3483"
+                  title="Sois dans ce monde comme un étranger"
+                  narrator="Ibn &apos;Umar"
+                  arabic="كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ"
+                  translation="Sois dans ce monde comme un étranger ou un voyageur de passage."
+                  source="Sahih Al-Bukhari, n°6416"
                   grade="sahih"
-                  explanation="Ce hadith clôture la compilation en soulignant que la pudeur (al-haya&apos;) est une valeur universelle enseignée par tous les prophètes depuis les origines de l&apos;humanité. L&apos;expression &apos;fais ce que tu veux&apos; n&apos;est pas une permission mais un avertissement : celui qui perd toute pudeur finit par commettre n&apos;importe quel acte répréhensible. La pudeur en islam est une vertu protectrice qui préserve la dignité, l&apos;honneur et la moralité."
+                  explanation="Ce hadith enseigne le détachement du monde matériel (zuhd), l&apos;une des stations les plus élevées de la spiritualité islamique. L&apos;étranger ne s&apos;attache pas au pays qu&apos;il traverse, et le voyageur ne prend que le nécessaire pour son voyage. Ibn &apos;Umar ajoutait : &apos;Quand tu es le soir, n&apos;attends pas le matin, et quand tu es le matin, n&apos;attends pas le soir.&apos; Ce hadith n&apos;interdit pas de profiter licitement de la vie, mais invite à ne pas en faire une fin en soi."
+                />
+
+                <HadithBlock
+                  number={41}
+                  title="Que ses passions se conforment à ce que j&apos;ai apporté"
+                  narrator="Abdallah ibn &apos;Amr ibn al-&apos;As"
+                  arabic="لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَوَاهُ تَبَعًا لِمَا جِئْتُ بِهِ"
+                  translation="Nul d&apos;entre vous ne croit véritablement tant que ses passions ne se conforment pas à ce que j&apos;ai apporté."
+                  source="Kitab al-Hujja — authentifié par An-Nawawi"
+                  grade="hasan"
+                  explanation="Ce hadith est d&apos;une profondeur immense : la foi véritable exige que les désirs et les passions (hawa) du croyant soient subordonnés à la révélation. Ce n&apos;est pas la religion qui doit s&apos;adapter aux envies de l&apos;homme, mais l&apos;homme qui doit aligner ses désirs sur les enseignements du Prophète ﷺ. Ce hadith est un critère de sincérité : le croyant ne choisit pas dans la religion ce qui lui plaît et ne rejette pas ce qui le dérange. An-Nawawi l&apos;a inclus dans sa compilation malgré sa chaîne de transmission discutée, car son sens est soutenu par de nombreux versets coraniques."
+                />
+
+                <HadithBlock
+                  number={42}
+                  title="L&apos;immensité du pardon d&apos;Allah (hadith qudsi)"
+                  narrator="Anas ibn Malik"
+                  arabic="قَالَ اللَّهُ تَعَالَى: يَا ابْنَ آدَمَ، إِنَّكَ مَا دَعَوْتَنِي وَرَجَوْتَنِي غَفَرْتُ لَكَ عَلَى مَا كَانَ مِنْكَ وَلَا أُبَالِي"
+                  translation="Allah le Très-Haut a dit : &apos;Ô fils d&apos;Adam, tant que tu M&apos;invoques et que tu espères en Moi, Je te pardonne ce que tu as commis et Je n&apos;en ai cure. Ô fils d&apos;Adam, si tes péchés atteignaient les nuages du ciel et que tu Me demandais pardon, Je te pardonnerais. Ô fils d&apos;Adam, si tu venais à Moi avec les péchés de la terre entière sans rien M&apos;associer, Je viendrais à toi avec autant de pardon.&apos;"
+                  source="Jami&apos; at-Tirmidhi, n°3540"
+                  grade="hasan"
+                  explanation="Ce dernier hadith de la compilation clôture l&apos;oeuvre d&apos;An-Nawawi sur une note d&apos;espoir immense. Allah y affirme trois fois l&apos;étendue infinie de Son pardon, à condition que le serviteur L&apos;invoque avec sincérité, Lui demande pardon et ne Lui associe rien. Ce hadith est un remède contre le désespoir : aucun péché n&apos;est trop grand pour la miséricorde d&apos;Allah, tant que le repentir est sincère et que le tawhid (unicité divine) est préservé. C&apos;est le plus beau message de conclusion pour cette compilation."
                 />
               </section>
 
@@ -776,7 +798,7 @@ export default function Hadith40NawawiPage() {
                 </h2>
 
                 <p className="mb-8 text-lg leading-relaxed text-foreground">
-                  Les 40 hadiths d&apos;An-Nawawi ne sont pas un simple exercice de mémorisation. Chaque hadith contient des <strong>leçons pratiques applicables au quotidien</strong>. Voici les principaux enseignements à retenir de cette compilation inestimable.
+                  Les 42 hadiths d&apos;An-Nawawi ne sont pas un simple exercice de mémorisation. Chaque hadith contient des <strong>leçons pratiques applicables au quotidien</strong>. Voici les principaux enseignements à retenir de cette compilation inestimable.
                 </p>
 
                 <div className="space-y-6">
