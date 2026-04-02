@@ -28,6 +28,7 @@ const navItems: NavItem[] = [
       { href: "/hadith-du-jour", label: "Hadith du jour" },
       { href: "/reves-islam", label: "Rêves en islam" },
       { href: "/quizz-islam-enfant", label: "Quiz islam enfant" },
+      { href: "/quizz-animaux-coran", label: "Quiz animaux du Coran" },
       { href: "/remede-arabe", label: "Remèdes arabes" },
       { href: "/fin-monde-islam-preparation", label: "Fin des temps" },
     ],

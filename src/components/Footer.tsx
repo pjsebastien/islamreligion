@@ -33,6 +33,7 @@ const silos = [
       { href: "/doua-islam", label: "Doua (invocations)" },
       { href: "/invocations-reussite-facilite", label: "Invocations" },
       { href: "/quizz-islam-enfant", label: "Quiz islam enfant" },
+      { href: "/quizz-animaux-coran", label: "Quiz animaux du Coran" },
     ],
   },
 ];
